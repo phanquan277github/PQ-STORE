@@ -1,0 +1,26 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: inherit;
+}
+:root {
+    --text-font-14: 1.4rem;
+    --text-font-16: 1.6rem;
+    --text-font-18: 1.8rem;
+    --text-color: #000;
+    --header-size: 120px;
+    --header__nav-size: 60px;
+    --header__content-size: 44px;
+    --text-size: 1.6rem;
+    --primary-color: #38B6FF;
+    --second-color: #a1f6f8;
+    --box-shadow: 3px 3px 5px rgba(0,33,66,.2);
+    --border-general:  1px solid #c6c1c1;
+    --border-radius: 2px;
+    --background-color-2: #dee0e4;
+}

@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PQ Store</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- reset css cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- font roboto cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- assets -->
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/grid.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="./all-products.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- header -->
+        <header class="header">
+            <div class="grid wide">
+                <div class="header__nav">
+                    <div class="header__nav-left">
+                        <a href="../index.html"><img src="../assets/img/logo-noBG.png" alt="LOGO" class="header__nav-left__logo"></a>
+                        <div class="header__nav-left__get-app">
+                            Tải ứng dụng <i class="fa-sharp fa-solid fa-chevron-down"></i>
+                            <div class="header__nav-left__get-app__popup">
+                                <span>Download App!</span>
+                                <div class="left__get-app__content">
+                                    <img src="../assets/img/QRcodeDowApp.png" alt="" class="left__get-app__content-qr">
+                                    <div>
+                                        <a href="#" class="left__get-app__content-app-store"></a>
+                                        <a href="#" class="left__get-app__content-gg-play"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="header__nav-right">
+                        <li class="header__nav-right__item header__nav-right__item-notify">
+                            <i class="fa-regular fa-bell"></i>Thông báo
+                            <ul class="right__item-notify__list">
+                                <div class="no-notice">
+                                    Không có thông báo!
+                                </div>
+                                <li class="right__item-notify__item ">
+
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header__nav-right__item">
+                            <i class="fa-sharp fa-regular fa-circle-question"></i>Hỗ trợ
+                        </li>
+                        <li class="header__nav-right__item">
+                            Đăng kí
+                        </li>
+                        <li class="header__nav-right__item">
+                            Đăng nhập
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__content">
+                    <div class="grid">
+                        <div class="row">
+                            <div class="col l-2">
+                                <div class="header__content__all-category">
+                                    <i class="fa-sharp fa-solid fa-bars"></i>Danh mục
+                                    <div class="header__content__all-category__popup">
+                                        <ul class="header__content__all-category__list">
+                                            <a href="../index.html#goto-laptop">
+                                                <li class="header__content__all-category__item">
+                                                    <img class="header__content__all-category__item-icon"
+                                                        src="//theme.hstatic.net/1000026716/1000440777/14/xxx21.png?v=35343">
+                                                    Laptop
+                                                </li>
+                                            </a>
+                                            <a href="../index.html#goto-pc">
+                                                <li class="header__content__all-category__item">
+                                                    <img class="header__content__all-category__item-icon"
+                                                        src="//theme.hstatic.net/1000026716/1000440777/14/xxx25.png?v=35343">
+                                                    Máy tính - PC
+                                                </li>
+                                            </a>
+                                            <a href="../index.html#goto-component">
+                                                <li class="header__content__all-category__item">
+                                                    <img class="header__content__all-category__item-icon"
+                                                        src="//theme.hstatic.net/1000026716/1000440777/14/xxx27.png?v=35343">
+                                                    Linh kiện PC - Laptop
+                                                </li>
+                                            </a>
+                                            <a href="../index.html#goto-screen">
+                                                <li class="header__content__all-category__item">
+                                                    <img class="header__content__all-category__item-icon"
+                                                        src="//theme.hstatic.net/1000026716/1000440777/14/xxx29.png?v=35343">
+                                                    Màn hình
+                                                </li>
+                                            </a>
+                                            <a href="../index.html#goto-keyboard">
+                                                <li class="header__content__all-category__item">
+                                                    <img class="header__content__all-category__item-icon"
+                                                        src="//theme.hstatic.net/1000026716/1000440777/14/xxx210.png?v=35343">
+                                                    Bàm phím
+                                                </li>
+                                            </a>
+                                            <a href="../index.html#goto-mouse">
+                                                <li class="header__content__all-category__item">
+                                                    <img class="header__content__all-category__item-icon"
+                                                        src="//theme.hstatic.net/1000026716/1000440777/14/xxx211.png?v=35343">
+                                                    Chuột
+                                                </li>
+                                            </a>
+                                            <a href="../index.html#goto-headphone">
+                                                <li class="header__content__all-category__item">
+                                                    <img class="header__content__all-category__item-icon"
+                                                        src="//theme.hstatic.net/1000026716/1000440777/14/xxx212.png?v=35343">
+                                                    Tai nghe + loa
+                                                </li>
+                                            </a>
+                                            <a href="../index.html#goto-furniture">
+                                                <li class="header__content__all-category__item">
+                                                    <img class="header__content__all-category__item-icon"
+                                                        src="//theme.hstatic.net/1000026716/1000440777/14/xxx213.png?v=35343">
+                                                    Bàn - Ghế
+                                                </li>
+                                            </a>
+                                            <a href="../index.html#goto-accessory">
+                                                <li class="header__content__all-category__item">
+                                                    <img class="header__content__all-category__item-icon"
+                                                        src="//theme.hstatic.net/1000026716/1000440777/14/xxx215.png?v=35343">
+                                                    Phụ kiện
+                                                </li>
+                                            </a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-8">
+                                <div class="header__content__search">
+                                    <input type="text" class="header__content__search-txt"
+                                        placeholder="Nhập từ khóa tìm kiếm sản phẩm">
+                                    <div class="header__content__search__popup">
+                                        <header>Lịch sử tìm kiếm</header>
+                                        <ul class="header__content__search__popup__history">
+                                            <li class="header__content__search__popup__item">Hdd 1tb santa 2.5</li>
+                                            <li class="header__content__search__popup__item">Ram ddr4 8gb</li>
+                                            <li class="header__content__search__popup__item">Tai nghe chụp tai gaming
+                                            </li>
+                                        </ul>
+                                        <footer>
+                                            <button>Xóa lịch sử</button>
+                                        </footer>
+                                    </div>
+                                    <button class="header__content__search-btn">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </button>
+                                </div>
+                                <ul class="header__content__secondary-search">
+                                    <li><a href="../page/all-pc.html">Máy tính</a></li>
+                                    <li><a href="../page/all-laptop.html">Laptop</a></li>
+                                    <li><a href="../page/all-screen.html">Màn hình</a></li>
+                                    <li><a href="../page/all-keyboard.html">Bàn phím</a></li>
+                                    <li><a href="../page/all-mouse.html">Chuột</a></li>
+                                    <li><a href="../page/all-headphone.html">Tai nghe - loa</a></li>
+                                    <li><a href="../page/all-component.html">Linh kiện</a></li>
+                                    <li><a href="../page/all-furniture.html">Bàn ghế</a></li>
+                                    <li><a href="../page/all-accessory.html">Phụ kiện</a></li>
+                                </ul>
+                            </div>
+                            <div class="col l-2">
+                                <div class="header__content__search-cart">
+                                    <a href="../page/cart.html">
+                                        <i class="header__content__search-cart-icon fa-solid fa-cart-shopping"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- container -->
+        <div class="grid wide">
+            <div class="container">
+                <div class="grid">
+                    <div id="goto-pc" class="container__list">
+                        <div class="row">
+                            <div class="col l-12">
+                                <div class="container__list__title">Phụ kiện khác</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l-2">
+                                <div class="container__filter">
+                                    <div class="container__filter__brand">
+                                        <div class="container__filter__title container__filter__brand--click">
+                                            Hãng sản xuất<i class="fa-solid fa-chevron-down"></i>
+                                        </div>
+                                        <ul class="container__filter__list">
+                                            <li class="container__filter__item">
+                                                <input class="container__filter__item-check" type="checkbox" name="" id="">
+                                                <label for="" class="container__filter__item-name">ACER</label>
+                                            </li>
+                                            <li class="container__filter__item">
+                                                <input class="container__filter__item-check" type="checkbox" name="" id="">
+                                                <label for="" class="container__filter__item-name">APPLE</label>
+                                            </li>
+                                            <li class="container__filter__item">
+                                                <input class="container__filter__item-check" type="checkbox" name="" id="">
+                                                <label for="" class="container__filter__item-name">Dell</label>
+                                            </li>
+                                            <li class="container__filter__item">
+                                                <input class="container__filter__item-check" type="checkbox" name="" id="">
+                                                <label for="" class="container__filter__item-name">HP</label>
+                                            </li>
+                                            <li class="container__filter__item">
+                                                <input class="container__filter__item-check" type="checkbox" name="" id="">
+                                                <label for="" class="container__filter__item-name">Lenovo</label>
+                                            </li>
+                                            <li class="container__filter__item">
+                                                <input class="container__filter__item-check" type="checkbox" name="" id="">
+                                                <label for="" class="container__filter__item-name">INTEL</label>
+                                            </li>
+                                            <li class="container__filter__item">
+                                                <input class="container__filter__item-check" type="checkbox" name="" id="">
+                                                <label for="" class="container__filter__item-name">AKKO</label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="container__filter__demand">
+                                        <div class="container__filter__title container__filter__demand--click">
+                                            Loại<i class="fa-solid fa-chevron-down"></i>
+                                        </div>
+                                        <ul class="container__filter__list">
+                                            <li class="container__filter__item">
+                                                <input class="container__filter__item-check" type="checkbox" name="" id="">
+                                                <label for="" class="container__filter__item-name">Webcame</label>
+                                            </li>
+                                            <li class="container__filter__item">
+                                                <input class="container__filter__item-check" type="checkbox" name="" id="">
+                                                <label for="" class="container__filter__item-name">Mic</label>
+                                            </li>
+                                            <li class="container__filter__item">
+                                                <input class="container__filter__item-check" type="checkbox" name="" id="">
+                                                <label for="" class="container__filter__item-name">Thiết bị lưu trữ</label>
+                                            </li>
+                                            <li class="container__filter__item">
+                                                <input class="container__filter__item-check" type="checkbox" name="" id="">
+                                                <label for="" class="container__filter__item-name">Giá đỡ, tản nhiệt laptop</label>
+                                            </li>
+                                            <li class="container__filter__item">
+                                                <input class="container__filter__item-check" type="checkbox" name="" id="">
+                                                <label for="" class="container__filter__item-name">Cáp truyền - kết nối</label>
+                                            </li>
+                                            <li class="container__filter__item">
+                                                <input class="container__filter__item-check" type="checkbox" name="" id="">
+                                                <label for="" class="container__filter__item-name">Phụ kiện bảo vệ</label>
+                                            </li>
+                                            <li class="container__filter__item">
+                                                <input class="container__filter__item-check" type="checkbox" name="" id="">
+                                                <label for="" class="container__filter__item-name">Khác</label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="container__filter__price">
+                                        <div class="container__filter__title container__filter__demand--click">
+                                            Mức giá<i class="fa-solid fa-chevron-down"></i>
+                                        </div>
+                                        <ul class="container__filter__list">
+                                            <li class="container__filter__item">
+                                                <input class="container__filter__item-check" type="checkbox" name="" id="">
+                                                <label for="" class="container__filter__item-name">Dưới 200 triệu</label>
+                                            </li>
+                                            <li class="container__filter__item">
+                                                <input class="container__filter__item-check" type="checkbox" name="" id="">
+                                                <label for="" class="container__filter__item-name">Từ 200 - 400</label>
+                                            </li>
+                                            <li class="container__filter__item">
+                                                <input class="container__filter__item-check" type="checkbox" name="" id="">
+                                                <label for="" class="container__filter__item-name">Từ 400 - 600</label>
+                                            </li>
+                                            <li class="container__filter__item">
+                                                <input class="container__filter__item-check" type="checkbox" name="" id="">
+                                                <label for="" class="container__filter__item-name">Từ 600 - 900</label>
+                                            </li>
+                                            <li class="container__filter__item">
+                                                <input class="container__filter__item-check" type="checkbox" name="" id="">
+                                                <label for="" class="container__filter__item-name">Từ 900 - 1,4 triệu</label>
+                                            </li>
+                                            <li class="container__filter__item">
+                                                <input class="container__filter__item-check" type="checkbox" name="" id="">
+                                                <label for="" class="container__filter__item-name">Từ 1,4 - 2 triệu</label>
+                                            </li>
+                                            <li class="container__filter__item">
+                                                <input class="container__filter__item-check" type="checkbox" name="" id="">
+                                                <label for="" class="container__filter__item-name">Trên 2 triệu</label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-10">
+                                <div class="row">
+                                    <label for="" class="sort-by__label">Xắp sếp theo:</label>
+                                    <ul class="sort-by__list">
+                                        <li class="sort-by__item">Bán chạy</li>
+                                        <li class="sort-by__item">Khuyến mãi tốt nhất</li>
+                                        <li class="sort-by__item">Trả góp 0%</li>
+                                        <li class="sort-by__item">Giá thấp</li>
+                                        <li class="sort-by__item">Giá cao</li>
+                                    </ul>
+                                </div>
+                                <div class="row">
+                                    <div class="col l-2-4">
+                                        <div class="container__item">
+                                            <header class="container__item-header">
+                                                <img src="https://lh3.googleusercontent.com/Hun9pSnlF1q_zv9Tew2iez-0Rz2wnZ-Kh0Svc_YE_K3aJL2s7ZH3LI95i0tofDmMYKbJHHOXoemtfoEk7huPbcnF_Kyr9OkgKA=w500-rw"
+                                                alt="" class="container__item-img">
+                                            </header>
+                                            <span class="container__item-name">
+                                                Đế tản nhiệt Laptop Coolcold K44 - 5 quạt led xanh + led RGB
+                                            </span>
+                                            <div class="container__item-price">
+                                                <span class="container__item-price__new">630.000₫</span>
+                                                <span class="container__item-price__old">690.000₫</span>
+                                            </div>
+                                            <footer class="container__item-footer container__item-footer--stocking">
+                                                <i class="fa-solid fa-circle-check"></i>Còn hàng
+                                            </footer>
+                                            <div class="container__item-describe__popup">
+                                                <a class="container__item-describe__name" href="#">
+                                                    Đế tản nhiệt Laptop Coolcold K44 - 5 quạt led xanh + led RGB
+                                                </a>
+                                                <ul>
+                                                    <li>Kích thước: 370 x 300 x 40 mm</li>
+                                                    <li>Trọng lượng: 850gam</li>
+                                                    <li>Chất liệu: Iron net + plastic</li>
+                                                    <li>Kết nối: USB</li>
+                                                    <li>Cáp kèm: Có</li>
+                                                </ul>
+                                            </div>
+                                            <header class="container__item-header">
+                                        </div>
+                                        </header>
+                                    </div>
+                                    <div class="col l-2-4">
+                                        <div class="container__item">
+                                            <header class="container__item-header">
+                                                <img src="https://lh3.googleusercontent.com/qq46OSQ8wMxgxYMJ6gGlrzyiZku_nHoOwMg-pe0xAxp_jRBStsgkFdaUmafokoqUS_iTiPRKjhz-Qlmfwof9=w500-rw"
+                                                    alt="" class="container__item-img">
+                                            </header>
+                                            <span class="container__item-name">
+                                               Lót chuột CORSAIR MM1000 Qi Charging - M CH-9440022-AP
+                                            </span>
+                                            <div class="container__item-price">
+                                                <span class="container__item-price__new">2.390.000₫</span>
+                                                <span class="container__item-price__old">2.590.000₫</span>
+                                            </div>
+                                            <footer class="container__item-footer container__item-footer--stocking">
+                                                <i class="fa-solid fa-circle-check"></i>Còn hàng
+                                            </footer>
+                                            <div class="container__item-describe__popup">
+                                                <a class="container__item-describe__name" href="#">
+                                                   Lót chuột CORSAIR MM1000 Qi Charging - M CH-9440022-AP
+                                                </a>
+                                                <ul>
+                                                    <li>Bề mặt: Nhựa</li>
+                                                    <li>Kích thước M</li>
+                                                    <li>350 x 260 x</li>
+                                                    <li>Nhu cầu: Gaming</li>
+                                                    <li>Bảo hành 24 tháng</li>
+                                                    <li>Màu sắc: Đen</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col l-12">
+                                        <div class="container__all-products"><a href="./all-pc.html">Xem tất cả sản phẩm</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-3">
+                        <h3 class="footer__title">Thông tin công ty</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="">Giới thiệu công ty</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="">Chính sách bảo mật</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="">Quy chế hoạt động</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="">Góp ý, khiếu nại</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-3">
+                        <h3 class="footer__title">Thông tin công ty</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="">Chính sách đổi trả</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="">Hệ thống bảo hành</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="">Chính sách trả góp</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="">Hướng dẫn mua hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-3">
+                        <h3 class="footer__title">Chăm sóc khách hàng</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <h4 class="footer__hotline-title">Gọi mua, đặt hàng</h4>
+                                <h3 class="footer__hotline-number">0000 0000</h3>
+                            </li>
+                            <li class="footer__item">
+                                <h4 class="footer__hotline-title">Hỗ trợ kỹ thuật</h4>
+                                <h3 class="footer__hotline-number">0000 0000</h3>
+                            </li>
+                            <li class="footer__item">
+                                <h4 class="footer__hotline-title">Trung tâm bảo hành</h4>
+                                <h3 class="footer__hotline-number">0000 0000</h3>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-3">
+                        <h3 class="footer__title">Mạng xã hội</h3>
+                        <ul class="footer__social">
+                            <li class="footer__social__item">
+                                <a href="" class="facebook-color footer__social__item-icon"><i
+                                        class="fa-brands fa-square-facebook"></i></a>
+                            </li>
+                            <li class="footer__social__item">
+                                <a href="" class="youtube-color footer__social__item-icon"><i
+                                        class="fa-brands fa-youtube"></i></a>
+                            </li>
+                            <li class="footer__social__item">
+                                <a href="" class="footer__social__item-icon"><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li class="footer__social__item">
+                                <a href="" class="footer__social__item-icon"><i class="fa-brands fa-tiktok"></i></a>
+                            </li>
+                            <li class="footer__social__item">
+                                <a href="" class="facebook-color footer__social__item-icon"><i
+                                        class="fa-brands fa-twitter"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

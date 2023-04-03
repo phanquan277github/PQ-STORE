@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PQ Store</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- reset css cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- font roboto cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- assets -->
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- header -->
+        <header class="header">
+            <div class="grid wide">
+                <div class="header__nav">
+                    <div class="header__nav-left">
+                        <a href="./index.html"><img src="./assets/img/logo-noBG.png" alt="LOGO"
+                                class="header__nav-left__logo"></a>
+                        <div class="header__nav-left__get-app">
+                            Tải ứng dụng <i class="fa-sharp fa-solid fa-chevron-down"></i>
+                            <div class="header__nav-left__get-app__popup">
+                                <span>Download App!</span>
+                                <div class="left__get-app__content">
+                                    <img src="./assets/img/QRcodeDowApp.png" alt="" class="left__get-app__content-qr">
+                                    <div>
+                                        <a href="#" class="left__get-app__content-app-store"></a>
+                                        <a href="#" class="left__get-app__content-gg-play"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="header__nav-right">
+                        <li class="header__nav-right__item header__nav-right__item-notify">
+                            <i class="fa-regular fa-bell"></i>Thông báo
+                            <ul class="right__item-notify__list">
+                                <div class="no-notice">
+                                    Không có thông báo!
+                                </div>
+                                <li class="right__item-notify__item ">
+
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header__nav-right__item">
+                            <i class="fa-sharp fa-regular fa-circle-question"></i>Hỗ trợ
+                        </li>
+                        <li class="header__nav-right__item">
+                            Đăng kí
+                        </li>
+                        <li class="header__nav-right__item">
+                            Đăng nhập
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__content">
+                    <div class="grid">
+                        <div class="row">
+                            <div class="col l-2">
+                                <div class="header__content__all-category">
+                                    <i class="fa-sharp fa-solid fa-bars"></i>Danh mục
+                                    <div class="header__content__all-category__popup">
+                                        <ul class="header__content__all-category__list">
+                                            <a href="./index.html#goto-laptop">
+                                                <li class="header__content__all-category__item">
+                                                    <img class="header__content__all-category__item-icon"
+                                                        src="//theme.hstatic.net/1000026716/1000440777/14/xxx21.png?v=35343">
+                                                    Laptop
+                                                </li>
+                                            </a>
+                                            <a href="./index.html#goto-pc">
+                                                <li class="header__content__all-category__item">
+                                                    <img class="header__content__all-category__item-icon"
+                                                        src="//theme.hstatic.net/1000026716/1000440777/14/xxx25.png?v=35343">
+                                                    Máy tính - PC
+                                                </li>
+                                            </a>
+                                            <a href="./index.html#goto-component">
+                                                <li class="header__content__all-category__item">
+                                                    <img class="header__content__all-category__item-icon"
+                                                        src="//theme.hstatic.net/1000026716/1000440777/14/xxx27.png?v=35343">
+                                                    Linh kiện PC - Laptop
+                                                </li>
+                                            </a>
+                                            <a href="./index.html#goto-screen">
+                                                <li class="header__content__all-category__item">
+                                                    <img class="header__content__all-category__item-icon"
+                                                        src="//theme.hstatic.net/1000026716/1000440777/14/xxx29.png?v=35343">
+                                                    Màn hình
+                                                </li>
+                                            </a>
+                                            <a href="./index.html#goto-keyboard">
+                                                <li class="header__content__all-category__item">
+                                                    <img class="header__content__all-category__item-icon"
+                                                        src="//theme.hstatic.net/1000026716/1000440777/14/xxx210.png?v=35343">
+                                                    Bàm phím
+                                                </li>
+                                            </a>
+                                            <a href="./index.html#goto-mouse">
+                                                <li class="header__content__all-category__item">
+                                                    <img class="header__content__all-category__item-icon"
+                                                        src="//theme.hstatic.net/1000026716/1000440777/14/xxx211.png?v=35343">
+                                                    Chuột
+                                                </li>
+                                            </a>
+                                            <a href="./index.html#goto-headphone">
+                                                <li class="header__content__all-category__item">
+                                                    <img class="header__content__all-category__item-icon"
+                                                        src="//theme.hstatic.net/1000026716/1000440777/14/xxx212.png?v=35343">
+                                                    Tai nghe + loa
+                                                </li>
+                                            </a>
+                                            <a href="./index.html#goto-furniture">
+                                                <li class="header__content__all-category__item">
+                                                    <img class="header__content__all-category__item-icon"
+                                                        src="//theme.hstatic.net/1000026716/1000440777/14/xxx213.png?v=35343">
+                                                    Bàn - Ghế
+                                                </li>
+                                            </a>
+                                            <a href="./index.html#goto-accessory">
+                                                <li class="header__content__all-category__item">
+                                                    <img class="header__content__all-category__item-icon"
+                                                        src="//theme.hstatic.net/1000026716/1000440777/14/xxx215.png?v=35343">
+                                                    Phụ kiện
+                                                </li>
+                                            </a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-8">
+                                <div class="header__content__search">
+                                    <input type="text" class="header__content__search-txt"
+                                        placeholder="Nhập từ khóa tìm kiếm sản phẩm">
+                                    <div class="header__content__search__popup">
+                                        <header>Lịch sử tìm kiếm</header>
+                                        <ul class="header__content__search__popup__history">
+                                            <li class="header__content__search__popup__item">Hdd 1tb santa 2.5</li>
+                                            <li class="header__content__search__popup__item">Ram ddr4 8gb</li>
+                                            <li class="header__content__search__popup__item">Tai nghe chụp tai gaming
+                                            </li>
+                                        </ul>
+                                        <footer>
+                                            <button>Xóa lịch sử</button>
+                                        </footer>
+                                    </div>
+                                    <button class="header__content__search-btn">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </button>
+                                </div>
+
+                                <ul class="header__content__secondary-search">
+                                    <li><a href="./page/all-pc.html">Máy tính</a></li>
+                                    <li><a href="./page/all-laptop.html">Laptop</a></li>
+                                    <li><a href="./page/all-screen.html">Màn hình</a></li>
+                                    <li><a href="./page/all-keyboard.html">Bàn phím</a></li>
+                                    <li><a href="./page/all-mouse.html">Chuột</a></li>
+                                    <li><a href="./page/all-headphone.html">Tai nghe - loa</a></li>
+                                    <li><a href="./page/all-component.html">Linh kiện</a></li>
+                                    <li><a href="./page/all-furniture.html">Bàn ghế</a></li>
+                                    <li><a href="./page/all-accessory.html">Phụ kiện</a></li>
+                                </ul>
+                            </div>
+                            <div class="col l-2">
+                                <div class="header__content__search-cart">
+                                    <a href="./page/cart.html">
+                                        <i class="header__content__search-cart-icon fa-solid fa-cart-shopping"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- container -->
+        <div class="grid wide">
+            <div class="container product--mrtop">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col l-5">
+                            <div class="product-left">
+                                <ul class="product-left__slider">
+                                    <li id="product-slide1">
+                                        <img src="https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/1/31/638107706869598466_pc-gaming-e-power-i7g11-3060ti-i7-11700f-den-1.jpg"
+                                        alt="" class="product-left__img">
+                                    </li>
+                                    <li id="product-slide2">
+                                        <img src="https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/15/638041278650807886_HASP-EPOWER-F3060-6.jpg"
+                                        alt="" class="product-left__img">
+                                    </li>
+                                    <li id="product-slide3">
+                                        <img src="https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/15/638041278650019796_HASP-EPOWER-F3060-3.jpg"
+                                        alt="" class="product-left__img">
+                                    </li>
+                                </ul>
+                                <!-- <div class="product-left__switch">
+                                    <a href="#product-slide1"></a>
+                                    <a href="#product-slide2"></a>
+                                    <a href="#product-slide3"></a>
+                                    <a href="#product-slide1"></a>
+                                    <a href="#product-slide1"></a>
+                                    <a href="#product-slide1"></a>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="col l-7">
+                            <div class="product-right">
+                                <h1 class="product-right__title">PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB
+                                    /500GB/750W/RTX 3060 Ti</h1>
+                                <div class="product-right__price">
+                                    <h2 class="product-right__price-new">33.590.000₫</h2>
+                                    <h3 class="product-right__price-old">00.000.000đ</h3>
+                                </div>
+                                <ul class="product-right__describe">
+                                    <li>Intel, Core i7, 12700F</li>
+                                    <li>16 GB, DDR4, 3200 MHz</li>
+                                    <li>SSD 500 GB</li>
+                                    <li>NVIDIA GeForce RTX 3060 Ti 8GB</li>
+                                </ul>
+                                <div class="row">
+                                    <div class="col l-6">
+                                        <ul class="product-right__policy">
+                                            <li><i class="fa-solid fa-truck"></i>Giao hàng miễn phí</li>
+                                            <li><i class="fa-solid fa-award"></i>Hàng chính hãng</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col l-6">
+                                        <ul class="product-right__policy">
+                                            <li><i class="fa-sharp fa-solid fa-shield"></i>Bảo hành 24 tháng</li>
+                                            <li><i class="fa-solid fa-gear"></i>Hỗ trợ lắp ráp - cài đặt miễn phí</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row no-gutters">
+                                    <div class="col l-12 no-gutters">
+                                        <div class="product-right__buy-btn">MUA NGAY</div>
+                                    </div>
+                                    <div class="col l-6 no-gutters">
+                                        <div class="product-right__buy-add-cart">Thêm vào giỏ</div>
+                                    </div>
+                                    <div class="col l-6 no-gutters">
+                                        <div class="product-right__buy-installment">Trả góp 0%</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col l-7">
+                            <h2 class="product-title">Mô tả sản phẩm</h2>
+                            <div class="product-describe-detail">
+                                <h2 class="product-describe-detail__title">Đánh giá chi tiết</h2>
+                                <p>Bạn cần một case máy tính chơi game thật sự mạnh để chiến các game AAA với thiết lập đồ họa Ultra nhưng vẫn phải có giá tốt, hợp túi tiền. PC Gaming E-Power G1660ti chính là điều bạn đang tìm kiếm với sự kết hợp tuyệt vời của Intel Core i5 10400F, GTX 1660 Ti và SSD NVMe siêu nhanh.</p>
+                                <h3>Card đồ hoạ ASUS TUF GTX 1660Ti 6GB GDDDR6 phiên bản ép xung (OC) siêu mạnh, siêu bền</h3>
+                                <p>Để có được hiệu năng chơi game đỉnh với fps cao và ổn định, PC Gaming E-Power G1660ti sử dụng card đồ họa ASUS TUF GTX 1660 Ti 6GB GDDDR6. Đây là card đồ họa thuộc dòng TUF siêu bền từ ASUS, với thiết kế quạt vòng bi kép tuổi thọ lâu gấp đôi, chuẩn chống bụi IP5X, quy trình sản xuất tự động Auto-Extreme nghiêm ngặt và khả năng tương thích hoàn hảo với bo mạch chủ. Hiệu năng chơi game từ TUF GTX 1660 Ti là không phải bàn cãi khi card đồ họa này mạnh ngang ngửa GTX 1070, sử dụng kiến trúc Turing tiên tiến, đủ để bạn chơi tốt các tựa game AAA ở thiết lập đồ họa Ultra, Full HD.</p>
+                                <h3>Mainboard ASUS Prime B560M-A mạnh mẽ, hoạt động mát mẻ</h3>
+                                <p>PC Gaming E-Power G1660ti sử dụng bo mạch chủ ASUS Prime B560M-A. Với thiết kế nguồn mạnh mẽ, giải pháp làm mát toàn diện và các tùy chọn điều chỉnh thông minh, ASUS Prime B560M-A là sự lựa chọn hoàn hảo cho một bo mạch chủ bền bỉ, khả năng nâng cấp lâu dài. Đồng thời kiểu dáng hoàn thiện đen – trắng thời trang cũng giúp cho PC của bạn phong cách hơn. Sẽ có 2 khe cắm thẻ nhớ M.2 cùng loạt kết nối cực nhanh bao gồm PCIe 4.0, Intel 1Gb Ethernet, USB 3.2 Gen 2 (Type-A & Type-C) cho bạn khả năng kết nối tuyệt vời.  </p>
+                                <h3>CPU Intel Core i5 10400F chiến mượt mọi tựa game</h3>
+                                <p>Là bản nâng cấp của con chip 9400F từng được game thủ yêu thích, Intel Core i5 10400F tiếp tục là sự lựa chọn lý tưởng cho máy tính chơi game tầm trung. Bạn sẽ được trải nghiệm sức mạnh của 6 lõi 12 luồng, tốc độ 2.90 – 4.30 GHz, bộ nhớ đệm 12MB trong khi mức tiêu thụ điện vẫn chỉ là 65W. Với sự kết hợp cùng card đồ họa rời, Intel Core i5 10400F sẽ không gặp khó khăn gì khi chơi các tựa game phổ biến.</p>
+                                <h3>RAM có đèn LED thể hiện cá tính</h3>
+                                <p>Trên chiếc PC Gaming E-Power G1660ti, bạn sẽ được lắp sẵn RAM 8GB ADATA XPG Spectrix D41 RGB. ADATA XPG Spectrix D41 RGB luôn là dòng RAM được người dùng yêu thích khi không chỉ cho hiệu năng ổn định mà còn có thiết kế tuyệt đẹp và tích hợp đèn LED RGB có thể tùy chỉnh. Bạn sẽ có thể thoải mái chơi game, chạy đa nhiệm, đồng thời máy tính cũng có vẻ bề ngoài thời trang hơn rất nhiều.</p>
+                                <h3>Nguồn thương hiệu Cooler Master danh tiếng</h3>
+                                <p>Không chỉ đủ mà bạn hoàn toàn sử dụng một cách thoải mái mà không lo về nguồn với công suất 600W của Cooler Master Elite V3. Đây là nguồn máy tính được chứng nhận 80 Plus White, cho hiệu suất trên 80%, khả năng chịu nhiệt lên tới 40 độ C, hoạt động hiệu quả ở mọi môi trường. Nguồn máy tính công suất cao và bền bỉ giúp PC Gaming E-Power G1660ti luôn hoạt động tốt, ngay cả khi bạn có nhu cầu nâng cấp máy tính sau này.</p>
+                                <h3>Tản nhiệt khí CPU ID-COOLING SE-214-XT ARGB</h3>
+                                <p>Để tản nhiệt hiệu quả cho CPU, đồng thời trang trí chiếc PC của bạn thêm phần bắt mắt, PC Gaming E-Power G1660ti sử dụng tản nhiệt khí ID-Cooling SE-214-XT ARGB. Đây là tản nhiệt khí được đánh giá cao trong phân khúc giá rẻ với thiết kế nhỏ gọn, TDP ấn tượng 180W và tản nhiệt hiệu quả nhờ 4 ống đồng công nghệ H.D.T v3.0 tăng diện tích tiếp xúc tới 30%, mạ niken chống oxy hóa, top cover thiết kế phay xước chắc chắn.</p>
+                                <h3>Tốc độ cực khủng của SSD Silicon Power UD80 M.2 NVMe</h3>
+                                <p>SSD Silicon Power UD80 là ổ cứng có tốc độ nhanh nhất trong tầm giá với tốc độ đọc lên tới 3400 MB/s và tốc độ ghi lên tới 3000 MB/s. Bạn sẽ cảm nhận được sự khác biệt rõ rệt trong từng thao tác trên PC Gaming E-Power G1660ti. Giao thức PCIe 3.0 cùng công nghệ NVMe tạo nên trải nghiệm liền mạch, không gián đoạn tức lúc bạn khởi động máy, chạy phần mềm cho đến khi tắt máy tính. Dung lượng 250GB là đủ để cài hệ điều hành và một số game yêu thích.</p>
+                            </div>
+                        </div>
+                        <div class="col l-5">
+                            <h1 class="product-title">Thông số kỹ thuật</h1>
+                            <div class="product-specifications">
+                                <h2 class="product-specifications__item-title">Thông tin hàng hóa</h2>
+                                <div class="product-specifications__item-content"><span>Thương hiệu: E-Power</span> Xuất xứ: Việt Nam</div>
+                                <div class="product-specifications__item-content"><span>Thời điểm ra mắt: 2022</span>Thời gian bảo hành: 36 tháng</div>
+
+                                <h2 class="product-specifications__item-title">Thiết kế & trọng lượng</h2>
+                                <div class="product-specifications__item-content"><span>Kích thước</span> 338 x 255 x335 mm</div>
+                                <div class="product-specifications__item-content"><span>Trọng lượng sản phẩm</span> 5000 g</div>
+                                <div class="product-specifications__item-content"><span>Kiểu dáng thiết kế</span> PC lắp ráp</div>
+                                <div class="product-specifications__item-content"><span>Loại Case</span> MID tower</div>
+                                <div class="product-specifications__item-content"><span>Màu sắc</span> Đen</div>
+                                <div class="product-specifications__item-content"><span>Chất liệu</span> Kim loại - kính cường lực</div>
+
+                                <h2 class="product-specifications__item-title">Bộ xử lý</h2>
+                                <div class="product-specifications__item-content"><span>Hãng CPU </span> Intel</div>
+                                <div class="product-specifications__item-content"><span>Công nghệ CPU </span> Core i7 </div>
+                                <div class="product-specifications__item-content"><span> Loại CPU </span> 12700F </div>
+                                <div class="product-specifications__item-content"><span> Số Nhân </span> 12 </div>
+                                <div class="product-specifications__item-content"><span> Số luồng </span> 20 </div>
+                                <div class="product-specifications__item-content"><span> Bộ nhớ đệm </span> 25 MB </div>
+                                <div class="product-specifications__item-content"><span> Tốc độ CPU </span> Tối đa 4.9 GHz</div>
+
+                                <h2 class="product-specifications__item-title">Main</h2>
+                                <div class="product-specifications__item-content"><span> Chipset </span> Intel B660 </div>
+                                <div class="product-specifications__item-content"><span> Kích thước Mainboard </span> m-ATX</div>
+                                <div class="product-specifications__item-content"><span> Khe RAM tối đa </span> 4 khe </div>
+                                <div class="product-specifications__item-content"><span> Số khe RAM còn lại </span> 2 </div>
+                                <div class="product-specifications__item-content"><span> Hỗ trợ RAM tối đa </span> 128GB </div>
+
+                                <h2 class="product-specifications__item-title">RAM</h2>
+                                <div class="product-specifications__item-content"><span> Dung lượng RAM </span> 16GB</div>
+                                <div class="product-specifications__item-content"><span> Loại RAM </span> DDR4</div>
+                                <div class="product-specifications__item-content"><span> Tốc độ RAM </span> 3200Hz</div>
+
+                                <h2 class="product-specifications__item-title">Card đồ họa</h2>
+                                <div class="product-specifications__item-content"><span> Hãng </span> NVIDIA </div>
+                                <div class="product-specifications__item-content"><span> Model </span> GeForce RTX 3060 Ti</div>
+                                <div class="product-specifications__item-content"><span> Bộ nhớ </span> 8 GB GDDR6X</div>
+
+                                <h2 class="product-specifications__item-title">Lưu trữ</h2>
+                                <div class="product-specifications__item-content"><span> Kiểu ổ cứng </span> SSD </div>
+                                <div class="product-specifications__item-content"><span> Tổng số khe cắm SSD/HDD </span> 5 </div>
+                                <div class="product-specifications__item-content"><span> Số khe SSD/HDD còn lại </span> 4 </div>
+                                <div class="product-specifications__item-content"><span> Loại SSD </span> M2. PCIe </div>
+                                <div class="product-specifications__item-content"><span> Dung lượng </span> 500 GB </div>
+                                <div class="product-specifications__item-content"><span> Tốc độ đọc/ghi </span> 2100 MB/s Ghi | 3500 Mb/s Đọc</div>
+                                <div class="product-specifications__item-content"><span> Chuẩn M2 </span> 2280</div>
+
+                                <h2 class="product-specifications__item-title">Giao tiếp & kết nối</h2>
+                                <div class="product-specifications__item-content"><span>1 DisplayPort</span> <span>1 HDMI</span> </div>
+                                <div class="product-specifications__item-content"><span>1 LAN</span> <span>1 Optical S/PDIF out port</span></div>
+                                <div class="product-specifications__item-content"><span>1 Type C</span> <span>1 USB 3.2 Gen 1</span></div>
+                                <div class="product-specifications__item-content"><span>2 USB 2.0</span> <span>4 USB 3.2 Gen 2</span></div>
+                                <div class="product-specifications__item-content"><span>5 Jack 3.5 mm</span></div>
+
+                                <h2 class="product-specifications__item-title">Bộ nguồn</h2>
+                                <div class="product-specifications__item-content"><span>Công suất bộ nguồn</span> 750W</div>
+
+                                <h2 class="product-specifications__item-title">Phụ kiện trong hộp</h2>
+                                <div class="product-specifications__item-content"><span>Phụ kiện trong hộp</span> Dây nguồn</div>       
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-3">
+                        <h3 class="footer__title">Thông tin công ty</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="">Giới thiệu công ty</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="">Chính sách bảo mật</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="">Quy chế hoạt động</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="">Góp ý, khiếu nại</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-3">
+                        <h3 class="footer__title">Thông tin công ty</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="">Chính sách đổi trả</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="">Hệ thống bảo hành</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="">Chính sách trả góp</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="">Hướng dẫn mua hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-3">
+                        <h3 class="footer__title">Chăm sóc khách hàng</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <h4 class="footer__hotline-title">Gọi mua, đặt hàng</h4>
+                                <h3 class="footer__hotline-number">0000 0000</h3>
+                            </li>
+                            <li class="footer__item">
+                                <h4 class="footer__hotline-title">Hỗ trợ kỹ thuật</h4>
+                                <h3 class="footer__hotline-number">0000 0000</h3>
+                            </li>
+                            <li class="footer__item">
+                                <h4 class="footer__hotline-title">Trung tâm bảo hành</h4>
+                                <h3 class="footer__hotline-number">0000 0000</h3>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-3">
+                        <h3 class="footer__title">Mạng xã hội</h3>
+                        <ul class="footer__social">
+                            <li class="footer__social__item">
+                                <a href="" class="facebook-color footer__social__item-icon"><i
+                                        class="fa-brands fa-square-facebook"></i></a>
+                            </li>
+                            <li class="footer__social__item">
+                                <a href="" class="youtube-color footer__social__item-icon"><i
+                                        class="fa-brands fa-youtube"></i></a>
+                            </li>
+                            <li class="footer__social__item">
+                                <a href="" class="footer__social__item-icon"><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li class="footer__social__item">
+                                <a href="" class="footer__social__item-icon"><i class="fa-brands fa-tiktok"></i></a>
+                            </li>
+                            <li class="footer__social__item">
+                                <a href="" class="facebook-color footer__social__item-icon"><i
+                                        class="fa-brands fa-twitter"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
