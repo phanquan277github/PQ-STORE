@@ -809,3 +809,88 @@
     width: 240px;
     display: inline-block;
 }
+
+/* sign in up form */
+.sign-iu-form__overlay.open {
+    display: flex;
+}
+.sign-iu-form__overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    animation: var(--animationFadeIn);
+}
+.sign-iu-form {
+    background-color: #fff;
+    width: 500px;
+    padding: 40px;
+    border-radius: 4px;
+    position: relative;
+    animation: var(--animationFadeIn);
+}
+.sign-iu-form__close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+.sign-iu-form__close i {
+    font-size: 3rem;
+}
+.sign-iu-form__title {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    margin: 0;
+}
+.sign-iu-form__btn {
+    display: flex;
+    align-items: center;
+    width:100%;
+    justify-content: center;
+    position: relative;
+    height: 50px;
+    margin: 14px 0px;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.sign-iu-form__btn:hover {
+    opacity: 0.9;
+}
+.sign-iu-form__btn i {
+    position: absolute;
+    left: 10px;
+    font-size: 3rem;
+}
+.sign-iu-form__btn p {
+    font-size: 1.6rem;
+}
+.sign-iu-form__next-line {
+    text-align: center;
+    font-size: 1.4rem;
+}
+.sign-iu-form__btn--bg-fb {
+    background-color: rgb(45, 136, 255);
+}
+.sign-iu-form__btn--bg-gg {
+    background-color: rgb(220, 78, 66);
+}
+.sign-iu-form__btn--bg-phone {
+    background-color: rgb(42, 152, 5);
+}
+.sign-iu-form__btn--or {
+    color: #000;
+    background-color: transparent;
+}

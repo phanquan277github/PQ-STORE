@@ -23,4 +23,12 @@ html {
     --border-general:  1px solid #c6c1c1;
     --border-radius: 2px;
     --background-color-2: #dee0e4;
+    --animationFadeIn: fadeIn ease-in-out 0.3s;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
 }
