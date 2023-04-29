@@ -5,10 +5,10 @@ const signIUClose = document.querySelector('.js-sign-iu-close')
 const signIUForm = document.querySelector('.js-sign-iu-form')
 // hàm thêm xóa class open
 function showSignIUForm() {
-    signIUOverlay.classList.add('open') //them class open
+    signIUOverlay.classList.add('open-flex') //them class open
 }
 function hideSignIUForm() {
-    signIUOverlay.classList.remove('open') //xóa class open
+    signIUOverlay.classList.remove('open-flex') //xóa class open
 }
 //thêm sự kiện click vào các class ở trên và cho nó thực hiện hàm gì
 accountBtn.addEventListener('click', showSignIUForm) //hiển thị form

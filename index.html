@@ -19,199 +19,485 @@
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 
 <body>
-    <div class="wrapper">
-        <!-- header -->
-        <header class="header">
-            <div class="grid wide">
-                <div class="header__nav">
-                    <div class="header__nav-left">
-                        <a href="./index.html"><img src="./assets/img/logo-noBG.png" alt="LOGO" class="header__nav-left__logo"></a>
-                        <div class="header__nav-left__get-app">
-                            Tải ứng dụng <i class="fa-sharp fa-solid fa-chevron-down"></i>
-                            <div class="header__nav-left__get-app__popup">
-                                <span>Download App!</span>
-                                <div class="left__get-app__content">
-                                    <img src="./assets/img/QRcodeDowApp.png" alt="" class="left__get-app__content-qr">
-                                    <div>
-                                        <a href="#" class="left__get-app__content-app-store"></a>
-                                        <a href="#" class="left__get-app__content-gg-play"></a>
-                                    </div>
+    <!-- header -->
+    <header class="header">
+        <div class="grid wide">
+            <div class="row no-gutters">
+                <div class="col l-12 m-12 c-12">
+                    <nav class="header__nav">
+                        <div class="header__left">
+                            <a class="header__logo hide-on-mb-and-tab" href="./index.html"><img src="./assets/img/logo-noBG.png" alt="LOGO" class=""></a>
+                            <div class="header__nav__navigation-icon hide-on-pc">
+                                <i class="fa-solid fa-bars"></i>
+                                <div class="header__nav__navgigation__emerge">
+                                    <ul class="slidershow__all-category__list">
+                                        <a href="#goto-laptop">
+                                            <li class="slidershow__all-category__item">
+                                                <img class="slidershow__all-category__item-icon"  src="//theme.hstatic.net/1000026716/1000440777/14/xxx21.png?v=35343">
+                                                Laptop
+                                            </li>
+                                        </a>
+                                        <a href="#goto-desktop">
+                                            <li class="slidershow__all-category__item">
+                                                <img class="slidershow__all-category__item-icon"  src="//theme.hstatic.net/1000026716/1000440777/14/xxx25.png?v=35343">
+                                                Máy tính - PC
+                                            </li>
+                                        </a>
+                                        <a href="#goto-component">
+                                            <li class="slidershow__all-category__item">
+                                                <img class="slidershow__all-category__item-icon"  src="//theme.hstatic.net/1000026716/1000440777/14/xxx27.png?v=35343">
+                                                Linh kiện PC - Laptop
+                                            </li>
+                                        </a>
+                                        <a href="#goto-screen">
+                                            <li class="slidershow__all-category__item">
+                                                <img class="slidershow__all-category__item-icon"  src="//theme.hstatic.net/1000026716/1000440777/14/xxx29.png?v=35343">
+                                                Màn hình
+                                            </li>
+                                        </a>
+                                        <a href="#goto-keyboard">
+                                            <li class="slidershow__all-category__item">
+                                                <img class="slidershow__all-category__item-icon" src="//theme.hstatic.net/1000026716/1000440777/14/xxx210.png?v=35343">
+                                                Bàm phím
+                                            </li>
+                                        </a>
+                                        <a href="#goto-mouse">
+                                            <li class="slidershow__all-category__item">
+                                                <img class="slidershow__all-category__item-icon" src="//theme.hstatic.net/1000026716/1000440777/14/xxx211.png?v=35343">
+                                                Chuột
+                                            </li>
+                                        </a>
+                                        <a href="#goto-headphone">
+                                            <li class="slidershow__all-category__item">
+                                                <img class="slidershow__all-category__item-icon" src="//theme.hstatic.net/1000026716/1000440777/14/xxx212.png?v=35343">
+                                                Tai nghe + loa
+                                            </li>
+                                        </a>
+                                        <a href="#goto-furniture">
+                                            <li class="slidershow__all-category__item">
+                                                <img class="slidershow__all-category__item-icon" src="//theme.hstatic.net/1000026716/1000440777/14/xxx213.png?v=35343">
+                                                Bàn - Ghế
+                                            </li>
+                                        </a>
+                                        <a href="#goto-accessory">
+                                            <li class="slidershow__all-category__item">
+                                                <img class="slidershow__all-category__item-icon" src="//theme.hstatic.net/1000026716/1000440777/14/xxx215.png?v=35343">
+                                                Phụ kiện
+                                            </li>
+                                        </a>
+                                    </ul>
                                 </div>
+                            </div>
+                            <div class="header__search">
+                                <input type="text" class="header__search__input" placeholder="Nhập từ khóa tìm kiếm sản phẩm">
+                                <div class="header__search__popup">
+                                    <header>Lịch sử tìm kiếm</header>
+                                    <ul class="header__search__popup__history">
+                                        <li class="header__search__popup__item">Hdd 1tb santa 2.5</li>
+                                        <li class="header__search__popup__item">Ram ddr4 8gb</li>
+                                        <li class="header__search__popup__item">Tai nghe chụp tai gaming
+                                        </li>
+                                    </ul>
+                                    <footer>
+                                        <button>Xóa lịch sử</button>
+                                    </footer>
+                                </div>
+                                <button class="header__search__btn">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </button>
                             </div>
                         </div>
-                    </div>
-                    <ul class="header__nav-right">
-                        <li class="header__nav-right__item header__nav-right__item-notify">
-                            <i class="fa-regular fa-bell"></i>Thông báo
-                            <ul class="right__item-notify__list">
-                                <div class="no-notice">
-                                    Không có thông báo!
-                                </div>
-                                <li class="right__item-notify__item ">
-
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="header__nav-right__item">
-                            <i class="fa-sharp fa-regular fa-circle-question"></i>Hỗ trợ
-                        </li>
-                        <li class="header__nav-right__item js-account-btn">Tài khoản</li>
-                    </ul>
-                </div>
-                <div class="header__content">
-                    <div class="grid">
-                        <div class="row">
-                            <div class="col l-2">
-                                <div class="header__content__all-category">
-                                    <i class="fa-sharp fa-solid fa-bars"></i>Danh mục
-                                    <div class="header__content__all-category__popup">
-                                        <ul class="header__content__all-category__list">
-                                            <a href="#goto-laptop">
-                                                <li class="header__content__all-category__item">
-                                                    <img class="header__content__all-category__item-icon"
-                                                        src="//theme.hstatic.net/1000026716/1000440777/14/xxx21.png?v=35343">
-                                                    Laptop
-                                                </li>
-                                            </a>
-                                            <a href="#goto-pc">
-                                                <li class="header__content__all-category__item">
-                                                    <img class="header__content__all-category__item-icon"
-                                                        src="//theme.hstatic.net/1000026716/1000440777/14/xxx25.png?v=35343">
-                                                    Máy tính - PC
-                                                </li>
-                                            </a>
-                                            <a href="#goto-component">
-                                                <li class="header__content__all-category__item">
-                                                    <img class="header__content__all-category__item-icon"
-                                                        src="//theme.hstatic.net/1000026716/1000440777/14/xxx27.png?v=35343">
-                                                    Linh kiện PC - Laptop
-                                                </li>
-                                            </a>
-                                            <a href="#goto-screen">
-                                                <li class="header__content__all-category__item">
-                                                    <img class="header__content__all-category__item-icon"
-                                                        src="//theme.hstatic.net/1000026716/1000440777/14/xxx29.png?v=35343">
-                                                    Màn hình
-                                                </li>
-                                            </a>
-                                            <a href="#goto-keyboard">
-                                                <li class="header__content__all-category__item">
-                                                    <img class="header__content__all-category__item-icon"
-                                                        src="//theme.hstatic.net/1000026716/1000440777/14/xxx210.png?v=35343">
-                                                    Bàm phím
-                                                </li>
-                                            </a>
-                                            <a href="#goto-mouse">
-                                                <li class="header__content__all-category__item">
-                                                    <img class="header__content__all-category__item-icon"
-                                                        src="//theme.hstatic.net/1000026716/1000440777/14/xxx211.png?v=35343">
-                                                    Chuột
-                                                </li>
-                                            </a>
-                                            <a href="#goto-headphone">
-                                                <li class="header__content__all-category__item">
-                                                    <img class="header__content__all-category__item-icon"
-                                                        src="//theme.hstatic.net/1000026716/1000440777/14/xxx212.png?v=35343">
-                                                    Tai nghe + loa
-                                                </li>
-                                            </a>
-                                            <a href="#goto-furniture">
-                                                <li class="header__content__all-category__item">
-                                                    <img class="header__content__all-category__item-icon"
-                                                        src="//theme.hstatic.net/1000026716/1000440777/14/xxx213.png?v=35343">
-                                                    Bàn - Ghế
-                                                </li>
-                                            </a>
-                                            <a href="#goto-accessory">
-                                                <li class="header__content__all-category__item">
-                                                    <img class="header__content__all-category__item-icon"
-                                                        src="//theme.hstatic.net/1000026716/1000440777/14/xxx215.png?v=35343">
-                                                    Phụ kiện
-                                                </li>
-                                            </a>
-                                        </ul>
+                        <div class="header__right">
+                            <div class="header__item header__notify">
+                                <i class="padd-r-6 fa-regular fa-bell"></i>
+                                <span class="hide-on-mb-and-tab">Thông báo</span> 
+                                <ul class="header__notify__list">
+                                    <div class="no-notice">
+                                        
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col l-8">
-                                <div class="header__content__search">
-                                    <input type="text" class="header__content__search-txt"
-                                        placeholder="Nhập từ khóa tìm kiếm sản phẩm">
-                                    <div class="header__content__search__popup">
-                                        <header>Lịch sử tìm kiếm</header>
-                                        <ul class="header__content__search__popup__history">
-                                            <li class="header__content__search__popup__item">Hdd 1tb santa 2.5</li>
-                                            <li class="header__content__search__popup__item">Ram ddr4 8gb</li>
-                                            <li class="header__content__search__popup__item">Tai nghe chụp tai gaming
-                                            </li>
-                                        </ul>
-                                        <footer>
-                                            <button>Xóa lịch sử</button>
-                                        </footer>
-                                    </div>
-                                    <button class="header__content__search-btn">
-                                        <i class="fa-solid fa-magnifying-glass"></i>
-                                    </button>
-                                </div>
+                                    <li class="right__item-notify__item ">
 
-                                <ul class="header__content__secondary-search">
-                                    <li><a href="./page/all-pc.html">Máy tính</a></li>
-                                    <li><a href="./page/all-laptop.html">Laptop</a></li>
-                                    <li><a href="./page/all-screen.html">Màn hình</a></li>
-                                    <li><a href="./page/all-keyboard.html">Bàn phím</a></li>
-                                    <li><a href="./page/all-mouse.html">Chuột</a></li>
-                                    <li><a href="./page/all-headphone.html">Tai nghe - loa</a></li>
-                                    <li><a href="./page/all-component.html">Linh kiện</a></li>
-                                    <li><a href="./page/all-furniture.html">Bàn ghế</a></li>
-                                    <li><a href="./page/all-accessory.html">Phụ kiện</a></li>
+                                    </li>
                                 </ul>
                             </div>
-                            <div class="col l-2">
-                                <div class="header__content__search-cart">
-                                    <a href="./page/cart.html">
-                                        <i class="header__content__search-cart-icon fa-solid fa-cart-shopping"></i>
-                                    </a>
+                            <div class="header__item header__support">
+                                <i class="padd-r-6 fa-sharp fa-regular fa-circle-question"></i>
+                                <span class="hide-on-mb-and-tab">Hỗ trợ</span>
+                            </div>
+                            <div class="header__item header__cart"><a href="./page/cart.html">
+                                <i class="header__cart__icon fa-solid fa-cart-shopping"></i>
+                                <span class="hide-on-mb-and-tab">Giỏ hàng</span>
+                            </a></div>
+                            <div class="header__item header__account js-account-btn">
+                                <i class="padd-r-6 fa-solid fa-user"></i>
+                                <span class="hide-on-mobile">Tài khoản</span>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- slider show -->
+    <div class="slidershow-container">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-12 m-12 s-12">
+                    <div class="slidershow">
+                        <div class="slidershow__slides">
+                            <img src="https://promotions.newegg.com/nepro/23-0488/1920x660@2x.jpg" alt="" class="slides-img">
+                        </div>
+                        <div class="slidershow__slides">
+                            <img src="https://promotions.newegg.com/nepro/23-0522/1920x660.jpg" alt="" class="slides-img">
+                        </div>
+                        <div class="slidershow__slides">
+                            <img src="https://promotions.newegg.com/marketplace/23-0534/1920x660@2x.png" alt="" class="slides-img">
+                        </div>
+    
+                        <div class="slidershow__slides--pre" onclick="plusSlides(-1)"><i class="fa-solid fa-chevron-left"></i></div>
+                        <div class="slidershow__slides--next" onclick="plusSlides(1)"><i class="fa-solid fa-chevron-right"></i></div>
+                        
+                        <div class="slidershow__all-category hide-on-mb-and-tab">
+                            <ul class="slidershow__all-category__list">
+                                <a href="#goto-laptop">
+                                    <li class="slidershow__all-category__item">
+                                        <img class="slidershow__all-category__item-icon"
+                                            src="//theme.hstatic.net/1000026716/1000440777/14/xxx21.png?v=35343">
+                                        Laptop
+                                    </li>
+                                </a>
+                                <a href="#goto-desktop">
+                                    <li class="slidershow__all-category__item">
+                                        <img class="slidershow__all-category__item-icon"
+                                            src="//theme.hstatic.net/1000026716/1000440777/14/xxx25.png?v=35343">
+                                        Máy tính - PC
+                                    </li>
+                                </a>
+                                <a href="#goto-component">
+                                    <li class="slidershow__all-category__item">
+                                        <img class="slidershow__all-category__item-icon"
+                                            src="//theme.hstatic.net/1000026716/1000440777/14/xxx27.png?v=35343">
+                                        Linh kiện PC - Laptop
+                                    </li>
+                                </a>
+                                <a href="#goto-screen">
+                                    <li class="slidershow__all-category__item">
+                                        <img class="slidershow__all-category__item-icon"
+                                            src="//theme.hstatic.net/1000026716/1000440777/14/xxx29.png?v=35343">
+                                        Màn hình
+                                    </li>
+                                </a>
+                                <a href="#goto-keyboard">
+                                    <li class="slidershow__all-category__item">
+                                        <img class="slidershow__all-category__item-icon"
+                                            src="//theme.hstatic.net/1000026716/1000440777/14/xxx210.png?v=35343">
+                                        Bàm phím
+                                    </li>
+                                </a>
+                                <a href="#goto-mouse">
+                                    <li class="slidershow__all-category__item">
+                                        <img class="slidershow__all-category__item-icon"
+                                            src="//theme.hstatic.net/1000026716/1000440777/14/xxx211.png?v=35343">
+                                        Chuột
+                                    </li>
+                                </a>
+                                <a href="#goto-headphone">
+                                    <li class="slidershow__all-category__item">
+                                        <img class="slidershow__all-category__item-icon"
+                                            src="//theme.hstatic.net/1000026716/1000440777/14/xxx212.png?v=35343">
+                                        Tai nghe + loa
+                                    </li>
+                                </a>
+                                <a href="#goto-furniture">
+                                    <li class="slidershow__all-category__item">
+                                        <img class="slidershow__all-category__item-icon"
+                                            src="//theme.hstatic.net/1000026716/1000440777/14/xxx213.png?v=35343">
+                                        Bàn - Ghế
+                                    </li>
+                                </a>
+                                <a href="#goto-accessory">
+                                    <li class="slidershow__all-category__item">
+                                        <img class="slidershow__all-category__item-icon"
+                                            src="//theme.hstatic.net/1000026716/1000440777/14/xxx215.png?v=35343">
+                                        Phụ kiện
+                                    </li>
+                                </a>
+                            </ul>
+                        </div>
+    
+                        <!-- gợi ý của sildershow -->
+                        <div class="slidershow__suggest-container">
+                            <div class="col l-4 m-4 c-12">
+                                <div class="slidershow__suggest">
+                                    <h2 class="slidershow__suggest__title auto-hidden-text-2line">Hi, 'tên người dùng'</h2>
+                                    <div class="row">
+                                        <div class="col l-12 m-12 c-12">
+                                            <p class="slidershow__suggest__welcome-txt">Chào mừng đến với <span>PQ Store</span>! Hy vọng bạn thích mua sắm ở đây ngày hôm nay. Nếu bạn có bất kỳ nhận xét hoặc đề xuất nào, vui lòng để lại
+                                                    <a href="#">phản hồi</a> cho chúng tôi
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-4 c-12">
+                                <div class="slidershow__suggest">
+                                    <h2 class="slidershow__suggest__title auto-hidden-text-2line">Chuyên mục có thể bạn quan tâm</h2>
+                                    <div class="row">
+                                        <div class="col l-4 m-4 c-4">
+                                            <img class="slidershow__item-img" src="https://c1.neweggimages.com/navigation300/3_48.jpg" alt="">
+                                            <footer class="slidershow__item-name auto-hidden-text-1line">GPU/Card đồ họa</footer>
+                                        </div>
+                                        <div class="col l-4 m-4 c-4">
+                                            <img class="slidershow__item-img" src="https://c1.neweggimages.com/navigation300/3_48.jpg" alt="">
+                                            <footer class="slidershow__item-name auto-hidden-text-1line">GPU/Card đồ họa</footer>
+                                        </div>
+                                        <div class="col l-4 m-4 c-4">
+                                            <img class="slidershow__item-img" src="https://c1.neweggimages.com/navigation300/3_48.jpg" alt="">
+                                            <footer class="slidershow__item-name auto-hidden-text-1line">GPU/Card đồ họa</footer>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-4 c-12 hide-on-mobile">
+                                <div class="slidershow__suggest">
+                                    <h2 class="slidershow__suggest__title auto-hidden-text-2line">Sản phẩm có thể bạn quan tâm</h2>
+                                    <div class="row">
+                                        <div class="col l-4 m-4 c-4 add-posi-relative">
+                                            <img class="slidershow__item-img slidershow__item--hover-popup" src="https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/1/31/638107706869598466_pc-gaming-e-power-i7g11-3060ti-i7-11700f-den-1.jpg" alt="">
+                                            <div class="slidershow__item-popup">
+                                                <img src="https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/1/31/638107706869598466_pc-gaming-e-power-i7g11-3060ti-i7-11700f-den-1.jpg"
+                                                        alt="" class="slidershow__suggest--img products-item__avata">
+                                                <span class="slidershow__suggest--name products-item__name">
+                                                    PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti
+                                                </span>
+                                                <span class="slidershow__suggest--new-price products-item__discount">33.590.000₫</span>
+                                                <span class="slidershow__suggest--old-price products-item__price">00.000.000₫</span>
+                                            </div>
+                                        </div>
+                                        <div class="col l-4 m-4 c-4 add-posi-relative">
+                                            <img class="slidershow__item-img slidershow__item--hover-popup" src="https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/1/31/638107706869598466_pc-gaming-e-power-i7g11-3060ti-i7-11700f-den-1.jpg" alt="">
+                                            <div class="slidershow__item-popup">
+                                                <img src="https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/1/31/638107706869598466_pc-gaming-e-power-i7g11-3060ti-i7-11700f-den-1.jpg"
+                                                        alt="" class="slidershow__suggest--img products-item__avata">
+                                                <span class="slidershow__suggest--name products-item__name">
+                                                    PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti
+                                                </span>
+                                                <span class="slidershow__suggest--new-price products-item__discount">33.590.000₫</span>
+                                                <span class="slidershow__suggest--old-price products-item__price">00.000.000₫</span>
+                                            </div>
+                                        </div>
+                                        <div class="col l-4 m-4 c-4 add-posi-relative">
+                                            <img class="slidershow__item-img slidershow__item--hover-popup" src="https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/1/31/638107706869598466_pc-gaming-e-power-i7g11-3060ti-i7-11700f-den-1.jpg" alt="">
+                                            <div class="slidershow__item-popup">
+                                                <img src="https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/1/31/638107706869598466_pc-gaming-e-power-i7g11-3060ti-i7-11700f-den-1.jpg"
+                                                        alt="" class="slidershow__suggest--img products-item__avata">
+                                                <span class="slidershow__suggest--name products-item__name">
+                                                    PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti
+                                                </span>
+                                                <span class="slidershow__suggest--new-price products-item__discount">33.590.000₫</span>
+                                                <span class="slidershow__suggest--old-price products-item__price">00.000.000₫</span>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </header>
-        <!-- container -->
+            
+        </div>
+    </div>
+
+     <!-- category -->
+     <div class="category page-section">
+        <div class="grid">
+            <ul class="category__list">
+                <li class="category__item"><a href="#">
+                    <img src="https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_desktops_062022.jpg" alt="">
+                    <h5>Desktops</h5>
+                </a></li>
+                <li class="category__item"><a href="#">
+                    <img src="https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_laptops_062022.jpg" alt="">
+                    <h5>Laptops</h5>
+                </a></li>
+                <li class="category__item"><a href="#">
+                    <img src="https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_monitors_062022a.jpg" alt="">
+                    <h5>Monitors</h5>
+                </a></li>
+                <li class="category__item"><a href="#">
+                    <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Keyboard_1x._SY116_CB667159063_.jpg" alt="">
+                    <h5>Keyboards</h5>
+                </a></li>
+                <li class="category__item"><a href="#">
+                    <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Mouse_1x._SY116_CB667159063_.jpg" alt="">
+                    <h5>Mouses</h5>
+                </a></li>
+                <li class="category__item"><a href="#">
+                    <img src="https://product.hstatic.net/1000026716/product/gearvn-tai-nghe-logitech-g733-lightspeed-wireless-black-666_2eb1a71d562e4a6d853a0f086723cbe3.png" alt="">
+                    <h5>Audios</h5>
+                </a></li>
+                <li class="category__item"><a href="#">
+                    <img src="https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_PowerSupplies500_062022.jpg" alt="">
+                    <h5>Power supplies</h5>
+                </a></li>
+                <li class="category__item"><a href="#">
+                    <img src="https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_ssds_062022.jpg" alt="">
+                    <h5>SSDs, Hard drives</h5>
+                </a></li>
+                <li class="category__item"><a href="#">
+                    <img src="https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_memory_062022.jpg" alt="">
+                    <h5>Memory</h5>
+                </a></li>
+                <li class="category__item"><a href="#">
+                    <img src="https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_videoCards500.jpg" alt="">
+                    <h5>Graphics cards</h5>
+                </a></li>
+                <li class="category__item"><a href="#">
+                    <img src="https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_motherboards_062022.jpg" alt="">
+                    <h5>Motherboards</h5>
+                </a></li>
+                <li class="category__item"><a href="#">
+                    <img src="https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_12_2022Home_Page_CPUs.png" alt="">
+                    <h5>Processors</h5>
+                </a></li>
+                <li class="category__item"><a href="#">
+                    <img src="https://lh3.googleusercontent.com/Hun9pSnlF1q_zv9Tew2iez-0Rz2wnZ-Kh0Svc_YE_K3aJL2s7ZH3LI95i0tofDmMYKbJHHOXoemtfoEk7huPbcnF_Kyr9OkgKA=w500-rw" alt="">
+                    <h5>Accessory</h5>
+                </a></li>
+                <li class="category__item"><a href="#">
+                    <img src="https://c1.neweggimages.com/ProductImage/AG9FS220110F1kpq.jpg" alt="">
+                    <h5>Furniture</h5>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="wrapper">
         <div class="grid wide">
+            <!-- today best deals -->
+            <div class="best-deal-container page-section">
+                <div class="row">
+                    <div class="col l-12 m-12 c-12">
+                        <h1 class="container__title">Todays best deals</h1>
+                    </div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col l-4 m-12 c-12">
+                        <div class="container__product">
+                            <span class="products-item__name auto-hidden-text-3line">Vitesse 63 inch Gaming Desk T Shaped Computer Desk with Free large Mouse pad, Racing Style Professional Gamer Game Station with USB Gaming Handle Rack, Cup Holder & Headphone Hook</span>
+                            <ul class="tag-list">
+                                <li class="tag-list__item tag-is-skeweb tag-deal-color">Save 14%</li>
+                                <li class="tag-list__item tag-is-skeweb tag-gift-color">Free gift</li>
+                            </ul>
+                            <span class="products-item__discount">2.666.000₫</span>
+                            <span class="products-item__price">3.049.000₫</span>
+                            <img src="https://c1.neweggimages.com/ProductImage/AG9FS220110F1kpq.jpg" alt="" class="best-deal__img">
+                        </div>
+                    </div>
+                    <div class="col l-8 m-12 c-12">
+                        <div class="row no-gutters">
+                            <div class="col l-6 m-6 c-12">
+                                <div class="best-deal__product--second resp-mgr-10">
+                                    <div class="best-deal__product__left">
+                                        <span class="products-item__name auto-hidden-text-3line">Core i9 13th Gen Raptor Lake 24-Core (8P+16E) P-core Base Frequency: 3.0 GHz E-core Base Frequency: 2.2 GHz LGA 1700 125W Intel UHD Graphics 770 Desktop Processor - BX80715139</span>
+                                        <ul class="tag-list">
+                                            <li class="tag-list__item tag-is-skeweb tag-deal-color">Save 14%</li>
+                                            <li class="tag-list__item tag-is-skeweb tag-gift-color">Free gift</li>
+                                        </ul>
+                                        <span class="products-item__discount best-deal__discount">2.666.000₫</span>
+                                        <span class="products-item__price best-deal__price">3.049.000₫</span>
+                                    </div>
+                                    <img src="https://c1.neweggimages.com/ProductImageCompressAll300/19-118-412-V01.jpg" alt="" class=" best-deal__img--vertical">      
+                                </div>
+                            </div>
+                            <div class="col l-6 m-6 c-12">
+                                <div class="best-deal__product--second">
+                                    <div class="best-deal__product__left">
+                                        <span class="products-item__name auto-hidden-text-3line">Core i9 13th Gen Raptor Lake 24-Core (8P+16E) P-core Base Frequency: 3.0 GHz E-core Base Frequency: 2.2 GHz LGA 1700 125W Intel UHD Graphics 770 Desktop Processor - BX80715139</span>
+                                        <ul class="tag-list">
+                                            <li class="tag-list__item tag-is-skeweb tag-deal-color">Save 14%</li>
+                                            <li class="tag-list__item tag-is-skeweb tag-gift-color">Free gift</li>
+                                        </ul>
+                                        <span class="products-item__discount best-deal__discount">2.666.000₫</span>
+                                        <span class="products-item__price best-deal__price">3.049.000₫</span>
+                                    </div>
+                                    <img src="https://c1.neweggimages.com/ProductImageCompressAll300/19-118-412-V01.jpg" alt="" class=" best-deal__img--vertical">      
+                                </div>
+                            </div>
+                            <div class="col l-6 hide-on-mb-and-tab">
+                                <div class="best-deal__product--second">
+                                    <div class="best-deal__product__left">
+                                        <span class="products-item__name auto-hidden-text-3line">Core i9 13th Gen Raptor Lake 24-Core (8P+16E) P-core Base Frequency: 3.0 GHz E-core Base Frequency: 2.2 GHz LGA 1700 125W Intel UHD Graphics 770 Desktop Processor - BX80715139</span>
+                                        <ul class="tag-list">
+                                            <li class="tag-list__item tag-is-skeweb tag-deal-color">Save 14%</li>
+                                            <li class="tag-list__item tag-is-skeweb tag-gift-color">Free gift</li>
+                                        </ul>
+                                        <span class="products-item__discount best-deal__discount">2.666.000₫</span>
+                                        <span class="products-item__price best-deal__price">3.049.000₫</span>
+                                    </div>
+                                    <img src="https://c1.neweggimages.com/ProductImageCompressAll300/19-118-412-V01.jpg" alt="" class=" best-deal__img--vertical">      
+                                </div>
+                            </div>
+                            <div class="col l-6 hide-on-mb-and-tab">
+                                <div class="best-deal__product--second">
+                                    <div class="best-deal__product__left">
+                                        <span class="products-item__name auto-hidden-text-3line">Core i9 13th Gen Raptor Lake 24-Core (8P+16E) P-core Base Frequency: 3.0 GHz E-core Base Frequency: 2.2 GHz LGA 1700 125W Intel UHD Graphics 770 Desktop Processor - BX80715139</span>
+                                        <ul class="tag-list">
+                                            <li class="tag-list__item tag-is-skeweb tag-deal-color">Save 14%</li>
+                                            <li class="tag-list__item tag-is-skeweb tag-gift-color">Free gift</li>
+                                        </ul>
+                                        <span class="products-item__discount best-deal__discount">2.666.000₫</span>
+                                        <span class="products-item__price best-deal__price">3.049.000₫</span>
+                                    </div>
+                                    <img src="https://c1.neweggimages.com/ProductImageCompressAll300/19-118-412-V01.jpg" alt="" class=" best-deal__img--vertical">      
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- banner -->
+            <div class="banner page-section">
+                <div class="row">
+                    <div class="col l-6 m-6 c-12">
+                        <img class="banner__img" src="https://promotions.newegg.com/nepro/23-0103/800x120.jpg" alt="Banner">
+                    </div>
+                    <div class="col l-6 m-6 c-12">
+                        <img class="banner__img" src="https://promotions.newegg.com/nepro/23-0505/800x120.jpg" alt="Banner">
+                    </div>
+                </div>
+            </div>
+            <!-- container -->
             <div class="container">
                 <div class="grid">
-                    <div id="goto-pc" class="container__list">
-                        <div class="row">
-                            <div class="col l-12">
-                                <div class="container__list__title">PC gaming - đồ họa - cấu hình mạnh</div>
+                    <div id="goto-desktop" class="container__list page-section">
+                        <div class="container__title-content">
+                            <h1 class="container__title">PC gaming - đồ họa - cấu hình mạnh</h1>
+                            <div class="container__title__see-all-products">
+                                <a href="./page/all-desktop.html">Xem tất cả</a>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/1/31/638107706869598466_pc-gaming-e-power-i7g11-3060ti-i7-11700f-den-1.jpg"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">33.590.000₫</span>
-                                        <span class="container__item-price__old">00.000.000₫</span>
+                        <div class="row" id="products-list-pc-id">
+                            <div class="col l-2-4 m-3 c-6">
+                                <div class="products-item">
+                                    <img src="https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/1/31/638107706869598466_pc-gaming-e-power-i7g11-3060ti-i7-11700f-den-1.jpg" alt="" class="products-item__avata">
+                                    <span class="products-item__name">PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti</span>
+                                    <div class="products-item__price-container">
+                                        <span class="products-item__discount">33.590.000₫</span>
+                                        <span class="products-item__price">00.000.000₫</span>
                                     </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
+                                    <footer class="products-item__footer">
+                                        <li class="tag-list__item tag-is-skeweb tag-deal-color">Save 14%</li>
+                                        <div class="tag-free-ship">Free ship</div>
                                     </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="./product.html">
-                                            PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti
-                                        </a>
+                                    <div class="products-item__describe-popup">
+                                        <a class="products-item__name products-item__name--popup-modify" href="./product.html">PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti</a>
                                         <ul>
                                             <li>CPU: Intel, Core i7, 12700F</li>
                                             <li>Ram: 16 GB, DDR4, 3200 MHz</li>
@@ -225,26 +511,20 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/1/31/638107706869598466_pc-gaming-e-power-i7g11-3060ti-i7-11700f-den-1.jpg"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB/500GB/750W/RTX 3060 Ti
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">33.590.000₫</span>
-                                        <span class="container__item-price__old">00.000.000₫</span>
+                            <div class="col l-2-4 m-3 c-6">
+                                <div class="products-item">
+                                    <img src="https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/1/31/638107706869598466_pc-gaming-e-power-i7g11-3060ti-i7-11700f-den-1.jpg" alt="" class="products-item__avata">
+                                    <span class="products-item__name">PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti</span>
+                                    <div class="products-item__price-container">
+                                        <span class="products-item__discount">33.590.000₫</span>
+                                        <span class="products-item__price">00.000.000₫</span>
                                     </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
+                                    <footer class="products-item__footer">
+                                        <li class="tag-list__item tag-is-skeweb tag-deal-color">Save 14%</li>
+                                        <div class="tag-free-ship">Free ship</div>
                                     </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="./product.html">
-                                            PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti
-                                        </a>
+                                    <div class="products-item__describe-popup">
+                                        <a class="products-item__name products-item__name--popup-modify" href="./product.html">PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti</a>
                                         <ul>
                                             <li>CPU: Intel, Core i7, 12700F</li>
                                             <li>Ram: 16 GB, DDR4, 3200 MHz</li>
@@ -258,26 +538,20 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/1/31/638107706869598466_pc-gaming-e-power-i7g11-3060ti-i7-11700f-den-1.jpg"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB/500GB/750W/RTX 3060 Ti
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">33.590.000₫</span>
-                                        <span class="container__item-price__old">00.000.000₫</span>
+                            <div class="col l-2-4 m-3 c-6">
+                                <div class="products-item">
+                                    <img src="https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/1/31/638107706869598466_pc-gaming-e-power-i7g11-3060ti-i7-11700f-den-1.jpg" alt="" class="products-item__avata">
+                                    <span class="products-item__name">PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti</span>
+                                    <div class="products-item__price-container">
+                                        <span class="products-item__discount">33.590.000₫</span>
+                                        <span class="products-item__price">00.000.000₫</span>
                                     </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
+                                    <footer class="products-item__footer">
+                                        <li class="tag-list__item tag-is-skeweb tag-deal-color">Save 14%</li>
+                                        <div class="tag-free-ship">Free ship</div>
                                     </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="./product.html">
-                                            PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti
-                                        </a>
+                                    <div class="products-item__describe-popup">
+                                        <a class="products-item__name products-item__name--popup-modify" href="./product.html">PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti</a>
                                         <ul>
                                             <li>CPU: Intel, Core i7, 12700F</li>
                                             <li>Ram: 16 GB, DDR4, 3200 MHz</li>
@@ -291,26 +565,20 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/1/31/638107706869598466_pc-gaming-e-power-i7g11-3060ti-i7-11700f-den-1.jpg"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB/500GB/750W/RTX 3060 Ti
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">33.590.000₫</span>
-                                        <span class="container__item-price__old">00.000.000₫</span>
+                            <div class="col l-2-4 m-3 c-6">
+                                <div class="products-item">
+                                    <img src="https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/1/31/638107706869598466_pc-gaming-e-power-i7g11-3060ti-i7-11700f-den-1.jpg" alt="" class="products-item__avata">
+                                    <span class="products-item__name">PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti</span>
+                                    <div class="products-item__price-container">
+                                        <span class="products-item__discount">33.590.000₫</span>
+                                        <span class="products-item__price">00.000.000₫</span>
                                     </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
+                                    <footer class="products-item__footer">
+                                        <li class="tag-list__item tag-is-skeweb tag-deal-color">Save 14%</li>
+                                        <div class="tag-free-ship">Free ship</div>
                                     </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="./product.html">
-                                            PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti
-                                        </a>
+                                    <div class="products-item__describe-popup">
+                                        <a class="products-item__name products-item__name--popup-modify" href="./product.html">PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti</a>
                                         <ul>
                                             <li>CPU: Intel, Core i7, 12700F</li>
                                             <li>Ram: 16 GB, DDR4, 3200 MHz</li>
@@ -324,26 +592,20 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/1/31/638107706869598466_pc-gaming-e-power-i7g11-3060ti-i7-11700f-den-1.jpg"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB/500GB/750W/RTX 3060 Ti
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">33.590.000₫</span>
-                                        <span class="container__item-price__old">00.000.000₫</span>
+                            <div class="col l-2-4 m-3 c-6">
+                                <div class="products-item">
+                                    <img src="https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/1/31/638107706869598466_pc-gaming-e-power-i7g11-3060ti-i7-11700f-den-1.jpg" alt="" class="products-item__avata">
+                                    <span class="products-item__name">PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti</span>
+                                    <div class="products-item__price-container">
+                                        <span class="products-item__discount">33.590.000₫</span>
+                                        <span class="products-item__price">00.000.000₫</span>
                                     </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
+                                    <footer class="products-item__footer">
+                                        <li class="tag-list__item tag-is-skeweb tag-deal-color">Save 14%</li>
+                                        <div class="tag-free-ship">Free ship</div>
                                     </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="./product.html">
-                                            PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti
-                                        </a>
+                                    <div class="products-item__describe-popup">
+                                        <a class="products-item__name products-item__name--popup-modify" href="./product.html">PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti</a>
                                         <ul>
                                             <li>CPU: Intel, Core i7, 12700F</li>
                                             <li>Ram: 16 GB, DDR4, 3200 MHz</li>
@@ -357,26 +619,20 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/1/31/638107706869598466_pc-gaming-e-power-i7g11-3060ti-i7-11700f-den-1.jpg"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB/500GB/750W/RTX 3060 Ti
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">33.590.000₫</span>
-                                        <span class="container__item-price__old">00.000.000₫</span>
+                            <div class="col l-2-4 m-3 c-6">
+                                <div class="products-item">
+                                    <img src="https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/1/31/638107706869598466_pc-gaming-e-power-i7g11-3060ti-i7-11700f-den-1.jpg" alt="" class="products-item__avata">
+                                    <span class="products-item__name">PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti</span>
+                                    <div class="products-item__price-container">
+                                        <span class="products-item__discount">33.590.000₫</span>
+                                        <span class="products-item__price">00.000.000₫</span>
                                     </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
+                                    <footer class="products-item__footer">
+                                        <li class="tag-list__item tag-is-skeweb tag-deal-color">Save 14%</li>
+                                        <div class="tag-free-ship">Free ship</div>
                                     </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="./product.html">
-                                            PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti
-                                        </a>
+                                    <div class="products-item__describe-popup">
+                                        <a class="products-item__name products-item__name--popup-modify" href="./product.html">PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti</a>
                                         <ul>
                                             <li>CPU: Intel, Core i7, 12700F</li>
                                             <li>Ram: 16 GB, DDR4, 3200 MHz</li>
@@ -390,26 +646,20 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/1/31/638107706869598466_pc-gaming-e-power-i7g11-3060ti-i7-11700f-den-1.jpg"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB/500GB/750W/RTX 3060 Ti
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">33.590.000₫</span>
-                                        <span class="container__item-price__old">00.000.000₫</span>
+                            <div class="col l-2-4 m-3 c-6">
+                                <div class="products-item">
+                                    <img src="https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/1/31/638107706869598466_pc-gaming-e-power-i7g11-3060ti-i7-11700f-den-1.jpg" alt="" class="products-item__avata">
+                                    <span class="products-item__name">PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti</span>
+                                    <div class="products-item__price-container">
+                                        <span class="products-item__discount">33.590.000₫</span>
+                                        <span class="products-item__price">00.000.000₫</span>
                                     </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
+                                    <footer class="products-item__footer">
+                                        <li class="tag-list__item tag-is-skeweb tag-deal-color">Save 14%</li>
+                                        <div class="tag-free-ship">Free ship</div>
                                     </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="./product.html">
-                                            PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti
-                                        </a>
+                                    <div class="products-item__describe-popup">
+                                        <a class="products-item__name products-item__name--popup-modify" href="./product.html">PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti</a>
                                         <ul>
                                             <li>CPU: Intel, Core i7, 12700F</li>
                                             <li>Ram: 16 GB, DDR4, 3200 MHz</li>
@@ -421,107 +671,32 @@
                                             <li>Trọng lượng 5000g, Kim loại, Đen</li>
                                         </ul>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/1/31/638107706869598466_pc-gaming-e-power-i7g11-3060ti-i7-11700f-den-1.jpg"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB/500GB/750W/RTX 3060 Ti
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">33.590.000₫</span>
-                                        <span class="container__item-price__old">00.000.000₫</span>
-                                    </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
-                                    </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="./product.html">
-                                            PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti
-                                        </a>
-                                        <ul>
-                                            <li>CPU: Intel, Core i7, 12700F</li>
-                                            <li>Ram: 16 GB, DDR4, 3200 MHz</li>
-                                            <li>VGA: NVIDIA GeForce RTX 3060 Ti 8GB</li>
-                                            <li>Bộ nhớ SSD 500GB</li>
-                                            <li>Công suất bộ nguồn 750 W</li>
-                                            <li>Main Intel B660</li>
-                                            <li>Kích thước 338x255x335 mm</li>
-                                            <li>Trọng lượng 5000g, Kim loại, Đen</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col l-12">
-                                <div class="container__all-products"><a href="./page/all-pc.html">Xem tất cả sản phẩm</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div id="goto-laptop" class="container__list">
-                        <div class="row">
-                            <div class="col l-12">
-                                <div class="container__list__title">Laptop gaming hot</div>
+                    <div id="goto-laptop" class="container__list page-section">
+                        <div class="container__title-content">
+                            <h1 class="container__title">LAPTOP GAMING - Văn phòng</h1>
+                            <div class="container__title__see-all-products">
+                                <a href="./page/all-pc.html">Xem tất cả</a>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="./assets/img/nitro5-img.png" alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Laptop Acer Gaming Nitro 5 Eagle AN515-57-71VV NH.QENSV.005
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">19.900.000đ</span>
-                                        <span class="container__item-price__old">21.490.000đ</span>
+                            <div class="col l-2-4 m-3 c-6">
+                                <div class="products-item">
+                                    <img src="./assets/img/nitro5-img.png" alt="" class="products-item__avata">
+                                    <span class="products-item__name">Laptop Acer Gaming Nitro 5 Eagle AN515-57-71VV NH.QENSV.005</span>
+                                    <div class="products-item__price-container">
+                                        <span class="products-item__discount">19.900.000đ</span>
+                                        <span class="products-item__price">21.490.000đ</span>
                                     </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
+                                    <footer class="products-item__footer">
+                                        <li class="tag-list__item tag-is-skeweb tag-deal-color">Save 14%</li>
+                                        <div class="tag-free-ship">Free ship</div>
                                     </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="./product.html">
-                                            Laptop Acer Gaming Nitro 5 Eagle AN515-57-71VV NH.QENSV.005
-                                        </a>
-                                        <ul>
-                                            <li>CPU: Intel® Core™ i7-11800H</li>
-                                            <li>RAM: 8GB DDR4 khe rời 3200MHz</li>
-                                            <li>Ổ cứng: 512GB SSD (nâng cấp tối đa 2TB SSD và 2TB HDD)</li>
-                                            <li>VGA: NVIDIA RTX™ 3050 4GB GDDR6</li>
-                                            <li>Màn hình: 15.6 inch FHD(1920 x 1080) IPS 144Hz</li>
-                                            <li>Pin: 57.5 Wh, 4-cell</li>
-                                        </ul>
-                                    </div>
-                                    <header class="container__item-header">
-                                </div>
-                                </header>
-                            </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="./assets/img/nitro5-img.png" alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Laptop Acer Gaming Nitro 5 Eagle AN515-57-71VV NH.QENSV.005
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">19.900.000đ</span>
-                                        <span class="container__item-price__old">21.490.000đ</span>
-                                    </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
-                                    </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="./product.html">
-                                            Laptop Acer Gaming Nitro 5 Eagle AN515-57-71VV NH.QENSV.005
-                                        </a>
+                                    <div class="products-item__describe-popup">
+                                        <a class="products-item__name products-item__name--popup-modify" href="./product.html">Laptop Acer Gaming Nitro 5 Eagle AN515-57-71VV NH.QENSV.005</a>
                                         <ul>
                                             <li>CPU: Intel® Core™ i7-11800H</li>
                                             <li>RAM: 8GB DDR4 khe rời 3200MHz</li>
@@ -532,690 +707,74 @@
                                         </ul>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="./assets/img/nitro5-img.png" alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Laptop Acer Gaming Nitro 5 Eagle AN515-57-71VV NH.QENSV.005
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">19.900.000đ</span>
-                                        <span class="container__item-price__old">21.490.000đ</span>
-                                    </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
-                                    </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                            Laptop Acer Gaming Nitro 5 Eagle AN515-57-71VV NH.QENSV.005
-                                        </a>
-                                        <ul>
-                                            <li>CPU: Intel® Core™ i7-11800H</li>
-                                            <li>RAM: 8GB DDR4 khe rời 3200MHz</li>
-                                            <li>Ổ cứng: 512GB SSD (nâng cấp tối đa 2TB SSD và 2TB HDD)</li>
-                                            <li>VGA: NVIDIA RTX™ 3050 4GB GDDR6</li>
-                                            <li>Màn hình: 15.6 inch FHD(1920 x 1080) IPS 144Hz</li>
-                                            <li>Pin: 57.5 Wh, 4-cell</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="./assets/img/nitro5-img.png" alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Laptop Acer Gaming Nitro 5 Eagle AN515-57-71VV NH.QENSV.005
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">19.900.000đ</span>
-                                        <span class="container__item-price__old">21.490.000đ</span>
-                                    </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
-                                    </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                            Laptop Acer Gaming Nitro 5 Eagle AN515-57-71VV NH.QENSV.005
-                                        </a>
-                                        <ul>
-                                            <li>CPU: Intel® Core™ i7-11800H</li>
-                                            <li>RAM: 8GB DDR4 khe rời 3200MHz</li>
-                                            <li>Ổ cứng: 512GB SSD (nâng cấp tối đa 2TB SSD và 2TB HDD)</li>
-                                            <li>VGA: NVIDIA RTX™ 3050 4GB GDDR6</li>
-                                            <li>Màn hình: 15.6 inch FHD(1920 x 1080) IPS 144Hz</li>
-                                            <li>Pin: 57.5 Wh, 4-cell</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="./assets/img/nitro5-img.png" alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Laptop Acer Gaming Nitro 5 Eagle AN515-57-71VV NH.QENSV.005
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">19.900.000đ</span>
-                                        <span class="container__item-price__old">21.490.000đ</span>
-                                    </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
-                                    </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                            Laptop Acer Gaming Nitro 5 Eagle AN515-57-71VV NH.QENSV.005
-                                        </a>
-                                        <ul>
-                                            <li>CPU: Intel® Core™ i7-11800H</li>
-                                            <li>RAM: 8GB DDR4 khe rời 3200MHz</li>
-                                            <li>Ổ cứng: 512GB SSD (nâng cấp tối đa 2TB SSD và 2TB HDD)</li>
-                                            <li>VGA: NVIDIA RTX™ 3050 4GB GDDR6</li>
-                                            <li>Màn hình: 15.6 inch FHD(1920 x 1080) IPS 144Hz</li>
-                                            <li>Pin: 57.5 Wh, 4-cell</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="./assets/img/nitro5-img.png" alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Laptop Acer Gaming Nitro 5 Eagle AN515-57-71VV NH.QENSV.005
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">19.900.000đ</span>
-                                        <span class="container__item-price__old">21.490.000đ</span>
-                                    </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
-                                    </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                            Laptop Acer Gaming Nitro 5 Eagle AN515-57-71VV NH.QENSV.005
-                                        </a>
-                                        <ul>
-                                            <li>CPU: Intel® Core™ i7-11800H</li>
-                                            <li>RAM: 8GB DDR4 khe rời 3200MHz</li>
-                                            <li>Ổ cứng: 512GB SSD (nâng cấp tối đa 2TB SSD và 2TB HDD)</li>
-                                            <li>VGA: NVIDIA RTX™ 3050 4GB GDDR6</li>
-                                            <li>Màn hình: 15.6 inch FHD(1920 x 1080) IPS 144Hz</li>
-                                            <li>Pin: 57.5 Wh, 4-cell</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="./assets/img/nitro5-img.png" alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Laptop Acer Gaming Nitro 5 Eagle AN515-57-71VV NH.QENSV.005
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">19.900.000đ</span>
-                                        <span class="container__item-price__old">21.490.000đ</span>
-                                    </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
-                                    </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                            Laptop Acer Gaming Nitro 5 Eagle AN515-57-71VV NH.QENSV.005
-                                        </a>
-                                        <ul>
-                                            <li>CPU: Intel® Core™ i7-11800H</li>
-                                            <li>RAM: 8GB DDR4 khe rời 3200MHz</li>
-                                            <li>Ổ cứng: 512GB SSD (nâng cấp tối đa 2TB SSD và 2TB HDD)</li>
-                                            <li>VGA: NVIDIA RTX™ 3050 4GB GDDR6</li>
-                                            <li>Màn hình: 15.6 inch FHD(1920 x 1080) IPS 144Hz</li>
-                                            <li>Pin: 57.5 Wh, 4-cell</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="./assets/img/nitro5-img.png" alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Laptop Acer Gaming Nitro 5 Eagle AN515-57-71VV NH.QENSV.005
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">19.900.000đ</span>
-                                        <span class="container__item-price__old">21.490.000đ</span>
-                                    </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
-                                    </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                            Laptop Acer Gaming Nitro 5 Eagle AN515-57-71VV NH.QENSV.005
-                                        </a>
-                                        <ul>
-                                            <li>CPU: Intel® Core™ i7-11800H</li>
-                                            <li>RAM: 8GB DDR4 khe rời 3200MHz</li>
-                                            <li>Ổ cứng: 512GB SSD (nâng cấp tối đa 2TB SSD và 2TB HDD)</li>
-                                            <li>VGA: NVIDIA RTX™ 3050 4GB GDDR6</li>
-                                            <li>Màn hình: 15.6 inch FHD(1920 x 1080) IPS 144Hz</li>
-                                            <li>Pin: 57.5 Wh, 4-cell</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="./assets/img/nitro5-img.png" alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Laptop Acer Gaming Nitro 5 Eagle AN515-57-71VV NH.QENSV.005
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">19.900.000đ</span>
-                                        <span class="container__item-price__old">21.490.000đ</span>
-                                    </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
-                                    </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                            Laptop Acer Gaming Nitro 5 Eagle AN515-57-71VV NH.QENSV.005
-                                        </a>
-                                        <ul>
-                                            <li>CPU: Intel® Core™ i7-11800H</li>
-                                            <li>RAM: 8GB DDR4 khe rời 3200MHz</li>
-                                            <li>Ổ cứng: 512GB SSD (nâng cấp tối đa 2TB SSD và 2TB HDD)</li>
-                                            <li>VGA: NVIDIA RTX™ 3050 4GB GDDR6</li>
-                                            <li>Màn hình: 15.6 inch FHD(1920 x 1080) IPS 144Hz</li>
-                                            <li>Pin: 57.5 Wh, 4-cell</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="./assets/img/nitro5-img.png" alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Laptop Acer Gaming Nitro 5 Eagle AN515-57-71VV NH.QENSV.005
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">19.900.000đ</span>
-                                        <span class="container__item-price__old">21.490.000đ</span>
-                                    </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
-                                    </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                            Laptop Acer Gaming Nitro 5 Eagle AN515-57-71VV NH.QENSV.005
-                                        </a>
-                                        <ul>
-                                            <li>CPU: Intel® Core™ i7-11800H</li>
-                                            <li>RAM: 8GB DDR4 khe rời 3200MHz</li>
-                                            <li>Ổ cứng: 512GB SSD (nâng cấp tối đa 2TB SSD và 2TB HDD)</li>
-                                            <li>VGA: NVIDIA RTX™ 3050 4GB GDDR6</li>
-                                            <li>Màn hình: 15.6 inch FHD(1920 x 1080) IPS 144Hz</li>
-                                            <li>Pin: 57.5 Wh, 4-cell</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col l-12">
-                                <div class="container__all-products"><a href="./page/all-laptop.html">Xem tất cả sản phẩm</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="goto-screen" class="container__list">
-                        <div class="row">
-                            <div class="col l-12">
-                                <div class="container__list__title">Màn hình khuyến mãi hot - miễn phí giao hàng - lắp
-                                    đặt</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://www.lg.com/vn/images/man-hinh-may-tinh/md07563896/gallery/DZ-01.jpg"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Màn hình LG 24GN60R-B 24" IPS 144Hz HDR10 Freesync chuyên game
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">3.900.000đ</span>
-                                        <span class="container__item-price__old">6.090.000đ</span>
-                                    </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
-                                    </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                            Màn hình LG 24GN60R-B 24" IPS 144Hz HDR10 Freesync chuyên game
-                                        </a>
-                                        <ul>
-                                            <li>Kích thước 23.8 Inch</li>
-                                            <li>Độ phân giải 1920x1080 - tấm nền IPS</li>
-                                            <li>Tốc độ: IPS 1ms (GtG) - Tốc độ làm mới 144Hz</li>
-                                            <li>Màu sắc: HDR10 sRGB 99% (Thông thường)</li>
-                                            <li>Thông số kỹ thuật: AMD FreeSync™ Premium</li>
-                                            <li>Độ sáng tối đa 300 cd/m²</li>
-                                            <li>Tỷ lệ tương phản (Thông thường) 1000:1</li>
-                                        </ul>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://www.lg.com/vn/images/man-hinh-may-tinh/md07563896/gallery/DZ-01.jpg"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Màn hình LG 24GN60R-B 24" IPS 144Hz HDR10 Freesync chuyên game
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">3.900.000đ</span>
-                                        <span class="container__item-price__old">6.090.000đ</span>
-                                    </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
-                                    </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                            Màn hình LG 24GN60R-B 24" IPS 144Hz HDR10 Freesync chuyên game
-                                        </a>
-                                        <ul>
-                                            <li>Kích thước 23.8 Inch</li>
-                                            <li>Độ phân giải 1920x1080 - tấm nền IPS</li>
-                                            <li>Tốc độ: IPS 1ms (GtG) - Tốc độ làm mới 144Hz</li>
-                                            <li>Màu sắc: HDR10 sRGB 99% (Thông thường)</li>
-                                            <li>Thông số kỹ thuật: AMD FreeSync™ Premium</li>
-                                            <li>Độ sáng tối đa 300 cd/m²</li>
-                                            <li>Tỷ lệ tương phản (Thông thường) 1000:1</li>
-                                        </ul>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://www.lg.com/vn/images/man-hinh-may-tinh/md07563896/gallery/DZ-01.jpg"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Màn hình LG 24GN60R-B 24" IPS 144Hz HDR10 Freesync chuyên game
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">3.900.000đ</span>
-                                        <span class="container__item-price__old">6.090.000đ</span>
-                                    </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
-                                    </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                            Màn hình LG 24GN60R-B 24" IPS 144Hz HDR10 Freesync chuyên game
-                                        </a>
-                                        <ul>
-                                            <li>Kích thước 23.8 Inch</li>
-                                            <li>Độ phân giải 1920x1080 - tấm nền IPS</li>
-                                            <li>Tốc độ: IPS 1ms (GtG) - Tốc độ làm mới 144Hz</li>
-                                            <li>Màu sắc: HDR10 sRGB 99% (Thông thường)</li>
-                                            <li>Thông số kỹ thuật: AMD FreeSync™ Premium</li>
-                                            <li>Độ sáng tối đa 300 cd/m²</li>
-                                            <li>Tỷ lệ tương phản (Thông thường) 1000:1</li>
-                                        </ul>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://www.lg.com/vn/images/man-hinh-may-tinh/md07563896/gallery/DZ-01.jpg"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Màn hình LG 24GN60R-B 24" IPS 144Hz HDR10 Freesync chuyên game
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">3.900.000đ</span>
-                                        <span class="container__item-price__old">6.090.000đ</span>
-                                    </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
-                                    </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                            Màn hình LG 24GN60R-B 24" IPS 144Hz HDR10 Freesync chuyên game
-                                        </a>
-                                        <ul>
-                                            <li>Kích thước 23.8 Inch</li>
-                                            <li>Độ phân giải 1920x1080 - tấm nền IPS</li>
-                                            <li>Tốc độ: IPS 1ms (GtG) - Tốc độ làm mới 144Hz</li>
-                                            <li>Màu sắc: HDR10 sRGB 99% (Thông thường)</li>
-                                            <li>Thông số kỹ thuật: AMD FreeSync™ Premium</li>
-                                            <li>Độ sáng tối đa 300 cd/m²</li>
-                                            <li>Tỷ lệ tương phản (Thông thường) 1000:1</li>
-                                        </ul>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://www.lg.com/vn/images/man-hinh-may-tinh/md07563896/gallery/DZ-01.jpg"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Màn hình LG 24GN60R-B 24" IPS 144Hz HDR10 Freesync chuyên game
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">3.900.000đ</span>
-                                        <span class="container__item-price__old">6.090.000đ</span>
-                                    </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
-                                    </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                            Màn hình LG 24GN60R-B 24" IPS 144Hz HDR10 Freesync chuyên game
-                                        </a>
-                                        <ul>
-                                            <li>Kích thước 23.8 Inch</li>
-                                            <li>Độ phân giải 1920x1080 - tấm nền IPS</li>
-                                            <li>Tốc độ: IPS 1ms (GtG) - Tốc độ làm mới 144Hz</li>
-                                            <li>Màu sắc: HDR10 sRGB 99% (Thông thường)</li>
-                                            <li>Thông số kỹ thuật: AMD FreeSync™ Premium</li>
-                                            <li>Độ sáng tối đa 300 cd/m²</li>
-                                            <li>Tỷ lệ tương phản (Thông thường) 1000:1</li>
-                                        </ul>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://www.lg.com/vn/images/man-hinh-may-tinh/md07563896/gallery/DZ-01.jpg"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Màn hình LG 24GN60R-B 24" IPS 144Hz HDR10 Freesync chuyên game
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">3.900.000đ</span>
-                                        <span class="container__item-price__old">6.090.000đ</span>
-                                    </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
-                                    </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                            Màn hình LG 24GN60R-B 24" IPS 144Hz HDR10 Freesync chuyên game
-                                        </a>
-                                        <ul>
-                                            <li>Kích thước 23.8 Inch</li>
-                                            <li>Độ phân giải 1920x1080 - tấm nền IPS</li>
-                                            <li>Tốc độ: IPS 1ms (GtG) - Tốc độ làm mới 144Hz</li>
-                                            <li>Màu sắc: HDR10 sRGB 99% (Thông thường)</li>
-                                            <li>Thông số kỹ thuật: AMD FreeSync™ Premium</li>
-                                            <li>Độ sáng tối đa 300 cd/m²</li>
-                                            <li>Tỷ lệ tương phản (Thông thường) 1000:1</li>
-                                        </ul>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://www.lg.com/vn/images/man-hinh-may-tinh/md07563896/gallery/DZ-01.jpg"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Màn hình LG 24GN60R-B 24" IPS 144Hz HDR10 Freesync chuyên game
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">3.900.000đ</span>
-                                        <span class="container__item-price__old">6.090.000đ</span>
-                                    </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
-                                    </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                            Màn hình LG 24GN60R-B 24" IPS 144Hz HDR10 Freesync chuyên game
-                                        </a>
-                                        <ul>
-                                            <li>Kích thước 23.8 Inch</li>
-                                            <li>Độ phân giải 1920x1080 - tấm nền IPS</li>
-                                            <li>Tốc độ: IPS 1ms (GtG) - Tốc độ làm mới 144Hz</li>
-                                            <li>Màu sắc: HDR10 sRGB 99% (Thông thường)</li>
-                                            <li>Thông số kỹ thuật: AMD FreeSync™ Premium</li>
-                                            <li>Độ sáng tối đa 300 cd/m²</li>
-                                            <li>Tỷ lệ tương phản (Thông thường) 1000:1</li>
-                                        </ul>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://www.lg.com/vn/images/man-hinh-may-tinh/md07563896/gallery/DZ-01.jpg"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Màn hình LG 24GN60R-B 24" IPS 144Hz HDR10 Freesync chuyên game
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">3.900.000đ</span>
-                                        <span class="container__item-price__old">6.090.000đ</span>
-                                    </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
-                                    </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                            Màn hình LG 24GN60R-B 24" IPS 144Hz HDR10 Freesync chuyên game
-                                        </a>
-                                        <ul>
-                                            <li>Kích thước 23.8 Inch</li>
-                                            <li>Độ phân giải 1920x1080 - tấm nền IPS</li>
-                                            <li>Tốc độ: IPS 1ms (GtG) - Tốc độ làm mới 144Hz</li>
-                                            <li>Màu sắc: HDR10 sRGB 99% (Thông thường)</li>
-                                            <li>Thông số kỹ thuật: AMD FreeSync™ Premium</li>
-                                            <li>Độ sáng tối đa 300 cd/m²</li>
-                                            <li>Tỷ lệ tương phản (Thông thường) 1000:1</li>
-                                        </ul>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://www.lg.com/vn/images/man-hinh-may-tinh/md07563896/gallery/DZ-01.jpg"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Màn hình LG 24GN60R-B 24" IPS 144Hz HDR10 Freesync chuyên game
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">3.900.000đ</span>
-                                        <span class="container__item-price__old">6.090.000đ</span>
-                                    </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
-                                    </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                            Màn hình LG 24GN60R-B 24" IPS 144Hz HDR10 Freesync chuyên game
-                                        </a>
-                                        <ul>
-                                            <li>Kích thước 23.8 Inch</li>
-                                            <li>Độ phân giải 1920x1080 - tấm nền IPS</li>
-                                            <li>Tốc độ: IPS 1ms (GtG) - Tốc độ làm mới 144Hz</li>
-                                            <li>Màu sắc: HDR10 sRGB 99% (Thông thường)</li>
-                                            <li>Thông số kỹ thuật: AMD FreeSync™ Premium</li>
-                                            <li>Độ sáng tối đa 300 cd/m²</li>
-                                            <li>Tỷ lệ tương phản (Thông thường) 1000:1</li>
-                                        </ul>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col l-12">
-                                <div class="container__all-products"><a href="./page/all-screen.html">Xem tất cả sản phẩm</a></div>
                             </div>
                         </div>
                     </div>
-                    <div id="goto-keyboard" class="container__list">
-                        <div class="row">
-                            <div class="col l-12">
-                                <div class="container__list__title">Bàn phím cơ - văn phòng</div>
+                    <div id="goto-screen" class="container__list page-section">
+                        <div class="container__title-content">
+                            <h1 class="container__title">MÀN HÌNH KHUYẾN MÃI HOT - MIỄN PHÍ GIAO HÀNG - LẮP ĐẶT</h1>
+                            <div class="container__title__see-all-products">
+                                <a href="./page/all-pc.html">Xem tất cả</a>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://product.hstatic.net/1000026716/product/thumbphim_4b6a569d86fd4905b1791d53de93be3d.gif"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Bàn phím DAREU EK810X Black Grey Optical
+                            <div class="col l-2-4 m-3 c-6">
+                                <div class="products-item">
+                                    <img src="https://www.lg.com/vn/images/man-hinh-may-tinh/md07563896/gallery/DZ-01.jpg" alt="" class="products-item__avata">
+                                    <span class="products-item__name">
+                                        Màn hình LG 24GN60R-B 24" IPS 144Hz HDR10 Freesync chuyên game
                                     </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">750.000₫</span>
-                                        <span class="container__item-price__old">850.000₫</span>
+                                    <div class="products-item__price-container">
+                                        <span class="products-item__discount">3.900.000đ</span>
+                                        <span class="products-item__price">6.090.000đ</span>
                                     </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
+                                    <footer class="products-item__footer">
+                                        <li class="tag-list__item tag-is-skeweb tag-deal-color">Save 14%</li>
+                                        <div class="tag-free-ship">Free ship</div>
                                     </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                            Bàn phím DAREU EK810X Black Grey Optical
+                                    <div class="products-item__describe-popup">
+                                        <a class="products-item__name products-item__name--popup-modify" href="#">
+                                            Màn hình LG 24GN60R-B 24" IPS 144Hz HDR10 Freesync chuyên game
                                         </a>
                                         <ul>
-                                            <li>Model: DAREU EK810X Black Grey Optical</li>
-                                            <li>Thiết kế: 108 phím</li>
-                                            <li>Kết nối: có dây</li>
-                                            <li>Keycap: ABS Two-colored injection</li>
-                                            <li>Switch: D-Switch</li>
-                                            <li>Đèn led RGB</li>
-                                            <li>Trọng lượng 845g</li>
-                                            <li>Kích thước: 436 x 127 x 35mm</li>
+                                            <li>Kích thước 23.8 Inch</li>
+                                            <li>Độ phân giải 1920x1080 - tấm nền IPS</li>
+                                            <li>Tốc độ: IPS 1ms (GtG) - Tốc độ làm mới 144Hz</li>
+                                            <li>Màu sắc: HDR10 sRGB 99% (Thông thường)</li>
+                                            <li>Thông số kỹ thuật: AMD FreeSync™ Premium</li>
+                                            <li>Độ sáng tối đa 300 cd/m²</li>
+                                            <li>Tỷ lệ tương phản (Thông thường) 1000:1</li>
                                         </ul>
+
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://product.hstatic.net/1000026716/product/thumbphim_4b6a569d86fd4905b1791d53de93be3d.gif"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Bàn phím DAREU EK810X Black Grey Optical
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">750.000₫</span>
-                                        <span class="container__item-price__old">850.000₫</span>
-                                    </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
-                                    </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                            Bàn phím DAREU EK810X Black Grey Optical
-                                        </a>
-                                        <ul>
-                                            <li>Model: DAREU EK810X Black Grey Optical</li>
-                                            <li>Thiết kế: 108 phím</li>
-                                            <li>Kết nối: có dây</li>
-                                            <li>Keycap: ABS Two-colored injection</li>
-                                            <li>Switch: D-Switch</li>
-                                            <li>Đèn led RGB</li>
-                                            <li>Trọng lượng 845g</li>
-                                            <li>Kích thước: 436 x 127 x 35mm</li>
-                                        </ul>
-                                    </div>
-                                </div>
+                        </div>
+                    </div>
+                    <div id="goto-keyboard" class="container__list page-section">
+                        <div class="container__title-content">
+                            <h1 class="container__title">BÀN PHÍM CƠ - Giả cơ</h1>
+                            <div class="container__title__see-all-products">
+                                <a href="./page/all-pc.html">Xem tất cả</a>
                             </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://product.hstatic.net/1000026716/product/thumbphim_4b6a569d86fd4905b1791d53de93be3d.gif"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
+                        </div>
+                        <div class="row">
+                            <div class="col l-2-4 m-3 c-6">
+                                <div class="products-item">
+                                    <img src="https://product.hstatic.net/1000026716/product/thumbphim_4b6a569d86fd4905b1791d53de93be3d.gif" alt="" class="products-item__avata">
+                                    <span class="products-item__name">
                                         Bàn phím DAREU EK810X Black Grey Optical
                                     </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">750.000₫</span>
-                                        <span class="container__item-price__old">850.000₫</span>
+                                    <div class="products-item__price-container">
+                                        <span class="products-item__discount">750.000₫</span>
+                                        <span class="products-item__price">850.000₫</span>
                                     </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
+                                    <footer class="products-item__footer">
+                                        <li class="tag-list__item tag-is-skeweb tag-deal-color">Save 14%</li>
+                                        <div class="tag-free-ship">Free ship</div>
                                     </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                            Bàn phím DAREU EK810X Black Grey Optical
-                                        </a>
-                                        <ul>
-                                            <li>Model: DAREU EK810X Black Grey Optical</li>
-                                            <li>Thiết kế: 108 phím</li>
-                                            <li>Kết nối: có dây</li>
-                                            <li>Keycap: ABS Two-colored injection</li>
-                                            <li>Switch: D-Switch</li>
-                                            <li>Đèn led RGB</li>
-                                            <li>Trọng lượng 845g</li>
-                                            <li>Kích thước: 436 x 127 x 35mm</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://product.hstatic.net/1000026716/product/thumbphim_4b6a569d86fd4905b1791d53de93be3d.gif"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Bàn phím DAREU EK810X Black Grey Optical
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">750.000₫</span>
-                                        <span class="container__item-price__old">850.000₫</span>
-                                    </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
-                                    </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
+                                    <div class="products-item__describe-popup">
+                                        <a class="products-item__name products-item__name--popup-modify" href="#">
                                             Bàn phím DAREU EK810X Black Grey Optical
                                         </a>
                                         <ul>
@@ -1232,175 +791,70 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div id="goto-mouse" class="container__list page-section">
+                        <div class="container__title-content">
+                            <h1 class="container__title">CHUỘT GAMING - VĂN PHÒNG | KHÔNG DÂY - CÓ DÂY</h1>
+                            <div class="container__title__see-all-products">
+                                <a href="./page/all-pc.html">Xem tất cả</a>
+                            </div>
+                        </div>
                         <div class="row">
-                            <div class="col l-12">
-                                <div class="container__all-products"><a href="./page/all-keyboard.html">Xem tất cả sản phẩm</a></div>
+                            <div class="col l-2-4 m-3 c-6">
+                                <div class="products-item">
+                                    <img src="https://images.fpt.shop/unsafe/fit-in/750x500/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/9/24/637680738122983264_logitech 402 2.jpg" alt="" class="products-item__avata">
+                                    <span class="products-item__name">
+                                        Chuột Gaming Logitech G402 Hyperion Fury Ultra
+                                    </span>
+                                    <div class="products-item__price-container">
+                                        <span class="products-item__discount">820.000₫</span>
+                                        <span class="products-item__price">949.000₫</span>
+                                    </div>
+                                    <footer class="products-item__footer">
+                                        <li class="tag-list__item tag-is-skeweb tag-deal-color">Save 14%</li>
+                                        <div class="tag-free-ship">Free ship</div>
+                                    </footer>
+                                    <div class="products-item__describe-popup">
+                                        <a class="products-item__name products-item__name--popup-modify" href="#">
+                                            Chuột Gaming Logitech G402 Hyperion Fury Ultra
+                                        </a>
+                                        <ul>
+                                            <li>Công nghệ cảm biến siêu nhạy Fusion Engine cùng hệ thống 8 phím bấm</li>
+                                            <li>Tinh chỉnh độ nhạy DPI theo nhu cầu với 4000 dpi</li>
+                                            <li>Kết nối không dây USB có độ trễ thấp</li>
+                                            <li>Chip xử lý ARM 32-Bit thông minh</li>
+                                            <li>Trải nghiệm cầm nắm thoải mái tối đa với chất liệu cấu tạo bền nhẹ</li>
+                                            <li>Nhanh nhạy trong từng cú click</li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div id="goto-mouse" class="container__list">
-                        <div class="row">
-                            <div class="col l-12">
-                                <div class="container__list__title">Chuột gaming - văn phòng | không dây - có dây</div>
+                    <div id="goto-headphone" class="container__list page-section">
+                        <div class="container__title-content">
+                            <h1 class="container__title">TAI NGHE - LOA | Phụ kiện âm thanh</h1>
+                            <div class="container__title__see-all-products">
+                                <a href="./page/all-pc.html">Xem tất cả</a>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://images.fpt.shop/unsafe/fit-in/750x500/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/9/24/637680738122983264_logitech 402 2.jpg"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Chuột Gaming Logitech G402 Hyperion Fury Ultra
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">820.000₫</span>
-                                        <span class="container__item-price__old">949.000₫</span>
-                                    </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
-                                    </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                            Chuột Gaming Logitech G402 Hyperion Fury Ultra
-                                        </a>
-                                        <ul>
-                                            <li>Công nghệ cảm biến siêu nhạy Fusion Engine cùng hệ thống 8 phím bấm</li>
-                                            <li>Tinh chỉnh độ nhạy DPI theo nhu cầu với 4000 dpi</li>
-                                            <li>Kết nối không dây USB có độ trễ thấp</li>
-                                            <li>Chip xử lý ARM 32-Bit thông minh</li>
-                                            <li>Trải nghiệm cầm nắm thoải mái tối đa với chất liệu cấu tạo bền nhẹ</li>
-                                            <li>Nhanh nhạy trong từng cú click</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://images.fpt.shop/unsafe/fit-in/750x500/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/9/24/637680738122983264_logitech 402 2.jpg"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Chuột Gaming Logitech G402 Hyperion Fury Ultra
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">820.000₫</span>
-                                        <span class="container__item-price__old">949.000₫</span>
-                                    </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
-                                    </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                            Chuột Gaming Logitech G402 Hyperion Fury Ultra
-                                        </a>
-                                        <ul>
-                                            <li>Công nghệ cảm biến siêu nhạy Fusion Engine cùng hệ thống 8 phím bấm</li>
-                                            <li>Tinh chỉnh độ nhạy DPI theo nhu cầu với 4000 dpi</li>
-                                            <li>Kết nối không dây USB có độ trễ thấp</li>
-                                            <li>Chip xử lý ARM 32-Bit thông minh</li>
-                                            <li>Trải nghiệm cầm nắm thoải mái tối đa với chất liệu cấu tạo bền nhẹ</li>
-                                            <li>Nhanh nhạy trong từng cú click</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://images.fpt.shop/unsafe/fit-in/750x500/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/9/24/637680738122983264_logitech 402 2.jpg"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Chuột Gaming Logitech G402 Hyperion Fury Ultra
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">820.000₫</span>
-                                        <span class="container__item-price__old">949.000₫</span>
-                                    </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
-                                    </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                            Chuột Gaming Logitech G402 Hyperion Fury Ultra
-                                        </a>
-                                        <ul>
-                                            <li>Công nghệ cảm biến siêu nhạy Fusion Engine cùng hệ thống 8 phím bấm</li>
-                                            <li>Tinh chỉnh độ nhạy DPI theo nhu cầu với 4000 dpi</li>
-                                            <li>Kết nối không dây USB có độ trễ thấp</li>
-                                            <li>Chip xử lý ARM 32-Bit thông minh</li>
-                                            <li>Trải nghiệm cầm nắm thoải mái tối đa với chất liệu cấu tạo bền nhẹ</li>
-                                            <li>Nhanh nhạy trong từng cú click</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://images.fpt.shop/unsafe/fit-in/750x500/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/9/24/637680738122983264_logitech 402 2.jpg"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Chuột Gaming Logitech G402 Hyperion Fury Ultra
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">820.000₫</span>
-                                        <span class="container__item-price__old">949.000₫</span>
-                                    </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
-                                    </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                            Chuột Gaming Logitech G402 Hyperion Fury Ultra
-                                        </a>
-                                        <ul>
-                                            <li>Công nghệ cảm biến siêu nhạy Fusion Engine cùng hệ thống 8 phím bấm</li>
-                                            <li>Tinh chỉnh độ nhạy DPI theo nhu cầu với 4000 dpi</li>
-                                            <li>Kết nối không dây USB có độ trễ thấp</li>
-                                            <li>Chip xử lý ARM 32-Bit thông minh</li>
-                                            <li>Trải nghiệm cầm nắm thoải mái tối đa với chất liệu cấu tạo bền nhẹ</li>
-                                            <li>Nhanh nhạy trong từng cú click</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col l-12">
-                                <div class="container__all-products"><a href="./page/all-mouse.html">Xem tất cả sản phẩm</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="goto-headphone" class="container__list">
-                        <div class="row">
-                            <div class="col l-12">
-                                <div class="container__list__title">Tai nghe - loa</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://product.hstatic.net/1000026716/product/3d2d1c331e6247a5a224b20331050de7_c78b2042cbd94e5a8e62a592eb32ce20.png"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
+                            <div class="col l-2-4 m-3 c-6">
+                                <div class="products-item">
+                                    <img src="https://product.hstatic.net/1000026716/product/3d2d1c331e6247a5a224b20331050de7_c78b2042cbd94e5a8e62a592eb32ce20.png" alt="" class="products-item__avata">
+                                    <span class="products-item__name">
                                         Tai nghe Razer Hammerhead PRO V2
                                     </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">750.000₫</span>
-                                        <span class="container__item-price__old">1.090.000₫</span>
+                                    <div class="products-item__price-container">
+                                        <span class="products-item__discount">750.000₫</span>
+                                        <span class="products-item__price">1.090.000₫</span>
                                     </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
+                                    <footer class="products-item__footer">
+                                        <li class="tag-list__item tag-is-skeweb tag-deal-color">Save 14%</li>
+                                        <div class="tag-free-ship">Free ship</div>
                                     </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
+                                    <div class="products-item__describe-popup">
+                                        <a class="products-item__name products-item__name--popup-modify" href="#">
                                             Tai nghe Razer Hammerhead PRO V2
                                         </a>
                                         <ul>
@@ -1414,24 +868,20 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://product.hstatic.net/1000026716/product/gearvn-tai-nghe-logitech-g733-lightspeed-wireless-black-666_2eb1a71d562e4a6d853a0f086723cbe3.png"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Tai nghe Logitech G733 LIGHTSPEED Wireless Black
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">2.890.000₫</span>
-                                        <span class="container__item-price__old">3.890.000</span>
+                            <div class="col l-2-4 m-3 c-6">
+                                <div class="products-item">
+                                    <img src="https://product.hstatic.net/1000026716/product/gearvn-tai-nghe-logitech-g733-lightspeed-wireless-black-666_2eb1a71d562e4a6d853a0f086723cbe3.png" alt="" class="products-item__avata">
+                                    <span class="products-item__name">Tai nghe Logitech G733 LIGHTSPEED Wireless Black</span>
+                                    <div class="products-item__price-container">
+                                        <span class="products-item__discount">2.890.000₫</span>
+                                        <span class="products-item__price">3.890.000</span>
                                     </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
+                                    <footer class="products-item__footer">
+                                        <li class="tag-list__item tag-is-skeweb tag-deal-color">Save 14%</li>
+                                        <div class="tag-free-ship">Free ship</div>
                                     </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
+                                    <div class="products-item__describe-popup">
+                                        <a class="products-item__name products-item__name--popup-modify" href="#">
                                             Tai nghe Logitech G733 LIGHTSPEED Wireless Black
                                         </a>
                                         <ul>
@@ -1447,39 +897,174 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div id="goto-component" class="container__list page-section">
+                        <div class="container__title-content">
+                            <h1 class="container__title">LINH KIỆN PC - LAPTOP</h1>
+                            <div class="container__title__see-all-products">
+                                <a href="./page/all-pc.html">Xem tất cả</a>
+                            </div>
+                        </div>
                         <div class="row">
-                            <div class="col l-12">
-                                <div class="container__all-products"><a href="./page/all-headphone.html">Xem tất cả sản phẩm</a></div>
+                            <div class="col l-2-4 m-3 c-6">
+                                <div class="products-item">
+                                    <img src="https://lh3.googleusercontent.com/yM1w_gitNAQySU4yoeo8WWsUvWQyH0je5-g0kzSzz6IR0iKYihExNww4lGJQBEd6KTB8JLTQQumHJMLg3NQ=w500-rw" alt="" class="products-item__avata">
+                                    <span class="products-item__name">Ổ cứng HDD Seagate Barracuda 1TB 3.5" SATA 3 - ST1000DM010</span>
+                                    <div class="products-item__price-container">
+                                        <span class="products-item__discount">949.000₫</span>
+                                        <span class="products-item__price">1.050.000₫</span>
+                                    </div>
+                                    <footer class="products-item__footer">
+                                        <li class="tag-list__item tag-is-skeweb tag-deal-color">Save 14%</li>
+                                        <div class="tag-free-ship">Free ship</div>
+                                    </footer>
+                                    <div class="products-item__describe-popup">
+                                        <a class="products-item__name products-item__name--popup-modify" href="#">Ổ cứng HDD Seagate Barracuda 1TB 3.5" SATA 3 - ST1000DM010</a>
+                                        <ul>
+                                            <li>Dung lượng: 1TB</li>
+                                            <li>Kích thước: 3.5"</li>
+                                            <li>Kết nối: SATA 3</li>
+                                            <li>Tốc độ vòng quay: 7200RPM</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-3 c-6">
+                                <div class="products-item">
+                                    <img src="https://lh3.googleusercontent.com/QeLS8I3SDcVFFhzddVa91zGXzmu2Mn5HpMaquWV-CbDU8d_TWdoUe6h_6S2Qa8rQEoCPfTjGLegtTH3X_TN6S_D0W0mQOHKo=w500-rw" alt="" class="products-item__avata">
+                                    <span class="products-item__name">CPU INTEL Core i7-12700 (12C/20T, 4.90 GHz, 25MB) - 1700</span>
+                                    <div class="products-item__price-container">
+                                        <span class="products-item__discount">8.490.000₫</span>
+                                        <span class="products-item__price">11.169.000₫</span>
+                                    </div>
+                                    <footer class="products-item__footer">
+                                        <li class="tag-list__item tag-is-skeweb tag-deal-color">Save 14%</li>
+                                        <div class="tag-free-ship">Free ship</div>
+                                    </footer>
+                                    <div class="products-item__describe-popup">
+                                        <a class="products-item__name products-item__name--popup-modify" href="#">CPU INTEL Core i7-12700 (12C/20T, 4.90 GHz, 25MB) - 1700</a>
+                                        <ul>
+                                            <li>Nhu cầu: Gaming, Văn phòng, Đồ họa - Kỹ thuật, Doanh nghiệp, Học sinh -
+                                                Sinh viên</li>
+                                            <li>Socket: 1700, Intel Core thế hệ thứ 12</li>
+                                            <li>Tốc độ: 4.90 GHz (12nhân, 20 luồng)</li>
+                                            <li>Bộ nhớ đệm: 25MB</li>
+                                            <li>Chip đồ họa tích hợp: Intel UHD Graphics 770</li>
+                                            <li>Bộ nhớ hỗ trợ: DDR4/DDR5 Dual channel</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-3 c-6">
+                                <div class="products-item">
+                                    <img src="https://lh3.googleusercontent.com/2RhuJbPfhwcMTuFG7oM86O5u3zYEFNFR8KzzwwI1aaVGsdrONSR3dYZ6D8StXHxepZ43k8ue7JFg7us1OF9PY_EYDQP2qm3F=w500-rw" alt="" class="products-item__avata">
+                                    <span class="products-item__name">RAM desktop ADATA XPG D50 DDR4 8GB 3200 RGB Grey (1 x 8GB) DDR4 3200MHz (AX4U32008G16A-ST50)</span>
+                                    <div class="products-item__price-container">
+                                        <span class="products-item__discount">799.000₫</span>
+                                        <span class="products-item__price">990.000₫</span>
+                                    </div>
+                                    <footer class="products-item__footer">
+                                        <li class="tag-list__item tag-is-skeweb tag-deal-color">Save 14%</li>
+                                        <div class="tag-free-ship">Free ship</div>
+                                    </footer>
+                                    <div class="products-item__describe-popup">
+                                        <a class="products-item__name products-item__name--popup-modify" href="#">RAM desktop ADATA XPG D50 DDR4 8GB 3200 RGB Grey (1 x 8GB) DDR4 3200MHz (AX4U32008G16A-ST50)</a>
+                                        <ul>
+                                            <li>Dung lượng: 1 x 8GB</li>
+                                            <li>Thế hệ: DDR4</li>
+                                            <li>Bus: 3200MHz</li>
+                                            <li>Cas: 16</li>
+                                            <li>Đèn LED: RGB</li>
+                                            <li>Voltage: 1.35V</li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div id="goto-furniture" class="container__list">
-                        <div class="row">
-                            <div class="col l-12">
-                                <div class="container__list__title">Bàn - Ghế</div>
+                    <div id="goto-accessory" class="container__list page-section">
+                        <div class="container__title-content">
+                            <h1 class="container__title">PHỤ KIỆN</h1>
+                            <div class="container__title__see-all-products">
+                                <a href="./page/all-pc.html">Xem tất cả</a>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://product.hstatic.net/1000026716/product/7219_gh____gaming_msi_ch_120i_a1d935405aef4dee94061a4edd1e333c.jpg"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Ghế chơi game MSI MAG CH120 I
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">3.990.000₫</span>
-                                        <span class="container__item-price__old">5.590.000₫</span>
+                            <div class="col l-2-4 m-3 c-6">
+                                <div class="products-item">
+                                    <img src="https://lh3.googleusercontent.com/Hun9pSnlF1q_zv9Tew2iez-0Rz2wnZ-Kh0Svc_YE_K3aJL2s7ZH3LI95i0tofDmMYKbJHHOXoemtfoEk7huPbcnF_Kyr9OkgKA=w500-rw" alt="" class="products-item__avata">
+                                    <span class="products-item__name">Đế tản nhiệt Laptop Coolcold K44 - 5 quạt led xanh + led RGB</span>
+                                    <div class="products-item__price-container">
+                                        <span class="products-item__discount">630.000₫</span>
+                                        <span class="products-item__price">690.000₫</span>
                                     </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
+                                    <footer class="products-item__footer">
+                                        <li class="tag-list__item tag-is-skeweb tag-deal-color">Save 14%</li>
+                                        <div class="tag-free-ship">Free ship</div>
                                     </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                            Ghế chơi game MSI MAG CH120 I
-                                        </a>
+                                    <div class="products-item__describe-popup">
+                                        <a class="products-item__name products-item__name--popup-modify" href="#">Đế tản nhiệt Laptop Coolcold K44 - 5 quạt led xanh + led RGB</a>
+                                        <ul>
+                                            <li>Kích thước: 370 x 300 x 40 mm</li>
+                                            <li>Trọng lượng: 850gam</li>
+                                            <li>Chất liệu: Iron net + plastic</li>
+                                            <li>Kết nối: USB</li>
+                                            <li>Cáp kèm: Có</li>
+                                        </ul>
+                                    </div>
+                                    <header class="products-item__header">
+                                </div>
+                                </header>
+                            </div>
+                            <div class="col l-2-4 m-3 c-6">
+                                <div class="products-item">
+                                    <img src="https://lh3.googleusercontent.com/qq46OSQ8wMxgxYMJ6gGlrzyiZku_nHoOwMg-pe0xAxp_jRBStsgkFdaUmafokoqUS_iTiPRKjhz-Qlmfwof9=w500-rw" alt="" class="products-item__avata">
+                                    <span class="products-item__name">Lót chuột CORSAIR MM1000 Qi Charging - M CH-9440022-AP</span>
+                                    <div class="products-item__price-container">
+                                        <span class="products-item__discount">2.390.000₫</span>
+                                        <span class="products-item__price">2.590.000₫</span>
+                                    </div>
+                                    <footer class="products-item__footer">
+                                        <li class="tag-list__item tag-is-skeweb tag-deal-color">Save 14%</li>
+                                        <div class="tag-free-ship">Free ship</div>
+                                    </footer>
+                                    <div class="products-item__describe-popup">
+                                        <a class="products-item__name products-item__name--popup-modify" href="#">Lót chuột CORSAIR MM1000 Qi Charging - M CH-9440022-AP</a>
+                                        <ul>
+                                            <li>Bề mặt: Nhựa</li>
+                                            <li>Kích thước M</li>
+                                            <li>350 x 260 x</li>
+                                            <li>Nhu cầu: Gaming</li>
+                                            <li>Bảo hành 24 tháng</li>
+                                            <li>Màu sắc: Đen</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="goto-furniture" class="container__list page-section">
+                        <div class="container__title-content">
+                            <h1 class="container__title">BÀN - GHẾ gaming</h1>
+                            <div class="container__title__see-all-products">
+                                <a href="./page/all-pc.html">Xem tất cả</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l-2-4 m-3 c-6">
+                                <div class="products-item">
+                                    <img src="https://product.hstatic.net/1000026716/product/7219_gh____gaming_msi_ch_120i_a1d935405aef4dee94061a4edd1e333c.jpg" alt="" class="products-item__avata">
+                                    <span class="products-item__name">Ghế chơi game MSI MAG CH120 I</span>
+                                    <div class="products-item__price-container">
+                                        <span class="products-item__discount">3.990.000₫</span>
+                                        <span class="products-item__price">5.590.000₫</span>
+                                    </div>
+                                    <footer class="products-item__footer">
+                                        <li class="tag-list__item tag-is-skeweb tag-deal-color">Save 14%</li>
+                                        <div class="tag-free-ship">Free ship</div>
+                                    </footer>
+                                    <div class="products-item__describe-popup">
+                                        <a class="products-item__name products-item__name--popup-modify" href="#">Ghế chơi game MSI MAG CH120 I</a>
                                         <ul>
                                             <li>Sản phẩm phù hợp với: Cân nặng dưới 80kg - Chiều cao dưới 1m75</li>
                                             <li>Chất liệu: Da PVC cao cấp</li>
@@ -1492,26 +1077,20 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://product.hstatic.net/1000026716/product/12241_47f92660938c475a991abe73e491e15a.png"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Bàn chơi game DXRacer NEX
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">4.290.000₫</span>
-                                        <span class="container__item-price__old">5.490.000₫</span>
+                            <div class="col l-2-4 m-3 c-6">
+                                <div class="products-item">
+                                    <img src="https://product.hstatic.net/1000026716/product/12241_47f92660938c475a991abe73e491e15a.png" alt="" class="products-item__avata">
+                                    <span class="products-item__name">Bàn chơi game DXRacer NEX</span>
+                                    <div class="products-item__price-container">
+                                        <span class="products-item__discount">4.290.000₫</span>
+                                        <span class="products-item__price">5.490.000₫</span>
                                     </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
+                                    <footer class="products-item__footer">
+                                        <li class="tag-list__item tag-is-skeweb tag-deal-color">Save 14%</li>
+                                        <div class="tag-free-ship">Free ship</div>
                                     </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                            Bàn chơi game DXRacer NEX
-                                        </a>
+                                    <div class="products-item__describe-popup">
+                                        <a class="products-item__name products-item__name--popup-modify" href="#">Bàn chơi game DXRacer NEX</a>
                                         <ul>
                                             <li>Bộ bàn gồm: + 1 móc treo tai nghe + 1 Giá đỡ cốc + 1 PAD DXRacer NEX
                                                 size XXL 80x30 cm + 1 Giá đỡ tay cầm chơi game kiêm USB hub (4 cổng)
@@ -1525,285 +1104,108 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col l-12">
-                                <div class="container__all-products"><a href="./page/all-furniture.html">Xem tất cả sản phẩm</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="goto-component" class="container__list">
-                        <div class="row">
-                            <div class="col l-12">
-                                <div class="container__list__title">Linh kiện PC - Laptop</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://lh3.googleusercontent.com/yM1w_gitNAQySU4yoeo8WWsUvWQyH0je5-g0kzSzz6IR0iKYihExNww4lGJQBEd6KTB8JLTQQumHJMLg3NQ=w500-rw"
-                                        alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Ổ cứng HDD Seagate Barracuda 1TB 3.5" SATA 3 - ST1000DM010
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">949.000₫</span>
-                                        <span class="container__item-price__old">1.050.000₫</span>
-                                    </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
-                                    </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                            Ổ cứng HDD Seagate Barracuda 1TB 3.5" SATA 3 - ST1000DM010
-                                        </a>
-                                        <ul>
-                                            <li>Dung lượng: 1TB</li>
-                                            <li>Kích thước: 3.5"</li>
-                                            <li>Kết nối: SATA 3</li>
-                                            <li>Tốc độ vòng quay: 7200RPM</li>
-                                        </ul>
-                                    </div>
-                                    <header class="container__item-header">
-                                </div>
-                                </header>
-                            </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://lh3.googleusercontent.com/QeLS8I3SDcVFFhzddVa91zGXzmu2Mn5HpMaquWV-CbDU8d_TWdoUe6h_6S2Qa8rQEoCPfTjGLegtTH3X_TN6S_D0W0mQOHKo=w500-rw"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        CPU INTEL Core i7-12700 (12C/20T, 4.90 GHz, 25MB) - 1700
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">8.490.000₫</span>
-                                        <span class="container__item-price__old">11.169.000₫</span>
-                                    </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
-                                    </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                            CPU INTEL Core i7-12700 (12C/20T, 4.90 GHz, 25MB) - 1700
-                                        </a>
-                                        <ul>
-                                            <li>Nhu cầu: Gaming, Văn phòng, Đồ họa - Kỹ thuật, Doanh nghiệp, Học sinh -
-                                                Sinh viên</li>
-                                            <li>Socket: 1700, Intel Core thế hệ thứ 12</li>
-                                            <li>Tốc độ: 4.90 GHz (12nhân, 20 luồng)</li>
-                                            <li>Bộ nhớ đệm: 25MB</li>
-                                            <li>Chip đồ họa tích hợp: Intel UHD Graphics 770</li>
-                                            <li>Bộ nhớ hỗ trợ: DDR4/DDR5 Dual channel</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://lh3.googleusercontent.com/2RhuJbPfhwcMTuFG7oM86O5u3zYEFNFR8KzzwwI1aaVGsdrONSR3dYZ6D8StXHxepZ43k8ue7JFg7us1OF9PY_EYDQP2qm3F=w500-rw"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        RAM desktop ADATA XPG D50 DDR4 8GB 3200 RGB Grey (1 x 8GB) DDR4 3200MHz
-                                        (AX4U32008G16A-ST50)
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">799.000₫</span>
-                                        <span class="container__item-price__old">990.000₫</span>
-                                    </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
-                                    </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                            RAM desktop ADATA XPG D50 DDR4 8GB 3200 RGB Grey (1 x 8GB) DDR4 3200MHz
-                                            (AX4U32008G16A-ST50)
-                                        </a>
-                                        <ul>
-                                            <li>Dung lượng: 1 x 8GB</li>
-                                            <li>Thế hệ: DDR4</li>
-                                            <li>Bus: 3200MHz</li>
-                                            <li>Cas: 16</li>
-                                            <li>Đèn LED: RGB</li>
-                                            <li>Voltage: 1.35V</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col l-12">
-                                <div class="container__all-products"><a href="./page/all-component.html">Xem tất cả sản phẩm</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="goto-accessory" class="container__list">
-                        <div class="row">
-                            <div class="col l-12">
-                                <div class="container__list__title">Phụ kiện</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://lh3.googleusercontent.com/Hun9pSnlF1q_zv9Tew2iez-0Rz2wnZ-Kh0Svc_YE_K3aJL2s7ZH3LI95i0tofDmMYKbJHHOXoemtfoEk7huPbcnF_Kyr9OkgKA=w500-rw"
-                                        alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                        Đế tản nhiệt Laptop Coolcold K44 - 5 quạt led xanh + led RGB
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">630.000₫</span>
-                                        <span class="container__item-price__old">690.000₫</span>
-                                    </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
-                                    </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                            Đế tản nhiệt Laptop Coolcold K44 - 5 quạt led xanh + led RGB
-                                        </a>
-                                        <ul>
-                                            <li>Kích thước: 370 x 300 x 40 mm</li>
-                                            <li>Trọng lượng: 850gam</li>
-                                            <li>Chất liệu: Iron net + plastic</li>
-                                            <li>Kết nối: USB</li>
-                                            <li>Cáp kèm: Có</li>
-                                        </ul>
-                                    </div>
-                                    <header class="container__item-header">
-                                </div>
-                                </header>
-                            </div>
-                            <div class="col l-2-4">
-                                <div class="container__item">
-                                    <header class="container__item-header">
-                                        <img src="https://lh3.googleusercontent.com/qq46OSQ8wMxgxYMJ6gGlrzyiZku_nHoOwMg-pe0xAxp_jRBStsgkFdaUmafokoqUS_iTiPRKjhz-Qlmfwof9=w500-rw"
-                                            alt="" class="container__item-img">
-                                    </header>
-                                    <span class="container__item-name">
-                                       Lót chuột CORSAIR MM1000 Qi Charging - M CH-9440022-AP
-                                    </span>
-                                    <div class="container__item-price">
-                                        <span class="container__item-price__new">2.390.000₫</span>
-                                        <span class="container__item-price__old">2.590.000₫</span>
-                                    </div>
-                                    <footer class="container__item-footer container__item-footer--stocking">
-                                        <i class="fa-solid fa-circle-check"></i>Còn hàng
-                                    </footer>
-                                    <div class="container__item-describe__popup">
-                                        <a class="container__item-describe__name" href="#">
-                                           Lót chuột CORSAIR MM1000 Qi Charging - M CH-9440022-AP
-                                        </a>
-                                        <ul>
-                                            <li>Bề mặt: Nhựa</li>
-                                            <li>Kích thước M</li>
-                                            <li>350 x 260 x</li>
-                                            <li>Nhu cầu: Gaming</li>
-                                            <li>Bảo hành 24 tháng</li>
-                                            <li>Màu sắc: Đen</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col l-12">
-                                <div class="container__all-products"><a href="./page/all-accessory.html">Xem tất cả sản phẩm</a></div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- footer -->
-        <footer class="footer">
-            <div class="grid wide">
-                <div class="row">
-                    <div class="col l-3">
-                        <h3 class="footer__title">Thông tin công ty</h3>
-                        <ul class="footer__list">
-                            <li class="footer__item">
-                                <a href="">Giới thiệu công ty</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="">Chính sách bảo mật</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="">Quy chế hoạt động</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="">Góp ý, khiếu nại</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col l-3">
-                        <h3 class="footer__title">Thông tin công ty</h3>
-                        <ul class="footer__list">
-                            <li class="footer__item">
-                                <a href="">Chính sách đổi trả</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="">Hệ thống bảo hành</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="">Chính sách trả góp</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="">Hướng dẫn mua hàng</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col l-3">
-                        <h3 class="footer__title">Chăm sóc khách hàng</h3>
-                        <ul class="footer__list">
-                            <li class="footer__item">
-                                <h4 class="footer__hotline-title">Gọi mua, đặt hàng</h4>
-                                <h3 class="footer__hotline-number">0000 0000</h3>
-                            </li>
-                            <li class="footer__item">
-                                <h4 class="footer__hotline-title">Hỗ trợ kỹ thuật</h4>
-                                <h3 class="footer__hotline-number">0000 0000</h3>
-                            </li>
-                            <li class="footer__item">
-                                <h4 class="footer__hotline-title">Trung tâm bảo hành</h4>
-                                <h3 class="footer__hotline-number">0000 0000</h3>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col l-3">
-                        <h3 class="footer__title">Mạng xã hội</h3>
-                        <ul class="footer__social">
-                            <li class="footer__social__item">
-                                <a href="" class="facebook-color footer__social__item-icon"><i
-                                        class="fa-brands fa-square-facebook"></i></a>
-                            </li>
-                            <li class="footer__social__item">
-                                <a href="" class="youtube-color footer__social__item-icon"><i
-                                        class="fa-brands fa-youtube"></i></a>
-                            </li>
-                            <li class="footer__social__item">
-                                <a href="" class="footer__social__item-icon"><i class="fa-brands fa-instagram"></i></a>
-                            </li>
-                            <li class="footer__social__item">
-                                <a href="" class="footer__social__item-icon"><i class="fa-brands fa-tiktok"></i></a>
-                            </li>
-                            <li class="footer__social__item">
-                                <a href="" class="facebook-color footer__social__item-icon"><i
-                                        class="fa-brands fa-twitter"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
     </div>
 
+    <!-- footer -->
+    <footer class="footer">
+        <div class="grid wide">
+            <div class="row no-gutters content--space-between">
+                <div class="col l-3 ">
+                    <h3 class="footer__title">Thông tin công ty</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="">Giới thiệu công ty</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="">Chính sách bảo mật</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="">Quy chế hoạt động</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="">Góp ý, khiếu nại</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l-3">
+                    <h3 class="footer__title">Thông tin công ty</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="">Chính sách đổi trả</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="">Hệ thống bảo hành</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="">Chính sách trả góp</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="">Hướng dẫn mua hàng</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l-3">
+                    <h3 class="footer__title">Chăm sóc khách hàng</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <h4 class="footer__hotline-title">Gọi mua, đặt hàng</h4>
+                            <h3 class="footer__hotline-number">0000 0000</h3>
+                        </li>
+                        <li class="footer__item">
+                            <h4 class="footer__hotline-title">Hỗ trợ kỹ thuật</h4>
+                            <h3 class="footer__hotline-number">0000 0000</h3>
+                        </li>
+                        <li class="footer__item">
+                            <h4 class="footer__hotline-title">Trung tâm bảo hành</h4>
+                            <h3 class="footer__hotline-number">0000 0000</h3>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l-3">
+                    <h3 class="footer__title">Mạng xã hội</h3>
+                    <ul class="footer__list">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- copy right -->
+    <div class="grid">
+        <div class="row no-gutters">
+            <div class="copyright">
+                <span><i class="fa-regular fa-copyright"></i>4/2023 Phan Minh Quan 22NS054 (phanquan277)</span>
+
+                <ul class="copyright__social">
+                    <li class="copyright__social__item">
+                        <a href="" class="facebook-color copyright__social__item-icon"><i
+                                class="fa-brands fa-square-facebook"></i></a>
+                    </li>
+                    <li class="copyright__social__item">
+                        <a href="" class="youtube-color copyright__social__item-icon"><i
+                                class="fa-brands fa-youtube"></i></a>
+                    </li>
+                    <li class="copyright__social__item">
+                        <a href="" class="copyright__social__item-icon"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li class="copyright__social__item">
+                        <a href="" class="copyright__social__item-icon"><i class="fa-brands fa-tiktok"></i></a>
+                    </li>
+                    <li class="copyright__social__item">
+                        <a href="" class="facebook-color copyright__social__item-icon"><i
+                                class="fa-brands fa-twitter"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- sign in on from -->
     <form class="sign-iu-form__overlay js-sign-iu-overlay" action="">
         <div class="sign-iu-form js-sign-iu-form">
             <div class="sign-iu-form__close js-sign-iu-close">
@@ -1828,8 +1230,10 @@
             </button>
         </div>
     </form>
-
     <script src="./assets/js/sign-iu.js"></script>
-</body>
+    <script src="./assets/js/products.js"></script>
+    
+    <script src="./assets/js/main.js"></script>
+</body> 
 
 </html>

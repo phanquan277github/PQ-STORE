@@ -14,8 +14,8 @@
     margin-right: -4px;
 }
 .row.no-gutters {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 .col {
     padding-left: 4px;
