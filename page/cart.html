@@ -16,217 +16,92 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
     <!-- assets -->
-    <link rel="stylesheet" href="../assets/css/base.css">
-    <link rel="stylesheet" href="../assets/css/grid.css">
     <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/grid.css">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/cart.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <!-- JS -->
+    <script src="../../data/dataProducts.js"></script>
+    <script src="../js/shared.js"></script>
+    <script src="../js/spotlight.js"></script>
 </head>
 
 <body>
-    <div class="wrapper">
-        <!-- header -->
-        <header class="header">
-            <div class="grid wide">
-                <div class="row">
-                    <div class="col l-12">
-                        <nav class="header__nav">
-                            <a class="header-logo" href="../index.html"><img src="../assets/img/logo-noBG.png" alt="LOGO"></a>
-                            
-                            <div class="header__search">
-                                <input type="text" class="header__search__input" placeholder="Nhập từ khóa tìm kiếm sản phẩm">
-                                <div class="header__content__search__popup">
-                                    <header>Lịch sử tìm kiếm</header>
-                                    <ul class="header__content__search__popup__history">
-                                        <li class="header__content__search__popup__item">Hdd 1tb santa 2.5</li>
-                                        <li class="header__content__search__popup__item">Ram ddr4 8gb</li>
-                                        <li class="header__content__search__popup__item">Tai nghe chụp tai gaming
-                                        </li>
-                                    </ul>
-                                    <footer>
-                                        <button>Xóa lịch sử</button>
-                                    </footer>
-                                </div>
-                                <button class="header__content__search-btn">
-                                    <i class="fa-solid fa-magnifying-glass"></i>
-                                </button>
-                            </div>
-                            
-                            <div class="header__notify header--padding">
-                                <i class="padd-r-6 fa-regular fa-bell"></i>Thông báo
-                                <ul class="header__notify__list">
-                                    <div class="no-notice">
-                                        Không có thông báo!
-                                    </div>
-                                    <li class="right__item-notify__item ">
-    
-                                    </li>
-                                </ul>
-                            </div>
-                            
-                            <div class="header__notify header--padding">
-                                <i class="padd-r-6 fa-sharp fa-regular fa-circle-question"></i>Hỗ trợ
-                            </div>
+    <script> addHeader() </script>
 
-                            <div class="header__cart header--padding">
-                                <a href="./page/cart.html">
-                                    <i class="header__cart__icon fa-solid fa-cart-shopping"></i>
-                                </a>
-                                <p>Giỏ hàng</p>
-                            </div>
-                            
-                            <div class="header__account js-account-btn header--padding">
-                                <i class="padd-r-6 fa-solid fa-user"></i>Tài khoản
-                            </div>
-                        </nav>
+    <!-- container -->
+    <main class="container mgt-header">
+        <div class="grid wide">
+            <div class="row js-no-cart">
+                <!-- giỏ hàng chưa có sản phẩm -->
+                <div class="col l-12 m-12 c-12">
+                    <div class="no-cart">
+                        <img class="no-cart__img" src="../assets/img/no-cart.png" alt="">
+                        <h3 class="no-cart__title">Giỏ hàng chưa có sản phẩm nào</h3>
                     </div>
                 </div>
             </div>
-        </header>
-
-        <!-- container -->
-        <div class="container mgt-heaeder">
-            <div class="grid wide">
-                <div class="row">
-                    <div class="col l-12 page-cart-no-cart--hidden">
-                        <div class="page-cart-no-cart">
-                            <img class="page-cart__no-cart-img" src="../assets/img/no-cart.png" alt="">
-                            <h3 class="page-cart__no-cart-title">Giỏ hàng chưa có sản phẩm nào</h3>
+            <div class="row js-has-cart">
+                <!-- giỏ hàng đã có sản phẩm -->
+                <div class="col l-8 m-12 c-12">
+                    <header class="cart__header">
+                        <div class="cart__item__checkbox">
+                            <input type="checkbox" name="" id="check-all-product">
+                            <label for="check-all-product" class="cart__item__check-label">  Chọn tất cả<span></span></label>
+                        </div>
+                        <button class="cart__header__remove-all button"><i class="fa-solid fa-trash-can"></i>Xóa tất cả</button>
+                    </header>
+                    <div class="cart__content">
+                        <div class="cart__item">
+                            <div class="cart__item__checkbox">
+                                <input type="checkbox" name="" id="check-product2">
+                                <label for="check-product2" class="cart__item__check-label"><span></span></label>
+                            </div>
+                            <a href="" class="cart__item__img"><img src="../assets/img/nitro5-img.png" alt=""></a>
+                            <span class="cart__item__name">Bộ nhớ/ Ram Desktop ADATA XPG D50 DDR4 8GB (1x8GB) 3200 RGB Grey (AX4U32008G16A)</span>
+                            <div class="cart__item__unit-price">
+                                <div class="discount">999.999đ</div>
+                                <div class="price">1.020.000đ</div>
+                            </div>
+                            <div class="cart__item__quantity">
+                                <header class="cart__item__quantity__header">
+                                    <button class="quantity__decrease">-</button>
+                                    <div class="quantity__number">1</div>
+                                    <button class="quantity__increase">+</button>
+                                </header>
+                                <div class="quantity__delete">Xóa</div>
+                            </div>
+                            <div class="cart__item__total-price">12304148</div>
                         </div>
                     </div>
-                    <div class="col l-8">
-                        <ul class="page-cart">
-                            <header class="page-cart__header">
-                                <input class="" type="checkbox" name="" id="">
-                                <p>Thông tin sản phẩm</p>
-                                <div class="unit-price">Đơn giá</div>
-                                <div class="quantity">Số lượng</div>
-                                <div class="total-price">Tổng tiền</div>
-                            </header>
-                            <li class="page-cart__item">
-                                <input class="page-cart__item__checkbox" type="checkbox" name="" id="">
-                                <img class="page-cart__item__img" src="../assets/img/nitro5-img.png" alt="">
-                                <p class="page-cart__item__name">Bộ nhớ/ Ram Desktop ADATA XPG D50 DDR4 8GB (1x8GB) 3200 RGB Grey (AX4U32008G16A)</p>
-                                <div class="page-cart__item__unit-price">
-                                    <div class="discount">999.999đ</div>
-                                    <div class="price">1.020.000đ</div>
-                                </div>
-                                <div class="page-cart__item__quantity">
-                                    <header class="page-cart__item__quantity__header">
-                                        <button class="quantity__decrease">-</button>
-                                        <div class="quantity__number">1</div>
-                                        <button class="quantity__increase">+</button>
-                                    </header>
-                                    <div class="quantity__delete">Xóa</div>
-                                </div>
-                                <div class="page-cart__item__total-price">12304148</div>
-                            </li>
-                            <li class="page-cart__item">
-                                <input class="page-cart__item__checkbox" type="checkbox" name="" id="">
-                                <img class="page-cart__item__img" src="../assets/img/nitro5-img.png" alt="">
-                                <p class="page-cart__item__name">Bộ nhớ/ Ram Desktop ADATA XPG D50 DDR4 8GB (1x8GB) 3200 RGB Grey (AX4U32008G16A)</p>
-                                <div class="page-cart__item__unit-price">
-                                    <div class="discount">999.999đ</div>
-                                    <div class="price">1.020.000đ</div>
-                                </div>
-                                <div class="page-cart__item__quantity">
-                                    <header class="page-cart__item__quantity__header">
-                                        <button class="quantity__decrease">-</button>
-                                        <div class="quantity__number">1</div>
-                                        <button class="quantity__increase">+</button>
-                                    </header>
-                                    <div class="quantity__delete">Xóa</div>
-                                </div>
-                                <div class="page-cart__item__total-price">12304148</div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col l-4">
-
-                    </div>
                 </div>
-            </div>
+                <div class="col l-4 m-12 c-12">
+                    <div class="pay-container">
+                        <h1 class="pay__title">Thanh toán</h1>
+                        <div class="pay__row">
+                            <span>Tổng tiền:</span>
+                            <span>0.00đ</span>
+                        </div>
+                        <div class="pay__row">
+                            <span>Giảm:</span>
+                            <span>0.00đ</span>
+                        </div>
+                        <div class="pay__row">
+                            <h3>Cần thanh toán:</h3>
+                            <h4>0.00đ</h4>
+                        </div>
+                        <button class="pay__button button">Thanh toán</button>
+                    </div>
+                </div></div>
         </div>
-        <!-- footer -->
-        <footer class="footer">
-            <div class="grid wide">
-                <div class="row">
-                    <div class="col l-3">
-                        <h3 class="footer__title">Thông tin công ty</h3>
-                        <ul class="footer__list">
-                            <li class="footer__item">
-                                <a href="">Giới thiệu công ty</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="">Chính sách bảo mật</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="">Quy chế hoạt động</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="">Góp ý, khiếu nại</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col l-3">
-                        <h3 class="footer__title">Thông tin công ty</h3>
-                        <ul class="footer__list">
-                            <li class="footer__item">
-                                <a href="">Chính sách đổi trả</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="">Hệ thống bảo hành</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="">Chính sách trả góp</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="">Hướng dẫn mua hàng</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col l-3">
-                        <h3 class="footer__title">Chăm sóc khách hàng</h3>
-                        <ul class="footer__list">
-                            <li class="footer__item">
-                                <h4 class="footer__hotline-title">Gọi mua, đặt hàng</h4>
-                                <h3 class="footer__hotline-number">0000 0000</h3>
-                            </li>
-                            <li class="footer__item">
-                                <h4 class="footer__hotline-title">Hỗ trợ kỹ thuật</h4>
-                                <h3 class="footer__hotline-number">0000 0000</h3>
-                            </li>
-                            <li class="footer__item">
-                                <h4 class="footer__hotline-title">Trung tâm bảo hành</h4>
-                                <h3 class="footer__hotline-number">0000 0000</h3>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col l-3">
-                        <h3 class="footer__title">Mạng xã hội</h3>
-                        <ul class="footer__social">
-                            <li class="footer__social__item">
-                                <a href="" class="facebook-color footer__social__item-icon"><i
-                                        class="fa-brands fa-square-facebook"></i></a>
-                            </li>
-                            <li class="footer__social__item">
-                                <a href="" class="youtube-color footer__social__item-icon"><i
-                                        class="fa-brands fa-youtube"></i></a>
-                            </li>
-                            <li class="footer__social__item">
-                                <a href="" class="footer__social__item-icon"><i class="fa-brands fa-instagram"></i></a>
-                            </li>
-                            <li class="footer__social__item">
-                                <a href="" class="footer__social__item-icon"><i class="fa-brands fa-tiktok"></i></a>
-                            </li>
-                            <li class="footer__social__item">
-                                <a href="" class="facebook-color footer__social__item-icon"><i
-                                        class="fa-brands fa-twitter"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </div>
+    </main>
+
+    <script> addFooter() </script>
+    <!-- sign in on from -->
+    <script> addAccountForm(); accountEvent(); </script>
+    <script>cartEvent()</script>
+    <script>renderCartNum()</script>
 </body>
 
 </html>

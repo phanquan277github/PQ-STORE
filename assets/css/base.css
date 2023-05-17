@@ -27,6 +27,7 @@ html {
     --border-general:  1px solid #c6c1c1;
     --border-radius: 2px;
     --background-color-2: #dee0e4;
+    --backgr-f0: #F0F0F0;
     --animationFadeIn: fadeIn 0.3s ease-in-out;
     --translateFromBotRight: translateFromBotRight 0.2s linear;
 }
@@ -46,7 +47,7 @@ html {
 .open-flex {
     display: flex !important;
 }
-.display-none {
+.hide {
     display: none !important;
 }
 .display-bl {
@@ -116,13 +117,21 @@ html {
 }
 
 .page-section {
-    margin-top: 30px;
+    margin-top: 30px !important;
 }
-.mgt-heaeder {
-    margin-top: var(--header-size);
+.mgt-header {
+    margin-top: calc(var(--header-size) + 30px);
 }
 .content--space-between {
     justify-content: space-between;
 
+}
+.button {
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+.width-100 {
+    width: 100%;
 }
 /* xóa nền ảnh với: mix-blend-mode: darken; */

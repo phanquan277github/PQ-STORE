@@ -1,0 +1,206 @@
+/* css thẻ input */
+input[type=checkbox] {
+    display: none;
+}
+label {
+position: relative;
+padding-left: 20px;
+}
+label > span:before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+    background-color: #AAA;
+    box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
+    border-radius: 3px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+input[type=checkbox]:checked + label span:before {
+    content: "\2713";
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    font-size: 1.8rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 17px;
+    font-weight: bold;
+}
+
+
+/* không có sản phẩm trong giỏ */
+.no-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.no-cart__img{
+    width: 70%;
+}
+.no-cart__title {
+    font-size: 2.6rem;
+}
+
+/* có sản phẩm trong giỏ */
+.cart__header {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    font-size: 1.6rem;
+}
+.cart__header__label {
+    font-size: 1.6rem;
+}
+.cart__header__remove-all {
+    padding: 6px 0 6px 6px;
+    margin-left: auto;
+    background-color: #fff;
+}
+.cart__header__remove-all i {
+    margin-right: 4px;
+}
+.cart__header__remove-all:hover {
+    background-color: #f0f0f0;
+}
+
+.cart__content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+.cart__item {
+    display: flex;
+    font-size: 1.6rem;
+    padding: 10px;
+    margin: 6px 0;
+    width: 100%;
+    justify-content: space-between;
+    border-radius: 4px;
+    border: var(--border-general);
+    /* background-color: #ECF1FE; */
+}
+  
+.cart__item__checkbox {
+    align-self: center;
+    margin: 0 6px;
+}
+.cart__item__img {
+    display: block;
+    width: 80px;
+    min-width: 80px;
+    height: 80px;
+    align-self: center;
+}
+.cart__item__img img {
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: darken;
+    object-fit: contain;
+}
+.cart__item__name {
+    font-size: 1.4rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    padding: 0 10px;
+}
+.cart__item__unit-price {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+.cart__item__unit-price .discount {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.cart__item__unit-price .price {
+    font-size: 1.2rem;
+    text-decoration: line-through;
+}
+.cart__item__quantity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+.cart__item__quantity__header {
+    display: flex;
+    border: var(--border-general);
+    border-radius: 2px;
+}
+.cart__item__quantity__header .quantity__number,
+.cart__item__quantity__header button {
+    font-size: 1.6rem;
+    height: 26px;
+    line-height: 26px;
+    width: 26px;
+    text-align: center;
+    border: none;
+}
+.cart__item__quantity__header .quantity__number {
+    background-color: #fff;
+}
+.cart__item__quantity__header button {
+    cursor: pointer;
+}
+.cart__item__quantity .quantity__delete {
+    display: inline-block;
+    font-size: 1.3rem;
+    padding: 10px;
+    cursor: pointer;
+}
+.cart__item__quantity .quantity__delete:hover {
+    color: red;
+}
+.cart__item__total-price {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10px;
+}
+.cart__no-cart-img {
+    width: 600px;
+    box-shadow: var(--box-shadow);
+}
+
+.cart__no-cart-title {
+    color: #000;
+    font-size: 3rem;
+}
+.pay-container {
+    padding: 10px;
+    text-align: center;
+}
+.pay__row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    padding: 4px 0;
+}
+.pay__row h3,
+.pay__row h4 {
+    margin: 0;
+}
+.pay__row h4 {
+    color: red;
+}
+.pay__button {
+    font-size: 1.6rem;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    background: var(--background-gradient);
+}
+.pay__button:hover {
+    opacity: 0.8;
+}
+
+
+.hide {
+    display: none!important;
+}
