@@ -3,21 +3,20 @@ input[type=checkbox] {
     display: none;
 }
 label {
-position: relative;
-padding-left: 20px;
+    position: relative;
+    padding-left: 24px;
 }
 label > span:before {
     content: "";
     display: inline-block;
     width: 18px;
     height: 18px;
-    margin-right: 5px;
     background-color: #AAA;
     box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
     border-radius: 3px;
     position: absolute;
-    left: 0;
-    bottom: 0;
+    left: -4px;
+    top: -1px;
 }
 input[type=checkbox]:checked + label span:before {
     content: "\2713";
@@ -44,16 +43,12 @@ input[type=checkbox]:checked + label span:before {
 }
 
 /* có sản phẩm trong giỏ */
-.cart__header {
-    display: flex;
-    flex: 1;
-    align-items: center;
+.cart-check-all-lb {
     font-size: 1.6rem;
-}
-.cart__header__label {
-    font-size: 1.6rem;
+    margin-left: 4px;
 }
 .cart__header__remove-all {
+    font-size: 1.6rem;
     padding: 6px 0 6px 6px;
     margin-left: auto;
     background-color: #fff;
@@ -64,38 +59,30 @@ input[type=checkbox]:checked + label span:before {
 .cart__header__remove-all:hover {
     background-color: #f0f0f0;
 }
-
-.cart__content {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
-}
-.cart__item {
-    display: flex;
-    font-size: 1.6rem;
-    padding: 10px;
-    margin: 6px 0;
-    width: 100%;
-    justify-content: space-between;
-    border-radius: 4px;
-    border: var(--border-general);
-    /* background-color: #ECF1FE; */
-}
   
 .cart__item__checkbox {
-    align-self: center;
-    margin: 0 6px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.cart__item__check-label > span:before {
+    top: calc(100% - 10px) !important;
+}
+
 .cart__item__img {
-    display: block;
-    width: 80px;
-    min-width: 80px;
-    height: 80px;
-    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .cart__item__img img {
     width: 100%;
     height: 100%;
+    max-width: 100px;
+    max-height: 100px;
     mix-blend-mode: darken;
     object-fit: contain;
 }
@@ -105,12 +92,10 @@ input[type=checkbox]:checked + label span:before {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
-    padding: 0 10px;
 }
 .cart__item__unit-price {
     display: flex;
     flex-direction: column;
-    padding: 0 10px;
 }
 .cart__item__unit-price .discount {
     font-weight: bold;
@@ -161,7 +146,6 @@ input[type=checkbox]:checked + label span:before {
     font-weight: bold;
     display: flex;
     justify-content: flex-end;
-    padding: 0 10px;
 }
 .cart__no-cart-img {
     width: 600px;
@@ -184,7 +168,8 @@ input[type=checkbox]:checked + label span:before {
 }
 .pay__row h3,
 .pay__row h4 {
-    margin: 0;
+    margin: 0 4px 0 0;
+    text-align: start;
 }
 .pay__row h4 {
     color: red;

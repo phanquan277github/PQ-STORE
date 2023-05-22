@@ -13,11 +13,13 @@
     <!-- font roboto cdn -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <!-- assets -->
     <link rel="stylesheet" href="../assets/css/base.css">
-    <link rel="stylesheet" href="../assets/css/grid.css">
     <link rel="stylesheet" href="../assets/css/main.css">
     <link rel="stylesheet" href="../assets/css/category.css">
     <link rel="stylesheet" href="../assets/css/responsive.css">
@@ -31,215 +33,111 @@
     <script> addHeader() </script>
 
     <!-- container -->
-    <main class="category-container mgt-header">
-        <div class="grid wide">
-            <div class="row">
-                <div class="col l-12 m-12 c-12">
-                    <div class="cate__name">Máy tính để bàn</div>
-                </div>
+    <main class="container mgt-header">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <div class="cate__name">Máy tính để bàn</div>
             </div>
-            <div class="row">
-                <div class="col l-3 m-4 c-12">
-                    <div class="cate__filter hide-on-mo-and-tab">
-                        <div class="filter-on-mobile"><i class="fa-solid fa-bars"></i>Bộ lọc</div>
+        </div>
+        <div class="row g-0 g-sm-0 g-md-0 g-lg-3 g-xl-3 g-xxl-3">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-2 col-xxl-2 cate__filter--overlay">
+                <div class="cate__filter">
+                    <div class="cate__filter-close-btn"><i class="fa-solid fa-bars"></i>Bộ lọc</div>
 
-                        <div class="cate__filter__title">
-                            Mức giá<i class="fa-solid fa-chevron-down"></i>
+                    <div class="cate__filter__box">
+                        <div class="cate__filter__box__title">
+                            Mức giá<i class="bi bi-caret-down-fill"></i>
                         </div>
-                        <div class="cate__filter__input-container--range">
+                        <div class="cate__filter__box__body cate__filter__box__body--range">
                             <input type="text" placeholder="Từ">
                             <input type="text" placeholder="đến">
                         </div>
+                    </div>
 
-                        <div class="cate__filter__title">
-                            Hãng sản xuất<i class="fa-solid fa-chevron-down"></i>
+                    <div class="cate__filter__box">
+                        <div class="cate__filter__box__title">
+                            Hãng sản xuất<i class="bi bi-caret-down-fill"></i></i>
                         </div>
-                        <div class="cate__filter__input-container">
-                            <div class="cate__filter__item">
-                                <input class="cate__filter__item-check" type="checkbox" name="" id="">
-                                <label for="" class="cate__filter__item-name">ACER</label>
+                        <div class="cate__filter__box__body">
+                            <div class="cate__filter__box__item">
+                                <input class="cate__filter__box__item-check" type="checkbox" name="" id="">
+                                <label for="" class="cate__filter__box__item-name">ACER</label>
                             </div>
-                            <div class="cate__filter__item">
-                                <input class="cate__filter__item-check" type="checkbox" name="" id="">
-                                <label for="" class="cate__filter__item-name">APPLE</label>
+                            <div class="cate__filter__box__item">
+                                <input class="cate__filter__box__item-check" type="checkbox" name="" id="">
+                                <label for="" class="cate__filter__box__item-name">APPLE</label>
                             </div>
-                            <div class="cate__filter__item">
-                                <input class="cate__filter__item-check" type="checkbox" name="" id="">
-                                <label for="" class="cate__filter__item-name">Dell</label>
+                            <div class="cate__filter__box__item">
+                                <input class="cate__filter__box__item-check" type="checkbox" name="" id="">
+                                <label for="" class="cate__filter__box__item-name">Dell</label>
                             </div>
-                            <div class="cate__filter__item">
-                                <input class="cate__filter__item-check" type="checkbox" name="" id="">
-                                <label for="" class="cate__filter__item-name">HP</label>
+                            <div class="cate__filter__box__item">
+                                <input class="cate__filter__box__item-check" type="checkbox" name="" id="">
+                                <label for="" class="cate__filter__box__item-name">HP</label>
                             </div>
-                            <div class="cate__filter__item">
-                                <input class="cate__filter__item-check" type="checkbox" name="" id="">
-                                <label for="" class="cate__filter__item-name">Lenovo</label>
+                            <div class="cate__filter__box__item">
+                                <input class="cate__filter__box__item-check" type="checkbox" name="" id="">
+                                <label for="" class="cate__filter__box__item-name">Lenovo</label>
                             </div>
-                            <div class="cate__filter__item">
-                                <input class="cate__filter__item-check" type="checkbox" name="" id="">
-                                <label for="" class="cate__filter__item-name">INTEL</label>
+                            <div class="cate__filter__box__item">
+                                <input class="cate__filter__box__item-check" type="checkbox" name="" id="">
+                                <label for="" class="cate__filter__box__item-name">INTEL</label>
                             </div>
-                            <div class="cate__filter__item">
-                                <input class="cate__filter__item-check" type="checkbox" name="" id="">
-                                <label for="" class="cate__filter__item-name">AKKO</label>
+                            <div class="cate__filter__box__item">
+                                <input class="cate__filter__box__item-check" type="checkbox" name="" id="">
+                                <label for="" class="cate__filter__box__item-name">AKKO</label>
                             </div>
                         </div>
-                        
-                        <div class="cate__filter__title container__filter__demand--click">
-                            Nhu cầu<i class="fa-solid fa-chevron-down"></i>
-                        </div>
-                            <div class="cate__filter__item">
-                                <input class="cate__filter__item-check" type="checkbox" name="" id="">
-                                <label for="" class="cate__filter__item-name">PC gaming</label>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-10 col-xxl-10">
+                <div class="row g-2 mb-4">
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-12 col-xl-12 col-xxl-12 justify-content-start d-flex">
+                        <div class="cate__sort-btn"><span>Xắp sếp</span><i class="bi bi-caret-down-fill"></i>
+                            <div class="sort__container">
+                                <div class="sort__item btn border">Bán chạy</div>
+                                <div class="sort__item btn border">Khuyến mãi tốt nhất</div>
+                                <div class="sort__item btn border">Trả góp 0%</div>
+                                <div class="sort__item btn border">Giá thấp</div>
+                                <div class="sort__item btn border">Giá cao</div>
                             </div>
-                            <div class="cate__filter__item">
-                                <input class="cate__filter__item-check" type="checkbox" name="" id="">
-                                <label for="" class="cate__filter__item-name">PC văn phòng</label>
-                            </div>
-                            <div class="cate__filter__item">
-                                <input class="cate__filter__item-check" type="checkbox" name="" id="">
-                                <label for="" class="cate__filter__item-name">PC đồ họa</label>
-                            </div>
-                            <div class="cate__filter__item">
-                                <input class="cate__filter__item-check" type="checkbox" name="" id="">
-                                <label for="" class="cate__filter__item-name">Gia đình</label>
-                            </div>
-                            <div class="cate__filter__item">
-                                <input class="cate__filter__item-check" type="checkbox" name="" id="">
-                                <label for="" class="cate__filter__item-name">Học sinh - sinh viên</label>
-                            </div>
-                        
-                        <div class="cate__filter__title container__filter__demand--click">
-                            CPU<i class="fa-solid fa-chevron-down"></i>
                         </div>
-                        <div class="cate__filter__item">
-                            <input class="cate__filter__item-check" type="checkbox" name="" id="">
-                            <label for="" class="cate__filter__item-name">Apple M1</label>
-                        </div>
-                        <div class="cate__filter__item">
-                            <input class="cate__filter__item-check" type="checkbox" name="" id="">
-                            <label for="" class="cate__filter__item-name">Intel Core i3</label>
-                        </div>
-                        <div class="cate__filter__item">
-                            <input class="cate__filter__item-check" type="checkbox" name="" id="">
-                            <label for="" class="cate__filter__item-name">Intel Core i5</label>
-                        </div>
-                        <div class="cate__filter__item">
-                            <input class="cate__filter__item-check" type="checkbox" name="" id="">
-                            <label for="" class="cate__filter__item-name">Intel Core i7</label>
-                        </div>
-                        <div class="cate__filter__item">
-                            <input class="cate__filter__item-check" type="checkbox" name="" id="">
-                            <label for="" class="cate__filter__item-name">AMD Ryzen 3</label>
-                        </div>
-                        <div class="cate__filter__item">
-                            <input class="cate__filter__item-check" type="checkbox" name="" id="">
-                            <label for="" class="cate__filter__item-name">AMD Ryzen 5</label>
-                        </div>
-                        <div class="cate__filter__item">
-                            <input class="cate__filter__item-check" type="checkbox" name="" id="">
-                            <label for="" class="cate__filter__item-name">AMD Ryzen 7</label>
-                        </div>
-                        
-                        <div class="cate__filter__title container__filter__demand--click">
-                            RAM<i class="fa-solid fa-chevron-down"></i>
-                        </div>
-                        <div class="cate__filter__item">
-                            <input class="cate__filter__item-check" type="checkbox" name="" id="">
-                            <label for="" class="cate__filter__item-name">4 GB</label>
-                        </div>
-                        <div class="cate__filter__item">
-                            <input class="cate__filter__item-check" type="checkbox" name="" id="">
-                            <label for="" class="cate__filter__item-name">8 GB</label>
-                        </div>
-                        <div class="cate__filter__item">
-                            <input class="cate__filter__item-check" type="checkbox" name="" id="">
-                            <label for="" class="cate__filter__item-name">16 GB</label>
-                        </div>
-                        <div class="cate__filter__item">
-                            <input class="cate__filter__item-check" type="checkbox" name="" id="">
-                            <label for="" class="cate__filter__item-name">32GB</label>
-                        </div>
-
-                        <div class="cate__filter__title container__filter__demand--click">
-                            Ổ cứng<i class="fa-solid fa-chevron-down"></i>
-                        </div>
-                        <div class="cate__filter__item">
-                            <input class="cate__filter__item-check" type="checkbox" name="" id="">
-                            <label for="" class="cate__filter__item-name">SSD 128 GB</label>
-                        </div>
-                        <div class="cate__filter__item">
-                            <input class="cate__filter__item-check" type="checkbox" name="" id="">
-                            <label for="" class="cate__filter__item-name">SSD 240 GB</label>
-                        </div>
-                        <div class="cate__filter__item">
-                            <input class="cate__filter__item-check" type="checkbox" name="" id="">
-                            <label for="" class="cate__filter__item-name">SSD 256 GB</label>
-                        </div>
-                        <div class="cate__filter__item">
-                            <input class="cate__filter__item-check" type="checkbox" name="" id="">
-                            <label for="" class="cate__filter__item-name">SSD 512 GB</label>
-                        </div>
-                        
-                        <div class="cate__filter__title container__filter__demand--click">
-                            Card đồ họa<i class="fa-solid fa-chevron-down"></i>
-                        </div>
-                        <div class="cate__filter__item">
-                            <input class="cate__filter__item-check" type="checkbox" name="" id="">
-                            <label for="" class="cate__filter__item-name">Nvidia geforce</label>
-                        </div>
-                        <div class="cate__filter__item">
-                            <input class="cate__filter__item-check" type="checkbox" name="" id="">
-                            <label for="" class="cate__filter__item-name">AMD Radeon</label>
-                        </div>
-                        <div class="cate__filter__item">
-                            <input class="cate__filter__item-check" type="checkbox" name="" id="">
-                            <label for="" class="cate__filter__item-name">Card onboard</label>
-                        </div>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-0 col-xl-0 col-xxl-0 justify-content-end d-flex d-sm-flex d-md-flex d-lg-none d-xl-none d-xxl-none">
+                        <div class="cate__filter-btn">Bộ lọc<i class="bi bi-caret-left-fill"></i></div>
                     </div>
                 </div>
-                <div class="col l-9 m-9 c-12">
-                    <div class="row">
-                        <div class="filter-on-mobile-view filter-on-mobile"><i class="fa-solid fa-bars"></i>Bộ lọc</div>
-                        <div class="sort-label">Xắp sếp <i class="fa-sharp fa-solid fa-chevron-down"></i>
-                            <div class="sort-container">
-                                <div class="sort__item">Bán chạy</div>
-                                <div class="sort__item">Khuyến mãi tốt nhất</div>
-                                <div class="sort__item">Trả góp 0%</div>
-                                <div class="sort__item">Giá thấp</div>
-                                <div class="sort__item">Giá cao</div>
+                <div class="row js-cate-product-container">
+                    <div class="col l-12 m-12 c-12">
+                        <div class="products-item">
+                            <img src="https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/1/31/638107706869598466_pc-gaming-e-power-i7g11-3060ti-i7-11700f-den-1.jpg" alt="" class="products-item__avata">
+                            <span class="products-item__name">PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti</span>
+                            <div class="products-item__price-container">
+                                <span class="products-item__discount">33.590.000₫</span>
+                                <span class="products-item__price">00.000.000₫</span>
+                            </div>
+                            <footer class="products-item__footer">
+                                <div class="tag-list__item tag-is-skeweb tag-deal-color">Save 14%</div>
+                                <div class="tag-free-ship">Free ship</div>
+                            </footer>
+                            <div class="products-item__describe-popup">
+                                <a class="products-item__name products-item__name--popup-modify js-move-to-product" href="./product.html">PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti</a>
+                                <ul>
+                                    <li>CPU: Intel, Core i7, 12700F</li>
+                                    <li>Ram: 16 GB, DDR4, 3200 MHz</li>
+                                    <li>VGA: NVIDIA GeForce RTX 3060 Ti 8GB</li>
+                                    <li>Bộ nhớ SSD 500GB</li>
+                                    <li>Công suất bộ nguồn 750 W</li>
+                                    <li>Main Intel B660</li>
+                                    <li>Kích thước 338x255x335 mm</li>
+                                    <li>Trọng lượng 5000g, Kim loại, Đen</li>
+                                </ul>
                             </div>
                         </div>
-                    </div>
-                    <div class="row js-cate-product-container">
-                        <div class="col l-12 m-12 c-12">
-                            <div class="products-item">
-                                <img src="https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/1/31/638107706869598466_pc-gaming-e-power-i7g11-3060ti-i7-11700f-den-1.jpg" alt="" class="products-item__avata">
-                                <span class="products-item__name">PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti</span>
-                                <div class="products-item__price-container">
-                                    <span class="products-item__discount">33.590.000₫</span>
-                                    <span class="products-item__price">00.000.000₫</span>
-                                </div>
-                                <footer class="products-item__footer">
-                                    <div class="tag-list__item tag-is-skeweb tag-deal-color">Save 14%</div>
-                                    <div class="tag-free-ship">Free ship</div>
-                                </footer>
-                                <div class="products-item__describe-popup">
-                                    <a class="products-item__name products-item__name--popup-modify js-move-to-product" href="./product.html">PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti</a>
-                                    <ul>
-                                        <li>CPU: Intel, Core i7, 12700F</li>
-                                        <li>Ram: 16 GB, DDR4, 3200 MHz</li>
-                                        <li>VGA: NVIDIA GeForce RTX 3060 Ti 8GB</li>
-                                        <li>Bộ nhớ SSD 500GB</li>
-                                        <li>Công suất bộ nguồn 750 W</li>
-                                        <li>Main Intel B660</li>
-                                        <li>Kích thước 338x255x335 mm</li>
-                                        <li>Trọng lượng 5000g, Kim loại, Đen</li>
-                                    </ul>
-                                </div>
-                            </div>
 
-                        </div>
                     </div>
                 </div>
             </div>
@@ -251,6 +149,9 @@
     <script> addAccountForm(); accountEvent(); </script>
     <script>categoryEvent()</script>
     <script>renderCartNum()</script>
+    <script>headerRightResponsive()</script>
+    
+    <script>cateFilterResponsive()</script>
 </body>
 
 </html>

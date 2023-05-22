@@ -116,7 +116,7 @@ const spotlightProducts = [
             "https://resource.logitechg.com/w_692,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g402/gallery-5.png?v=1"
         ]
     },{
-        cateId: 6,
+        cateId: 7,
         id: 6,
         name: "Tai nghe Razer Hammerhead PRO V2",
         price: 1_090_000,
@@ -139,7 +139,7 @@ const spotlightProducts = [
             "https://hstatic.net/716/1000026716/1/2016/5-7/gallery-razer-hammerhead-pro-v2-3.png"
         ]
     },{
-        cateId: 6,
+        cateId: 7,
         id: 7,
         name: "Tai nghe Logitech G733 LIGHTSPEED Wireless Black",
         price: 3_890_000,
@@ -159,7 +159,7 @@ const spotlightProducts = [
 
         ]
     },{
-        cateId: 7,
+        cateId: 8,
         id: 8,
         name: "Ổ cứng HDD Seagate Barracuda 1TB 3.5\" SATA 3 - ST1000DM010",
         price: 1_050_000,
@@ -176,7 +176,7 @@ const spotlightProducts = [
             "https://lh3.googleusercontent.com/yM1w_gitNAQySU4yoeo8WWsUvWQyH0je5-g0kzSzz6IR0iKYihExNww4lGJQBEd6KTB8JLTQQumHJMLg3NQ=w1000-rw",
         ]
     },{
-        cateId: 8,
+        cateId: 9,
         id: 9,
         name: "CPU INTEL Core i7-12700 (12C/20T, 4.90 GHz, 25MB) - 1700",
         price: 11_169_000,
@@ -195,7 +195,7 @@ const spotlightProducts = [
             "https://lh3.googleusercontent.com/QeLS8I3SDcVFFhzddVa91zGXzmu2Mn5HpMaquWV-CbDU8d_TWdoUe6h_6S2Qa8rQEoCPfTjGLegtTH3X_TN6S_D0W0mQOHKo=w1000-rw",
         ]
     },{
-        cateId: 9,
+        cateId: 10,
         id: 10,
         name: "RAM desktop ADATA XPG D50 DDR4 8GB 3200 RGB Grey (1 x 8GB) DDR4 3200MHz (AX4U32008G16A-ST50)",
         price: 990_000,
@@ -213,7 +213,7 @@ const spotlightProducts = [
             "https://lh3.googleusercontent.com/2RhuJbPfhwcMTuFG7oM86O5u3zYEFNFR8KzzwwI1aaVGsdrONSR3dYZ6D8StXHxepZ43k8ue7JFg7us1OF9PY_EYDQP2qm3F=w500-rw",
         ]
     },{
-        cateId: 15,
+        cateId: 16,
         id: 11,
         name: "Đế tản nhiệt Laptop Coolcold K44 - 5 quạt led xanh + led RGB",
         price: 690_000,
@@ -230,7 +230,7 @@ const spotlightProducts = [
             "https://lh3.googleusercontent.com/Hun9pSnlF1q_zv9Tew2iez-0Rz2wnZ-Kh0Svc_YE_K3aJL2s7ZH3LI95i0tofDmMYKbJHHOXoemtfoEk7huPbcnF_Kyr9OkgKA=w500-rw"
         ]
     },{
-        cateId: 15,
+        cateId: 16,
         id: 12,
         name: "Lót chuột CORSAIR MM1000 Qi Charging - M CH-9440022-AP",
         price: 2_590_000,
@@ -251,7 +251,7 @@ const spotlightProducts = [
             "https://lh3.googleusercontent.com/0BwH3ZroWwPQ8ZZtF5YDn7vNkDMKSsMDjn4voMq708RRZqA8lQvlmOITXrcYYN3M0TzTcW6mBqotWr5BCC0=w1000-rw",
         ]
     },{
-        cateId: 16,
+        cateId: 17,
         id: 13,
         name: "Ghế chơi game MSI MAG CH120 I",
         price: 5_590_000,
@@ -275,7 +275,7 @@ const spotlightProducts = [
             "https://lh3.googleusercontent.com/iHNyiG65GE7O8e57gpAzVWRy77WGs9S5MzrTgwFGd2TxKNcHEZ3jsnPrDDSMzQwpum0Us04CdBvzZ1V814KuY4acMNKXBQ70=w1000-rw"
         ]
     },{
-        cateId: 16,
+        cateId: 17,
         id: 14,
         name: "Bàn chơi game DXRacer NEX",
         price: 5_490_000,
@@ -2334,67 +2334,368 @@ const categories = [
     {
         id: 1,
         name: "desktops",
-        img: "https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_desktops_062022.jpg"
+        img: "https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_desktops_062022.jpg",
+        filters: [
+            {
+                title: "Hãng sản xuất",
+                contents: ["E-Power", "ASUS", "Dell", "HP", "INTEL", "Lenovo", "Custom"]
+            },{
+                title: "CPU",
+                contents: ["Core i3", "Core i5", "Core i7", "Core i9", "Intel Core thế hệ 10", "Intel Core thế hệ 11", "Pentinum", "Ryzen 3", "Ryzen 5", "Ryzen 7", "Ryzen 9", "Xeon"]
+            },{
+                title: "RAM",
+                contents: ["4GB", "8GB", "16GB", "32GB", "64GB"]
+            },{
+                title: "SSD",
+                contents: ["120GB", "128GB", "250GB", "256GB", "500GB", "512GB", "1TB"]
+            },{
+                title: "HDD",
+                contents: ["256GB", "500GB", "516GB", "1TB", "2TB"]
+            }
+        ]
     },{
         id: 2,
         name: "laptops",
-        img: "https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_laptops_062022.jpg"
+        img: "https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_laptops_062022.jpg",
+        filters: [
+            {
+                title: "Thương hiệu",
+                contents: ["ACER", "ASUS", "Dell", "GIGABYTE", "HP", "Lenovo", "MSI", "Huawei", "APPLE"]
+            },{
+                title: "CPU",
+                contents: ["Apple", "Apple M", "Caleron", "Core M", "Core i3", "Core i5", "Core i7", "Core i9", "Qualcomm", "Snapdragon", "Ryzen 3", "Ryzen 5", "Ryzen 7", "Ryzen 9", "Xeon"]
+            },{
+                title: "Card đồ họa",
+                contents: ["AMD Redeon series", "Nvidia gefore series", "Card onboard"]
+            },{
+                title: "RAM",
+                contents: ["4GB", "8GB", "16GB", "32GB", "64GB"]
+            },{
+                title: "Ổ cứng",
+                contents: ["SSD 128 GB", "SSD 256 GB", "SSD 521 GB", "SSD 1 TB"]
+            },{
+                title: "Kích thước màn hình",
+                contents: ["khoảng 13 inch", "khoảng 14 inch", "khoảng 15.6 inch", "trên 15.6 inch"]
+            },{
+                title: "Độ phân giải",
+                contents: ["HD", "Full HD", "Full HD+", "Quad HD (2K)", "Quad HD+ (2K)", "3K", "UHD+", "Ultra HD (4K)"]
+            }
+        ]
     },{
         id: 3,
         name: "monitors",
-        img: "https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_monitors_062022a.jpg"
+        img: "https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_monitors_062022a.jpg",
+        filters: [
+            {
+                title: "Thương hiệu",
+                contents: ["Samsung", "Apple", "Xiaomi", "Asus", "ViewSonic", "Asus", "Acer", "HP", "LG", "MSI", "AOC", "Dell", "Lenovo"]
+            },{
+                title: "Kích thước màn hình",
+                contents: ["Dưới 21 inch", "Khoảng 21.5 inch", "Khoảng 24 inch", "Khoảng 27 inch", "Khoảng 32 inch"]
+            },{
+                title: "Tần số quyét",
+                contents: ["60 Hz", "75 Hz", "144 Hz", "165 Hz", "", "", ""]
+            },{
+                title: "Độ phân giải",
+                contents: ["HD", "Full HD", "2K", "4K", "5K"]
+            }
+        ]
     },{
         id: 4,
         name: "keyboards",
-        img: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Keyboard_1x._SY116_CB667159063_.jpg"
+        img: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Keyboard_1x._SY116_CB667159063_.jpg",
+        filters: [
+            {
+                title: "Thương hiệu",
+                contents: ["Apple", "Microsoft", "Logitech", "Corsair", "Asus", "Dareu", "E-Dra", "A4 tech", "Dell", "Fuhlen", "Gigabyte", "HyperX", "MSI", "NewMen", "Razer", "Rapoo", "Zidli"]
+            },{
+                title: "Màu sắc",
+                contents: ["Đen", "Bạc", "Trắng", "Hồng", "Màu mix", "Màu đơn"]
+            },{
+                title: "Loại bàn phím",
+                contents: ["Bàn phím cơ", "bàn phím thường", "bàn phím giả cơ"]
+            },{
+                title: "Đèn",
+                contents: ["Không", "RGB", "Rainbow", "Đơn sắc"]
+            },{
+                title: "Loại Switch",
+                contents: ["Aqua", "Black", "Blue", "Bronze", "Brown", "Green", "Orange", "Pink", "Red", "White", "Silver", "Yellow"]
+            }
+        ]
     },{
         id: 5,
         name: "mouses",
-        img: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Mouse_1x._SY116_CB667159063_.jpg"
+        img: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Mouse_1x._SY116_CB667159063_.jpg",
+        filters: [
+            {
+                title: "Thương hiệu",
+                contents: ["Apple", "Microsoft", "Logitech", "Corsair", "Asus", "Dareu", "E-Dra", "A4 tech", "Dell", "Fuhlen", "Gigabyte", "HyperX", "MSI", "NewMen", "Razer", "Rapoo", "Zidli"]
+            },{
+                title: "Loại chuột",
+                contents: ["Có dây", "Không dây"]
+            },{
+                title: "Đèn",
+                contents: ["RGB", "Đơn sắc", "không đèn"]
+            },{
+                title: "Màu sắc",
+                contents: ["Đen", "Trắng", "Hồng", "Màu mix", "Màu đơn khác"]
+            }
+        ]
     },{
         id: 6,
-        name: "audios",
-        img: "https://product.hstatic.net/1000026716/product/gearvn-tai-nghe-logitech-g733-lightspeed-wireless-black-666_2eb1a71d562e4a6d853a0f086723cbe3.png"
+        name: "loudspeaker",
+        img: "https://c1.neweggimages.com/ProductImage/AWATS2206280HE1F82A.jpg",
+        filters: [
+            {
+                title: "Thương hiệu",
+                contents: ["Marshall", "JBL", "Bose", "Sony", "Samsung", "LG", "Harman Kardon", "Soundmax", "Monster", "Sennheiser"]
+            },{
+                title: "Công xuất",
+                contents: ["Dưới 5w", "Dưới 10w", "Dưới 15w", "Dưới 20w", "Dưới 50w", "Dưới 100w", "Dưới 200w", "Dưới 300w"]
+            },{
+                title: "Kết nối",
+                contents: ["3.5 mm", "AUX", "USB", "Bluetooth"]
+            }
+        ]
     },{
         id: 7,
-        name: "rom", //ổ cứng hdd, sdd .....
-        img: "https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_ssds_062022.jpg"
+        name: "earphone",
+        img: "https://product.hstatic.net/1000026716/product/gearvn-tai-nghe-logitech-g733-lightspeed-wireless-black-666_2eb1a71d562e4a6d853a0f086723cbe3.png",
+        filters: [
+            {
+                title: "Thương hiệu",
+                contents: ["Sennheiser", "JBL", "Sony", "Bose", "Audio-Technica", "Beats by Dre", "AKG Acoustics", "Beyerdynamic", "Bang & Olufsen", "Samsung", "Jabra", "Marshall", "Xiaomi", "Apple", "Philips", "Razer", "Harman Kardon", "HyperX", "Shure"]
+            },{
+                title: "Kết nối",
+                contents: ["3.5 mm", "USB", "Bluetooth"]
+            },{
+                title: "Kiểu tai nghe",
+                contents: ["Earbuds", "in-ear", "on-ear", "Over-ear"]
+            },{
+                title: "Đèn",
+                contents: ["RGB", "Đơn sắc", "không đèn"]
+            }
+        ]
     },{
         id: 8,
-        name: "cpu",
-        img: "https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_12_2022Home_Page_CPUs.png"
+        name: "rom", //ổ cứng hdd, sdd .....
+        img: "https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_ssds_062022.jpg",
+        filters: [
+            {
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            }
+        ]
     },{
         id: 9,
-        name: "ram",
-        img: "https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_memory_062022.jpg"
+        name: "cpu",
+        img: "https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_12_2022Home_Page_CPUs.png",
+        filters: [
+            {
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            }
+        ]
     },{
         id: 10,
-        name: "mainboards",
-        img: "https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_motherboards_062022.jpg"
+        name: "ram",
+        img: "https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_memory_062022.jpg",
+        filters: [
+            {
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            }
+        ]
     },{
         id: 11,
-        name: "fans-cooling",
-        img: "https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_cooling_500.jpg"
+        name: "mainboards",
+        img: "https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_motherboards_062022.jpg",
+        filters: [
+            {
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            }
+        ]
     },{
         id: 12,
-        name: "power-supplies",
-        img: "https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_PowerSupplies500_062022.jpg"
+        name: "fans-cooling",
+        img: "https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_cooling_500.jpg",
+        filters: [
+            {
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            }
+        ]
     },{
         id: 13,
-        name: "computer-cases",
-        img: "https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_ComputerCases500_062022.jpg"
+        name: "power-supplies",
+        img: "https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_PowerSupplies500_062022.jpg",
+        filters: [
+            {
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            }
+        ]
     },{
         id: 14,
-        name: "graphics-cards",
-        img: "https://lh3.googleusercontent.com/d6ai4kLwphlk-fv9sU3Cgu-GjNMDJPgvskvhJz7cu35Ej_7sxkX9aBIF-cb6nycmaowQrXh7Za4UqHx6PDsYYwGIDQ_sQU4q=w500-rw"
+        name: "computer-cases",
+        img: "https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_ComputerCases500_062022.jpg",
+        filters: [
+            {
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            }
+        ]
     },{
         id: 15,
-        name: "accessories",
-        img: "https://lh3.googleusercontent.com/Hun9pSnlF1q_zv9Tew2iez-0Rz2wnZ-Kh0Svc_YE_K3aJL2s7ZH3LI95i0tofDmMYKbJHHOXoemtfoEk7huPbcnF_Kyr9OkgKA=w500-rw"
+        name: "graphics-cards",
+        img: "https://lh3.googleusercontent.com/d6ai4kLwphlk-fv9sU3Cgu-GjNMDJPgvskvhJz7cu35Ej_7sxkX9aBIF-cb6nycmaowQrXh7Za4UqHx6PDsYYwGIDQ_sQU4q=w500-rw",
+        filters: [
+            {
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            }
+        ]
     },{
         id: 16,
+        name: "accessories",
+        img: "https://lh3.googleusercontent.com/Hun9pSnlF1q_zv9Tew2iez-0Rz2wnZ-Kh0Svc_YE_K3aJL2s7ZH3LI95i0tofDmMYKbJHHOXoemtfoEk7huPbcnF_Kyr9OkgKA=w500-rw",
+        filters: [
+            {
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            }
+        ]
+    },{
+        id: 17,
         name: "furnitures",
-        img: "https://c1.neweggimages.com/ProductImageCompressAll300/AH07S210401f4RF7.jpg?ex=2"
+        img: "https://c1.neweggimages.com/ProductImageCompressAll300/AH07S210401f4RF7.jpg?ex=2",
+        filters: [
+            {
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            },{
+                title: "",
+                contents: ["", "", "", "", "", "", ""]
+            }
+        ]
     }
 ]
 
@@ -2421,10 +2722,7 @@ const categories = [
         return n.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + currency;
     }
 
-// render slidershow
-
-
-
+// render slideshow
 function addSlidershow(){
     const hotProductsAdmin = [1, 2, 3];
     const hotCateAdmin = [1, 2, 3];
@@ -2444,73 +2742,83 @@ function addSlidershow(){
         }
     });
     document.write(`
-        <div class="slidershow-container">
-            <div class="grid wide">
+        <div class="slideshow-container mgt-header">
+            <div class="container">
                 <div class="row">
-                    <div class="col l-12 m-12 s-12">
-                        <div class="slidershow">
-                            <div class="slidershow__slides">
-                                <img src="https://promotions.newegg.com/nepro/23-0488/1920x660@2x.jpg" alt="" class="slides-img">
+                    <div class="col">
+                        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators slideshow--carousel-indicators">
+                                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
                             </div>
-                            <div class="slidershow__slides">
-                                <img src="https://promotions.newegg.com/nepro/23-0522/1920x660.jpg" alt="" class="slides-img">
+                            <div class="carousel-inner">
+                                <div class="obj-fit-contain carousel-item active">
+                                    <img src="https://promotions.newegg.com/nepro/23-0488/1920x660@2x.jpg" alt="error" class="d-block w-100">
+                                </div>
+                                <div class="obj-fit-contain carousel-item">
+                                    <img src="https://promotions.newegg.com/nepro/23-0522/1920x660.jpg" alt="error" class="d-block w-100">
+                                </div>
+                                <div class="obj-fit-contain carousel-item">
+                                    <img src="https://promotions.newegg.com/marketplace/23-0534/1920x660@2x.png" alt="error" class="d-block w-100">
+                                </div>
                             </div>
-                            <div class="slidershow__slides">
-                                <img src="https://promotions.newegg.com/marketplace/23-0534/1920x660@2x.png" alt="" class="slides-img">
-                            </div>
-
-                            <div class="slidershow__slides--pre"><i class="fa-solid fa-chevron-left"></i></div>
-                            <div class="slidershow__slides--next"><i class="fa-solid fa-chevron-right"></i></div>
-
+                            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                                <span class="slideshow__pre-btn carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                                <span class="slideshow__next-btn carousel-control-next-icon"></span>
+                            </button>
+                                
                             <!-- gợi ý của sildershow -->
-                            <div class="slidershow__suggest-container">
-                                <div class="col l-4 m-4 c-12">
-                                    <div class="slidershow__suggest">
-                                        <h2 class="slidershow__suggest__title auto-hidden-text-2line">Hi, 'tên người dùng'</h2>
-                                        <div class="row">
-                                            <div class="col l-12 m-12 c-12">
-                                                <p class="slidershow__suggest__welcome-txt">Chào mừng đến với <span>PQ Store</span>! Hy vọng bạn thích mua sắm ở đây ngày hôm nay. Nếu bạn có bất kỳ nhận xét hoặc đề xuất nào, vui lòng để lại
-                                                    <a href="#">phản hồi</a> cho chúng tôi
-                                                </p>
-                                            </div>
+                            <div class="row g-3 slideshow__suggest-container">
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                    <div class="slideshow__suggest">
+                                        <h2 class="slideshow__suggest__title auto-hidden-text-1line">Hi, 'tên người dùng'</h2>
+                                        <div class="slideshow__suggest__content overflow-hidden">
+                                            <p class="slideshow__suggest__welcome-txt">Chào mừng đến với <span>PQ Store</span>! Hy vọng bạn thích mua sắm ở đây ngày hôm nay. Nếu bạn có bất kỳ nhận xét hoặc đề xuất nào, vui lòng để lại
+                                                <a href="#">phản hồi</a> cho chúng tôi
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col l-4 m-4 c-12">
-                                    <div class="slidershow__suggest">
-                                        <h2 class="slidershow__suggest__title auto-hidden-text-2line">Chuyên mục có thể bạn quan tâm</h2>
-                                        <div class="row width-100">
-                                            ${
-                                                hotCategories.map(item => {
-                                                    return `<div class="col l-4 m-4 c-4">
-                                                                <a href="./category.html?${item.id}" class="slidershow__item-link">
-                                                                    <img class="slidershow__item-img" src="${item.img}" alt="">
-                                                                    <footer class="slidershow__item-name">${item.name}</footer>
+                                <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4 d-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
+                                    <div class="slideshow__suggest">
+                                        <h2 class="slideshow__suggest__title auto-hidden-text-1line">Chuyên mục có thể bạn quan tâm</h2>
+                                        <div class="row slideshow__suggest__content">
+                                                ${
+                                                    hotCategories.map(item => {
+                                                        return `<div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                                                                    <a href="./category.html?${item.id}" class="slideshow__item-link">
+                                                                        <img class="slideshow__item-img" src="${item.img}" alt="">
+                                                                        <footer class="slideshow__item-name">${item.name}</footer>
+                                                                    </a>
+                                                                </div>`
+                                                    }).join("")
+                                                }
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 hide-on-mobile">
+                                    <div class="slideshow__suggest">
+                                        <h2 class="slideshow__suggest__title auto-hidden-text-1line">Sản phẩm có thể bạn quan tâm</h2>
+                                        <div class="slideshow__suggest__content">
+                                            <div class="row h-100">
+                                                ${
+                                                    hotProducts.map(item => {
+                                                        return `
+                                                            <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4 h-100 position-relative slideshow__item-product--popup">
+                                                                <img class="slideshow__item-product" src="${item.pictures[0]}" alt="">
+                                                                <a href="./product.html?${item.id}" class="slideshow__item-popup">
+                                                                    <img src="${item.pictures[0]}"alt="" class="slideshow__suggest--img products-item__avata">
+                                                                    <span class="slideshow__suggest--name products-item__name">${item.name}</span>
+                                                                    <span class="slideshow__suggest--new-price products-item__discount">${formatCurrency(item.discount, "₫")}</span>
+                                                                    <span class="slideshow__suggest--old-price products-item__price">${formatCurrency(item.price, "₫")}</span>
                                                                 </a>
                                                             </div>`
-                                                }).join("")
-                                            }
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col l-4 m-4 c-12 hide-on-mobile">
-                                    <div class="slidershow__suggest">
-                                        <h2 class="slidershow__suggest__title auto-hidden-text-2line">Sản phẩm có thể bạn quan tâm</h2>
-                                        <div class="row width-100">
-                                            ${
-                                                hotProducts.map(item => {
-                                                    return `
-                                                        <div class="col l-4 m-4 c-4 add-posi-relative">
-                                                            <img class="slidershow__item-img slidershow__item--hover-popup" src="${item.pictures[0]}" alt="">
-                                                            <a href="./product.html?${item.id}" class="slidershow__item-popup">
-                                                                <img src="${item.pictures[0]}"alt="" class="slidershow__suggest--img products-item__avata">
-                                                                <span class="slidershow__suggest--name products-item__name">${item.name}</span>
-                                                                <span class="slidershow__suggest--new-price products-item__discount">${formatCurrency(item.discount, "₫")}</span>
-                                                                <span class="slidershow__suggest--old-price products-item__price">${formatCurrency(item.price, "₫")}</span>
-                                                            </a>
-                                                        </div>`
-                                                }).join("")
-                                            }
+                                                    }).join("")
+                                                }
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -2535,14 +2843,14 @@ function addTodayBestDeal(){
     });
     document.write(`
         <div class="best-deal-container page-section">
-            <div class="grid wide">
+            <div class="container">
                 <div class="row">
-                    <div class="col l-12 m-12 c-12">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                         <h1 class="container__title">Todays best deals</h1>
                     </div>
                 </div>
-                <div class="row no-gutters">
-                    <div class="col l-4 m-12 c-12">
+                <div class="row g-3">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
                         <div class="best-deal__product--first js-best-deal--first">
                             <a class="products-item__name auto-hidden-text-3line" href="${'product.html?' + bestDealProducts[0].id}">${bestDealProducts[0].name}</a>
                             <ul class="tag-list">
@@ -2554,11 +2862,33 @@ function addTodayBestDeal(){
                             <div class="best-deal__img"><img src="${bestDealProducts[0].pictures[0]}" alt=""></div>
                         </div>
                     </div>
-                    <div class="col l-8 m-12 c-12">
-                        <div class="row no-gutters js-best-deal--second">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                        <div class="row g-3">
                             ${bestDealProducts.map( (item, index)=> {
-                                if(index !== 0){
-                                    return `<div class="col l-6 m-6 s-12">
+                                if(index !== 0 && index <= 2){
+                                    return `<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <div class="best-deal__product--second">
+                                                    <div class="best-deal__product__left">
+                                                        <a class="products-item__name auto-hidden-text-3line" href="${'product.html?' + item.id}"">${item.name}</a>
+                                                        <ul class="tag-list">
+                                                            <li class="tag-list__item tag-is-skeweb tag-deal-color">Save ${caculateSave(item.price, item.discount)}%</li>
+                                                            <li class="tag-list__item tag-is-skeweb tag-gift-color">Free gift</li>
+                                                        </ul>
+                                                        <span class="products-item__discount best-deal__discount">${formatCurrency(item.discount, "₫")}</span>
+                                                        <span class="products-item__price best-deal__price">${formatCurrency(item.price, "₫")}</span>
+                                                    </div>
+                                                    <img src="${item.pictures[0]}" alt="" class=" best-deal__img--vertical">      
+                                                </div>
+                                            </div>`
+                                }
+                            }).join("")}
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
+                        <div class="row g-3">
+                            ${bestDealProducts.map( (item, index)=> {
+                                if(index !== 0 && index > 2){
+                                    return `<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-12">
                                                 <div class="best-deal__product--second">
                                                     <div class="best-deal__product__left">
                                                         <a class="products-item__name auto-hidden-text-3line" href="${'product.html?' + item.id}"">${item.name}</a>
@@ -2593,7 +2923,7 @@ function addSpotlight(){
                     <a href="./category.html">Xem tất cả</a>
                 </div>
             </div>
-            <div class="row">
+            <div class="row g-3">
                 ${renderItem(spotlightProducts)}
             </div>
         </div>
@@ -2605,7 +2935,7 @@ function addSpotlight(){
         const htmls = listToRender.map((item) => {
             let linkProduct = './product.html?' + item.id;
             return `
-                <div class="col l-2-4 m-4 c-6">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
                     <div class="products-item">
                         <img src="${item.pictures[0]}" alt="" class="products-item__avata">
                         <span class="products-item__name">${item.name}</span>
@@ -2661,16 +2991,27 @@ function detailProduct(){
     }
 
     function sliderProduct(prod){
-        let sliderContainer = document.querySelector(".product-left__slider");
-        sliderContainer.innerHTML = `
-            ${
-                prod.pictures.map(img => {
-                    return `<li id="product-slide">
-                                <img src="${img}" alt="Error :))" class="product-left__img">
-                            </li>`;
-                }).join("")
-            }        
-        `
+        let carouselContainer = document.querySelector("#product-left__slideshow");
+        let carouselIndicators = carouselContainer.querySelector(".carousel-indicators");
+        let carouselInner = carouselContainer.querySelector(".carousel-inner");
+
+        carouselIndicators.innerHTML = `${
+            prod.pictures.map((img, index) => {
+                return `<button type="button" data-bs-target="#product-left__slideshow" data-bs-slide-to="${index}" class="${addActiveInFirst(index)}"></button>`;
+            }).join("")
+        } `;
+        carouselInner.innerHTML = `${
+            prod.pictures.map((img, index) => {
+                return `<div class="carousel-item ${addActiveInFirst(index)}">
+                            <img src="${img}" alt="Los Angeles" class="d-block w-100">
+                        </div>`;
+            }).join("")
+        }`;
+        function addActiveInFirst(index){
+            if(index === 0){
+                return `active`;
+            }
+        }
     }
 
     function renderSpecifications(prod){
@@ -2762,7 +3103,7 @@ function addCategory(){
     }).join("");
     document.write(`
         <div class="category page-section">
-            <div class="grid wide">
+            <div class="container">
                 <div class="category__list">
                     ${htmls}
                 </div>
@@ -2790,34 +3131,169 @@ function categoryEvent(){
                 return prod;
             }
         });
-        return renderItem(products);
+        return renderItemCatePage(products);
+    }
+    function renderItemCatePage(listToRender){
+        const htmls = listToRender.map((item) => {
+            let linkProduct = './product.html?' + item.id;
+            return `
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2">
+                    <div class="products-item">
+                        <img src="${item.pictures[0]}" alt="" class="products-item__avata">
+                        <span class="products-item__name">${item.name}</span>
+                        <div class="products-item__price-container">
+                            <span class="products-item__discount">${formatCurrency(item.discount, "₫")}</span>
+                            <span class="products-item__price">${formatCurrency(item.price, "₫")}</span>
+                        </div>
+                        <footer class="products-item__footer">
+                            <li class="tag-list__item tag-is-skeweb tag-deal-color">Save ${caculateSave(item.price, item.discount)}%</li>
+                            <div class="tag-free-ship">${item.ship}</div>
+                        </footer>
+                        <div class="products-item__describe-popup">
+                            <a class="products-item__name products-item__name--popup-modify js-move-to-product" href="${linkProduct}">${item.name}</a>
+                            <ul>
+                                ${item.shortDescription.map(desc => {
+                                    return `<li>${desc}</li>`
+                                }).join("")}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            `
+        });
+        return htmls.join("");
     }
 
-    let sortLabel = document.querySelector(".sort-label");
-    let sortContainer = document.querySelector(".sort-container");
-    sortLabel.onclick = () => {
-        if(sortContainer.style.display == "none"){
-            sortContainer.style.display = "flex";
-        }else{
-            sortContainer.style.display = "none";
+    // let sortLabel = document.querySelector(".sort-label");
+    // let sortContainer = document.querySelector(".sort-container");
+    // sortLabel.onclick = () => {
+    //     if(sortContainer.style.display == "none"){
+    //         sortContainer.style.display = "flex";
+    //     }else{
+    //         sortContainer.style.display = "none";
+    //     }
+    // }
+
+
+    filterEvent();
+    function filterEvent() {
+        renderFilter()
+        function renderFilter(){
+            let cateFilter = document.querySelector(".cate__filter");
+            let htmls = categories.map(cate => {
+                if(cate.id === idCategory){
+                    return `
+                        <div class="cate__filter-close-btn">Bộ lọc<i class="bi bi-x"></i></div>
+
+                        <div class="cate__filter__box">
+                            <div class="cate__filter__box__title">
+                                Mức giá<i class="bi bi-caret-down-fill"></i></i>
+                            </div>
+                            <div class="cate__filter__box__body cate__filter__box__body--range">
+                                <input type="text" placeholder="Từ">
+                                <input type="text" placeholder="đến">
+                            </div>
+                        </div>
+                        ${
+                            cate.filters.map(filter => {
+                                return `
+                                    <div class="cate__filter__box">
+                                        <div class="cate__filter__box__title">
+                                            ${filter.title}<i class="bi bi-caret-down-fill"></i></i>
+                                        </div>
+                                        <div class="cate__filter__box__body">
+                                            ${
+                                                filter.contents.map(content => {
+                                                    return `
+                                                        <div class="cate__filter__box__item">
+                                                            <input class="cate__filter__box__item-check" type="checkbox" name="" id="">
+                                                            <label for="" class="cate__filter__box__item-name">${content}</label>
+                                                        </div>`
+                                                }).join("")
+                                            }
+                                        </div>
+                                    </div>`
+                            }).join("")
+                        }`
+                }
+            });
+            cateFilter.innerHTML = htmls.join("");
+            console.log(cateFilter);
+        }
+
+
+
+        filterBoxEvent();
+        function filterBoxEvent(){
+            let filterBoxes = document.querySelectorAll(".cate__filter__box");
+            Array.from(filterBoxes).map(box => {
+                let filterTitle = box.querySelector(".cate__filter__box__title");
+                let filterTitleIcon = filterTitle.querySelector(".cate__filter__box__title i");
+                let filterInput = box.querySelector(".cate__filter__box__body");
+                filterTitle.onclick = () => {
+                    if(filterInput.style.display == "none"){
+                        filterInput.style.display = "flex";
+                        filterTitleIcon.style.transform = "rotate(180deg)";
+                    }else{
+                        filterTitleIcon.style.transform = "rotate(0deg)";
+                        filterInput.style.display = "none";
+                    }
+                }
+            })
+        }
+    }
+}
+
+
+
+function cateFilterResponsive(){
+    filter();
+    function filter(){
+        let filterOverlay = document.querySelector(".cate__filter--overlay");
+        let filterContanier = filterOverlay.querySelector(".cate__filter");
+        let filterBtn = document.querySelector(".cate__filter-btn");
+        let closeBtn = filterOverlay.querySelector(".cate__filter-close-btn i");
+
+        filterBtn.addEventListener('click', showFlex);
+        closeBtn.addEventListener('click', hideFlex);
+        filterOverlay.addEventListener('click', hideFlex); 
+
+        filterContanier.addEventListener('click', function(event){
+            event.stopPropagation() //hàm ngăn nổi bọt
+        })
+        function showFlex() {
+            filterOverlay.classList.add('d-flex');
+        }
+        function hideFlex() {
+            filterOverlay.classList.remove('d-flex');
         }
     }
 
-    let filterBtn = document.querySelector(".filter-on-mobile");
-    let filterViewBtn = document.querySelector(".filter-on-mobile-view");
-    let filterContanier = document.querySelector(".cate__filter");
-    filterViewBtn.onclick = () => {
-        hideAndShow(filterContanier);
-    }
-    filterBtn.onclick = () => {
-        hideAndShow(filterContanier);
-    }
-    function hideAndShow(block){
-        if(block.style.display == "none"){
-            block.style.display = "block";
-        }else{
-            block.style.display = "none";
+    sort();
+    function sort(){
+        let sortContanier = document.querySelector(".sort__container");
+        let sortBtn = document.querySelector(".cate__sort-btn");
+        
+        sortBtn.onclick = () => {
+            if(sortContanier.style.display == 'none'){
+                sortContanier.style.display = 'flex';
+            }else{
+                sortContanier.style.display = 'none';
+            }
         }
+        
+        
+        // sortBtn.addEventListener("click", showFlex);
+        // sortContanier.addEventListener("click", hideFlex)
+        // function showFlex() {
+        //     sortContanier.classList.add('d-flex');
+        // }
+        // function hideFlex() {
+        //     sortContanier.classList.remove('d-flex');
+        // }
+        // sortContanier.addEventListener('click', function(event){
+        //     event.stopPropagation() //hàm ngăn nổi bọt
+        // })
     }
 }
 
@@ -2837,7 +3313,8 @@ const cartProductsAdmin = [ //quản trị các sản phẩm được thêm vào
     }
 ]
 
-let carts = [ //chứa sản phảm, số lượng và tổng tiền của sản phẩm trong giỏ
+// xử lí sự kiện trang giỏ hàng
+var carts = [ //chứa sản phảm, số lượng và tổng tiền của sản phẩm trong giỏ
 // {
 //     quantity: 1,
 //     total: 
@@ -2845,36 +3322,63 @@ let carts = [ //chứa sản phảm, số lượng và tổng tiền của sản
 // }
 ];
 
-spotlightProducts.filter(prod => {  //lặp qua mảng sản phẩm và lấy sản phẩm có trong mảng quản trị cho vào mảng carts
-for(let cartAd of cartProductsAdmin) {
-    if(cartAd.id === prod.id){
-        carts.push({
-            quantity: cartAd.quantity,
-            total: cartAd.quantity*prod.discount,
-            prod: prod
-        })
-    }
-}
-})
-
-function addToCartEvent(){
-    let addToCartBtn = document.querySelector("#js-buy-btn");
-    addToCartBtn.onclick = () => {
-        let idProduct = Number(window.location.href.split("?")[1]);
-        let product = spotlightProducts.find(item => item.id === idProduct);
-        cartProductsAdmin.push({
-            id: product.id,
-            quantity: 1
-        })
-    }
+adminToCart()
+function adminToCart(){
+    carts.length = 0;
+    spotlightProducts.filter(prod => {  //lặp qua mảng sản phẩm và lấy sản phẩm có trong mảng quản trị cho vào mảng carts
+        for(let cartAd of cartProductsAdmin) {
+            if(cartAd.id === prod.id){
+                carts.push({
+                    quantity: cartAd.quantity,
+                    total: cartAd.quantity*prod.discount,
+                    prod: prod
+                })
+            }
+        }
+    })
 }
 
-function renderCartNum(){
-    let cartNum = document.querySelector(".header__cart__number");
-    cartNum.innerHTML = carts.length;
+function renderCartItem(){
+    let htmls = carts.map(cart => {
+        return `<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 border rounded p-3 cart__item" id="${cart.prod.id}">
+                    <div class="row g-2">
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1 d-flex">
+                            <div class="cart__item__checkbox">
+                                <input type="checkbox" name="cart-item" id="check-product${cart.prod.id}">
+                                <label for="check-product${cart.prod.id}" class="cart__item__check-label"><span></span></label>
+                            </div>
+                        </div>
+                        <div class="col-2 col-sm-2 col-md-1 col-lg-1 col-xl-1 col-xxl-1">
+                            <a href="./product.html?${cart.prod.id}" class="cart__item__img"><img src="${cart.prod.pictures[0]}" alt=""></a>
+                        </div>
+                        <div class="col-9 col-sm-9 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                            <span class="cart__item__name">${cart.prod.name}</span>
+                        </div>
+                        <div class="col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2 col-xxl-2  justify-content-center d-flex">
+                            <div class="cart__item__unit-price">
+                                <div class="discount" value="${cart.prod.discount}">${formatCurrency(cart.prod.discount, "đ")}</div>
+                                <div class="price">${formatCurrency(cart.prod.price, "đ")}</div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
+                            <div class="cart__item__quantity">
+                                <header class="cart__item__quantity__header">
+                                    <button class="quantity__decrease">-</button>
+                                    <div class="quantity__number" value="${cart.quantity}">${cart.quantity}</div>
+                                    <button class="quantity__increase">+</button>
+                                </header>
+                                <div class="quantity__delete">Xóa</div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2 col-xxl-2  justify-content-center d-flex">
+                            <div class="cart__item__total-price" value="${cart.prod.discount*cart.quantity}">${formatCurrency((cart.prod.discount*cart.quantity), "đ")}</div>
+                        </div>
+                    </div>
+                </div>`
+    });
+    document.querySelector(".js-has-cart").innerHTML = htmls.join("");
 }
 
-// xử lí sự kiện trang giỏ hàng
 function cartEvent(){
     let totalPays = [   //để chứa các tổng tiền của các sản phẩm được check
         // {
@@ -2891,30 +3395,7 @@ function cartEvent(){
         }else{
             document.querySelector(".js-no-cart").style.display = "none";
             document.querySelector(".js-has-cart").style.display = "flex";
-            let htmls = carts.map(cart => {
-                return `<div class="cart__item" id="${cart.prod.id}">
-                            <div class="cart__item__checkbox">
-                                <input type="checkbox" name="cart-item" id="check-product${cart.prod.id}">
-                                <label for="check-product${cart.prod.id}"" class="cart__item__check-label"><span></span></label>
-                            </div>
-                            <a href="./product.html?${cart.prod.id}" class="cart__item__img"><img src="${cart.prod.pictures[0]}"" alt=""></a>
-                            <span class="cart__item__name">${cart.prod.name}</span>
-                            <div class="cart__item__unit-price">
-                                <div class="discount" value="${cart.prod.discount}">${formatCurrency(cart.prod.discount, "đ")}</div>
-                                <div class="price">${formatCurrency(cart.prod.price, "đ")}</div>
-                            </div>
-                            <div class="cart__item__quantity">
-                                <header class="cart__item__quantity__header">
-                                    <button class="quantity__decrease">-</button>
-                                    <div class="quantity__number" value="${cart.quantity}">${cart.quantity}</div>
-                                    <button class="quantity__increase">+</button>
-                                </header>
-                                <div class="quantity__delete">Xóa</div>
-                            </div>
-                            <div class="cart__item__total-price" value="${cart.prod.discount*cart.quantity}">${formatCurrency((cart.prod.discount*cart.quantity), "đ")}</div>
-                        </div>`
-            });
-            document.querySelector(".cart__content").innerHTML = htmls.join("");
+            renderCartItem();
         }
     }
 
@@ -3061,5 +3542,24 @@ function cartEvent(){
     }
 }
 
+function renderCartNum(){
+    let cartNum = document.querySelector(".header__cart__number");
+    cartNum.innerHTML = carts.length;
+}
 
+
+function addToCartEvent(){
+    let addToCartBtn = document.querySelector("#js-buy-btn");
+    addToCartBtn.onclick = () => {
+        let idProduct = Number(window.location.href.split("?")[1]);
+        let product = spotlightProducts.find(item => item.id === idProduct);
+        cartProductsAdmin.push({
+            id: product.id,
+            quantity: 1
+        })
+        adminToCart()
+        // renderCartItem();
+        renderCartNum();
+    }
+}
 
