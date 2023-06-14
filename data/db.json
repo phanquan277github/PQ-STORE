@@ -1,0 +1,3948 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "desktops",
+      "img": "https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_desktops_062022.jpg",
+      "filters": [
+        {
+          "title": "Hãng sản xuất",
+          "contents": [
+            "E-Power",
+            "ASUS",
+            "Dell",
+            "HP",
+            "INTEL",
+            "Lenovo",
+            "Custom"
+          ]
+        },
+        {
+          "title": "CPU",
+          "contents": [
+            "Core i3",
+            "Core i5",
+            "Core i7",
+            "Core i9",
+            "Intel Core thế hệ 10",
+            "Intel Core thế hệ 11",
+            "Pentinum",
+            "Ryzen 3",
+            "Ryzen 5",
+            "Ryzen 7",
+            "Ryzen 9",
+            "Xeon"
+          ]
+        },
+        {
+          "title": "RAM",
+          "contents": [
+            "4GB",
+            "8GB",
+            "16GB",
+            "32GB",
+            "64GB"
+          ]
+        },
+        {
+          "title": "SSD",
+          "contents": [
+            "120GB",
+            "128GB",
+            "250GB",
+            "256GB",
+            "500GB",
+            "512GB",
+            "1TB"
+          ]
+        },
+        {
+          "title": "HDD",
+          "contents": [
+            "256GB",
+            "500GB",
+            "516GB",
+            "1TB",
+            "2TB"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "laptops",
+      "img": "https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_laptops_062022.jpg",
+      "filters": [
+        {
+          "title": "Thương hiệu",
+          "contents": [
+            "ACER",
+            "ASUS",
+            "Dell",
+            "GIGABYTE",
+            "HP",
+            "Lenovo",
+            "MSI",
+            "Huawei",
+            "APPLE"
+          ]
+        },
+        {
+          "title": "CPU",
+          "contents": [
+            "Apple",
+            "Apple M",
+            "Caleron",
+            "Core M",
+            "Core i3",
+            "Core i5",
+            "Core i7",
+            "Core i9",
+            "Qualcomm",
+            "Snapdragon",
+            "Ryzen 3",
+            "Ryzen 5",
+            "Ryzen 7",
+            "Ryzen 9",
+            "Xeon"
+          ]
+        },
+        {
+          "title": "Card đồ họa",
+          "contents": [
+            "AMD Redeon series",
+            "Nvidia gefore series",
+            "Card onboard"
+          ]
+        },
+        {
+          "title": "RAM",
+          "contents": [
+            "4GB",
+            "8GB",
+            "16GB",
+            "32GB",
+            "64GB"
+          ]
+        },
+        {
+          "title": "Ổ cứng",
+          "contents": [
+            "SSD 128 GB",
+            "SSD 256 GB",
+            "SSD 521 GB",
+            "SSD 1 TB"
+          ]
+        },
+        {
+          "title": "Kích thước màn hình",
+          "contents": [
+            "khoảng 13 inch",
+            "khoảng 14 inch",
+            "khoảng 15.6 inch",
+            "trên 15.6 inch"
+          ]
+        },
+        {
+          "title": "Độ phân giải",
+          "contents": [
+            "HD",
+            "Full HD",
+            "Full HD+",
+            "Quad HD (2K)",
+            "Quad HD+ (2K)",
+            "3K",
+            "UHD+",
+            "Ultra HD (4K)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "monitors",
+      "img": "https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_monitors_062022a.jpg",
+      "filters": [
+        {
+          "title": "Thương hiệu",
+          "contents": [
+            "Samsung",
+            "Apple",
+            "Xiaomi",
+            "Asus",
+            "ViewSonic",
+            "Asus",
+            "Acer",
+            "HP",
+            "LG",
+            "MSI",
+            "AOC",
+            "Dell",
+            "Lenovo"
+          ]
+        },
+        {
+          "title": "Kích thước màn hình",
+          "contents": [
+            "Dưới 21 inch",
+            "Khoảng 21.5 inch",
+            "Khoảng 24 inch",
+            "Khoảng 27 inch",
+            "Khoảng 32 inch"
+          ]
+        },
+        {
+          "title": "Tần số quyét",
+          "contents": [
+            "60 Hz",
+            "75 Hz",
+            "144 Hz",
+            "165 Hz",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "Độ phân giải",
+          "contents": [
+            "HD",
+            "Full HD",
+            "2K",
+            "4K",
+            "5K"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "keyboards",
+      "img": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Keyboard_1x._SY116_CB667159063_.jpg",
+      "filters": [
+        {
+          "title": "Thương hiệu",
+          "contents": [
+            "Apple",
+            "Microsoft",
+            "Logitech",
+            "Corsair",
+            "Asus",
+            "Dareu",
+            "E-Dra",
+            "A4 tech",
+            "Dell",
+            "Fuhlen",
+            "Gigabyte",
+            "HyperX",
+            "MSI",
+            "NewMen",
+            "Razer",
+            "Rapoo",
+            "Zidli"
+          ]
+        },
+        {
+          "title": "Màu sắc",
+          "contents": [
+            "Đen",
+            "Bạc",
+            "Trắng",
+            "Hồng",
+            "Màu mix",
+            "Màu đơn"
+          ]
+        },
+        {
+          "title": "Loại bàn phím",
+          "contents": [
+            "Bàn phím cơ",
+            "bàn phím thường",
+            "bàn phím giả cơ"
+          ]
+        },
+        {
+          "title": "Đèn",
+          "contents": [
+            "Không",
+            "RGB",
+            "Rainbow",
+            "Đơn sắc"
+          ]
+        },
+        {
+          "title": "Loại Switch",
+          "contents": [
+            "Aqua",
+            "Black",
+            "Blue",
+            "Bronze",
+            "Brown",
+            "Green",
+            "Orange",
+            "Pink",
+            "Red",
+            "White",
+            "Silver",
+            "Yellow"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "mouses",
+      "img": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Mouse_1x._SY116_CB667159063_.jpg",
+      "filters": [
+        {
+          "title": "Thương hiệu",
+          "contents": [
+            "Apple",
+            "Microsoft",
+            "Logitech",
+            "Corsair",
+            "Asus",
+            "Dareu",
+            "E-Dra",
+            "A4 tech",
+            "Dell",
+            "Fuhlen",
+            "Gigabyte",
+            "HyperX",
+            "MSI",
+            "NewMen",
+            "Razer",
+            "Rapoo",
+            "Zidli"
+          ]
+        },
+        {
+          "title": "Loại chuột",
+          "contents": [
+            "Có dây",
+            "Không dây"
+          ]
+        },
+        {
+          "title": "Đèn",
+          "contents": [
+            "RGB",
+            "Đơn sắc",
+            "không đèn"
+          ]
+        },
+        {
+          "title": "Màu sắc",
+          "contents": [
+            "Đen",
+            "Trắng",
+            "Hồng",
+            "Màu mix",
+            "Màu đơn khác"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "loudspeaker",
+      "img": "https://c1.neweggimages.com/ProductImage/AWATS2206280HE1F82A.jpg",
+      "filters": [
+        {
+          "title": "Thương hiệu",
+          "contents": [
+            "Marshall",
+            "JBL",
+            "Bose",
+            "Sony",
+            "Samsung",
+            "LG",
+            "Harman Kardon",
+            "Soundmax",
+            "Monster",
+            "Sennheiser"
+          ]
+        },
+        {
+          "title": "Công xuất",
+          "contents": [
+            "Dưới 5w",
+            "Dưới 10w",
+            "Dưới 15w",
+            "Dưới 20w",
+            "Dưới 50w",
+            "Dưới 100w",
+            "Dưới 200w",
+            "Dưới 300w"
+          ]
+        },
+        {
+          "title": "Kết nối",
+          "contents": [
+            "3.5 mm",
+            "AUX",
+            "USB",
+            "Bluetooth"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "earphone",
+      "img": "https://product.hstatic.net/1000026716/product/gearvn-tai-nghe-logitech-g733-lightspeed-wireless-black-666_2eb1a71d562e4a6d853a0f086723cbe3.png",
+      "filters": [
+        {
+          "title": "Thương hiệu",
+          "contents": [
+            "Sennheiser",
+            "JBL",
+            "Sony",
+            "Bose",
+            "Audio-Technica",
+            "Beats by Dre",
+            "AKG Acoustics",
+            "Beyerdynamic",
+            "Bang & Olufsen",
+            "Samsung",
+            "Jabra",
+            "Marshall",
+            "Xiaomi",
+            "Apple",
+            "Philips",
+            "Razer",
+            "Harman Kardon",
+            "HyperX",
+            "Shure"
+          ]
+        },
+        {
+          "title": "Kết nối",
+          "contents": [
+            "3.5 mm",
+            "USB",
+            "Bluetooth"
+          ]
+        },
+        {
+          "title": "Kiểu tai nghe",
+          "contents": [
+            "Earbuds",
+            "in-ear",
+            "on-ear",
+            "Over-ear"
+          ]
+        },
+        {
+          "title": "Đèn",
+          "contents": [
+            "RGB",
+            "Đơn sắc",
+            "không đèn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "rom",
+      "img": "https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_ssds_062022.jpg",
+      "filters": [
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "cpu",
+      "img": "https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_12_2022Home_Page_CPUs.png",
+      "filters": [
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "ram",
+      "img": "https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_memory_062022.jpg",
+      "filters": [
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "mainboards",
+      "img": "https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_motherboards_062022.jpg",
+      "filters": [
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "fans-cooling",
+      "img": "https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_cooling_500.jpg",
+      "filters": [
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "power-supplies",
+      "img": "https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_PowerSupplies500_062022.jpg",
+      "filters": [
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "computer-cases",
+      "img": "https://60a99bedadae98078522-a9b6cded92292ef3bace063619038eb1.ssl.cf2.rackcdn.com/images_CategoryImages_ComputerCases500_062022.jpg",
+      "filters": [
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "graphics-cards",
+      "img": "https://lh3.googleusercontent.com/d6ai4kLwphlk-fv9sU3Cgu-GjNMDJPgvskvhJz7cu35Ej_7sxkX9aBIF-cb6nycmaowQrXh7Za4UqHx6PDsYYwGIDQ_sQU4q=w500-rw",
+      "filters": [
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "accessories",
+      "img": "https://lh3.googleusercontent.com/Hun9pSnlF1q_zv9Tew2iez-0Rz2wnZ-Kh0Svc_YE_K3aJL2s7ZH3LI95i0tofDmMYKbJHHOXoemtfoEk7huPbcnF_Kyr9OkgKA=w500-rw",
+      "filters": [
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "furnitures",
+      "img": "https://c1.neweggimages.com/ProductImageCompressAll300/AH07S210401f4RF7.jpg?ex=2",
+      "filters": [
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "title": "",
+          "contents": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "cateId": 1,
+      "id": 1,
+      "name": "PC Gaming E-Power i7G12 - 3060Ti i7 12700F/16GB /500GB/750W/RTX 3060 Ti",
+      "price": 40000000,
+      "discount": 33590000,
+      "ship": "Free ship",
+      "avata": "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/1/31/638107706869598466_pc-gaming-e-power-i7g11-3060ti-i7-11700f-den-1.jpg",
+      "quantity": 1
+    },
+    {
+      "cateId": 2,
+      "id": 2,
+      "name": "Laptop Acer Gaming Nitro 5 Eagle AN515-57-71VV NH.QENSV.005",
+      "price": 21490000,
+      "discount": 19900000,
+      "ship": "Free ship",
+      "avata": "https://lh3.googleusercontent.com/c7VuA4P8sHHJCilfzRVp50AQmgZEkJOyOCuh4vvkcT9jxfqTzZVd2gepUFSSqzXVSEljnYlAN319sJD-H1IztNcxPT3UypA=w500-rw"
+    },
+    {
+      "cateId": 3,
+      "id": 3,
+      "name": "Màn hình LG 24GN60R-B 24Inch IPS 144Hz HDR10 Freesync chuyên game",
+      "price": 6090000,
+      "discount": 3900000,
+      "ship": "Free ship",
+      "avata": "https://www.lg.com/vn/images/man-hinh-may-tinh/md07563896/gallery/DZ-01.jpg"
+    },
+    {
+      "cateId": 4,
+      "id": 4,
+      "name": "Bàn phím DAREU EK810X Black Grey Optical",
+      "price": 850000,
+      "discount": 750000,
+      "ship": "Free ship",
+      "avata": "https://product.hstatic.net/1000026716/product/thumbphim_4b6a569d86fd4905b1791d53de93be3d.gif"
+    },
+    {
+      "cateId": 5,
+      "id": 5,
+      "name": "Chuột Gaming Logitech G402 Hyperion Fury Ultra",
+      "price": 949000,
+      "discount": 820000,
+      "ship": "Free ship",
+      "avata": "https://resource.logitechg.com/w_692,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g402/gallery-1.png?v=1"
+    },
+    {
+      "cateId": 7,
+      "id": 6,
+      "name": "Tai nghe Razer Hammerhead PRO V2",
+      "price": 1090000,
+      "discount": 750000,
+      "ship": "Free ship",
+      "avata": "https://product.hstatic.net/1000026716/product/3d2d1c331e6247a5a224b20331050de7_c78b2042cbd94e5a8e62a592eb32ce20.png"
+    },
+    {
+      "cateId": 7,
+      "id": 7,
+      "name": "Tai nghe Logitech G733 LIGHTSPEED Wireless Black",
+      "price": 3890000,
+      "discount": 2890000,
+      "ship": "Free ship",
+      "avata": "https://product.hstatic.net/1000026716/product/gearvn-tai-nghe-logitech-g733-lightspeed-wireless-black-666_2eb1a71d562e4a6d853a0f086723cbe3.png"
+    },
+    {
+      "cateId": 8,
+      "id": 8,
+      "name": "Ổ cứng HDD Seagate Barracuda 1TB 3.5\" SATA 3 - ST1000DM010",
+      "price": 1050000,
+      "discount": 949000,
+      "ship": "Free ship",
+      "avata": "https://lh3.googleusercontent.com/yM1w_gitNAQySU4yoeo8WWsUvWQyH0je5-g0kzSzz6IR0iKYihExNww4lGJQBEd6KTB8JLTQQumHJMLg3NQ=w500-rw"
+    },
+    {
+      "cateId": 9,
+      "id": 9,
+      "name": "CPU INTEL Core i7-12700 (12C/20T, 4.90 GHz, 25MB) - 1700",
+      "price": 11169000,
+      "discount": 8490000,
+      "ship": "Free ship",
+      "avata": "https://lh3.googleusercontent.com/QeLS8I3SDcVFFhzddVa91zGXzmu2Mn5HpMaquWV-CbDU8d_TWdoUe6h_6S2Qa8rQEoCPfTjGLegtTH3X_TN6S_D0W0mQOHKo=w500-rw"
+    },
+    {
+      "cateId": 10,
+      "id": 10,
+      "name": "RAM desktop ADATA XPG D50 DDR4 8GB 3200 RGB Grey (1 x 8GB) DDR4 3200MHz (AX4U32008G16A-ST50)",
+      "price": 990000,
+      "discount": 799000,
+      "ship": "Free ship",
+      "avata": "https://lh3.googleusercontent.com/2RhuJbPfhwcMTuFG7oM86O5u3zYEFNFR8KzzwwI1aaVGsdrONSR3dYZ6D8StXHxepZ43k8ue7JFg7us1OF9PY_EYDQP2qm3F=w500-rw"
+    },
+    {
+      "cateId": 16,
+      "id": 11,
+      "name": "Đế tản nhiệt Laptop Coolcold K44 - 5 quạt led xanh + led RGB",
+      "price": 690000,
+      "discount": 620000,
+      "ship": "Free ship",
+      "avata": "https://lh3.googleusercontent.com/Hun9pSnlF1q_zv9Tew2iez-0Rz2wnZ-Kh0Svc_YE_K3aJL2s7ZH3LI95i0tofDmMYKbJHHOXoemtfoEk7huPbcnF_Kyr9OkgKA=w500-rw"
+    },
+    {
+      "cateId": 16,
+      "id": 12,
+      "name": "Lót chuột CORSAIR MM1000 Qi Charging - M CH-9440022-AP",
+      "price": 2590000,
+      "discount": 2390000,
+      "ship": "Free ship",
+      "avata": "https://lh3.googleusercontent.com/qq46OSQ8wMxgxYMJ6gGlrzyiZku_nHoOwMg-pe0xAxp_jRBStsgkFdaUmafokoqUS_iTiPRKjhz-Qlmfwof9=w500-rw"
+    },
+    {
+      "cateId": 17,
+      "id": 13,
+      "name": "Ghế chơi game MSI MAG CH120 I",
+      "price": 5590000,
+      "discount": 3990000,
+      "ship": "Free ship",
+      "avata": "https://product.hstatic.net/1000026716/product/7219_gh____gaming_msi_ch_120i_a1d935405aef4dee94061a4edd1e333c.jpg"
+    },
+    {
+      "cateId": 17,
+      "id": 14,
+      "name": "Bàn chơi game DXRacer NEX",
+      "price": 5490000,
+      "discount": 4290000,
+      "ship": "Free ship",
+      "avata": "https://product.hstatic.net/1000026716/product/12241_47f92660938c475a991abe73e491e15a.png"
+    }
+  ],
+  "pictures": [
+    {
+      "productId": 1,
+      "values": [
+        "https://images.fpt.shop/unsafe/fit-in/800x800/filters:quality(90):fill(white):upscale()/fptshop.com.vn/Uploads/Originals/2023/1/31/638107706869598466_pc-gaming-e-power-i7g11-3060ti-i7-11700f-den-1.jpg",
+        "https://images.fpt.shop/unsafe/fit-in/116x76/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/15/638041281189747295_HASP-EPOWER-F1650-9.jpg",
+        "https://images.fpt.shop/unsafe/fit-in/116x76/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/15/638041281188593013_HASP-EPOWER-F1650-6.jpg",
+        "https://images.fpt.shop/unsafe/fit-in/116x76/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/15/638041281190337947_HASP-EPOWER-F1650-10.jpg",
+        "https://images.fpt.shop/unsafe/fit-in/116x76/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/15/638041281188117764_HASP-EPOWER-F1650-7.jpg",
+        "https://images.fpt.shop/unsafe/fit-in/116x76/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/11/15/638041281188117764_HASP-EPOWER-F1650-7.jpg"
+      ]
+    },
+    {
+      "productId": 2,
+      "values": [
+        "https://lh3.googleusercontent.com/c7VuA4P8sHHJCilfzRVp50AQmgZEkJOyOCuh4vvkcT9jxfqTzZVd2gepUFSSqzXVSEljnYlAN319sJD-H1IztNcxPT3UypA=w500-rw",
+        "https://lh3.googleusercontent.com/VpJgldxtdddsmBwMTP0iqPG4-W0WAKCTFE3iYe7XUaXUhvFvePH514GCSoH2TDLHiMOYxKSzRh7hCsmdM1429r-tk_8haRUr3Q=w500-rw",
+        "https://lh3.googleusercontent.com/kpxJEY3p1mLKsaiQdUuL8gK_JPyrawmy_oxRXlU9b_p9TrrPo3hQOBhlXXutOyDABYTmxgnuuDkutPg0VgbUls42ctkH5WXY=w500-rw",
+        "https://lh3.googleusercontent.com/_8W1EMpxpcb_lDJ-nhGMxsqP-ja6GW8iZHwREklHxrkkHcZxEKJTEyaRq817_McgSwXR0e0dQpvl2DxrjumLjU8-3L6u4xpI=w500-rw",
+        "https://lh3.googleusercontent.com/eOT1uNpQy6j-EBoWZTZfelVhvIppYxHOUv27da3RWHyZAj89Wtf1p-qxmVNZnrnkyE8-k9mXQB_r3f19Z1dA5Oy2fgM3lOws=w500-rw",
+        "https://lh3.googleusercontent.com/V2nRGIbqjVK0rYn41kyKr8t99gqJS_ERRaNpcLiKHHnEWnbzWvcKromdaUeno5gL9mmZgMmyRu-dqOlaUJi4SXS0wZeLNdh8=w1000-rw"
+      ]
+    },
+    {
+      "productId": 3,
+      "values": [
+        "https://www.lg.com/vn/images/man-hinh-may-tinh/md07563896/gallery/DZ-01.jpg",
+        "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/d/-/d-01.png",
+        "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/d/-/d-05.png",
+        "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/d/-/d-06.png",
+        "https://cdn2.cellphones.com.vn/x358,webp,q100/media/catalog/product/m/n/mnt-ultragear-24gn60r-06-stylish.png"
+      ]
+    },
+    {
+      "productId": 4,
+      "values": [
+        "https://product.hstatic.net/1000026716/product/thumbphim_4b6a569d86fd4905b1791d53de93be3d.gif",
+        "https://dareu.com.vn/wp-content/uploads/2023/02/ban-phim-co-dareu-ek810x-grey-02.jpg"
+      ]
+    },
+    {
+      "productId": 5,
+      "values": [
+        "https://resource.logitechg.com/w_692,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g402/gallery-1.png?v=1",
+        "https://resource.logitechg.com/w_692,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g402/gallery-2.png?v=1",
+        "https://resource.logitechg.com/w_692,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g402/gallery-3.png?v=1",
+        "https://resource.logitechg.com/w_692,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g402/gallery-4.png?v=1",
+        "https://resource.logitechg.com/w_692,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g402/gallery-5.png?v=1"
+      ]
+    },
+    {
+      "productId": 6,
+      "values": [
+        "https://product.hstatic.net/1000026716/product/3d2d1c331e6247a5a224b20331050de7_c78b2042cbd94e5a8e62a592eb32ce20.png",
+        "https://hstatic.net/716/1000026716/1/2016/5-7/gallery-razer-hammerhead-pro-v2-7.png",
+        "https://hstatic.net/716/1000026716/1/2016/5-7/gallery-razer-hammerhead-pro-v2-2.png",
+        "https://hstatic.net/716/1000026716/1/2016/5-7/gallery-razer-hammerhead-pro-v2-6.png",
+        "https://hstatic.net/716/1000026716/1/2016/5-7/gallery-razer-hammerhead-pro-v2-4.png",
+        "https://hstatic.net/716/1000026716/1/2016/5-7/gallery-razer-hammerhead-pro-v2-3.png"
+      ]
+    },
+    {
+      "productId": 7,
+      "values": [
+        "https://product.hstatic.net/1000026716/product/gearvn-tai-nghe-logitech-g733-lightspeed-wireless-black-666_2eb1a71d562e4a6d853a0f086723cbe3.png"
+      ]
+    },
+    {
+      "productId": 8,
+      "values": [
+        "https://lh3.googleusercontent.com/yM1w_gitNAQySU4yoeo8WWsUvWQyH0je5-g0kzSzz6IR0iKYihExNww4lGJQBEd6KTB8JLTQQumHJMLg3NQ=w500-rw",
+        "https://lh3.googleusercontent.com/yM1w_gitNAQySU4yoeo8WWsUvWQyH0je5-g0kzSzz6IR0iKYihExNww4lGJQBEd6KTB8JLTQQumHJMLg3NQ=w1000-rw"
+      ]
+    },
+    {
+      "productId": 9,
+      "values": [
+        "https://lh3.googleusercontent.com/QeLS8I3SDcVFFhzddVa91zGXzmu2Mn5HpMaquWV-CbDU8d_TWdoUe6h_6S2Qa8rQEoCPfTjGLegtTH3X_TN6S_D0W0mQOHKo=w500-rw",
+        "https://lh3.googleusercontent.com/QeLS8I3SDcVFFhzddVa91zGXzmu2Mn5HpMaquWV-CbDU8d_TWdoUe6h_6S2Qa8rQEoCPfTjGLegtTH3X_TN6S_D0W0mQOHKo=w1000-rw"
+      ]
+    },
+    {
+      "productId": 10,
+      "values": [
+        "https://lh3.googleusercontent.com/2RhuJbPfhwcMTuFG7oM86O5u3zYEFNFR8KzzwwI1aaVGsdrONSR3dYZ6D8StXHxepZ43k8ue7JFg7us1OF9PY_EYDQP2qm3F=w500-rw"
+      ]
+    },
+    {
+      "productId": 11,
+      "values": [
+        "https://lh3.googleusercontent.com/Hun9pSnlF1q_zv9Tew2iez-0Rz2wnZ-Kh0Svc_YE_K3aJL2s7ZH3LI95i0tofDmMYKbJHHOXoemtfoEk7huPbcnF_Kyr9OkgKA=w500-rw"
+      ]
+    },
+    {
+      "productId": 12,
+      "values": [
+        "https://lh3.googleusercontent.com/qq46OSQ8wMxgxYMJ6gGlrzyiZku_nHoOwMg-pe0xAxp_jRBStsgkFdaUmafokoqUS_iTiPRKjhz-Qlmfwof9=w500-rw",
+        "https://lh3.googleusercontent.com/oOq-oZqF_vFf4uAjDZQQalqZ6IRxZc0ay6K_1PWyEkUxF68vhorzhHNlc8oi-alB10ZjhLKVRN8iJk10ev0=w1000-rw",
+        "https://lh3.googleusercontent.com/beKo4JmCh_JjD3UOqxO4D0kMTqacPqNLiJyIiRd1eQ68D2nrx_XZ8DL85FPvhc7MnrCGX1OIAMTUW1FnndM=w1000-rw",
+        "https://lh3.googleusercontent.com/0BwH3ZroWwPQ8ZZtF5YDn7vNkDMKSsMDjn4voMq708RRZqA8lQvlmOITXrcYYN3M0TzTcW6mBqotWr5BCC0=w1000-rw"
+      ]
+    },
+    {
+      "productId": 13,
+      "values": [
+        "https://product.hstatic.net/1000026716/product/7219_gh____gaming_msi_ch_120i_a1d935405aef4dee94061a4edd1e333c.jpg",
+        "https://lh3.googleusercontent.com/l0ek6KHjQP7xSSoj59BHYDj8Aheb7YtWEQbRnSzEWFHkeZonUHtmI9Tihs2GAbz0ecL1z0M_MiJUkvD8lgDq0w1nDP2-guPp=w1000-rw",
+        "https://lh3.googleusercontent.com/i40O2G53JSfP_tvWeGlft-mrd8L3M7idxSyDjn7LX8xZALKSwBZCkr_0PANzu8kvy4QGKI4V-S7aCXGIFNpagBR5FDTq9go=w1000-rw",
+        "https://lh3.googleusercontent.com/83X0U82fMIpqH-949C-NGicOkaQaJ4oHYZqEQCRTm46If6PGPAv9qNEFEhdY2GSZjdVecrsMQMwor-Ha7gotETS9i7mNE0g=w1000-rw",
+        "https://lh3.googleusercontent.com/msSUG7O2YKP6sw3VmEGjNxIaL923Hk_jzbAqB2PK0HJYzMzVVf0tAqQUoVoHRKe6hqYMGJ0r8oHJDRHBGJFh9bYAAcGOq8L9=w1000-rw",
+        "https://lh3.googleusercontent.com/iHNyiG65GE7O8e57gpAzVWRy77WGs9S5MzrTgwFGd2TxKNcHEZ3jsnPrDDSMzQwpum0Us04CdBvzZ1V814KuY4acMNKXBQ70=w1000-rw"
+      ]
+    },
+    {
+      "productId": 14,
+      "values": [
+        "https://product.hstatic.net/1000026716/product/12241_47f92660938c475a991abe73e491e15a.png",
+        "https://product.hstatic.net/1000026716/product/12238_81d170c5b3b649d48e85ec4f177f13c4.png",
+        "https://product.hstatic.net/1000026716/product/12237_5d1ffaac580842d38d478aca5b51228c.png",
+        "https://product.hstatic.net/1000026716/product/12236_dd5cd6f5fe1644d18cdf9f439376b13d.png"
+      ]
+    }
+  ],
+  "shortDescriptions": [
+    {
+      "productId": 1,
+      "values": [
+        "CPU: Intel, Core i7, 12700F Ram: 16 GB, DDR4, 3200 MHz",
+        "Ram: 16 GB, DDR4, 3200 MHz",
+        "VGA: NVIDIA GeForce RTX 3060 Ti 8GB",
+        "Bộ nhớ SSD 500GB",
+        "Công suất bộ nguồn 750 W",
+        "Main Intel B660",
+        "Kích thước 338x255x335 mm",
+        "Trọng lượng 5000g, Kim loại, Đen"
+      ]
+    },
+    {
+      "productId": 2,
+      "values": [
+        "CPU: Intel® Core™ i7-11800H",
+        "RAM: 8GB DDR4 khe rời 3200MHz",
+        "Ổ cứng: 512GB SSD (nâng cấp tối đa 2TB SSD và 2TB HDD)",
+        "VGA: NVIDIA RTX™ 3050 4GB GDDR6",
+        "Màn hình: 15.6 inch FHD(1920 x 1080) IPS 144Hz",
+        "Pin: 57.5 Wh, 4-cell"
+      ]
+    },
+    {
+      "productId": 3,
+      "values": [
+        "Kích thước 23.8 Inch",
+        "Độ phân giải 1920x1080 - tấm nền IPS",
+        "Tốc độ: IPS 1ms (GtG) - Tốc độ làm mới 144Hz",
+        "Màu sắc: HDR10 sRGB 99% (Thông thường)",
+        "Thông số kỹ thuật: AMD FreeSync™ Premium",
+        "Độ sáng tối đa 300 cd/m²",
+        "Tỷ lệ tương phản (Thông thường) 1000:1"
+      ]
+    },
+    {
+      "productId": 4,
+      "values": [
+        "Model: DAREU EK810X Black Grey Optical",
+        "Thiết kế: 108 phím",
+        "Kết nối: có dây",
+        "Keycap: ABS Two-colored injection",
+        "Switch: D-Switch",
+        "Đèn led RGB",
+        "Trọng lượng 845g",
+        "Kích thước: 436 x 127 x 35mm"
+      ]
+    },
+    {
+      "productId": 5,
+      "values": [
+        "Công nghệ cảm biến siêu nhạy Fusion Engine cùng hệ thống 8 phím bấm",
+        "Tinh chỉnh độ nhạy DPI theo nhu cầu với 4000 dpi",
+        "Kết nối không dây USB có độ trễ thấp",
+        "Trải nghiệm cầm nắm thoải mái tối đa với chất liệu cấu tạo bền nhẹ",
+        "Nhanh nhạy trong từng cú click"
+      ]
+    },
+    {
+      "productId": 6,
+      "values": [
+        "Razer Hammerhead PRO V2",
+        "Chuẩn kết nối: 3.5mm mạ vàng",
+        "Trọng lượng: 19.6g",
+        "Tần số đáp ứng: 20 Hz - 20 kHz",
+        "Driver: 10 mm, màng Neodymium",
+        "Microphone: Có"
+      ]
+    },
+    {
+      "productId": 7,
+      "values": [
+        "Bảo hành: 24 tháng",
+        "Màu sắc: Đen",
+        "Led: RGB",
+        "Chuẩn kết nối: Reciever USB type A",
+        "Tần số: 20Hz - 20KHz",
+        "Khả năng cách âm: Có",
+        "Chất liệu đệm tai nghe: Vải thoáng"
+      ]
+    },
+    {
+      "productId": 8,
+      "values": [
+        "Dung lượng: 1TB",
+        "Kích thước: 3.5\"",
+        "Kết nối: SATA 3",
+        "Tốc độ vòng quay: 7200RPM"
+      ]
+    },
+    {
+      "productId": 9,
+      "values": [
+        ">Nhu cầu: Gaming, Văn phòng, Đồ họa - Kỹ thuật, Doanh nghiệp, Học sinh - Sinh viên",
+        "Socket: 1700, Intel Core thế hệ thứ 12",
+        "Tốc độ: 4.90 GHz (12nhân, 20 luồng)",
+        "Bộ nhớ đệm: 25MB",
+        "Chip đồ họa tích hợp: Intel UHD Graphics 770",
+        "Bộ nhớ hỗ trợ: DDR4/DDR5 Dual channel"
+      ]
+    },
+    {
+      "productId": 10,
+      "values": [
+        "Dung lượng: 1 x 8GB",
+        "Thế hệ: DDR4",
+        "Bus: 3200MHz",
+        "Cas: 16",
+        "Đèn LED: RGB",
+        "Voltage: 1.35V"
+      ]
+    },
+    {
+      "productId": 11,
+      "values": [
+        "Kích thước: 370 x 300 x 40 mm",
+        "Trọng lượng: 850gam",
+        "Chất liệu: Iron net + plastic",
+        "Kết nối: USB",
+        "Cáp kèm: Có"
+      ]
+    },
+    {
+      "productId": 12,
+      "values": [
+        "Bề mặt: Nhựa",
+        "Kích thước M",
+        "350 x 260 x",
+        "Nhu cầu: Gaming",
+        "Bảo hành 24 tháng",
+        "Màu sắc: Đen"
+      ]
+    },
+    {
+      "productId": 13,
+      "values": [
+        "Sản phẩm phù hợp với: Cân nặng dưới 80kg - Chiều cao dưới 1m75",
+        "Chất liệu: Da PVC cao cấp",
+        "Màu sắc: đen viền đỏ",
+        "Có thể điều chỉnh góc tựa lưng (90 ° đến 180 °)",
+        "Chiều cao ghế có thể điều chỉnh (khoảng 47,5 - 55 cm)",
+        "Tay vịn 4D với khả năng điều chỉnh tối đa",
+        "Chức năng nghiêng thực tế (tối đa 14 °)"
+      ]
+    },
+    {
+      "productId": 14,
+      "values": [
+        "Bộ bàn gồm: + 1 móc treo tai nghe + 1 Giá đỡ cốc + 1 PAD DXRacer NEX size XXL 80x30 cm + 1 Giá đỡ tay cầm chơi game kiêm USB hub (4 cổng)",
+        "Màu sắc: Đen + Xanh + Bạc",
+        "Chân bàn: Hợp kim nhôm màu bạc",
+        "Mặt bàn: P2PB, bề mặt phủ vân carbon",
+        "Led: LED RGB 6 vị trí - Kết nối thông qua USB - Có nút diều chỉnh"
+      ]
+    }
+  ],
+  "descriptions": [
+    {
+      "productId": 1,
+      "values": [
+        {
+          "title": "Những gì nó có thể đáp ứng được cho bạn",
+          "content": "Bạn cần một case máy tính chơi game thật sự mạnh để chiến các game AAA với thiết lập đồ họa Ultra nhưng vẫn phải có giá tốt, hợp túi tiền. PC Gaming E-Power G1660ti chính là điều bạn đang tìm kiếm với sự kết hợp tuyệt vời của Intel Core i5 10400F, GTX 1660 Ti và SSD NVMe siêu nhanh.",
+          "img": "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107706869598466_pc-gaming-e-power-i7g11-3060ti-i7-11700f-den-1.jpg"
+        },
+        {
+          "title": "Card đồ hoạ ASUS TUF GTX 1660Ti 6GB GDDDR6 phiên bản ép xung (OC) siêu mạnh, siêu bền",
+          "content": "Để có được hiệu năng chơi game đỉnh với fps cao và ổn định, PC Gaming E-Power G1660ti sử dụng card đồ họa ASUS TUF GTX 1660 Ti 6GB GDDDR6. Đây là card đồ họa thuộc dòng TUF siêu bền từ ASUS, với thiết kế quạt vòng bi kép tuổi thọ lâu gấp đôi, chuẩn chống bụi IP5X, quy trình sản xuất tự động Auto-Extreme nghiêm ngặt và khả năng tương thích hoàn hảo với bo mạch chủ. Hiệu năng chơi game từ TUF GTX 1660 Ti là không phải bàn cãi khi card đồ họa này mạnh ngang ngửa GTX 1070, sử dụng kiến trúc Turing tiên tiến, đủ để bạn chơi tốt các tựa game AAA ở thiết lập đồ họa Ultra, Full HD.",
+          "img": ""
+        },
+        {
+          "title": "Mainboard ASUS Prime B560M-A mạnh mẽ, hoạt động mát mẻ",
+          "content": "PC Gaming E-Power G1660ti sử dụng bo mạch chủ ASUS Prime B560M-A. Với thiết kế nguồn mạnh mẽ, giải pháp làm mát toàn diện và các tùy chọn điều chỉnh thông minh, ASUS Prime B560M-A là sự lựa chọn hoàn hảo cho một bo mạch chủ bền bỉ, khả năng nâng cấp lâu dài. Đồng thời kiểu dáng hoàn thiện đen – trắng thời trang cũng giúp cho PC của bạn phong cách hơn. Sẽ có 2 khe cắm thẻ nhớ M.2 cùng loạt kết nối cực nhanh bao gồm PCIe 4.0, Intel 1Gb Ethernet, USB 3.2 Gen 2 (Type-A & Type-C) cho bạn khả năng kết nối tuyệt vời.",
+          "img": "https://images.fpt.shop/unsafe/fit-in/585x390/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/1/31/638107706869598466_pc-gaming-e-power-i7g11-3060ti-i7-11700f-den-1.jpg"
+        },
+        {
+          "title": "CPU Intel Core i5 10400F chiến mượt mọi tựa game",
+          "content": "Là bản nâng cấp của con chip 9400F từng được game thủ yêu thích, Intel Core i5 10400F tiếp tục là sự lựa chọn lý tưởng cho máy tính chơi game tầm trung. Bạn sẽ được trải nghiệm sức mạnh của 6 lõi 12 luồng, tốc độ 2.90 – 4.30 GHz, bộ nhớ đệm 12MB trong khi mức tiêu thụ điện vẫn chỉ là 65W. Với sự kết hợp cùng card đồ họa rời, Intel Core i5 10400F sẽ không gặp khó khăn gì khi chơi các tựa game phổ biến.",
+          "img": ""
+        },
+        {
+          "title": "RAM có đèn LED thể hiện cá tính",
+          "content": "Trên chiếc PC Gaming E-Power G1660ti, bạn sẽ được lắp sẵn RAM 8GB ADATA XPG Spectrix D41 RGB. ADATA XPG Spectrix D41 RGB luôn là dòng RAM được người dùng yêu thích khi không chỉ cho hiệu năng ổn định mà còn có thiết kế tuyệt đẹp và tích hợp đèn LED RGB có thể tùy chỉnh. Bạn sẽ có thể thoải mái chơi game, chạy đa nhiệm, đồng thời máy tính cũng có vẻ bề ngoài thời trang hơn rất nhiều.",
+          "img": ""
+        },
+        {
+          "title": "Nguồn thương hiệu Cooler Master danh tiếng",
+          "content": "Không chỉ đủ mà bạn hoàn toàn sử dụng một cách thoải mái mà không lo về nguồn với công suất 600W của Cooler Master Elite V3. Đây là nguồn máy tính được chứng nhận 80 Plus White, cho hiệu suất trên 80%, khả năng chịu nhiệt lên tới 40 độ C, hoạt động hiệu quả ở mọi môi trường. Nguồn máy tính công suất cao và bền bỉ giúp PC Gaming E-Power G1660ti luôn hoạt động tốt, ngay cả khi bạn có nhu cầu nâng cấp máy tính sau này.",
+          "img": ""
+        },
+        {
+          "title": "Tản nhiệt khí CPU ID-COOLING SE-214-XT ARGB",
+          "content": "Để tản nhiệt hiệu quả cho CPU, đồng thời trang trí chiếc PC của bạn thêm phần bắt mắt, PC Gaming E-Power G1660ti sử dụng tản nhiệt khí ID-Cooling SE-214-XT ARGB. Đây là tản nhiệt khí được đánh giá cao trong phân khúc giá rẻ với thiết kế nhỏ gọn, TDP ấn tượng 180W và tản nhiệt hiệu quả nhờ 4 ống đồng công nghệ H.D.T v3.0 tăng diện tích tiếp xúc tới 30%, mạ niken chống oxy hóa, top cover thiết kế phay xước chắc chắn.",
+          "img": ""
+        },
+        {
+          "title": "Tốc độ cực khủng của SSD Silicon Power UD80 M.2 NVMe",
+          "content": "SSD Silicon Power UD80 là ổ cứng có tốc độ nhanh nhất trong tầm giá với tốc độ đọc lên tới 3400 MB/s và tốc độ ghi lên tới 3000 MB/s. Bạn sẽ cảm nhận được sự khác biệt rõ rệt trong từng thao tác trên PC Gaming E-Power G1660ti. Giao thức PCIe 3.0 cùng công nghệ NVMe tạo nên trải nghiệm liền mạch, không gián đoạn tức lúc bạn khởi động máy, chạy phần mềm cho đến khi tắt máy tính. Dung lượng 250GB là đủ để cài hệ điều hành và một số game yêu thích.",
+          "img": ""
+        }
+      ]
+    },
+    {
+      "productId": 2,
+      "values": [
+        {
+          "title": "",
+          "content": "Acer Nitro Gaming AN515-57-54MV là chiếc laptop gaming có mức giá vừa phải nhưng lại sở hữu cấu hình ấn tượng với bộ vi xử lý Intel thế hệ thứ 11 mạnh mẽ và card đồ họa rời RTX 30 series. Diện mạo mới, sức mạnh mới, Nitro 5 sẽ cùng bạn vươn tới những đỉnh cao.",
+          "img": ""
+        },
+        {
+          "title": "RTX 30 series, tận hưởng đồ họa chơi game mãn nhãn",
+          "content": "Acer Nitro 5 AN515-57-54MV mang trên mình dòng card đồ họa mới nhất RTX 30 series. Đây là dòng GPU cho hiệu suất hoàn hảo, kể cả hoạt động chơi game lẫn đồ họa sáng tạo. GPU NVIDIA GeForce RTX 3050 sử dụng kiến trúc Ampere mới nhất, với các lõi Ray Tracing mới, lõi Tensor và các bộ đa xử lý phát trực tuyến, mang đến bước nhảy vọt về hiệu năng, hình ảnh chân thực đáng kinh ngạc. Bạn có thể chơi tốt hầu hết mọi game ở thiết lập Full HD, từ những game eSports cho đến các game bom tấn AAA.",
+          "img": "https://images.fpt.shop/unsafe/filters:quality(90)/fptshop.com.vn/Uploads/images/2015/Tin-Tuc/QuanLNH2/acer-nitro-5-2021-31.jpg"
+        },
+        {
+          "title": "Hiệu năng tuyệt vời với bộ vi xử lý 6 nhân 12 luồng",
+          "content": "Acer Nitro 5 AN515-57-54MV sở hữu bộ vi xử lý CPU mà chắc chắn game thủ nào cũng rất thích thú. Con chip Intel Core i5 11400H là mẫu CPU mới nhất của thế hệ thứ 11, dù là i5 nhưng có tới 6 nhân 12 luồng, tốc độ tối đa 4.50GHz, bộ nhớ đệm 12MB, cho sức mạnh không thua kém gì những CPU Core i7 trước đây. Bộ vi xử lý cực mạnh giúp Nitro 5 AN515-57 không chỉ chơi game tốt mà còn có thể chạy mượt những ứng dụng công việc nặng hay render video nhanh chóng. Bạn có thể làm mọi việc một cách hiệu quả cao nhất trên chiếc laptop gaming của mình.",
+          "img": "https://images.fpt.shop/unsafe/fit-in/665x374/filters:quality(100):fill(white)/fptshop.com.vn/Uploads/Originals/2021/10/22/637705179857696882_acer-nitro-gaming-an515-57-54mv-i5-11400h-hieu-nang.png"
+        },
+        {
+          "title": "Màn hình 144Hz siêu mượt",
+          "content": "Không chỉ cấu hình, màn hình máy tính với tần số quét lên đến 144Hz cũng là một “vũ khí” lợi hại khác của Acer Nitro 5 AN515-57. Với màn hình này, bạn sẽ thấy rõ từng chuyển động của kẻ thù, không bỏ qua bất cứ khoảnh khắc nào trong những tựa game fps diễn biến nhanh. Chất lượng hiển thị cũng hết sức tuyệt vời nhờ tấm nền 15,6 inch Full HD IPS, cho bạn những giờ phút giải trí hấp dẫn. Viền màn hình giờ đây đã được thu hẹp chỉ còn 7.02mm, tăng tỉ lệ màn hình trên thân máy 80%, mang đến hình ảnh sống động như thật.",
+          "img": "https://images.fpt.shop/unsafe/fit-in/665x374/filters:quality(100):fill(white)/fptshop.com.vn/Uploads/Originals/2021/10/22/637705179857696882_acer-nitro-gaming-an515-57-54mv-i5-11400h-man-hinh.png"
+        },
+        {
+          "title": "Thiết kế đặc trưng dành cho game thủ",
+          "content": "Phiên bản mới của Acer Nitro 5 tiếp tục đi theo ngôn ngữ thiết kế gaming ấn tượng với màu đen chủ đạo và những chi tiết màu đỏ tạo điểm nhấn. Kiểu dáng hầm hố và góc cạnh cho bạn thêm phần cảm hứng khi chơi game. Ốp bản lề màu đỏ nổi bật trên tông màu đen sang trọng cùng 2 đường dập nổi 2 bên tạo cho Acer Nitro 5 AN515-57-54MV sự khác biệt và đậm chất game thủ. Phần viền màn hình mỏng chỉ 7,02mm giúp laptop thêm phần nhỏ gọn, dễ dàng để bạn chơi game ở bất cứ đâu.",
+          "img": "https://images.fpt.shop/unsafe/fit-in/665x374/filters:quality(100):fill(white)/fptshop.com.vn/Uploads/Originals/2021/10/22/637705179857540659_acer-nitro-gaming-an515-57-54mv-i5-11400h-thiet-ke.png"
+        },
+        {
+          "title": "Hệ thống âm thanh nổi chân thực",
+          "content": "Cho những trận chiến thêm phần hấp dẫn nhờ hệ thống âm thanh chuẩn gaming. Phần mềm âm thanh DTS: X Ultra tái tạo âm thanh 3D và 6 chế độ tùy chỉnh âm thanh trong phần mềm Acer True Harmony sẽ giúp cho âm thanh sống động, diễn biến chính xác tùy thuộc vào thể loại game bạn chơi.",
+          "img": ""
+        },
+        {
+          "title": "Tản nhiệt mát mẻ, hiệu suất tối ưu",
+          "content": "Acer Nitro 5 AN515-57-54MV sử dụng hệ thống tản nhiệt mới với 2 quạt và công nghệ Acer CoolBoost giúp tăng 10% tốc độ quạt, cho hiệu quả cao hơn và giảm nhiệt độ CPU lẫn GPU xuống 9%. Khả năng lưu thông khí cũng tốt hơn 25% nhờ 4 khe hút gió thoát nhiệt thông minh. Khả năng tản nhiệt tốt giúp bạn có thể yên tâm chơi game, làm việc ổn định trong thời gian dài. Những thông số về nhiệt độ và tính năng điều chỉnh tốc độ quạt có thể thực hiện dễ dàng qua phần mềm Nitro Sense.",
+          "img": ""
+        },
+        {
+          "title": "Mạng Internet nhanh siêu tốc",
+          "content": "Kết nối mạng chưa bao giờ nhanh đến thế với dòng Acer Nitro 5. Chuẩn Wi-Fi 6 mới nhất và kết nối mạng dây Killer Ethernet E2600 giúp đường truyền Internet luôn ổn định, để bạn yên tâm tập trung vào cuộc chiến ở những tựa game online. Laptop Acer cũng có đầy đủ những cổng kết nối khác như 3 cổng USB 3.2 Type-A, 1 cổng USB Type-C, 1 cổng HDMI và cổng tai nghe 3.5mm.",
+          "img": "https://images.fpt.shop/unsafe/fit-in/665x374/filters:quality(100):fill(white)/fptshop.com.vn/Uploads/Originals/2021/10/22/637705179857696882_acer-nitro-gaming-an515-57-54mv-i5-11400h-ket-noi.png"
+        },
+        {
+          "title": "Bàn phím RGB 4 vùng cực chất",
+          "content": "Chơi game thêm phần hiệu quả và phấn khích nhờ hệ thống đèn LED RGB 4 vùng trên Acer Nitro 5. Bàn phím tuyệt đẹp, phản hồi nhạy bén, tối ưu cho game thủ và các thiết lập màu sắc, hiệu ứng hấp dẫn giúp cho những tựa game của bạn thêm phần thú vị. Đồng thời ngay cả khi giải trí bằng các tác vụ như nghe nhạc hay xem phim, bàn phím RGB cũng tạo thêm nhịp điệu cho riêng bạn.",
+          "img": "https://images.fpt.shop/unsafe/fit-in/665x374/filters:quality(100):fill(white)/fptshop.com.vn/Uploads/Originals/2021/10/22/637705179857696882_acer-nitro-gaming-an515-57-54mv-i5-11400h-ban-phim.png"
+        },
+        {
+          "title": "Tùy chỉnh hệ thống trung tâm tiện lợi",
+          "content": "Bạn sẽ hoàn toàn làm chủ những điều mình muốn trên Acer Nitro 5 AN515-57-54MV. Tất cả đều sẵn sàng sau phím bấm duy nhất kích hoạt Nitro Sense, đây là phần mềm độc quyền có thể điều chỉnh chế độ quạt, hiệu chỉnh màu bàn phím RGB và những tinh chỉnh hữu ích khác.",
+          "img": ""
+        }
+      ]
+    },
+    {
+      "productId": 3,
+      "values": [
+        {
+          "title": "",
+          "content": "Màn hình LG 24GN60R-B là dòng màn hình gaming được LG giới thiệu tại thị trường Việt Nam, sở hữu tỉ lệ màn hình 16:9 lý tưởng cho công việc và mang lại không gian làm việc lớn hơn. Đồng thời LG 24GN60R-B cũng được trang bị công nghệ HDR 10 tiên tiến nhằm mang lại những trải nghiệm tuyệt vời cho người sử dụng.",
+          "img": ""
+        },
+        {
+          "title": "Trải nghiệm chơi game mượt mà",
+          "content": "Sở hữu kích thước màn hình 24 inch với tần số quét siêu nhanh 144Hz cho phép người chơi game nhìn khung hình tiếp theo nhanh hơn và hình ảnh hiển thị mượt mà hơn. Những người chơi game có thể phản ứng với đối thủ nhanh hơn và nhắm mục tiêu dễ dàng. Thời gian phản hồi 1ms GtG giúp chơi game mượt mà hơn, không bị nhòe hay bóng mờ. Các đối tượng năng động và có tốc độ nhanh trong tất cả các hành động có thể mang lại lợi thế cạnh tranh cho game thủ.",
+          "img": "https://file.hstatic.net/1000026716/file/rvn-man-hinh-lg-24gn60r-b-24-ips-144hz-hdr10-freesync-chuyen-game-__6__a74a4e7e80124d29bf7c5646df09b3ae_grande.jpg"
+        },
+        {
+          "title": "Cảm nhận chiến trường với màu sắc trung thực",
+          "content": "Màn hình hỗ trợ HDR10 với sRGB 95% mang lại trải nghiệm hình ảnh chân thực với màu sắc và độ tương phản phong phú. Cho dù trên chiến trường nào, LG 24GN60R-B cũng có thể giúp game thủ nhìn thấy tất cả những màu sắc đầy kịch tính theo ý định của nhà phát triển game.",
+          "img": "https://file.hstatic.net/1000026716/file/rvn-man-hinh-lg-24gn60r-b-24-ips-144hz-hdr10-freesync-chuyen-game-__2__1d469cbad6f847a8ac8b1094374193ca_grande.jpg"
+        },
+        {
+          "title": "Rõ ràng hơn, mượt mà hơn và nhanh hơn",
+          "content": "Với công nghệ AMD Freesync, người chơi game có thể trải nghiệm chuyển động liền mạch, trôi chảy trong những trò chơi có độ phân giải cao và tốc độ nhanh. Công nghệ này giảm thiểu được các tính trạng như xé màn hình, trộn hình và giật hình gây ảnh hưởng đến trải nghiệm của người chơi.",
+          "img": ""
+        },
+        {
+          "title": "Thiết kế LG 24GN60R-B đơn giản, hiện đại",
+          "content": "Trải nghiệm tuyệt vời hơn khi chơi game nhờ thiết kế bắt mắt và viền màn hình siêu mỏng. Có thể điều chỉnh phần đế để thay đổi độ nghiêng của màn hình, giúp bạn chơi game thoải mái hơn. Đồng bộ hành động kép giúp người chơi phản ứng nhanh hơn đối thủ. Giảm thiểu độ trễ của thao tác đầu vào với công nghệ Đồng bộ hành động động và người chơi có thể nắm bắt được mọi khoảnh khắc theo thời gian thực. Cân bằng tối giúp người chơi tấn công trước trong bóng tối. Người chơi game có thể tránh các tay súng bắn tỉa trốn ở những nơi tối nhất và nhanh chóng thoát khỏi tình huống nguy hiểm.",
+          "img": ""
+        }
+      ]
+    },
+    {
+      "productId": 4,
+      "values": [
+        {
+          "title": "Giới thiêu Bàn Phím Quang Cơ Dare-U EK810X Led BLACK-GREY Blue Switch ",
+          "content": "Với việc thay đổi bộ keycap  sang tông màu Black & Grey, Dareu EK810X như khoác trên mình chiếc áo mới trẻ trung và năng động hơn. Chắc hẳn sẽ làm các bạn trẻ cảm thấy hứng thú với mẫu bàn phím này. Về cơ bản Ek810X Black & Grey không có gì khác biệt nhiều só với chiếc bàn phím tiền nhiệm là Dareu EK810X Black.",
+          "img": ""
+        },
+        {
+          "title": "THIẾT KẾ DÀNH CHO GAME THỦ",
+          "content": "Bàn Phím Cơ Dare-U EK810X có thiết kế tối giản, dễ dàng sử dụng cùng vời khung kim loại được làm chắc chắn giúp cho được ổn định, chống rung mỗi khi gõ phím bảo vệ thiết bị an toàn khỏi những chấn động bất chợt. Ở mặt sau còn được thiết kế tỉ mỉ đảm bảo cho luôn được cố định trên mặt bàn, không bị trơn, trượt ảnh hưởng đến trải nghiệm của người dùng. Bàn Phím Cơ Dare-U EK810X được thiết kế với kiểu dáng full layout đầy đủ 104 phím với các nút có phông chữ đơn giản được các người dùng ở Việt Nam ưa chuộng đem lại khả năng hiển thị đẹp mắt khi lên màu. Bàn Phím Cơ Dare-U EK810X được trang bị hệ thống đèn Rainbow – 7 màu chia theo vùng vô cùng đặc sắc, sống động mang đến cho game thủ màn trình diễn ánh sáng ấn tượng, tạo phong cách cá tính cho góc.",
+          "img": ""
+        },
+        {
+          "title": "TRANG BỊ SWITCH QUANG CƠ CHÍNH HÃNG SẢN XUẤT",
+          "content": "Bàn Phím Cơ Dare-U EK810X sử dụn switch quang cơ do Dareu thiết kế đảm bảo tuổi thọ lên đến 50 triệu lần bấm, cũng tạo ra tiếng phản hồi đã tai như các loại cao cấp khác.",
+          "img": ""
+        },
+        {
+          "title": "KHẢ NĂNG KẾT NỐI",
+          "content": "Bàn Phím Cơ Dare-U EK810X có dây  có độ dài 1,8 m được làm bằng chất liệu cao su bền, dẻo giúp cho người dùng có thể quấn, gấp thoải mái mà không gây hư hại đến lõi dây bên trong. Cùng với đường đi dây tiện lợi ở mặt đáy của , người dùng không phải lo ngại đến vấn đế chân nối bị bong ra ảnh hưởng đến lõi dây bên trong. Sử dụng chân cắm tiện lợi, với khả năng tương thích với các hệ điều hành Windows, Mac không gây khó khăn cho người dùng thông qua cổng kết nối USB 2.0 thông dụng.",
+          "img": ""
+        },
+        {
+          "title": "TÍNH NĂNG NỔI BẬT",
+          "content": "Bàn phím cơ DareU EK810X Optical switch. Sử dụng switch Quang học cao cấp. Chống nước tuyệt đối. Multi-LED – 7 màu chia theo vùng. Keycap ABS Doubleshot siêu bền. Thiết kế cổ điển, siêu chắc chắn",
+          "img": ""
+        }
+      ]
+    },
+    {
+      "productId": 5,
+      "values": [
+        {
+          "title": "THEO DÕI TỐC ĐỘ CAO VỚI FUSION ENGINE",
+          "content": "Công nghệ cảm biến tinh vi để chơi game siêu nhanh. Hyperion Fury kết hợp cảm biến quang học sử dụng công nghệ Logitech Delta Zero™ với cảm biến lai Fusion Engine™ độc quyền cho phép tốc độ theo dõi vượt quá 500 IPS.",
+          "img": "https://resource.logitechg.com/d_transparent.gif/content/dam/gaming/en/products/g402/G402-feature-1.png"
+        },
+        {
+          "title": "8 NÚT CÓ THỂ LẬP TRÌNH",
+          "content": "Tùy chỉnh để phù hợp với kiểu chơi game của bạn. Tùy chỉnh chuột với 8 nút có thể lập trình. Cho dù bạn muốn ném lựu đạn hay nhanh chóng vào kho vũ khí của mình, tất cả đều ở trong tầm tay. Phần mềm chơi game của Logitech (Logitech Gaming Software) tùy chọn khiến cho việc cài đặt dễ dàng.",
+          "img": "https://resource.logitechg.com/d_transparent.gif/content/dam/gaming/en/products/g402/G402-feature-2.png"
+        },
+        {
+          "title": "CHUYỂN ĐỔI DPI TỨC THÌ",
+          "content": "4 cài đặt để điều khiển cách chơi tốt hơn. Chuyển đổi tức thì giữa bốn cài đặt DPI. Bắn tỉa kẻ địch trên khắp bản đồ (250 DPI) trước khi rút lui trong nháy mắt (4000 DPI). Với chuyển đổi DPI tức thì, bạn có thể phản ứng lại sự hỗn loạn của trận chiến một cách linh hoạt với độ chính xác cao.",
+          "img": "https://resource.logitechg.com/d_transparent.gif/content/dam/gaming/en/products/g402/G402-feature-3.png"
+        },
+        {
+          "title": "BỘ XỬ LÝ ARM 32-BIT",
+          "content": "Thông minh hơn bao giờ hết. Bộ xử lý ARM tích hợp trong Hyperion Fury đem đến cho Fusion Engine tốc độ theo dõi đáng kinh ngạc trong khi vẫn cho phép bạn lưu và xem lại các macro ưa thích. Với phần mềm chơi game Logitech (Logitech Gaming Software), việc thiết kế và gán các macro có thể được thực hiện từ Hyperion Fury dễ dàng.",
+          "img": "https://resource.logitechg.com/d_transparent.gif/content/dam/gaming/en/products/g402/G402-feature-4.png"
+        },
+        {
+          "title": "TỐC ĐỘ BÁO CÁO 1MS",
+          "content": "Giao tiếp tức thì. Với tốc độ báo cáo 1 mili giây, bạn có thể tự tin rằng chuyển động của bạn sẽ được giao tiếp qua USB ở tốc độ cao mà không bị lag.",
+          "img": ""
+        },
+        {
+          "title": "THIẾT KẾ TẠO SỰ THOẢI MÁI",
+          "content": "Thoải mái tối đa để chơi trong thời gian lâu nhất. Một sự đổi mới cho hình dáng G400s cổ điển nhằm nâng cao chức năng và sự thoải mái. Sự kết hợp giữa các vật liệu nhẹ và tay cầm cao su sẽ giúp bạn đảm bảo rằng cuộc chơi game của bạn diễn ra lâu nhất có thể.",
+          "img": ""
+        }
+      ]
+    },
+    {
+      "productId": 6,
+      "values": [
+        {
+          "title": "",
+          "content": "Razer HammerHead Pro v2 là phiên bản tiếp theo của tai nghe máy tính Razer HammerHead Pro - một trong những sản phẩm nằm trong top tai nghe in-ear Gaming tốt nhất.",
+          "img": "https://hstatic.net/716/1000026716/10/2016/7-17/lifestyle-razer-hammerhead-pro-v2-1.jpg"
+        },
+        {
+          "title": "Thiết kế được cải tiến với sự cứng cáp",
+          "content": "Về thiết kế tai nghe có dây của Razer, có thể thấy có sự lột xác hoàn toàn so với phiên bản trước. Toàn bộ phần củ loa của tai nghe được làm bằng kim loại cao cấp, có trọng lượng nhẹ nhàng, không gây nặng tai khi nghe lâu. Mặt sau mỗi bên tai là logo Razer. Phần nối giữa củ tai và dây được gia cố thêm bằng cao su chống đứt ngầm. Đây là chi tiết đặc biệt quan trọng bởi HammerHead Pro v2 thiết kế tai nghe nhét tai dành cho các game thủ hay di chuyển, thường xuyên vận chuyển tai nghe.",
+          "img": "https://hstatic.net/716/1000026716/10/2016/7-17/lifestyle-razer-hammerhead-pro-v2-3.jpg"
+        },
+        {
+          "title": "Thoải mái sử dụng",
+          "content": "Dây nối của HammerHead Pro v2 là loại dây dẹt chống rối. Controller đi kèm trên dây tương thích hoàn chỉnh với iPhone và iPad, các bạn có thể dùng tất cả chức năng giống như trên tai nghe đi kèm của điện thoại. Tuy nhiên khi thử với Android thì chức năng nút không được đầy đủ. Hứa hẹn đây sẽ là một trong những dòng sản phẩm trong phân khúc tai nghe dưới 1 triệu rất đáng trải nghiệm.",
+          "img": "https://hstatic.net/716/1000026716/10/2016/7-17/lifestyle-razer-hammerhead-pro-v2-2.jpg"
+        },
+        {
+          "title": "Trải nghiệm sử dụng tuyệt vời",
+          "content": "Razer luôn mang đến cho người chơi những trải nghiệm sử dụng vô cùng tuyệt vời từ các dòng sản phẩm trong cùng Hệ sinh thái như chuột máy tính, bàn phím cơ,...Để kéo dài thêm trải nghiệm Razer Hammerhead PRO V2 được rất nhiều game thủ quan tâm đối với một chiếc tai nghe, thường người dùng quan tâm đến chất âm cả khi chơi game và nghe nhạc. Tuy nhiên, các tai nghe in-ear nói riêng lại mang thiết kế nhỏ gọn và thường xuyên được game thủ mang theo bên mình, nhu cầu nghe nhạc lúc rảnh rỗi là không thể không tính đến. Và HammerHead Pro v2 là một trong những tai nghe gaming giá rẻ đã thể hiện rất tốt khi trung hòa được 2 nhu cầu đối lập đó. Chất âm đặc trưng của dòng HammerHead vẫn được giữ nguyên, đó là dải bass đầy đủ cả chất và lượng. Đối với các fan của thể loại nhạc EDM, Pop và Hip-hop, chắc chắn HammerHead Pro v2 sẽ thỏa mãn đôi tai của bạn.",
+          "img": ""
+        },
+        {
+          "title": "Không thua kém các loại tai nghe over-ear",
+          "content": "Các game hiện tại tập trung rất nhiều vào dải bass với tiếng bom đạn, cháy nổ hay giọng trầm của nhân vật, HammerHead Pro v2 thể hiện cực tốt khi mang lại trải nghiệm mạnh mẽ và cuốn hút. Do đặc điểm là tai nghe in-ear, âm trường của HammerHead Pro v2 thể thể xuất sắc như những tai nghe trùm đầu cỡ lớn, nhưng Razer cũng đã rất cố gắng khi mở rộng âm trường hơn khá nhiều so với phiên bản cũ. Micro là điểm mạnh của Razer HammerHead từ phiên bản đầu tiên, và không có lý do gì mà HammerHead Pro v2 không kế thừa ưu điểm đó. Với khả năng lọc âm tuyệt vời, kể cả khi đang đi đường, xe cộ ầm ĩ thì HammerHead Pro v2 vẫn đảm bảo khả năng truyền đạt âm thanh cực tốt.",
+          "img": "https://hstatic.net/716/1000026716/10/2016/7-17/lifestyle-razer-hammerhead-pro-v2-2.jpg"
+        }
+      ]
+    },
+    {
+      "productId": 7,
+      "values": [
+        {
+          "title": "TỰ DO KHÔNG DÂY",
+          "content": "Công nghệ LIGHTSPEED không dây đem đến cho bạn thời gian sử dụng pin trên 29 giờ và sự tự do không dây đáng tin cậy lên tới 20 mét.4Có thể thay đổi tùy theo người dùng và điều kiện sử dụng máy tính. Thời gian sử dụng pin dựa trên mức âm lượng tai nghe được đặt thành 50% và đèn tắt. Chơi mà không bị rối dây. Mở ra khả năng và đắm chìm bản thân vào trò chơi, âm nhạc, phim ảnh và bất cứ điều gì. Hãy tự do chơi theo cách của bạn.",
+          "img": ""
+        },
+        {
+          "title": "HÃY THẮP SÁNG",
+          "content": "Khoảng 16,8 triệu màu, hai vùng để tùy chỉnh ánh sáng để biến thành của riêng bạn. Cá nhân hóa màu sắc, hình ảnh hóa âm thanh, đưa bạn vào thế giới trò chơi - hoặc điên cuồng với các hình động tùy chỉnh và thiết lập trước. Lập trình tất cả với phần mềm chơi game G HUB miễn phí.",
+          "img": ""
+        },
+        {
+          "title": "TÙY CHỈNH HƠN NỮA VỚI CÁC PHỤ KIỆN",
+          "content": "Từ dây co dãn hai mặt tới vỏ bọc mic, G733 sẵn sàng để tùy chỉnh với nhiều phụ kiện sắc màu. Phối và kết hợp. Gập và gắn. Tận hưởng niềm vui bất tận với lựa chọn phụ kiện được bán riêng.",
+          "img": ""
+        },
+        {
+          "title": "Âm thanh đắm chìm",
+          "content": "Nghe tất cả với các màng loa PRO-G của riêng bạn được thiết kế để cho âm thanh chính xác và toàn dải. Đắm chìm vào trò chơi hơn bao giờ hết với âm thanh vòm DTS Headphone X 2.0 thế hệ mới.6Các tính năng nâng cao như DTS Headphone:X 2.0, Blue VO!CE, và LIGHTSYNC RGB không khả dụng trên PlayStation 4. Phát ra âm thanh tuyệt vời, rõ như pha lê với mic được chứng nhận Discord.",
+          "img": ""
+        },
+        {
+          "title": "NGHE MỌI TRÒ CHƠI",
+          "content": "Từ trò chơi tới âm nhạc, âm thanh rõ ràng chính xác và âm trầm sâu lắng bùng nổ đều được thiết kế. Các màng loa PRO-G được tạo thành bởi vật liệu vải lưới hybrid độc đáo làm giảm độ méo tiếng để tạo ra âm thanh chính xác, rõ ràng, cho trải nghiệm mượt mà, phong phú như trong rạp chiếu phim.",
+          "img": "https://resource.logitechg.com/d_transparent.gif/content/dam/gaming/en/products/g733/g733-feature4-2.png"
+        },
+        {
+          "title": "ÂM THANH VÒM CHÂN THỰC ĐẾN NGHẸT THỞ",
+          "content": "Âm thanh vòm thế hệ mới đem thế giới trò chơi của bạn đến thế giới thật xung quanh bạn. Tận hưởng tất cả các tín hiệu âm thanh tuyệt vời từ môi trường xung quanh mà các trò chơi yêu thích của bạn đem lại - từ mọi hướng. Công nghệ DTS Headphone:X 2.0 mới nhất là âm thanh vòm vượt qua 7.1 kênh.",
+          "img": ""
+        },
+        {
+          "title": "BẠN SẼ TẠO RA ÂM THANH TUYỆT VỜI",
+          "content": "G733 đi kèm các bộ lọc Blue VO!CE có thể tinh chỉnh cho âm thanh chất lượng truyền phát. Khiến cho âm thanh luồng truyền phát của bạn trở nên chuyên nghiệp hơn một cách nhanh chóng. Chọn từ nhiều bộ lọc hoặc tùy chỉnh bộ lọc của riêng bạn với phần mềm G HUB.",
+          "img": "https://resource.logitechg.com/d_transparent.gif/content/dam/gaming/en/products/g733/g733-feature4-1.png"
+        },
+        {
+          "title": "Trọng lượng siêu nhẹ",
+          "content": "Với trọng lượng chỉ 278 gram, nặng hơn nửa pound (250g) một chút. Đó là trọng lượng của 2 chiếc bánh burger phô mai hoặc 250 viên thạch jelly. Nó rất nhẹ và dây co dãn được thiết kế để làm giảm và phân phối trọng lượng, do đó bạn có thể tiếp tục chơi như nó không hề tồn tại.",
+          "img": ""
+        },
+        {
+          "title": "ĐƯỜNG CONG TẠO ĐỘ VỪA VẶN",
+          "content": "Cao su non hai lớp nhẹ nhàng ôm lấy đầu bạn và lượn vòng quanh khuôn mặt bạn. Nó làm giảm các điểm áp lực và đem lại sự thoải mái dài lâu cho những buổi chơi game dài. Dây đeo quanh đầu co dãn mềm mại và có thể điều chỉnh khiến cho nó rất vừa vặn.",
+          "img": ""
+        }
+      ]
+    },
+    {
+      "productId": 8,
+      "values": [
+        {
+          "title": "Sơ lược sản phẩm",
+          "content": "Ổ cứng truyền thống HDD với ưu thế là độ bền và dung lượng cao vẫn là một phần không thể thiếu được trong một chiếc máy tính. Đặc biệt là trong thời đại công nghệ hiện nay, những dữ liệu được xử lý ngày càng phức tạp và đồ sộ. Những bộ phim với độ nét cao, những tựa game khủng với dụng lượng hàng chục Gb đang choán khá nhiều chỗ khiến người dùng máy tính phải đau đầu với việc lưu trữ rất nhiều thứ một lúc. Hướng tới đối tượng người dùng phổ thông, BarraCuda vốn đã rất quen thuộc với người dùng các sản phẩm ổ cứng Seagate từ hơn 20 năm nay. Tuy nhiên ở phiên bản mới, Seagate muốn hướng đến người dùng đề cao tốc độ, sự chính xác và tiết kiệm điện năng cho nhu cầu làm việc và giải trí. Trong bài viết dưới đây, Phong Vũ xin giới thiệu đến các bạn: ổ cứng HDD Seagate Barracuda 1TB Sata là một trong những sản phẩm chất lượng được người dùng phổ thông yêu chuộng trong thời gian gần đây.",
+          "img": ""
+        },
+        {
+          "title": "SATA 6Gb/s - giao diện tối ưu hóa hiệu suất",
+          "content": "Ổ Cứng HDD Seagate Barracuda 1TB Sata với giao diện SATA 6Gb/s sẽ giúp cho việc truyền dẫn và truy xuất dữ liệu được nhanh chóng và hiệu quả hơn bao giờ hết. Kết hợp với dung lượng 1TB, tốc độ đọc ghi tối đa lên đến 180MB/s, ổ cứng sẽ hỗ trợ máy tính bạn có thể chạy mượt mà và mạnh mẽ hơn khi bạn chơi game tốc độ cao.",
+          "img": ""
+        },
+        {
+          "title": "Công nghệ Multi-Tier Caching",
+          "content": "Công nghệ Multi-Tier Caching có chức năng cung cấp, cải thiện hiệu suất đọc, ghi dữ liệu với khối lượng lớn mà vẫn đảm bảo sự ổn định cho thiết bị, đồng thời tiết kiệm điện năng và thời gian cho người sử dụng.",
+          "img": ""
+        },
+        {
+          "title": "Bảo vệ dữ liệu với Self-Encrypting",
+          "content": "Ổ Cứng HDD Seagate Barracuda 1TB Sata với Self-Encrypting có chức năng tự động mã hóa và giải mã dữ liệu, kết hợp với chức năng Authentication Key khi được cài đặt sẽ giúp bạn dễ dàng quản lý được dữ liệu của mình.",
+          "img": ""
+        },
+        {
+          "title": "Secure Erase xóa dữ liệu nhanh chóng, an toàn",
+          "content": "Secure Eraser cho phép bạn xóa sạch tất cả các dấu vết và thông tin liên quan đến dữ liệu bị xóa, bằng cách chia nhỏ các tập tin đó, khiến chúng không bao giờ có thể khôi phục được. Ngoài ra, bên cạnh tính năng chính, phần mềm còn có các tính năng hữu ích khác như, xóa toàn bộ dữ liệu trong ổ cứng ngoài hoặc USB hoặc một phân vùng trong ổ cứng của bạn, các công cụ dọn dẹp ổ cứng, hệ thống và cả Registry. Bên cạnh đó, bạn có thể thiết lập các mức độ bảo mật khi xóa dữ liệu đó dựa theo các tiêu chuẩn khác nhau. Bạn cũng có các lựa chọn để tự động thoát khỏi phần mềm (EX), tắt máy (SD), khởi động lại (RB) hoặc đặt ở chế độ standby (SB) sau khi quá trình hoàn tất.",
+          "img": ""
+        }
+      ]
+    },
+    {
+      "productId": 9,
+      "values": [
+        {
+          "title": "",
+          "content": "CPU Intel Core i7 12700 là một trong những CPU dòng Alder Lake cao cấp có sức mạnh phân bổ hiệu quả, mang đến hiệu năng vượt trội để bạn có trải nghiệm mượt mà hơn bao giờ hết. Core i7 12700 cao cấp hứa hẹn sẽ là trợ thủ đắc lực giúp bạn nâng cấp cấu hình dàn PC hiện tại của mình",
+          "img": ""
+        },
+        {
+          "title": "Tính tương thích cao, cấu trúc 12 nhân 20 luồng mạnh mẽ",
+          "content": "CPU Intel Core i7 12700 có thể chạy được trên nhiều bo mạch chủ như H610, B660, H670 hay Z690 và tương thích với socket LGA 1700 thế hệ mới. CPU thế hệ thứ 12 trên nền socket LGA 1700 với kiến trúc hoàn toàn mới, mang đến cho bộ PC hiệu năng vượt trội so với thế hệ tiền nhiệm.",
+          "img": "https://storage.googleapis.com/teko-gae.appspot.com/media/image/2022/2/16/20220216_d15205c5-37fc-4734-8e8f-799bf390f216.jpg"
+        },
+        {
+          "title": "",
+          "content": "Bộ vi xử lý cao cấp sở hữu cấu trúc lên đến 12 nhân và 20 luồng, với sức mạnh được phân bổ vào Performance-cores và Efficient-cores. Bộ nhớ đệm 25MB và dung lượng bộ nhớ ấn tượng 128GB, tích hợp bộ nhớ kênh đôi DDR4 3200 MT/s, DDR5 4800 MT/s, giúp hệ thống máy tính đạt được hiệu suất đáng kinh ngạc để các trải nghiệm trở nên mượt mà hơn.",
+          "img": "https://storage.googleapis.com/teko-gae.appspot.com/media/image/2022/2/16/20220216_882b5cb2-06dc-451c-bd1c-a44975f63b3c.jpg"
+        },
+        {
+          "title": "",
+          "content": "CPU Intel Core i7 12700 cung cấp hai luồng xử lý trên mỗi lõi vật lý khi được trang bị công nghệ siêu phân luồng Intel hiện đại. Các ứng dụng phân luồng cao sẽ giúp hệ thống hoàn thành được nhiều việc hơn, đẩy mạnh hiệu suất đồng thời giúp cải thiện hiệu quả đa nhiệm nhiều tác vụ. ",
+          "img": ""
+        },
+        {
+          "title": "Hỗ trợ bộ nhớ Intel Optane",
+          "content": "CPU Intel Core i7 12700 thế hệ thứ 12 tối ưu hóa trải nghiệm máy tính của người dùng với bộ nhớ Intel Optane tiên tiến. Người dùng có thể thoải mái chơi game không gián đoạn, truy cập nhanh chóng vào các chương trình quen thuộc nhờ vào dung lượng lưu trữ và khả năng tăng tốc hệ thống thông minh đến từ bộ nhớ Intel Optane, trải nghiệm cá nhân hóa ấn tượng.",
+          "img": "https://storage.googleapis.com/teko-gae.appspot.com/media/image/2022/2/16/20220216_f2368ce3-f8e1-4170-a51f-08a45393e4f6.jpg"
+        },
+        {
+          "title": "Tích hợp chip đồ họa ",
+          "content": "CPU Intel Core i7 12700 tích hợp chip đồ họa Intel UHD Graphics 770, cải thiện khả năng xử lý đồ họa đáng kể, hỗ trợ xuất hình ảnh sắc nét với độ phân giải tối đa (HDMI) 4096 x 2160 @ 60Hz. Nhờ đó, bạn có thể tận hưởng chất lượng hình ảnh sắc nét và sống động khi làm việc hay giải trí.",
+          "img": "https://storage.googleapis.com/teko-gae.appspot.com/media/image/2022/2/16/20220216_993ab8f4-bba5-44b7-a167-1090ea602e02.jpg"
+        },
+        {
+          "title": "Tốc độ xử lý nhanh chóng",
+          "content": "CPU Intel Core i7 12700 cung cấp tần số Turbo tối đa của lõi hiệu suất là 4.90GHz, kết hợp cùng các công nghệ khác của Intel như Intel Deep Learning Boost, Intel Speed Shift,... giúp nâng cấp đáng kể khả năng xử lý nhiều tác vụ từ nhẹ đến nặng, mang đến trải nghiệm mượt không giật lag.",
+          "img": "https://storage.googleapis.com/teko-gae.appspot.com/media/image/2022/2/16/20220216_03b52bff-d199-4899-bdba-be080db30dbc.jpg"
+        },
+        {
+          "title": "Trải nghiệm hiệu năng cao mượt mà",
+          "content": "CPU Intel Core i7 12700 ẩn chứa sức mạnh siêu phân luồng mạnh mẽ, cung cấp tần số xung nhịp ấn tượng, cùng khả năng phản hồi và xử lý nhanh chóng, hỗ trợ tối đa trong công việc và giải trí. Bạn có thể khởi chạy các phần mềm đồ họa hay chơi game trơn tru với tốc độ đáng kinh ngạc. ",
+          "img": ""
+        }
+      ]
+    },
+    {
+      "productId": 10,
+      "values": [
+        {
+          "title": "Ram DDR4 tốc độ cao",
+          "content": "Được sản xuất bằng chip và PCB chất lượng cao nhất, Ram Desktop Adata XPG D50 cung cấp độ ổn định, độ tin cậy cao nhất và tốc độ lên đến 4800MHz. Hơn nữa, nó hỗ trợ các nền tảng Intel và AMD mới nhất.",
+          "img": "https://hanoicomputercdn.com/media/lib/22-09-2022/ram-desktop-adata-xpg-spectrix-d50-rgb-white-ax4u32008g16a-sw50-8gb-1x8gb-ddr4-3200mhz-mota4.jpg"
+        },
+        {
+          "title": "Thiết kế chắc chắn ",
+          "content": "D50 có một bộ tản nhiệt bằng kim loại dày 1,95mm được cấu tạo vững chắc không chỉ mang lại độ bền tuyệt vời mà còn tạo ra một không khí mạnh mẽ và hiệu suất cao.",
+          "img": "https://hanoicomputercdn.com/media/lib/22-09-2022/ram-desktop-adata-xpg-spectrix-d50-rgb-white-ax4u32008g16a-sw50-8gb-1x8gb-ddr4-3200mhz-mota3.jpg"
+        },
+        {
+          "title": "Tùy chỉnh RGB theo cách của bạn",
+          "content": "D50 có vẻ ngoài sang trọng,c ác đường nét hình học đơn giản và panel RGB hình tam giác, kết hợp cới ứng dụng XPG RGB Sync hoặc phần mềm RGB từ một thương hiệu bo mạch chủ lớn, hãy chuyển đổi giữa ba chế độ RGB được thiết lặp sẵn. Ngoài ba chế độ, bạn cũng có thể đặt chế độ này thành chế độ Âm nhạc để đồng bộ hóa với những giai điệu yêu thích của bạn.",
+          "img": "https://hanoicomputercdn.com/media/lib/22-09-2022/ram-desktop-adata-xpg-spectrix-d50-rgb-white-ax4u32008g16a-sw50-8gb-1x8gb-ddr4-3200mhz-rgb.jpg"
+        }
+      ]
+    },
+    {
+      "productId": 11,
+      "values": [
+        {
+          "title": "",
+          "content": "",
+          "img": ""
+        },
+        {
+          "title": "",
+          "content": "",
+          "img": ""
+        },
+        {
+          "title": "",
+          "content": "",
+          "img": ""
+        }
+      ]
+    },
+    {
+      "productId": 12,
+      "values": [
+        {
+          "title": "Miếng lót chuột Corsair MM1000 Qi Charging - CH-9440022-AP – khả năng sạc không dây tiện lợi",
+          "content": "Corsair đã ra mắt mẫu chuột gaming sử dụng công nghệ kết nối không dây Dark Core SE Tuy nhiên điểm yếu cố hữu của mẫu chuột này là có nguồn pin được đặt kín trong thân chuột, người dùng không thể thay thế mỗi khi hết pin mà phải cắm dây kết nối để sạc pin. Việc này có thể gây ra một vài bất tiện không đáng có",
+          "img": "https://tmp.phongvu.vn/wp-content/uploads/2018/10/Dark-Core-SE-1.jpg"
+        },
+        {
+          "title": "Thiết kế",
+          "content": "Sản phẩm đi kèm bàn di chuột cùng một số tính năng đáng chú ý: Bao gồm một thiết bị đặc biệt với chuẩn kết nối USB Type-C, Lightning và Micro USB. Chỉ cần cắp thiết bị này lên điện thoại rồi đặt lên bàn di là thiết bị sẽ ngay lập tức được sạc, Công nghệ sạc không dây chuẩn Qi, Đèn LED thông báo trạng thái chuột đang/không sạc, Có cổng kết nối USB 3.0 sử dụng để kết nối một thiết bị khác",
+          "img": "https://tmp.phongvu.vn/wp-content/uploads/2018/10/Dark-Core-SE-2-e1540566620771-1024x491.jpg"
+        },
+        {
+          "title": "",
+          "content": "Corsair MM1000 Qi Charging mang thiết kế 2 lớp với một lớp mạch sạc không dây như là đế của bàn di và lớp trên cùng chính là bề mặt di chuột mà Corsair đính kèm theo sản phẩm. Bộ lót chuột sẽ đi kèm tấm di chuột bề mặt cứng và sần, đem lại khả năng sử dụng chính xác và thoải mái, kích cỡ 26x35cm có độ lớn vừa đủ. Corsair MM1000 Qi Charging sẽ giúp sạc đầy pin cho chuột Dark Core SE hoặc các thiết bị ngoại vi. Người dùng chỉ đơn giản là sử dụng chuột mà không cần thêm bất cứ kết nối bất tiện nào.",
+          "img": ""
+        }
+      ]
+    },
+    {
+      "productId": 13,
+      "values": [
+        {
+          "title": "",
+          "content": "Ghế gaming MSI CH 120 I (Đen) là chiếc ghế gaming cao cấp đến từ thương hiệu MSI nổi tiếng với thiết kế phong cách cùng những tính năng vượt trội sẽ đem lại cho bạn những trải nghiệm tuyệt vời, thỏa mãn nhu cầu kể cả những người dùng khó tính. Vì thế, chắc chắn MSI CH 120 là sự lựa chọn tối ưu cho bạn.",
+          "img": ""
+        },
+        {
+          "title": "Sử dụng chất liệu cao cấp cho cảm giác êm ái, an toàn khi sử sử dụng và dễ dàng vệ sinh",
+          "content": "Ghế gaming MSI CH 120 có kết cấu cực kỳ chắc chắn, nhờ sở hữu bộ khung hợp kim thép cao cấp trải dài trên toàn bộ lưng và mông ghế và dùng vật liệu sơn có thể ngăn ngừa rỉ sét trong thời gian dài sử dụng, đảm bảo độ bền và ổn định ngang hàng với các thương hiệu ghế cao cấp khác. Cùng với đó, bề mặt ghế được làm từ chất liệu da PVC cao cấp vân da mịn và có độ bóng rất đẹp tạo cảm giác cực kì thoáng mát, không thấm mồ hôi, không gây mùi và đặc biệt dễ dàng lau chùi vệ sinh mặt ghế. Hơn nữa, MSI CH 120 còn sử dụng đệm mút bằng bọt mật cao bên trong ghế đem lại cảm giác êm ái cho người sử dụng cùng khả năng độ đàn hồi và chống lún cực tốt đem lại sự thư giãn và thoải mái.",
+          "img": "https://lh4.googleusercontent.com/r5iWDAUyELVL_XOG2ySZ-R8Q04hbAgJZWGOUG0CikJy7aA6ccmZjfqGjcYK8oPjFYulg9feRng51GvB0Sj62MIyyzefRzcOg0ytUTETsNVpJeACh9w7X1zHCRjaKJPyQ4uRzcr6QUONj7vFh_w"
+        },
+        {
+          "title": "Thiết kế nhỏ gọn, khả năng chịu lực cao với trụ thủy lực class 4",
+          "content": "MSI CH 120 có kích thước ghế nhỏ gọn 130 x 65 x 52,5 (cm) với cân năng chỉ 27kg, đường kính chân ghế chỉ 70mm, phần phía trên đầu có xu hướng cong ra ngoài cho phần đầu luôn ở tư thế thẳng giúp tiết kiệm không gian căn phòng của bạn.",
+          "img": "https://lh5.googleusercontent.com/EB9zuPmdeWLgw0ISslJ7aMLKOIq4YXDMKb_lTGPErKdzCRHtiTANKlooIjAxx5NdWP1X_Zv_WT6V1d8b9O_Tkod8OeVgwh_gCgfkLVEQ1GV35mwUueuR19xwc0oBjcuskXk2XymnRVqrPX7Thw"
+        },
+        {
+          "title": "",
+          "content": "Không những thế, nó còn được thiết kế trụ thủy lực Class 4 có khả năng chịu tải trọng lên đến 150kg giúp cho ghế chống rung giật đem lại cảm giác ngồi thoải mái và cực kỳ chắc chắn. Ngoài ra,  MSI CH 120 sở hữu thiết kế chân hình sao 5 cánh giúp cho ghế đảm bảo sự chắc chắn, vững vàng và khả năng chịu tải trọng cao hơn 20% so với các loại chân ghế thông thường.",
+          "img": "https://lh4.googleusercontent.com/zivrQweKPWA2CzlA9UykB4Zeh1G3fUGWV-2IGnCO5WT3F_MvPP-wgerQKYVNcNuFTZRLnBuZxDQR9RtKu0R9UKD0UNtTFO_rtugkRya7D2K5pws3DklpfCcreoFa7DQd_hwyAkhPkFf8ULmOAA"
+        },
+        {
+          "title": "Góc tựa ngả lưng lên đến 180 độ cùng thiết kế tay vịn điều chỉnh 4D linh hoạt",
+          "content": "Ghế chơi game MSI CH 120 có góc ngả ghế lớn với góc ngả lưng có thể điều chỉnh từ 90-180 độ cho người dùng có thể điều chỉnh tư thế ngồi hoặc nằm hợp lý, phù hợp các game thủ chơi game trong thời gian dài. Cùng với đó, MSI CH 120 còn sở hữu thiết kế 4D có thể điều chỉnh theo 4 chế độ khác nhau cho cảm giác như một ông hoàng, vua chúa ngồi trên chiếc ghế này, cùng với khả năng điều chỉnh độ cao tay vịn tùy ý để điều chỉnh phù hợp với người sử dụng.",
+          "img": "https://lh6.googleusercontent.com/HtCbYhYNGl6SIdjbP3wrZ2Jkna6W-RVtZJq1z3_emmXRex5L-S6pQxUhmh_GZDsCwcoXSouE-IZaoGVkBUUwdk8negB7bF7BLjEFwzXPFOg0BeablVdyaaACMQtIyBI3dYLzHzKbwsddVFoovg"
+        },
+        {
+          "title": "Thiết kế bánh xe chống xước giúp ghế di chuyển êm ái cùng gối tựa đầu và đệm sau lưng đi kèm cho trải nghiệm tuyệt vời",
+          "content": "MSI CH 120 sở hữu thiết kế bánh xe có kích thước 66mm với khả năng di chuyển linh hoạt không gây tiếng ồn, không gây các vết xước trên bề mặt sàn giúp cho ghế chuyển động mượt mà êm ái, dễ dàng di chuyển đến vị trí cần thiết",
+          "img": "https://lh4.googleusercontent.com/Uk_OuNDFYkYmWm9rdB2EadsVSnE43CQOJ3wuaFXpRO6MGD2RT4Z0sYJcf90BkHCsHmjiYm7Vt8RxicKAlqE5yXSSmAl4PxXbt5bEIYSeCSKqPfyc-p3bd0jrDBpubaAOIb8FX9Pe7m2_V4u1bQ"
+        },
+        {
+          "title": "",
+          "content": "Cuối cùng, ghế còn được trang bị kèm theo gối tựa đầu cùng đệm sau lưng bằng cách giảm áp lực ở cổ và thắt lưng giúp bạn không còn lo lắng bởi những bệnh lý như đau mỏi lưng, vai hay cảm thấy mệt mỏi khi ngồi chơi quá lâu và cũng có thể ngủ một giấc ngon lành.",
+          "img": "https://lh5.googleusercontent.com/W-pgLQtmUGneVs--hl0fxXlwwLigGi6c9ek9ehKHp4XkQpDGn39PHlNPpV9fP6cxGmlRSVOUoKIq_GzDeBZYVStYxNEQ5j7ax9YghkQIWnHttNPzwSz6se8vZjVWKUBCs1nBzUT9--P2kwkk7g"
+        }
+      ]
+    },
+    {
+      "productId": 14,
+      "values": [
+        {
+          "title": "",
+          "content": "DXRacer là một trong những hãng sản xuất chuyên cung cấp các thiết bị bàn, ghế gaming vô cùng chất lượng, cao cấp được nhiều người tiêu dùng đánh giá cao về chất lượng cũng như thiết kế trong đó DXRacer NEXTG-GDN001-NS-1 là một trong những dòng sản phẩm mới nhất.",
+          "img": ""
+        },
+        {
+          "title": "Hỗ trợ dãy đèn LED RGB đẹp mắt, nổi bật",
+          "content": "Dòng sản phẩm bàn gaming được hỗ trợ hệ thống LED RGB ở 6 vị trí tạo nên điểm nhấn vô cùng ấn tượng. Được kết nối thông qua cổng USB và người dùng có thể tùy chỉnh thông qua nút được tích hợp sẵn trên mặt bàn. Phần đèn Led vô cùng dịu mắt trên mặt bàn và trên chân bàn mang đến những  trải nghiệm chơi game tốt nhất. Đưa hệ thống PC của bạn lên một tầm cao mới sang trọng và đẳng cấp.",
+          "img": "https://file.hstatic.net/1000026716/file/gearvn-ban-choi-game-dxracer-nex-tg-gdn001-ns-4_d41ad55c54534b33bb71d9d5ef80eb56.png"
+        },
+        {
+          "title": "Mặt bàn rộng thuận tiện chơi game và làm việc",
+          "content": "Để tìm một chiếc bàn thuận tiện và nâng cao chất lượng công việc cùng với đó là thuận tiện cho việc giải trí thì DXRacer NEX là một trong những sự lựa chọn tốt nhất hiện nay. <br> - Mặt bàn làm bằng sợi carbon bóng bẩy và siêu mịn. <br> - Có 2 lỗ đi dây ở 2 bên góc bàn (đi kèm nắp đậy). <br> - Mặt bàn rộng nâng tầm trò chơi và làm nhẹ công việc.",
+          "img": ""
+        },
+        {
+          "title": "DXRacer NEX TG-GDN001-NS-1 sở hữu thiết kế đa năng",
+          "content": "NEX sở hữu thiết kế vô cùng đa năng với việc đi kèm với bàn chính là bàn di chuột, giá để cốc, giá treo tai nghe gaming. Giúp người dùng có thể trang bị nhiều thiết bị cao cấp chiếm nhiều diện tích hỗ trợ cho công việc, chơi game trở nên gọn gàng hơn đặc biệt là khi sử dụng cùng với các thiết bị kết nối wireless như chuột không dây hoặc bàn phím bluetooth.",
+          "img": "https://file.hstatic.net/1000026716/file/gearvn-ban-choi-game-dxracer-nex-tg-gdn001-ns-3_0659b604984a464e8815e9189bfd0db5.png"
+        },
+        {
+          "title": "Khung kim loại chắc chắn, bền bỉ",
+          "content": "DXRacer luôn mang đến cho người dùng những sản phẩm chất lượng cao. Với việc bàn chơi game DXRacer NEX TG-GDN001-NS-1 được cấu tạo bằng khung kim loại sẽ mang đến độ chắc chắn và bền bỉ tránh được tình trạng lỗi hoặc hư hỏng trong quá trình sử dụng.",
+          "img": "https://file.hstatic.net/1000026716/file/gearvn-ban-choi-game-dxracer-nex-tg-gdn001-ns-1_e8dea6f22f494bd580d457e22a83ea44.png"
+        }
+      ]
+    },
+    {
+      "productId": 91424,
+      "values": [
+        {
+          "title": "",
+          "content": "",
+          "img": ""
+        },
+        {
+          "title": "",
+          "content": "",
+          "img": ""
+        },
+        {
+          "title": "",
+          "content": "",
+          "img": ""
+        }
+      ]
+    }
+  ],
+  "specifications": [
+    {
+      "productId": 1,
+      "values": [
+        {
+          "title": "Thông tin hàng hóa",
+          "content": [
+            {
+              "key": "Thương hiệu",
+              "value": [
+                "E-Power"
+              ]
+            },
+            {
+              "key": "Thời điểm ra mắt",
+              "value": [
+                "2022"
+              ]
+            },
+            {
+              "key": "Xuất xứ",
+              "value": [
+                "Việt Nam"
+              ]
+            },
+            {
+              "key": "Thời gian bảo hành",
+              "value": [
+                "36 tháng"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Thiết kế & trọng lượnng",
+          "content": [
+            {
+              "key": "Kích thước",
+              "value": [
+                "338 x 255 x335 mm"
+              ]
+            },
+            {
+              "key": "Trọng lượng sản phẩm",
+              "value": [
+                "5000 g"
+              ]
+            },
+            {
+              "key": "Kiểu dáng thiết kế",
+              "value": [
+                "PC lắp ráp"
+              ]
+            },
+            {
+              "key": "Loại Case",
+              "value": [
+                "MID tower"
+              ]
+            },
+            {
+              "key": "Màu sắc",
+              "value": [
+                "Đen"
+              ]
+            },
+            {
+              "key": "Chất liệu",
+              "value": [
+                " Kim loại - kính cường lực"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bộ xử lí",
+          "content": [
+            {
+              "key": "Hãng CPU",
+              "value": [
+                "Intel"
+              ]
+            },
+            {
+              "key": "Công nghệ CPU",
+              "value": [
+                "Core i7"
+              ]
+            },
+            {
+              "key": "Loại CPU",
+              "value": [
+                "12700F"
+              ]
+            },
+            {
+              "key": "Số Nhân",
+              "value": [
+                "12"
+              ]
+            },
+            {
+              "key": "Số luồng",
+              "value": [
+                "20"
+              ]
+            },
+            {
+              "key": "Bộ nhớ đệm",
+              "value": [
+                "25 MB"
+              ]
+            },
+            {
+              "key": "Tốc độ CPU",
+              "value": [
+                "Tối đa 4.9 GHz"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Mainboard",
+          "content": [
+            {
+              "key": "Chipset",
+              "value": [
+                "Intel B660"
+              ]
+            },
+            {
+              "key": "Kích thước Mainboard",
+              "value": [
+                "m-ATX"
+              ]
+            },
+            {
+              "key": "Khe RAM tối đa",
+              "value": [
+                "4 khe"
+              ]
+            },
+            {
+              "key": "Số khe RAM còn lại",
+              "value": [
+                "2"
+              ]
+            },
+            {
+              "key": "Hỗ trợ RAM tối đa",
+              "value": [
+                "128GB"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "RAM",
+          "content": [
+            {
+              "key": "Dung lượng RAM",
+              "value": [
+                "16GB"
+              ]
+            },
+            {
+              "key": "Loại RAM",
+              "value": [
+                "DDR4"
+              ]
+            },
+            {
+              "key": "Tốc độ RAM",
+              "value": [
+                "3200Hz"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Card đồ họa",
+          "content": [
+            {
+              "key": "Hãng",
+              "value": [
+                "NVIDIA"
+              ]
+            },
+            {
+              "key": "Model",
+              "value": [
+                "GeForce RTX 3060 Ti"
+              ]
+            },
+            {
+              "key": "Bộ nhớ",
+              "value": [
+                "8 GB GDDR6X"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Lưu trữ",
+          "content": [
+            {
+              "key": "Kiểu ổ cứng",
+              "value": [
+                "SSD"
+              ]
+            },
+            {
+              "key": "Tổng số khe cắm SSD/HDD",
+              "value": [
+                "5"
+              ]
+            },
+            {
+              "key": "Số khe SSD/HDD còn lại",
+              "value": [
+                "4"
+              ]
+            },
+            {
+              "key": "Loại SSD",
+              "value": [
+                "M2. PCIe"
+              ]
+            },
+            {
+              "key": "Dung lượng",
+              "value": [
+                "500 GB"
+              ]
+            },
+            {
+              "key": "Tốc độ đọc/ghi",
+              "value": [
+                "2100 MB/s Ghi | 3500 Mb/s Đọc"
+              ]
+            },
+            {
+              "key": "Chuẩn M2",
+              "value": [
+                "2280"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Giao tiếp & kết nối",
+          "content": [
+            {
+              "key": "Số cổng kết nối",
+              "value": [
+                "1 DisplayPort 1 HDMI",
+                "1 LAN 1 Optical S/PDIF out port",
+                "1 Type C 1 USB 3.2 Gen 1",
+                "2 USB 2.0 4 USB 3.2 Gen 2",
+                "5 Jack 3.5 mm"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bộ nguồn",
+          "content": [
+            {
+              "key": "Công suất bộ nguồn",
+              "value": [
+                "750W"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Phụ kiện trong hộp",
+          "content": [
+            {
+              "key": "Phụ kiện trong hộp",
+              "value": [
+                "Dây nguồn"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": 2,
+      "values": [
+        {
+          "title": "Thông tin hàng hóa",
+          "content": [
+            {
+              "key": "Thương hiệu",
+              "value": [
+                "ACER"
+              ]
+            },
+            {
+              "key": "Thời điểm ra mắt",
+              "value": [
+                "2021"
+              ]
+            },
+            {
+              "key": "Xuất xứ",
+              "value": [
+                "Trung Quốc"
+              ]
+            },
+            {
+              "key": "Bảo hành",
+              "value": [
+                "12 tháng"
+              ]
+            },
+            {
+              "key": "Part-number",
+              "value": [
+                "NH.QENSV.003"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Thiết kế & Trọng lượng",
+          "content": [
+            {
+              "key": "Kích thước",
+              "value": [
+                "363.4 x 255 x 23.9 mm"
+              ]
+            },
+            {
+              "key": "Trọng lượng sản phẩm",
+              "value": [
+                "2.2 kg"
+              ]
+            },
+            {
+              "key": "Bản lề (Hinge / Kickstand)",
+              "value": [
+                "Bản lề đôi"
+              ]
+            },
+            {
+              "key": "Tản nhiệt",
+              "value": [
+                "2 quạt"
+              ]
+            },
+            {
+              "key": "Màu sắc",
+              "value": [
+                "Đen"
+              ]
+            },
+            {
+              "key": "Chất liệu",
+              "value": [
+                "Nhựa"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bộ xử lý",
+          "content": [
+            {
+              "key": "Hãng CPU",
+              "value": [
+                "Intel"
+              ]
+            },
+            {
+              "key": "Công nghệ CPU",
+              "value": [
+                "Core i5"
+              ]
+            },
+            {
+              "key": "Loại CPU",
+              "value": [
+                "11400H"
+              ]
+            },
+            {
+              "key": "Tốc độ CPU",
+              "value": [
+                "2.60 GHz"
+              ]
+            },
+            {
+              "key": "Tốc độ tối đa",
+              "value": [
+                "4.40 GHz"
+              ]
+            },
+            {
+              "key": "Số nhân",
+              "value": [
+                "6"
+              ]
+            },
+            {
+              "key": "Số luồng",
+              "value": [
+                "12"
+              ]
+            },
+            {
+              "key": "Bộ nhớ đệm",
+              "value": [
+                "12 MB"
+              ]
+            },
+            {
+              "key": "Tốc độ BUS",
+              "value": [
+                "8 GT/s"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "RAM",
+          "content": [
+            {
+              "key": "Dung lượng RAM",
+              "value": [
+                "8 GB (1 thanh 8 GB)"
+              ]
+            },
+            {
+              "key": "Loại RAM",
+              "value": [
+                "DDR4"
+              ]
+            },
+            {
+              "key": "Tốc độ RAM",
+              "value": [
+                "3200 MHz"
+              ]
+            },
+            {
+              "key": "Số khe cắm rời",
+              "value": [
+                "2"
+              ]
+            },
+            {
+              "key": "Số khe RAM còn lại",
+              "value": [
+                "1"
+              ]
+            },
+            {
+              "key": "Số RAM onboard",
+              "value": [
+                "0"
+              ]
+            },
+            {
+              "key": "Hỗ trợ RAM tối đa",
+              "value": [
+                "32 GB"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Màn hình",
+          "content": [
+            {
+              "key": "Kích thước màn hình",
+              "value": [
+                "15.6 inch"
+              ]
+            },
+            {
+              "key": "Công nghệ màn hình",
+              "value": [
+                "Acer ComfyView LED-backlit"
+              ]
+            },
+            {
+              "key": "Độ phân giải",
+              "value": [
+                "1920 x 1080 Pixels"
+              ]
+            },
+            {
+              "key": "Loại màn hình",
+              "value": [
+                "LED"
+              ]
+            },
+            {
+              "key": "Tần số quét",
+              "value": [
+                "144 Hz"
+              ]
+            },
+            {
+              "key": "Tấm nền",
+              "value": [
+                "IPS"
+              ]
+            },
+            {
+              "key": "Tỷ lệ màn hình",
+              "value": [
+                "16:09"
+              ]
+            },
+            {
+              "key": "Màn hình cảm ứng",
+              "value": [
+                "Không"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Đồ họa",
+          "content": [
+            {
+              "key": "Card onboard",
+              "value": [
+                "Hãng: Intel",
+                "Model: UHD",
+                "Bộ nhớ: Share"
+              ]
+            },
+            {
+              "key": "Card onboard",
+              "value": [
+                "Hãng: NVIDIA",
+                "Model: GeForce RTX 3050",
+                "Bộ nhớ: 4 GB GDDR6"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Lưu trữ",
+          "content": [
+            {
+              "key": "Kiểu ổ cứng",
+              "value": [
+                "SSD"
+              ]
+            },
+            {
+              "key": "Hỗ trợ công nghệ Optane",
+              "value": [
+                "Có"
+              ]
+            },
+            {
+              "key": "Tổng số khe cắm SSD/HDD",
+              "value": [
+                "3"
+              ]
+            },
+            {
+              "key": "Số khe SSD/HDD còn lại",
+              "value": [
+                "1 HDD"
+              ]
+            },
+            {
+              "key": "Số khe SSD/HDD còn lại",
+              "value": [
+                "1 SSD"
+              ]
+            },
+            {
+              "key": "SSD",
+              "value": [
+                ""
+              ]
+            },
+            {
+              "key": "Loại SSD",
+              "value": [
+                "M2. PCIe"
+              ]
+            },
+            {
+              "key": "Dung lượng",
+              "value": [
+                "512 GB"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Giao tiếp & kết nối",
+          "content": [
+            {
+              "key": "Cổng giao tiếp",
+              "value": [
+                "1 DC-in jack",
+                "1 Jack 3.5 mm",
+                "1 USB 2.0",
+                "1 HDMI",
+                "1 Type C",
+                "1 USB 3.0"
+              ]
+            },
+            {
+              "key": "Wifi",
+              "value": [
+                "802.11 ax"
+              ]
+            },
+            {
+              "key": "Bluetooth",
+              "value": [
+                "v5.1"
+              ]
+            },
+            {
+              "key": "Webcam",
+              "value": [
+                "HD Webcam (720p Webcam)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Âm thanh",
+          "content": [
+            {
+              "key": "Số lượng loa",
+              "value": [
+                "2"
+              ]
+            },
+            {
+              "key": "Công nghệ âm thanh",
+              "value": [
+                "Acer TrueHarmony"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bàn phím & TouchPad",
+          "content": [
+            {
+              "key": "Kiểu bàn phím",
+              "value": [
+                "Backlit Chiclet Keyboard"
+              ]
+            },
+            {
+              "key": "Bàn phím số",
+              "value": [
+                "Có"
+              ]
+            },
+            {
+              "key": "Đèn bàn phím",
+              "value": [
+                "LED"
+              ]
+            },
+            {
+              "key": "Công nghệ đèn bàn phím",
+              "value": [
+                "RGB 4 Zone"
+              ]
+            },
+            {
+              "key": "Màu đèn LED",
+              "value": [
+                "RGB 4 Zone"
+              ]
+            },
+            {
+              "key": "TouchPad",
+              "value": [
+                "Multi-touch touchpad"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Thông tin pin & Sạc",
+          "content": [
+            {
+              "key": "Loại PIN",
+              "value": [
+                "Lithium-ion"
+              ]
+            },
+            {
+              "key": "Dung lượng pin",
+              "value": [
+                "4 Cell"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Hệ điều hành",
+          "content": [
+            {
+              "key": "OS",
+              "value": [
+                "Windows"
+              ]
+            },
+            {
+              "key": "Version",
+              "value": [
+                "Windows 11 Home"
+              ]
+            },
+            {
+              "key": "Type",
+              "value": [
+                "64 bit"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Phụ kiện trong hộp",
+          "content": [
+            {
+              "key": "Sách HDSD",
+              "value": [
+                ""
+              ]
+            },
+            {
+              "key": "Bộ sạc điện",
+              "value": [
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": 3,
+      "values": [
+        {
+          "title": "Hiển thị",
+          "content": [
+            {
+              "key": "Tần số quét",
+              "value": [
+                "144 Hz"
+              ]
+            },
+            {
+              "key": "Thời gian phản hồ",
+              "value": [
+                "1ms"
+              ]
+            },
+            {
+              "key": "Tỉ lệ màn hình",
+              "value": [
+                "16:9"
+              ]
+            },
+            {
+              "key": "Độ sáng",
+              "value": [
+                "300 cd/m²"
+              ]
+            },
+            {
+              "key": "Góc nhìn",
+              "value": [
+                "178º ngang, 178º dọc"
+              ]
+            },
+            {
+              "key": "Độ phủ màu",
+              "value": [
+                "sRGB 99%"
+              ]
+            },
+            {
+              "key": "Số lượng màu",
+              "value": [
+                "16.7 triệu"
+              ]
+            },
+            {
+              "key": "Tấm nền",
+              "value": [
+                "IPS"
+              ]
+            },
+            {
+              "key": "Kích thước màn hình",
+              "value": [
+                "24 inches"
+              ]
+            },
+            {
+              "key": "Độ phân giải màn hình",
+              "value": [
+                "1920 x 1080"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Thông số khác",
+          "content": [
+            {
+              "key": "Kiểu màn hình",
+              "value": [
+                "Màn hình phẳng"
+              ]
+            },
+            {
+              "key": "Độ tương phản tĩnh",
+              "value": [
+                "1000:1"
+              ]
+            },
+            {
+              "key": "Công suất tiêu thụ",
+              "value": [
+                "28W"
+              ]
+            },
+            {
+              "key": "Công nghệ màn hình",
+              "value": [
+                "AMD FreeSync Premium",
+                "HDR 10",
+                "Chống nhấp nháy",
+                "Giảm ánh sáng xanh"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Kết nối",
+          "content": [
+            {
+              "key": "Cổng kết nối",
+              "value": [
+                "HDMI, Display Port"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Thiết kế & Trọng lượng",
+          "content": [
+            {
+              "key": "Kích thước",
+              "value": [
+                "Có chân đế: 540.8 x 408.9 x 180.5 mm",
+                "Không chân đế: 540.8 x 323.8 x 42.8",
+                "mm"
+              ]
+            },
+            {
+              "key": "Trọng lượng",
+              "value": [
+                "Có chân đế: 3.94 Kg",
+                "Không chân đế: 3.5 Kg"
+              ]
+            },
+            {
+              "key": "Treo tường",
+              "value": [
+                "100 x 100 mm"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": 4,
+      "values": [
+        {
+          "title": "Thông tin hàng hóa",
+          "content": [
+            {
+              "key": "Thương hiệu",
+              "value": [
+                "DAREU"
+              ]
+            },
+            {
+              "key": "Tên",
+              "value": [
+                "EK810X"
+              ]
+            },
+            {
+              "key": "Bảo hành",
+              "value": [
+                "24 tháng"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Thông tin chung",
+          "content": [
+            {
+              "key": "Màu sắc",
+              "value": [
+                "Đen xám"
+              ]
+            },
+            {
+              "key": "Loại bàn phím",
+              "value": [
+                "Bàn phím cơ"
+              ]
+            },
+            {
+              "key": "Đèn",
+              "value": [
+                "RGB"
+              ]
+            },
+            {
+              "key": "Kiểu switch",
+              "value": [
+                "Blue Switch"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Kết nối",
+          "content": [
+            {
+              "key": "Kiểu kết nối",
+              "value": [
+                "Bàn phím có dây"
+              ]
+            },
+            {
+              "key": "Kết nối bàn phím",
+              "value": [
+                "USB"
+              ]
+            },
+            {
+              "key": "Phím chức năng",
+              "value": [
+                "Có"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": 5,
+      "values": [
+        {
+          "title": "KÍCH THƯỚC",
+          "content": [
+            {
+              "key": "Chiều cao",
+              "value": [
+                "136 mm"
+              ]
+            },
+            {
+              "key": "Chiều rộng",
+              "value": [
+                "72 mm"
+              ]
+            },
+            {
+              "key": "Chiều dày",
+              "value": [
+                "41 mm"
+              ]
+            },
+            {
+              "key": "Trọng lượng",
+              "value": [
+                "108 gram"
+              ]
+            },
+            {
+              "key": "Độ dài dây",
+              "value": [
+                "2,1 m"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "THÔNG SỐ KỸ THUẬT",
+          "content": [
+            {
+              "key": "Công nghệ sử dụng",
+              "value": [
+                "Fusion Engine hybrid sensor",
+                "8 programmable buttons",
+                "On-the-fly DPI Switching",
+                "32-bit ARM processor",
+                "1 millisecond report",
+                "High-speed clicking",
+                "Full-speed USB"
+              ]
+            },
+            {
+              "key": "Độ phân giải",
+              "value": [
+                "240-4000 dpi"
+              ]
+            },
+            {
+              "key": "Tăng tốc tối đa",
+              "value": [
+                ">16 g"
+              ]
+            },
+            {
+              "key": "Tốc độ tối đa",
+              "value": [
+                ">500 ips"
+              ]
+            },
+            {
+              "key": "Bộ vi xử lý",
+              "value": [
+                "32-bit"
+              ]
+            },
+            {
+              "key": "Yêu cầu hệ thống",
+              "value": [
+                "Cổng USB được cấp điện",
+                "Internet connection and 100MB hard drive space"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Độ nhạy",
+          "content": [
+            {
+              "key": "Định dạng dữ liệu USB",
+              "value": [
+                "16 bit/trục"
+              ]
+            },
+            {
+              "key": "Tần suất gửi tín hiệu USB",
+              "value": [
+                "1000Hz (1ms)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Độ bền",
+          "content": [
+            {
+              "key": "Các nút (Trái / Phải)",
+              "value": [
+                "20 triệu lần nhấp"
+              ]
+            },
+            {
+              "key": "Chân",
+              "value": [
+                "250 km (155,3)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": 6,
+      "values": [
+        {
+          "title": "Thông tin chung",
+          "content": [
+            {
+              "key": "Hãng sản xuất",
+              "value": [
+                "Razer"
+              ]
+            },
+            {
+              "key": "Model",
+              "value": [
+                "Hammerhead PRO V2"
+              ]
+            },
+            {
+              "key": "Màu",
+              "value": [
+                "Đen + Xanh lá"
+              ]
+            },
+            {
+              "key": "Bảo hành",
+              "value": [
+                "24 tháng"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Thông số chi tiết",
+          "content": [
+            {
+              "key": "Tần số đáp ứng",
+              "value": [
+                "20 Hz - 20 kHz"
+              ]
+            },
+            {
+              "key": "Độ trở kháng",
+              "value": [
+                "32 Ω ± 15%"
+              ]
+            },
+            {
+              "key": "Độ nhạy (@ 1kHz)",
+              "value": [
+                "102 ± 3 dB @ 1 kHz tối đa"
+              ]
+            },
+            {
+              "key": "Công suất đầu vào",
+              "value": [
+                "Tối đa 5 mW"
+              ]
+            },
+            {
+              "key": "Driver",
+              "value": [
+                "10 mm, màng Neodymium"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Kết nối và khối lượng",
+          "content": [
+            {
+              "key": "Chuẩn kết nối",
+              "value": [
+                "3.5 mm mạ vàng"
+              ]
+            },
+            {
+              "key": "Trọng lượng xấp xỉ",
+              "value": [
+                "19.6 g"
+              ]
+            },
+            {
+              "key": "Microphone",
+              "value": [
+                "Có"
+              ]
+            },
+            {
+              "key": "Mức tín hiệu sang độ ồn",
+              "value": [
+                "≥ 55 dB"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Khác",
+          "content": [
+            {
+              "key": "Hướng tiếp nhận",
+              "value": [
+                "Đa hướng"
+              ]
+            },
+            {
+              "key": "Điều khiển trên dây",
+              "value": [
+                "Nút điều khiển âm lượng: Tăng giảm âm lượng, đổi bài hát",
+                "Nút điều khiển trung tâm: Play/Pause, nhận/hủy cuộc gọi"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": 7,
+      "values": [
+        {
+          "title": "Kích thước",
+          "content": [
+            {
+              "key": "Độ dài",
+              "value": [
+                "194 mm"
+              ]
+            },
+            {
+              "key": "Chiều rộng",
+              "value": [
+                "190 mm"
+              ]
+            },
+            {
+              "key": "Chiều dày",
+              "value": [
+                "83 mm"
+              ]
+            },
+            {
+              "key": "Trọng lượng",
+              "value": [
+                "278 g"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Tai nghe",
+          "content": [
+            {
+              "key": "Màng loa",
+              "value": [
+                "PRO-G 40 mm"
+              ]
+            },
+            {
+              "key": "Độ nhạy tần số",
+              "value": [
+                "20 Hz - 20 kHz"
+              ]
+            },
+            {
+              "key": "Trở kháng",
+              "value": [
+                "39 Ohm (thụ động), 5k Ohm (chủ động)"
+              ]
+            },
+            {
+              "key": "Độ nhạy",
+              "value": [
+                "87,5 dB SPL/mW"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Micro",
+          "content": [
+            {
+              "key": "Kiểu thu âm micrô",
+              "value": [
+                "Cardioid (đơn hướng)"
+              ]
+            },
+            {
+              "key": "Kích thước",
+              "value": [
+                "6 mm"
+              ]
+            },
+            {
+              "key": "Độ nhạy tần số",
+              "value": [
+                "100 Hz-10 KHz"
+              ]
+            },
+            {
+              "key": "Phạm vi không dây",
+              "value": [
+                "Lên tới 20 m"
+              ]
+            },
+            {
+              "key": "Loại kết nối",
+              "value": [
+                "LIGHTSPEED không dây qua USB"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Tuổi thọ pin (Có thể sạc lại)",
+          "content": [
+            {
+              "key": "Không chiếu sáng",
+              "value": [
+                "29 giờ"
+              ]
+            },
+            {
+              "key": "Chiếu sáng mặc định",
+              "value": [
+                "20 giờ"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Trong hộp",
+          "content": [
+            {
+              "key": "Tai nghe Chơi game RGB Không dây LIGHTSPEED G733",
+              "value": [
+                ""
+              ]
+            },
+            {
+              "key": "Quai đeo mềm hai mặt (đi kèm)",
+              "value": [
+                ""
+              ]
+            },
+            {
+              "key": "Mic có thể tháo rời",
+              "value": [
+                ""
+              ]
+            },
+            {
+              "key": "Dây cáp sạc USB-C tới USB-A",
+              "value": [
+                ""
+              ]
+            },
+            {
+              "key": "Đầu thu không dây LIGHTSPEED (USB-A)",
+              "value": [
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": 8,
+      "values": [
+        {
+          "title": "Thông tin chung",
+          "content": [
+            {
+              "key": "Thương hiệu",
+              "value": [
+                "SEAGATE"
+              ]
+            },
+            {
+              "key": "Bảo hành",
+              "value": [
+                "24 tháng"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Thông số chi tiết",
+          "content": [
+            {
+              "key": "Kiểu ổ cứng",
+              "value": [
+                "HDD"
+              ]
+            },
+            {
+              "key": "Màu sắc của ổ cứng",
+              "value": [
+                "Titanium"
+              ]
+            },
+            {
+              "key": "Dung lượng",
+              "value": [
+                "1TB"
+              ]
+            },
+            {
+              "key": "Kết nối",
+              "value": [
+                "SATA 3"
+              ]
+            },
+            {
+              "key": "Bộ nhớ NAND",
+              "value": [
+                "Không"
+              ]
+            },
+            {
+              "key": "Kích thước",
+              "value": [
+                "3.5 inch"
+              ]
+            },
+            {
+              "key": "Tốc độ vòng quay",
+              "value": [
+                "7200RPM"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": 9,
+      "values": [
+        {
+          "title": "Thông tin chung",
+          "content": [
+            {
+              "key": "Thương hiệu",
+              "value": [
+                "INTEL"
+              ]
+            },
+            {
+              "key": "Model",
+              "value": [
+                "Core i7-12700"
+              ]
+            },
+            {
+              "key": "Series",
+              "value": [
+                "Core i7"
+              ]
+            },
+            {
+              "key": "Bảo hành",
+              "value": [
+                "36 tháng"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cấu hình chi tiết",
+          "content": [
+            {
+              "key": "Socket",
+              "value": [
+                "1700"
+              ]
+            },
+            {
+              "key": "Số nhân xử lý",
+              "value": [
+                "12"
+              ]
+            },
+            {
+              "key": "Số luồng xử lí",
+              "value": [
+                "20"
+              ]
+            },
+            {
+              "key": "Code name",
+              "value": [
+                "Alder Lake"
+              ]
+            },
+            {
+              "key": "Thế hệ",
+              "value": [
+                "Intel Core thế hệ thứ 12"
+              ]
+            },
+            {
+              "key": "Tốc độ xử lí",
+              "value": [
+                "4.90 GHz"
+              ]
+            },
+            {
+              "key": "Cache",
+              "value": [
+                "25MB"
+              ]
+            },
+            {
+              "key": "Chip đồ họa",
+              "value": [
+                "Intel UHD Graphics 770"
+              ]
+            },
+            {
+              "key": "Hyper-Threading",
+              "value": [
+                "Có"
+              ]
+            },
+            {
+              "key": "Bộ nhớ hỗ trợ",
+              "value": [
+                "DDR4/DDR5 Dual channel"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": 10,
+      "values": [
+        {
+          "title": "Thông tin chung",
+          "content": [
+            {
+              "key": "Thương hiệu",
+              "value": [
+                "ADATA"
+              ]
+            },
+            {
+              "key": "Bảo hành",
+              "value": [
+                "6 tháng"
+              ]
+            },
+            {
+              "key": "Part-number",
+              "value": [
+                "AX4U32008G16A-ST50"
+              ]
+            },
+            {
+              "key": "Màu sắc",
+              "value": [
+                "Xám"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cấu hình chi tiết",
+          "content": [
+            {
+              "key": "Đèn LED",
+              "value": [
+                "RGB"
+              ]
+            },
+            {
+              "key": "Dung lượng",
+              "value": [
+                "1 x 8GB"
+              ]
+            },
+            {
+              "key": "Thế hệ",
+              "value": [
+                "DDR4"
+              ]
+            },
+            {
+              "key": "Bus",
+              "value": [
+                "3200MHz"
+              ]
+            },
+            {
+              "key": "Timing",
+              "value": [
+                "16"
+              ]
+            },
+            {
+              "key": "Voltage",
+              "value": [
+                "1.35V"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": 11,
+      "values": [
+        {
+          "title": "Thông tin chung",
+          "content": [
+            {
+              "key": "Thương hiệu",
+              "value": [
+                "Cool Cold"
+              ]
+            },
+            {
+              "key": "Bảo hành",
+              "value": [
+                "6 tháng"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": 12,
+      "values": [
+        {
+          "title": "Thông tin chung",
+          "content": [
+            {
+              "key": "Thương hiệu",
+              "value": [
+                "CORSAIR"
+              ]
+            },
+            {
+              "key": "Bảo hành",
+              "value": [
+                "24 tháng"
+              ]
+            },
+            {
+              "key": "Màu sắc",
+              "value": [
+                "Đen"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cấu hình chi tiết",
+          "content": [
+            {
+              "key": "Chất liệu",
+              "value": [
+                "Nhựa"
+              ]
+            },
+            {
+              "key": "Kiểu kích thước",
+              "value": [
+                "M"
+              ]
+            },
+            {
+              "key": "Kích thước",
+              "value": [
+                "350 x 260 x 3 mm"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": 13,
+      "values": [
+        {
+          "title": "Thông tin chung",
+          "content": [
+            {
+              "key": "Hãng sản xuất",
+              "value": [
+                "MSI"
+              ]
+            },
+            {
+              "key": "Màu sắc",
+              "value": [
+                "Đen viền đỏ"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Thông số kỹ thuật",
+          "content": [
+            {
+              "key": "Tải trọng tối đa",
+              "value": [
+                "150 kg"
+              ]
+            },
+            {
+              "key": "Chất liệu da",
+              "value": [
+                "Da PVC cao cấp"
+              ]
+            },
+            {
+              "key": "Chất liệu khung",
+              "value": [
+                "Khung thép đúc nguyên khối, đệm bọt định hình khuôn mật độ cao, chân thép nguyên khối cao cấp, bánh xe 72mm yên tĩnh có khóa bánh"
+              ]
+            },
+            {
+              "key": "Tính năng đặc biệt",
+              "value": [
+                "Chức năng nghiêng thực tế (tối đa 14 °)",
+                "Tay vịn 4D với khả năng điều chỉnh tối đa",
+                "Có thể điều chỉnh góc tựa lưng (90 ° đến 180 °)",
+                "Chiều cao ghế có thể điều chỉnh (khoảng 47,5 - 55 cm)",
+                "Bọt định hình cao cấp",
+                "Pít tông khí thủy lực cấp 4",
+                "Khung chân thép nguyên khối chắc chắn",
+                "Bánh 72mm cho sàn cứng và mềm",
+                "Lõi thép bền bỉ"
+              ]
+            },
+            {
+              "key": "Phù hợp với",
+              "value": [
+                "Người cao trên 1m7 và nặng 70 kg"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": 14,
+      "values": [
+        {
+          "title": "Thông tin chung",
+          "content": [
+            {
+              "key": "Hãng sản xuất",
+              "value": [
+                "DXRacer"
+              ]
+            },
+            {
+              "key": "Model",
+              "value": [
+                "NEXTG-GDN001-NS-1"
+              ]
+            },
+            {
+              "key": "Màu",
+              "value": [
+                "Đen + Xanh + Bạc"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chất liệu",
+          "content": [
+            {
+              "key": "Chân bàn",
+              "value": [
+                "Hợp kim nhôm màu bạc"
+              ]
+            },
+            {
+              "key": "Mặt bàn",
+              "value": [
+                "P2PB, bề mặt phủ vân carbon"
+              ]
+            },
+            {
+              "key": "Phần trang trí",
+              "value": [
+                "Bao quanh bàn được làm bằng nhựa ABS"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Đèn, dây, kích thước",
+          "content": [
+            {
+              "key": "LED",
+              "value": [
+                "LED RGB 6 vị trí",
+                "Kết nối thông qua USB",
+                "Có nút điều chỉnh LED"
+              ]
+            },
+            {
+              "key": "Hỗ trợ đi dây",
+              "value": [
+                "Có 2 lỗ đi dây ở 2 bên góc bàn (đi kèm nắp đậy)"
+              ]
+            },
+            {
+              "key": "Kích thước",
+              "value": [
+                "Ngang 1190 mm",
+                "Rộng 640 mm",
+                "Cao 770 mm"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": 6231312,
+      "values": [
+        {
+          "title": "",
+          "content": [
+            {
+              "key": "",
+              "value": [
+                ""
+              ]
+            },
+            {
+              "key": "",
+              "value": [
+                ""
+              ]
+            },
+            {
+              "key": "",
+              "value": [
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "slideshow": [
+    {
+      "id": 1,
+      "img": "https://promotions.newegg.com/nepro/23-0488/1920x660@2x.jpg"
+    },
+    {
+      "id": 2,
+      "img": "https://promotions.newegg.com/nepro/23-0522/1920x660.jpg"
+    },
+    {
+      "id": 3,
+      "img": "https://promotions.newegg.com/marketplace/23-0534/1920x660@2x.png"
+    }
+  ],
+  "slideshowSuggestCate": [
+    1,
+    2,
+    3
+  ],
+  "slideshowSuggestProducts": [
+    1,
+    2,
+    3
+  ],
+  "todayBestDeal": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "carts": [
+    {
+      "productId": 5,
+      "quantity": 2,
+      "id": 1
+    },
+    {
+      "productId": 7,
+      "quantity": 2,
+      "id": 3
+    },
+    {
+      "productId": 13,
+      "quantity": 1,
+      "id": 4
+    },
+    {
+      "productId": 1,
+      "quantity": 1,
+      "id": 6
+    }
+  ],
+  "hotProducts": [
+    1,
+    2,
+    3
+  ],
+  "hotCategories": [
+    1,
+    2,
+    3
+  ],
+  "banners": [
+    {
+      "id": 1,
+      "img": "https://promotions.newegg.com/nepro/23-0103/800x120.jpg"
+    },
+    {
+      "id": 2,
+      "img": "https://promotions.newegg.com/nepro/23-0505/800x120.jpg"
+    }
+  ]
+}

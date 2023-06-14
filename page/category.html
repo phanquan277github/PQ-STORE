@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico" />
     <title>PQ Store</title>
     <!-- fontawesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
@@ -23,14 +24,15 @@
     <link rel="stylesheet" href="../assets/css/main.css">
     <link rel="stylesheet" href="../assets/css/category.css">
     <link rel="stylesheet" href="../assets/css/responsive.css">
+    <!-- axios -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <!-- JS -->
-    <script src="../data/dataProducts.js"></script>
-    <script src="../js/shared.js"></script>
-    <script src="../js/spotlight.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/category.js"></script>
 </head>
 
 <body>
-    <script> addHeader() </script>
+    <header class="header"></header>
 
     <!-- container -->
     <main class="container mgt-header">
@@ -51,6 +53,9 @@
                         <div class="cate__filter__box__body cate__filter__box__body--range">
                             <input type="text" placeholder="Từ">
                             <input type="text" placeholder="đến">
+                        </div>
+                        <div class="cate__filter__box__apply d-flex justify-content-end">
+                          <button class="btn">Apply</button>
                         </div>
                     </div>
 
@@ -96,19 +101,27 @@
             <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-10 col-xxl-10">
                 <div class="row g-2 mb-4">
                     <div class="col-6 col-sm-6 col-md-6 col-lg-12 col-xl-12 col-xxl-12 justify-content-start d-flex">
-                        <div class="cate__sort-btn"><span>Xắp sếp</span><i class="bi bi-caret-down-fill"></i>
-                            <div class="sort__container">
-                                <div class="sort__item btn border">Bán chạy</div>
-                                <div class="sort__item btn border">Khuyến mãi tốt nhất</div>
-                                <div class="sort__item btn border">Trả góp 0%</div>
-                                <div class="sort__item btn border">Giá thấp</div>
-                                <div class="sort__item btn border">Giá cao</div>
-                            </div>
+                      <div class="dropend sort">
+                          <div class="cate__sort-btn " id="dropdown-cate__sort" data-bs-toggle="dropdown" aria-expanded="false"><span>Xắp sếp</span><i class="bi bi-caret-right-fill"></i></div>
+                          
+                          <div class="sort__container dropdown-menu" aria-labelledby="dropdown-cate__sort">
+                            <div class="bestseller sort__item btn ">Bán chạy</div>
+                            <div class="best-promotion sort__item btn ">Khuyến mãi tốt nhất</div>
+                            <div class="installment sort__item btn ">Trả góp 0%</div>
+                            <div class="low-price sort__item btn ">Giá thấp</div>
+                            <div class="hight-price sort__item btn ">Giá cao</div>
+                          </div>
                         </div>
                     </div>
                     <div class="col-6 col-sm-6 col-md-6 col-lg-0 col-xl-0 col-xxl-0 justify-content-end d-flex d-sm-flex d-md-flex d-lg-none d-xl-none d-xxl-none">
                         <div class="cate__filter-btn">Bộ lọc<i class="bi bi-caret-left-fill"></i></div>
                     </div>
+                </div>
+                <div class="row g-2 mb-4 js-filters_are_applied">
+                  <div class="filter-choice-title">Lọc theo: </div>
+                  <!-- <div class="filter-choice">MSI<i class="bi bi-x fa-xl"></i></div>
+                  <div class="filter-choice">Giá tiw àkfasf<i class="bi bi-x fa-xl"></i></div>
+                  <div class="filter-choice">MSI<i class="bi bi-x fa-xl"></i></div> -->
                 </div>
                 <div class="row js-cate-product-container">
                     <div class="col l-12 m-12 c-12">
@@ -137,21 +150,21 @@
                                 </ul>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
     </main>
 
-    <script> addFooter() </script>
-    <!-- sign in on from -->
-    <script> addAccountForm(); accountEvent(); </script>
-    <script>categoryEvent()</script>
-    <script>renderCartNum()</script>
-    <script>headerRightResponsive()</script>
+    <footer class="footer page-section"></footer>
     
-    <script>cateFilterResponsive()</script>
+    <div class="copyright"></div>
+
+    <form
+      id="account-form"
+      class="sign-iu-form__overlay js-sign-iu-overlay"
+      action=""
+    ></form>
 </body>
 
 </html>
