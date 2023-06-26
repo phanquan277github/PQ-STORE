@@ -78,6 +78,7 @@
 }
 
 .cate__filter__box__body--range {
+  margin-top: 4px;
   flex-direction: row;
   justify-content: space-between;
 }

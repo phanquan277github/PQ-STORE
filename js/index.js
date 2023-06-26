@@ -74,7 +74,7 @@ async function addSlideshow(products, categories) {
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                     <div class="slideshow__suggest">
                         <div class="slideshow__suggest__title">
-                          <h2 class="auto-hidden-text-1line">Hi, 'tên người dùng'</h2>
+                          <h2 class="auto-hidden-text-1line">Xin chào, 'tên người dùng'</h2>
                         </div>
                         <div class="slideshow__suggest__content overflow-hidden">
                             <p class="slideshow__suggest__welcome-txt">Chào mừng đến với <span>PQ Store</span>! Hy vọng bạn thích mua sắm ở đây ngày hôm nay. Nếu bạn có bất kỳ nhận xét hoặc đề xuất nào, vui lòng để lại
@@ -86,7 +86,7 @@ async function addSlideshow(products, categories) {
                 <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4 d-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
                     <div class="slideshow__suggest">
                         <div class="slideshow__suggest__title">
-                          <h2 class="auto-hidden-text-1line">Chuyên mục có thể bạn quan tâm</h2>
+                          <h2 class="auto-hidden-text-1line">Danh mục nổi bật</h2>
                         </div>
                         <div class="row slideshow__suggest__content">
                                 ${hotCategories
@@ -105,7 +105,7 @@ async function addSlideshow(products, categories) {
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 hide-on-mobile">
                     <div class="slideshow__suggest">
                         <div class="slideshow__suggest__title">
-                          <h2 class="auto-hidden-text-1line">Sản phẩm có thể bạn quan tâm</h2>
+                          <h2 class="auto-hidden-text-1line">Sản phẩm nổi bật</h2>
                         </div>
                         <div class="slideshow__suggest__content">
                             <div class="row h-100">
@@ -158,7 +158,7 @@ async function addTodayBestDeal(products) {
     <div class="container">
       <div class="row">
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-          <h1 class="container__title">Todays best deals</h1>
+          <h1 class="container__title">Ưu đãi tốt nhất hôm nay</h1>
         </div>
       </div>
       <div class="row g-3">

@@ -8,7 +8,7 @@ async function categoryEvent() {
     await renderItemCatePage(productsInCategory);
     fullEvent(category[0], cateId);
     // kiểm tra kích thước màn hình để thực hiện hàm responsive
-    window.addEventListener("DOMContentLoaded", checkScreenSize);
+    window.addEventListener("load", checkScreenSize);
     window.addEventListener("resize", checkScreenSize);
   }
 }

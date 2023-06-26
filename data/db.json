@@ -3905,24 +3905,14 @@
   ],
   "carts": [
     {
-      "productId": 5,
+      "productId": 1,
       "quantity": 2,
       "id": 1
     },
     {
-      "productId": 7,
+      "productId": 5,
       "quantity": 2,
-      "id": 3
-    },
-    {
-      "productId": 13,
-      "quantity": 1,
-      "id": 4
-    },
-    {
-      "productId": 1,
-      "quantity": 1,
-      "id": 6
+      "id": 2
     }
   ],
   "hotProducts": [

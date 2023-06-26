@@ -150,7 +150,7 @@ function addHeader() {
                             </ul>
                           </div>
                           <button class="header__search__btn">
-                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="bi bi-search"></i>
                           </button>
                         </div>
                     </div>
