@@ -1,0 +1,44 @@
+/* không có sản phẩm trong giỏ */
+.non-cart {
+  /*  */
+}
+
+.non-cart img {
+  width: 50%;
+  mix-blend-mode: darken;
+}
+
+/* có sản phẩm trong giỏ */
+.have-cart {
+  font-size: var(--text-font-16);
+}
+
+.have-cart img {
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: darken;
+  object-fit: contain;
+}
+
+.have-cart .quantity button {
+  min-width: 30px;
+}
+
+.have-cart .quantity .quantity__remove {
+  color: #000;
+}
+
+.have-cart .quantity .quantity__remove:hover {
+  color: red !important;
+  font-weight: 500 !important;
+}
+
+.have-cart .pay__button {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.have-cart .pay__button:hover {
+  opacity: 0.8;
+}

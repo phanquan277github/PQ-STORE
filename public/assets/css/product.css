@@ -1,0 +1,152 @@
+/* product page */
+
+#product-left__slideshow {
+  height: 400px;
+}
+
+#product-left__slideshow .carousel-inner .carousel-item img {
+  mix-blend-mode: darken;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+#product-left__slideshow .carousel-indicators button {
+  background-color: #000;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+#product-left__slideshow .carousel-control-prev-icon,
+#product-left__slideshow .carousel-control-next-icon {
+  width: 4rem;
+  height: 5rem;
+  background-color: #353535;
+  border-radius: 10px;
+}
+
+/* product info */
+.product-info {
+  display: block;
+  margin: 10px 0;
+}
+
+.product-info .price-container {
+  display: flex;
+  margin: 10px 0;
+}
+
+.product-info .price-container .discount {
+  font-size: 1.6rem;
+  padding-right: 20px;
+  margin: 0;
+  color: var(--primary-color);
+}
+
+.product-info .price-container .price {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.product-info .main-specification {
+  list-style: none;
+  padding: 6px 6px 6px 10px;
+  margin: 0 0 12px 0;
+  border: 1px solid #e9ecef;
+  background-color: #f8f9fa;
+}
+
+.product-info .main-specification li {
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+.product-info .policy {
+  display: block;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.product-info .btn {
+  background-image: linear-gradient(var(--second-color), var(--primary-color));
+  width: 100%;
+  font-size: 2rem;
+  line-height: 2rem;
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.product-right__buy-btn:hover,
+.product-right__buy-add-cart:hover,
+.product-right__buy-installment:hover {
+  opacity: 0.8;
+}
+
+.product-right__buy-installment,
+.product-right__buy-add-cart {
+  background-image: linear-gradient(var(--second-color), var(--primary-color));
+  padding: 8px;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 2.2rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.product-title {
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.product-describe-detail h3 {
+  font-size: 1.6rem;
+}
+
+.product-describe-detail p {
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+}
+
+.product-describe-detail img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+/* thông số kỹ thuật */
+.specifications {
+  font-size: var(--text-font-14);
+}
+
+.specifications__footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(rgba(161, 246, 248, 0.2), rgba(56, 182, 255, 0.4));
+  /* background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(222, 222, 222, 0.8)); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.specifications__footer__btn {
+  font-size: 1.6rem;
+  padding: 12px 30px;
+  border: var(--border-general);
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.specifications__footer__btn>i {
+  margin-left: 6px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #525151;
+}
