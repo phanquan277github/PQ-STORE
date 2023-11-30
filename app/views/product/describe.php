@@ -1,11 +1,11 @@
-<div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7">
+<div class="col-12 col-lg-7">
   <h2 class="mb-3">Đánh giá chi tiết</h2>
-  <div class="product-describe-detail">
+  <div class="describe-detail">
     <?php foreach ($describes as $value): ?>
-      <h3>
+      <h3 class="fs-4 my-2">
         <?php echo $value['title']; ?>
       </h3>
-      <p>
+      <p class="fs-4 my-1">
         <?php echo $value['content'] ?>
       </p>
       <?php if (!empty($value['image_path'])): ?>

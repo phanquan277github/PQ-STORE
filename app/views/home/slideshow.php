@@ -22,21 +22,22 @@
       </button>
 
       <!-- gợi ý của sildershow -->
-      <div class="suggest row g-3 d-none d-xl-flex">
-        <div class="col-0 col-xl-4 d-none d-xl-block">
-          <div class="bg-white rounded-4 p-3" style="height: 100%;">
+      <div class="suggest row g-3 d-none d-md-flex">
+        <div class="col-0 col-lg-4 d-none d-lg-block">
+          <div class="bg-white rounded-4 p-3 box-shadow-4side" style="height: 100%;">
             <h2 class="auto-hidden-text-1line text-center">Xin chào</h2>
-            <p class="fs-4">Chào mừng đến với <span class="text-primary-color">PQ Store</span>! Hy vọng bạn thích
+            <p class="fs-5 auto-hidden-text-4line">Chào mừng đến với <span class="text-primary-color">PQ Store</span>! Hy
+              vọng bạn thích
               mua sắm ở đây ngày hôm nay. Nếu bạn có bất kỳ nhận xét hoặc đề xuất nào, vui lòng để lại
               <a href="#">phản hồi</a> cho chúng tôi
             </p>
           </div>
         </div>
 
-        <div class="col-6 col-xl-4">
-          <div class="bg-white rounded-4 p-3" style="height: 100%;">
+        <div class="col-6 col-lg-4">
+          <div class="bg-white rounded-4 p-3 box-shadow-4side" style="height: 100%;">
             <h2 class="auto-hidden-text-1line text-center">Danh mục nổi bật</h2>
-            <div class="row g-3">
+            <div class="row g-3 align-items-stretch">
               <?php if (!empty($suggestCategories)): ?>
                 <?php foreach ($suggestCategories as $item): ?>
                   <div class="col-4">
@@ -54,25 +55,25 @@
           </div>
         </div>
 
-        <div class="col-6 col-xl-4">
-          <div class="bg-white rounded-4 p-3" style="height: 100%;">
+        <div class="col-6 col-lg-4">
+          <div class="bg-white rounded-4 p-3 box-shadow-4side" style="height: 100%;">
             <h2 class="auto-hidden-text-1line text-center">Sản phẩm nổi bật</h2>
             <div class="row g-3">
               <?php if (!empty($suggestProducts)): ?>
-                <?php foreach ($suggestProducts as $item): ?>
+                <?php foreach ($suggestProducts as $product): ?>
                   <div class="suggest-product col-4 position-relative">
-                    <img class="" src="<?php echo $item['thumbnail_path']; ?>" alt="">
-                    <a class="popup" href="<?php echo _WEB_ROOT . '/san-pham?sku=' . $item['sku']; ?>">
-                      <img src="<?php echo $item['thumbnail_path']; ?>" alt=""
+                    <img class="" src="<?php echo $product['thumbnail_path']; ?>" alt="">
+                    <a class="popup" href="<?php echo _WEB_ROOT . '/san-pham?id=' . $product['id']; ?>">
+                      <img src="<?php echo $product['thumbnail_path']; ?>" alt=""
                         class="slideshow__suggest--img products-item__avata">
                       <span class="auto-hidden-text-2line">
-                        <?php echo $item['name']; ?>
+                        <?php echo $product['name']; ?>
                       </span>
                       <span class="text-primary-color">
-                        <?php echo number_format($item['discount'], 2, '.', ',') ?>
+                        <?php echo Helper::formatCurrency($product['discount']); ?>
                       </span>
                       <span class="text-decoration-line-through">
-                        <?php echo number_format($item['price'], 2, '.', ',') ?>
+                        <?php echo Helper::formatCurrency($product['price']); ?>
                       </span>
                     </a>
                   </div>

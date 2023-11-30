@@ -1,4 +1,4 @@
-<main class="container mt-3">
+<main class="container my-3">
   <?php require_once 'info.php'; ?>
   <div class="row page-section g-4">
     <?php require_once 'describe.php'; ?>

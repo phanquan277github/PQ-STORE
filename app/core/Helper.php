@@ -2,6 +2,11 @@
 
 class Helper
 {
+  public static function formatCurrency($currency)
+  {
+    return number_format($currency, 0, '.', ',') . ' &#8363;';
+  }
+
   public static function get_url($url = '')
   {
     $uri = filter_input(INPUT_SERVER, 'REQUEST_URI', FILTER_SANITIZE_STRING);

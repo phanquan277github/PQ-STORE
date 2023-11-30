@@ -1,14 +1,12 @@
 <?php
-class SharedModel
+class SharedModel extends Model
 {
-  private static $__conn;
-
   public static function getCategories($parent_id = 1)
   {
-    self::$__conn = Connection::getInstance();
+    $__conn = Connection::getInstance();
     $categories = [];
     $sql = "select id, name, parent_id, image_path, icon_path from categories where parent_id = ?";
-    $stmt = static::$__conn->prepare($sql);
+    $stmt = $__conn->prepare($sql);
     $stmt->execute([$parent_id]);
     $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
 

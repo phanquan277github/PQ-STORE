@@ -1,5 +1,5 @@
 <?php if (!empty($banners)): ?>
-  <div class="banner-container page-section">
+  <div class="banner-container my-4">
     <div class="container">
       <div class="row g-3">
         <?php foreach ($banners as $banner): ?>

@@ -2,7 +2,6 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
   line-height: 1.6rem;
-  font-family: 'Roboto', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -50,13 +49,30 @@ a:hover {
   color: inherit;
 }
 
-.bg-primary {
+.bg-gray-800 {
+  background-color: rgb(34, 42, 54);
+}
+
+.bg-primary-ct {
   background-image: var(--background-gradient);
+}
+
+.border-primary {
+  border: 1px solid var(--primary-color);
+}
+
+/* bỏ box shadow button của Accordion Bootstrap */
+.accordion-button:focus {
+  box-shadow: none;
 }
 
 .b-popup {
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
+}
+
+.text-light {
+  color: #fff;
 }
 
 .text-primary-color {
@@ -71,6 +87,10 @@ a:hover {
   box-shadow: var(--box-shadow-4sides);
 }
 
+.input-sz-16 {
+  width: 16px;
+  height: 16px;
+}
 
 @keyframes fadeIn {
   from {
@@ -91,7 +111,6 @@ a:hover {
 }
 
 .auto-hidden-text-1line {
-  font-size: 1.6rem;
   display: -webkit-box;
   overflow: hidden;
   -webkit-box-orient: vertical;
@@ -103,6 +122,13 @@ a:hover {
   overflow: hidden;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
+}
+
+.auto-hidden-text-4line {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
 }
 
 @keyframes translateFromBotRight {
@@ -130,10 +156,6 @@ a:hover {
 .tag-gift-color {
   background-color: #F69904;
   color: #000;
-}
-
-.page-section {
-  margin-top: 30px;
 }
 
 

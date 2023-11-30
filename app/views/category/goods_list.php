@@ -9,10 +9,10 @@
           </div>
           <div class="goods-price">
             <div class="goods-price__discount">
-              <?php echo number_format($product['discount'], 2, '.', ',') ?>
+              <?php echo Helper::formatCurrency($product['discount']); ?>
             </div>
             <div class="goods-price__price">
-              <?php echo number_format($product['price'], 2, '.', ',') ?>
+              <?php echo Helper::formatCurrency($product['price']); ?>
             </div>
           </div>
           <div class="tag-list">
@@ -29,7 +29,7 @@
           </div>
         </div>
         <div class="goods-describe-popup">
-          <a href="<?php echo 'san-pham?sku=' . $product['sku'] ?>" class="goods-name goods-name--popup">
+          <a href="<?php echo _WEB_ROOT . '/san-pham?sku=' . $product['sku'] ?>" class="goods-name goods-name--popup">
             <?php echo $product['name'] ?>
           </a>
           <ul>

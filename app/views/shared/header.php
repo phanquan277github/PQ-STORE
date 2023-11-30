@@ -13,10 +13,21 @@
           class="logo d-inline-block">
       </a>
 
-      <form class="search d-flex mx-3" action="<?php echo _WEB_ROOT . '/trang-chu/search' ?>" method="GET">
-        <input class="form-control" type="search" placeholder="Nhập từ khóa để tìm kiếm" aria-label="Search"
-          name="keySearch">
+      <form class="search dropdown d-flex mx-3" action="<?php echo _WEB_ROOT . '/danh-muc/' ?>" method="GET">
+        <input class="form-control dropdown-toggle" id="searchDropdown" data-bs-toggle="dropdown" aria-expanded="false"
+          type="search" placeholder="Nhập từ khóa để tìm kiếm" name="keySearch" onkeyup="showResultSearch(this)"
+          autocomplete="off">
         <button class="btn btn-light" type="submit">Search</button>
+
+        <div class="popup dropdown-menu p-3 bg-white" aria-labelledby="searchDropdown">
+          <div class="d-flex justify-content-between">
+            <span class="fs-6">Lịch sử tìm kiếm</span>
+            <button class="btn text-danger">Xóa lịch sử</button>
+          </div>
+          <ul class="content list-group list-group-flush">
+            <!-- <li class="list-group-item"><a href="<?php echo _WEB_ROOT . '/san-pham?sku='; ?>"></a></li> -->
+          </ul>
+        </div>
       </form>
 
       <!-- Nội dung sẽ hiển thị khi bấm toggler -->

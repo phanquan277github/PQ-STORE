@@ -1,4 +1,4 @@
-<main class="container mt-4">
+<main class="container my-4">
 
   <?php if ($data = Session::data('cart')): ?>
     <!-- giỏ hàng đã có sản phẩm -->
@@ -30,26 +30,27 @@
                   </span>
                 </div>
                 <div class="col-2 d-flex flex-column align-items-center">
-                  <div class="fs-4 text-primary-color">
-                    <?php echo number_format($item['discount'], 2, '.', ',') ?>
+                  <div class="fs-4 text-primary-color" data-discount="<?php echo $item['discount']; ?>">
+                    <?php echo Helper::formatCurrency($item['discount']); ?>
                   </div>
-                  <div class="fs-5 text-decoration-line-through">
-                    <?php echo number_format($item['price'], 2, '.', ',') ?>
+                  <div class="fs-5 text-decoration-line-through" data-price="<?php echo $item['price']; ?>">
+                    <?php echo Helper::formatCurrency($item['price']); ?>
                   </div>
                 </div>
-                <div class="col-2 d-flex flex-column align-items-center quantity">
+                <div class="col-2 d-flex flex-column align-items-center">
                   <div class="btn-group">
-                    <button class="btn border-dark fs-4 fw-bold">-</button>
-                    <div class="px-3 text-center align-self-center">
+                    <button data-action="decrease" class="btn btn-decrease border-dark fs-4 fw-bold">-</button>
+                    <div class="quantity-num px-3 text-center align-self-center"
+                      data-quantity="<?php echo $item['quantity']; ?>" data-product-id="<?php echo $item['id']; ?>">
                       <?php echo $item['quantity']; ?>
                     </div>
-                    <button class="btn border-dark fs-4 fw-bold">+</button>
+                    <button data-action="increase" class="btn btn-increase border-dark fs-4 fw-bold">+</button>
                   </div>
                   <a href="<?php echo _WEB_ROOT . '/gio-hang/remove/' . $item['id']; ?>"
                     class="quantity__remove btn border-0 p-2 fs-5">Xóa</a>
                 </div>
-                <div class="col-2 d-flex justify-content-center text-primary-color">
-                  <?php echo number_format($item['discount'] * $item['quantity'], 2, '.', ',') ?>
+                <div class="total-price col-2 d-flex justify-content-center">
+                  <?php echo Helper::formatCurrency($item['discount'] * $item['quantity']); ?>
                 </div>
               </div>
             </div>

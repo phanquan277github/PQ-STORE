@@ -14,7 +14,7 @@ class Cart extends Controller
 
     $data['content'] = '';
     $data['component'] = 'cart/index';
-    $this->render('layouts/cart', $data);
+    $this->render('layouts/main', $data);
   }
 
   public function add(...$params)
@@ -30,6 +30,7 @@ class Cart extends Controller
       $checkCartRs = $model->addProduct($userId, $productId);
       Session::data('cart', $model->getCartItems($userId));
     }
+    // echo "<scrip>alert('Vui lòng đăng nhập để thêm sản phẩm vào giỏ hàng);</scrip>";
     header('Location: ' . _WEB_ROOT . '/gio-hang/');
   }
 
@@ -43,17 +44,21 @@ class Cart extends Controller
     header('Location: ' . _WEB_ROOT . '/gio-hang/');
   }
 
-  public function updateQuantity($action)
+  public function updateQuantity($productId, $currentQuantity, $action)
   {
+    $model = $this->model('CartModel');
+    $cartId = $model->table('carts')->select('id')->where('user_id', '=', Session::data('user')['id'])->first();
+
     if ($action == 'increase') {
-      $model = $this->model('CartModel');
-      $model->table('cart_items')->where('cart_id', '=', 1)->where('product_id', '=', 1)->update([
-        'quantity' => 4
+      $model->table('cart_items')->where('cart_id', '=', $cartId['id'])->where('product_id', '=', $productId)->update([
+        'quantity' => intval($currentQuantity) + 1
       ]);
+      echo intval($currentQuantity) + 1;
     } else if ($action == 'decrease') {
-
+      $model->table('cart_items')->where('cart_id', '=', $cartId['id'])->where('product_id', '=', $productId)->update([
+        'quantity' => intval($currentQuantity) - 1
+      ]);
+      echo intval($currentQuantity) - 1;
     }
-
   }
-
 }

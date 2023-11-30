@@ -27,7 +27,7 @@ trait QueryBuilder
     return $this;
   }
 
-  public function orWhere($field, $compare, $value)
+  public function whereOr($field, $compare, $value)
   {
     if (empty($this->where)) {
       $this->operator = ' WHERE';
@@ -83,15 +83,15 @@ trait QueryBuilder
   public function update($data)
   {
     $tableName = $this->tableName;
-    $whereDelete = trim(str_replace("WHERE", '', $this->where));
-    $updateStatus = $this->updateData($tableName, $data, $whereDelete);
+    $whereUpdate = trim(str_replace("WHERE", '', $this->where));
+    $updateStatus = $this->updateData($tableName, $data, $whereUpdate);
     return $updateStatus;
   }
   public function delete()
   {
     $tableName = $this->tableName;
-    $whereUpdate = trim(str_replace("WHERE", '', $this->where));
-    $deleteStatus = $this->deleteData($tableName, $whereUpdate);
+    $whereDelete = trim(str_replace("WHERE", '', $this->where));
+    $deleteStatus = $this->deleteData($tableName, $whereDelete);
     return $deleteStatus;
   }
   public function select($field = '*')
@@ -112,7 +112,7 @@ trait QueryBuilder
 
   public function first()
   {
-    $sql = "SELECT $this->selectField FROM $this->tableName $this->where";
+    $sql = "SELECT $this->selectField FROM $this->tableName $this->innerJoin $this->where";
     $query = $this->query($sql);
 
     $this->resetField();
@@ -122,7 +122,7 @@ trait QueryBuilder
     return false;
   }
 
-  private function resetField()
+  public function resetField()
   {
     $this->tableName = '';
     $this->where = '';

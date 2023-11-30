@@ -5,6 +5,7 @@ session_start();
 // khởi tạo ứng dụng
 new App();
 
+// func to debug
 function in($data)
 {
   echo '<pre>';

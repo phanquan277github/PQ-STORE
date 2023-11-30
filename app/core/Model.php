@@ -24,9 +24,7 @@ class Model
 
       $sql = "insert into $table($fieldStr) values ($valueStr) ";
       $status = $this->query($sql);
-      if ($status) {
-        return true;
-      }
+      return $status;
     }
     return false;
   }
