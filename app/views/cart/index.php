@@ -8,7 +8,8 @@
           <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
           <label for="" class="ms-1 fs-4">Chọn tất cả</label>
           <button class="btn border-0 fs-4 ms-auto">
-            <i class="bi bi-trash me-1"></i>Xóa tất cả
+            <a class="text-reset text-decoration-none" href="<?php echo _WEB_ROOT . '/gio-hang/removeAll/' ?>"><i
+                class="bi bi-trash me-1"></i>Xóa tất cả</a>
           </button>
         </div>
         <div class="list-group">
@@ -20,7 +21,7 @@
                   <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                 </div>
                 <div class="col-1">
-                  <a href="<?php echo _WEB_ROOT . '/san-pham?sku=' . $item['sku'] ?>" class="">
+                  <a href="<?php echo _WEB_ROOT . '/san-pham?id=' . $item['id'] ?>" class="">
                     <img src="<?php echo !empty($item['thumbnail_path']) ? $item['thumbnail_path'] : ""; ?>" alt="" />
                   </a>
                 </div>

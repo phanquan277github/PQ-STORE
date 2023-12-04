@@ -8,6 +8,38 @@ const tooltipList = [...tooltipTriggerList].map(
 
 const WEB_ROOT = window.location.origin + "/mvc_php/public/";
 
+function login() {
+  let username = $("#username").val();
+  let password = $("#password").val();
+
+  if (username == "" || username.length == 0) {
+    $("#usernameHelp").html("Username is required");
+  } else if (password == "" || password.length == 0) {
+    $("#usernameHelp").html("");
+    $("#passwordHelp").html("Password is required");
+  } else {
+    $.ajax({
+      type: "POST",
+      url: `${WEB_ROOT}admin/login/`,
+      data: { username: username, password: password },
+      success: function (response) {
+        let data = JSON.parse(response);
+        if (data.status == 0) {
+          $("#usernameHelp").html("Username không tồn tại");
+        } else if (data.status == 1) {
+          $("#usernameHelp").html("");
+          $("#passwordHelp").html("Mật khẩu không đúng!");
+        } else if (data.status == 2) {
+          window.location.href = WEB_ROOT + "admin/";
+        }
+      },
+      error: function (error) {
+        console.log("Error:", error);
+      },
+    });
+  }
+}
+
 // tạo input cho thêm ảnh sản phẩm
 function createImageInput() {
   let count = $("#add-image-container .group_content").length;

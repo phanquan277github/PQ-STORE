@@ -210,6 +210,4 @@ class ProductModel extends Model
     }
     return;
   }
-
-
 }

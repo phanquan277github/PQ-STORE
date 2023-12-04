@@ -31,7 +31,7 @@ class Cart extends Controller
       Session::data('cart', $model->getCartItems($userId));
     }
     // echo "<scrip>alert('Vui lòng đăng nhập để thêm sản phẩm vào giỏ hàng);</scrip>";
-    header('Location: ' . _WEB_ROOT . '/gio-hang/');
+    header('Location: ' . $_SERVER['HTTP_REFERER']);
   }
 
   public function remove(...$params)
@@ -41,7 +41,15 @@ class Cart extends Controller
       $model = $this->model('CartModel');
       $model->removeProduct($userId, $productId);
     }
-    header('Location: ' . _WEB_ROOT . '/gio-hang/');
+    header('Location: ' . $_SERVER['HTTP_REFERER']);
+  }
+  public function removeAll()
+  {
+    if ($userId = Session::data('user')['id']) {
+      $model = $this->model('CartModel');
+      $model->removeAll($userId);
+    }
+    header('Location: ' . $_SERVER['HTTP_REFERER']);
   }
 
   public function updateQuantity($productId, $currentQuantity, $action)

@@ -59,6 +59,8 @@ function categoryPage() {
 
     if (page != null && orderBy == -1) {
       window.location.href = WEB_ROOT + `danh-muc?cate=${cateId}&page=${page}`;
+    } else {
+      window.location.href = WEB_ROOT + `danh-muc?cate=${cateId}`;
     }
     if (orderBy != -1 && page == null) {
       window.location.href =

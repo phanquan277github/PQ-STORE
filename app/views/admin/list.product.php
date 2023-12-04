@@ -3,10 +3,10 @@
 </h3>
 <div class="p-3 m-3 rounded-3 bg-light">
 
-  <div class="d-flex mb-3">
+  <div class="list-group list-group-flush list-group-horizontal mb-3">
     <h4 class="me-4">Danh mục: </h4>
     <?php foreach ($categories as $category): ?>
-      <div class="dropdown me-3">
+      <div class="list-group-item dropdown me-3">
         <button class="btn btn-outline-secondary dropdown-toggle fs-5" type="button" data-bs-toggle="dropdown"
           aria-expanded="false">
           <?php echo $category['name']; ?>

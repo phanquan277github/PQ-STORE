@@ -23,23 +23,23 @@ class Category extends Controller
 
     if (!empty($cateId)) {
       $title = $model->table('categories')->select('name')->where('id', '=', $cateId)->first();
-
+      $productModel = $this->model("ProductModel");
       $data['content']['title'] = $title ? $title['name'] : '';
-      $data['content']['totalPages'] = $model->getTotalPages($cateId);
+      $data['content']['totalPages'] = $productModel->getTotalPages($cateId);
       $data['content']['filters'] = $model->getFilters($cateId);
-      $data['content']['products'] = $model->getProductsInCate($cateId, $page, $sort);
+      $data['content']['products'] = $productModel->getProductsInCate($cateId, $page, $sort);
     }
 
-    // if (!empty($keySearch = Helper::input_value('keySearch'))) {
-    //   $result = $model->table('products')->whereLike('name', '%' . $keySearch . '%')->get();
-    //   if ($result) {
-    //     $data['content']['title'] = $keySearch . ' (' . count($result) . ' sản phẩm)';
-    //     $data['content']['products'] = $result;
-    //   } else {
-    //     $data['content']['notFound'] = '';
-    //     $data['content']['title'] = 'Không tìm thấy sản phẩm nào';
-    //   }
-    // }
+    if (!empty($keySearch = Helper::input_value('keySearch'))) {
+      $result = $model->table('products')->whereLike('name', '%' . $keySearch . '%')->get();
+      if ($result) {
+        $data['content']['title'] = $keySearch . ' (' . count($result) . ' sản phẩm)';
+        $data['content']['products'] = $result;
+      } else {
+        $data['content']['notFound'] = '';
+        $data['content']['title'] = 'Không tìm thấy sản phẩm nào';
+      }
+    }
 
     $data['component'] = 'category/index';
     $this->render('layouts/main', $data);
@@ -58,11 +58,11 @@ class Category extends Controller
 
     if (!empty($cateId)) {
       $title = $model->table('categories')->select('name')->where('id', '=', $cateId)->first();
-
+      $productModel = $this->model('ProductModel');
       $data['title'] = $title ? $title['name'] : '';
-      $data['totalPages'] = $model->getTotalPages($cateId);
+      $data['totalPages'] = $productModel->getTotalPages($cateId);
       $data['filters'] = $model->getFilters($cateId);
-      $data['products'] = $model->getProductsInCate($cateId, $page, $sort);
+      $data['products'] = $productModel->getProductsInCate($cateId, $page, $sort);
     }
     header('Content-Type: application/json');
     echo json_encode($data);

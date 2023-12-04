@@ -3,22 +3,63 @@ class Admin extends Controller
 {
   public function index()
   {
-    $data['content'][] = '';
-    $data['component'] = 'admin/index';
-    $this->render('layouts/admin', $data);
+    if (empty(Session::data('admin'))) {
+      $data['content'][] = '';
+      $data['component'] = 'admin/login';
+      $this->render('layouts/admin', $data);
+    } else {
+      $data['content'][] = '';
+      $data['component'] = 'admin/index';
+      $this->render('layouts/admin', $data);
+    }
+  }
+
+  // đăng nhập với ajax
+  public function login()
+  {
+    $username = Helper::input_value('username');
+    $password = Helper::input_value('password');
+
+    $model = $this->model('AdminModel');
+    $usernameCheck = $model->table('admin')->where('username', '=', $username)->first();
+
+    if ($usernameCheck) {
+      $fullCheck = $model->table('admin')->where('username', '=', $username)->where('password', '=', $password)->first();
+      if ($fullCheck) {
+        Session::data('admin', $fullCheck);
+        $response['status'] = 2;
+      } else {
+        $response['status'] = 1;
+      }
+    } else {
+      $response['status'] = 0;
+    }
+
+    echo json_encode($response);
+  }
+
+  public function logout()
+  {
+    Session::delete('admin');
+    header('Location: ' . _WEB_ROOT . '/admin/');
   }
 
   // trang quản trị các dữ liệu hệ thống như slideshow, banner...
   public function system()
   {
-    $model = $this->model('AdminModel');
+    if (empty(Session::data('admin'))) {
+      // echo "<script>alert('Bạn chưa đăng nhập')</script>";
+      header('Location: ' . _WEB_ROOT . '/admin/');
+    } else {
+      $model = $this->model('AdminModel');
 
-    $data['content']['slideshows'] = $model->table('slideshows')->get();
-    $data['content']['banners'] = $model->table('banners')->get();
-    $data['content']['categories'] = SharedModel::getCategories();
-    $data['component'] = 'admin/system';
+      $data['content']['slideshows'] = $model->table('slideshows')->get();
+      $data['content']['banners'] = $model->table('banners')->get();
+      $data['content']['categories'] = SharedModel::getCategories();
+      $data['component'] = 'admin/system';
 
-    $this->render('layouts/admin', $data);
+      $this->render('layouts/admin', $data);
+    }
   }
 
   public function update()
@@ -201,7 +242,7 @@ class Admin extends Controller
       $model->query($sql);
     }
 
-    // header("Location: " .);
+    header("Location: " . $_SERVER['HTTP_REFERER']);
   }
 
   public function editProduct()
@@ -223,13 +264,6 @@ class Admin extends Controller
     $picturesNew = $_POST['pictures'];
     $specificationsNew = $_POST['specifications'];
     $describesNew = $_POST['describes'];
-
-    // in($dataProductOld);
-    // in($picturesOld);
-    // in($describesOld);
-    // in($specificationsOld);
-    // in($dataProductNew);
-    // in($picturesNew);
 
     $productModel = $this->model('ProductModel');
     $productModel->setId($dataProductOld['id']);
@@ -338,8 +372,8 @@ class Admin extends Controller
       $productModel->deleteDescribes($deleteDescribes);
     }
 
-    // header("Location: {$_SERVER['HTTP_REFERER']}");
-    // exit;
+    header("Location: " . $_SERVER['HTTP_REFERER']);
+    exit;
   }
 
   public function deleteProduct()
@@ -350,7 +384,7 @@ class Admin extends Controller
     $productModel->setId($productId);
     $productModel->deleteProduct();
 
-    header("Location: {$_SERVER['HTTP_REFERER']}");
+    header("Location: " . $_SERVER['HTTP_REFERER']);
     exit;
   }
 

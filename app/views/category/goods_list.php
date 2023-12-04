@@ -29,7 +29,7 @@
           </div>
         </div>
         <div class="goods-describe-popup">
-          <a href="<?php echo _WEB_ROOT . '/san-pham?sku=' . $product['sku'] ?>" class="goods-name goods-name--popup">
+          <a href="<?php echo _WEB_ROOT . '/san-pham?id=' . $product['id'] ?>" class="goods-name goods-name--popup">
             <?php echo $product['name'] ?>
           </a>
           <ul>

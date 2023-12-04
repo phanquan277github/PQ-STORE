@@ -49,6 +49,15 @@ class CartModel extends Model
       $this->deleteData('cart_items', $condition);
     }
   }
+  public function removeAll($userId)
+  {
+    if (!empty($userId)) {
+      $checkQuery = "SELECT id FROM carts WHERE user_id = ?";
+      $cartId = $this->getRow($checkQuery, [$userId]);
+      $condition = "cart_id = " . $cartId['id'];
+      $this->deleteData('cart_items', $condition);
+    }
+  }
 
   public function getCartItems($userId)
   {

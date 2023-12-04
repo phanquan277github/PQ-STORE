@@ -1,5 +1,9 @@
-.admin>.content {
-  background-color: #e3f0fc;
+.login-overlay {
+  width: 100vw;
+  height: 100vh;
 }
 
-.admin .content {}
+.login-overlay form {
+  min-width: 400px;
+  background: var(--background-gradient);
+}

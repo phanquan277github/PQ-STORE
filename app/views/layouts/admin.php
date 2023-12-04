@@ -31,50 +31,21 @@
 </head>
 
 <body>
+  <?php if (empty(Session::data('admin'))): ?>
+    <?php $this->render($component, $content) ?>
+  <?php else: ?>
+    <main class="admin container-fluid p-0">
+      <div class="row g-0">
+        <?php $this->render('admin/nav'); ?>
 
-  <main class="admin">
-    <div class="container-fluid">
-      <div class="row flex-nowrap">
-        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-gray-800 ">
-          <ul class="d-flex flex-column align-items-center text-white min-vh-100 nav p-4 align-items-sm-start ">
-            <li class="nav-item d-flex align-items-center mb-3">
-              <a class="nav-link" href="<?php echo _WEB_ROOT . '/admin/'; ?>">
-                <img src="<?php echo _WEB_ROOT . '/assets/img/logo2.png' ?>" alt="" width="30" height="24">
-                <span class="ms-2 fs-4 fw-semibold text-light">PQ-Store</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light fs-4" href="#"><i class="bi bi-bar-chart-line-fill me-2"></i>Thống kê</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light fs-4" href="#"><i class="bi bi-bag-plus-fill me-2"></i>Đơn đặt</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light fs-4" href="#"><i class="bi bi-person-fill-gear me-2"></i>Khách hàng</a>
-            </li>
-            <li class="nav-item">
-              <button class="btn text-light fs-4" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseProduct" aria-expanded="false" aria-controls="collapseProduct">
-                <i class="bi bi-database-fill me-2"></i>Sản phẩm
-              </button>
-              <div class="collapse" id="collapseProduct">
-                <a class="nav-link text-light fs-5 ms-5" href="<?php echo _WEB_ROOT . '/admin/add_product/' ?>">Thêm</a>
-                <a class="nav-link text-light fs-5 ms-5" href="<?php echo _WEB_ROOT . '/admin/list_product/' ?>">Danh
-                  sách</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light fs-4" href="<?php echo _WEB_ROOT . '/admin/system/' ?>"><i
-                  class="bi bi-gear-wide-connected me-2"></i>Hệ thống</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col py-3 content">
+        <div class="col-3 col-lg-2"></div>
+
+        <div class="col-9 col-lg-10 content p-3">
           <?php $this->render($component, $content); ?>
         </div>
       </div>
-    </div>
-  </main>
+    </main>
+  <?php endif; ?>
 
   <!-- jquery -> ajax -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
@@ -84,7 +55,6 @@
   <script src="https://unpkg.com/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
   <!-- JS -->
   <script src="<?php echo _WEB_ROOT; ?>/assets/js/admin.js"></script>
-  <script src="<?php echo _WEB_ROOT; ?>/assets/js/ad.editProd.js"></script>
 
 </body>
 

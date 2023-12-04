@@ -25,7 +25,7 @@
             <button class="btn text-danger">Xóa lịch sử</button>
           </div>
           <ul class="content list-group list-group-flush">
-            <!-- <li class="list-group-item"><a href="<?php echo _WEB_ROOT . '/san-pham?sku='; ?>"></a></li> -->
+            <!-- <li class="list-group-item"><a href="<?php echo _WEB_ROOT . '/san-pham?id='; ?>"></a></li> -->
           </ul>
         </div>
       </form>
@@ -69,23 +69,27 @@
     </nav>
   </div>
 
-  <nav class="category row px-5">
-    <?php if (!empty($headerCategories)): ?>
-      <?php foreach ($headerCategories as $level1): ?>
-        <div class="col col-4 col-sm-4 col-md-2 py-2 d-flex justify-content-center align-items-center">
-          <a class="label fs-5 fs-md-4" href="<?php echo _WEB_ROOT . '/danh-muc?cate=' . $level1['id']; ?>">
-            <?php echo (!empty($level1['name'])) ? $level1['name'] : ''; ?>
-          </a>
-          <div class="popup">
-            <?php foreach ($level1['sub-cate'] as $level2): ?>
-              <a href="<?php echo _WEB_ROOT . '/danh-muc?cate=' . $level2['id']; ?>">
-                <?php echo (!empty($level2['name'])) ? $level2['name'] : ''; ?>
+  <nav class="category">
+    <div class="container">
+      <div class="row px-5">
+        <?php if (!empty($headerCategories)): ?>
+          <?php foreach ($headerCategories as $level1): ?>
+            <div class="col col-4 col-sm-4 col-md-2 py-2 d-flex justify-content-center align-items-center">
+              <a class="label fs-5 fs-md-4" href="<?php echo _WEB_ROOT . '/danh-muc?cate=' . $level1['id']; ?>">
+                <?php echo (!empty($level1['name'])) ? $level1['name'] : ''; ?>
               </a>
-            <?php endforeach; ?>
-          </div>
-        </div>
-      <?php endforeach; ?>
-    <?php endif; ?>
+              <div class="popup">
+                <?php foreach ($level1['sub-cate'] as $level2): ?>
+                  <a href="<?php echo _WEB_ROOT . '/danh-muc?cate=' . $level2['id']; ?>">
+                    <?php echo (!empty($level2['name'])) ? $level2['name'] : ''; ?>
+                  </a>
+                <?php endforeach; ?>
+              </div>
+            </div>
+          <?php endforeach; ?>
+        <?php endif; ?>
+      </div>
+    </div>
   </nav>
 
 </header>

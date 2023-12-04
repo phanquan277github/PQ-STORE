@@ -16,7 +16,7 @@ class Shared extends Controller
       $data['products'] = $result;
       $rs = '';
       foreach ($data['products'] as $item) {
-        $rs .= '<li class="list-group-item"><a class="text-reset text-decoration-none auto-hidden-text-1line" href="' . _WEB_ROOT . '/san-pham?sku=' . $item['sku'] . '">' . $item['name'] . '</a></li>';
+        $rs .= '<li class="list-group-item"><a class="text-reset text-decoration-none auto-hidden-text-1line" href="' . _WEB_ROOT . '/san-pham?id=' . $item['id'] . '">' . $item['name'] . '</a></li>';
       }
     } else {
       $data['notFound'] = '';
