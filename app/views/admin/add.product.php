@@ -140,28 +140,3 @@
       </div>
   </form>
 </div>
-
-
-
-<!-- Thông số kỹ thuật -->
-<!-- <div class="col-5">
-        <div class="bg-white p-4 fs-5 fw-medium d-flex flex-column">
-          <h4 class="mb-3">Thông số kỹ thuật</h4>
-          <div id="add-specification-container" class="">
-
-            <div class="input-group mb-3">
-              <input name="specifications[][title]" type="text" class="form-control" placeholder="Tên">
-              <span class="input-group-text"><i class="bi bi-arrow-right"></i></span>
-              <input name="specifications[][content]" type="text" class="form-control" placeholder="Nội dung">
-              <div class="input-group-text" data-bs-toggle="tooltip" data-bs-placement="top"
-                data-bs-title="L à tiêu đề">
-                <input type="checkbox">
-              </div>
-              <button class="btn btn-danger remove" onclick="removeParentElement(this)"><i class="bi bi-x"></i></button>
-            </div>
-
-          </div>
-          <button type="button" class="btn btn-primary ms-auto" onclick="createSpecificationInput()">Thêm một
-            hàng</button>
-        </div>
-      </div> -->

@@ -1,3 +1,5 @@
+-- insert lần các cụm insert sau: 
+
 -- root cate
 insert into categories (name, parent_id, image_path, icon_path) values
 	('Root Cate', null, '', ''); -- id: 1 mục gốc

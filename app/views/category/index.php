@@ -24,12 +24,14 @@
                   <span aria-hidden="true">&laquo;</span>
                 </button>
               </li>
-              <?php for ($i = 1; $i <= $totalPages; $i++): ?>
-                <li class="page-item">
-                  <button class="page-link number fs-3" data-page="<?php echo $i ?>">
-                    <?php echo $i ?>
-                  </button>
-                <?php endfor; ?>
+              <?php if (!empty($totalPages)): ?>
+                <?php for ($i = 1; $i <= $totalPages; $i++): ?>
+                  <li class="page-item">
+                    <button class="page-link number fs-3" data-page="<?php echo $i ?>">
+                      <?php echo $i ?>
+                    </button>
+                  <?php endfor; ?>
+                <?php endif ?>;
               <li class="page-item">
                 <button class="page-link next fs-3" data-page="<?php echo $totalPages ?>">
                   <span aria-hidden="true">&raquo;</span>

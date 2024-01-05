@@ -60,7 +60,7 @@
         </div>
       </div>
       <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3">
-        <h1 class="text-center fs-1">Thanh toán</h1>
+        <h1 class="text-center fs-1">Đơn hàng</h1>
         <div class="list-group border-0">
           <div class="list-group-item d-flex">
             <div>Tổng tiền:</div>
@@ -75,7 +75,7 @@
             <h3 class="ms-auto">0.00đ</h3>
           </div>
         </div>
-        <button class="pay__button btn border-0 bg-primary-gradient fs-3">Thanh toán</button>
+        <button class="pay__button btn border-0 bg-primary-gradient fs-3">Đặt hàng</button>
       </div>
     </div>
   <?php else: ?>

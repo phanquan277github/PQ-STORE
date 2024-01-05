@@ -62,6 +62,7 @@ class Admin extends Controller
     }
   }
 
+  //  update của system
   public function update()
   {
     $id = Helper::input_value('id');
@@ -95,6 +96,7 @@ class Admin extends Controller
     header("Location: " . $_SERVER['HTTP_REFERER']);
   }
 
+  //  adđ của system
   public function add()
   {
     $id = Helper::input_value('id');
@@ -339,8 +341,8 @@ class Admin extends Controller
       $productModel->deleteSpecifications($deleteSpecifications);
     }
 
-    in($describesOld);
-    in($describesNew);
+    // in($describesOld);
+    // in($describesNew);
 
     $changedKeysDescribes = array();
     // So sánh và lưu vào mảng tạm
@@ -387,6 +389,4 @@ class Admin extends Controller
     header("Location: " . $_SERVER['HTTP_REFERER']);
     exit;
   }
-
-
 }

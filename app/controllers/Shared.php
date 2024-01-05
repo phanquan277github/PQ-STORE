@@ -3,7 +3,7 @@ class Shared extends Controller
 {
   public function searchProduct(...$params)
   {
-    $keySearch = Request::input_value('keySearch');
+    $keySearch = Helper::input_value('keySearch');
 
     $model = $this->model('SharedModel');
     $result = $model->table('products')->whereLike('name', '%' . $keySearch . '%')->get();
@@ -28,7 +28,7 @@ class Shared extends Controller
 
   public function searchList(...$params)
   {
-    $keySearch = Request::input_value('keySearch');
+    $keySearch = Helper::input_value('keySearch');
 
     $model = $this->model('SharedModel');
     $result = $model->table('products')->whereLike('name', '%' . $keySearch . '%')->get();
