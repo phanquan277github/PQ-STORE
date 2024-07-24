@@ -1,3 +1,7 @@
+<?php if (!empty(Session::flashData('success'))): ?>
+  <script>alert('Cập nhật thành công')</script>
+<?php endif; ?>
+
 <div class="p-3 m-3 rounded-3 bg-light">
   <form action="<?php echo _WEB_ROOT . '/admin/editProduct/' ?>" method="post">
 
@@ -24,13 +28,20 @@
               <input name="brand" type="text" class="form-control" value="<?php echo $product['brand']; ?>">
             </div>
             <div class="col">
-              <label for="" class="form-label">Danh mục</label>
-              <select class="form-select" id="inputGroupSelect01">
-                <option selected>Choose...</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
+              <div class="row">
+                <div class="col-md-6">
+                  <label for="select-category-1" class="form-label">Danh mục cấp 1</label>
+                  <select id="select-category-1" class="form-select">
+                    <option>Chọn danh mục cấp 1</option>
+                  </select>
+                </div>
+                <div class="col-md-6 hidden" id="subcategory-container">
+                  <label for="select-category-2" class="form-label">Danh mục cấp 2</label>
+                  <select id="select-category-2" class="form-select" name="cate_id">
+                    <option disabled>Chọn danh mục cấp 2</option>
+                  </select>
+                </div>
+              </div>
             </div>
           </div>
           <div class="row mb-3">
@@ -163,3 +174,34 @@
       </div>
   </form>
 </div>
+
+
+<script>
+  const categories = <?php echo json_encode($categories) ?>;
+  const selectCategory1 = document.getElementById("select-category-1");
+  const selectCategory2 = document.getElementById("select-category-2");
+  const subcategoryContainer = document.getElementById("subcategory-container");
+
+  // Populate the first select
+  for (const key in categories) {
+    const option = document.createElement("option");
+    option.value = key;
+    option.textContent = categories[key].name;
+    selectCategory1.appendChild(option);
+  }
+
+  // Handle selection change
+  selectCategory1.addEventListener("change", (event) => {
+    const selectedValue = event.target.value;
+    // Clear previous options
+    selectCategory2.innerHTML = '';
+    // Populate the second select based on the first select value
+    const subcategories = categories[selectedValue]['sub-cate'];
+    for (const key in subcategories) {
+      const option = document.createElement("option");
+      option.value = subcategories[key]['id'];
+      option.textContent = subcategories[key]['name'];
+      selectCategory2.appendChild(option);
+    }
+  });
+</script>

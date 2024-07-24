@@ -1,27 +1,36 @@
 <?php if ($userData = Session::data('user')): ?>
   <!-- After login -->
   <main class="container mt-4">
-    <h2>Thông tin tài khoản</h2>
-    <form>
-      <div class="mb-3">
-        <label for="" class="form-label">Họ tên</label>
-        <input type="" class="form-control" id="" readonly
-          value="<?php echo $userData['first_name'] . ' ' . $userData['last_name']; ?>">
+   <div class="row">
+      <div class="col-4">
+        <ul class="navbar-nav navbar-light" style="background-color: #f8f9fa;">
+          <li class="nav-item m-2 fs-4 fw-bolder">
+            <a class="nav-link" aria-current="page"><i class="bi bi-person-circle me-2"></i>Tài Khoản Của Tôi</a>
+          </li>
+          <li class="nav-item m-2 fs-5">
+            <a class="nav-link" aria-current="page" href="<?php echo _WEB_ROOT . '/tai-khoan/profile/'; ?>"><i class="bi bi-person-circle me-2"></i>Thông tin tài khoản</a>
+          </li>
+          <li class="nav-item m-2 fs-5">
+            <a class="nav-link" aria-current="page" href="<?php echo _WEB_ROOT . '/tai-khoan/order/'; ?>"><i class="bi bi-cart-check-fill me-2"></i>Đơn hàng</a>
+          </li>
+          <li class="nav-item m-2 fs-5">
+            <a class="nav-link" aria-current="page" href="<?php echo _WEB_ROOT . '/tai-khoan/address/'; ?>"><i class="bi bi-geo-alt me-2"></i>Địa chỉ</a>
+          </li>
+          <li class="nav-item m-2 fs-5">
+            <a class="btn btn-primary w-100 h-100" href="<?php echo _WEB_ROOT . '/tai-khoan/logout/'; ?>">Đăng xuất!</a>
+          </li>
+          </ul>
       </div>
-      <div class="mb-3">
-        <label for="" class="form-label">Email</label>
-        <input type="" class="form-control" id="" readonly value="<?php echo $userData['email']; ?>">
+      <div class="col-8">
+        <?php 
+        switch ($type) {
+          case 'profile': $data['userData'] = $userData; $this->render('account/profile', $data); break;
+          case 'order': $this->render('account/order', $data); break;
+          case 'address': $this->render('account/address', $data); break;
+        }
+        ?>
       </div>
-      <div class="mb-3">
-        <label for="" class="form-label">Số điện thoại</label>
-        <input type="" class="form-control" id="" readonly value="<?php echo "Chưa làm :))"; ?>">
-      </div>
-      <div class="mb-3">
-        <label for="" class="form-label">Địa chỉ mặc định</label>
-        <input type="" class="form-control" id="" readonly value="<?php echo "Chưa làm :))"; ?>">
-      </div>
-      <a class="btn btn-primary" href="<?php echo _WEB_ROOT . '/tai-khoan/logout/'; ?>">Đăng xuất!</a>
-    </form>
+    </div>
   </main>
 <?php else: ?>
   <!-- Before login -->

@@ -33,12 +33,6 @@
   font-weight: 500 !important;
 }
 
-.have-cart .pay__button {
-  padding: 10px;
-  margin-top: 10px;
-  width: 100%;
-}
-
 .have-cart .pay__button:hover {
   opacity: 0.8;
 }

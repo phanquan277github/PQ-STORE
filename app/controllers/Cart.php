@@ -10,9 +10,10 @@ class Cart extends Controller
       } else {
         Session::delete('cart');
       }
+      $addressModel = $this->model('AddressModel');
+      $data['content']['address'] = $addressModel->getAddress($user['id']);
     }
-
-    $data['content'] = '';
+    $data['content'][''] = [];
     $data['component'] = 'cart/index';
     $this->render('layouts/main', $data);
   }

@@ -7,7 +7,8 @@ class Account extends Controller
       $model = $this->model('CartModel');
       Session::data('cart', $model->getCartItems($user['id']));
     }
-    $data['content'][] = '';
+    
+    $data['content']['type'] = 'profile';
     $data['component'] = 'account/account';
     $this->render('layouts/main', $data);
   }
@@ -130,6 +131,88 @@ class Account extends Controller
     // xóa tất session của phiên đăng nhập hiện tại
     Session::delete();
     header('location: ' . _WEB_ROOT . '/tai-khoan/');
+  }
+
+  public function order() {
+    $user = Session::data('user');
+    $model = $this->model('OrderModel');
+
+    $data['content']['type'] = 'order';
+    
+    // $data['content']['orders'] = $model->table('orders')->where('user_id', '=', $user['id'])->get();
+    $data['content']['orders'] = $model->getOrder($user['id']);
+
+    // echo '<pre>';
+    // print_r($model->getOrder($user['id'], 'ordering'));
+    // echo '</pre>';
+
+    $data['component'] = 'account/account';
+    $this->render('layouts/main', $data);
+  }
+
+  public function profile() {
+    $data['content']['type'] = 'profile';
+    $data['component'] = 'account/account';
+    $this->render('layouts/main', $data);
+  }
+  public function address() {
+    $model = $this->model('AddressModel');
+    $user = Session::data('user');
+
+    $data['content']['address'] = $model->getAddress($user['id']);
+    $data['content']['type'] = 'address';
+    $data['component'] = 'account/account';
+    $this->render('layouts/main', $data);
+  }
+
+  public function create_order() { 
+    $user = Session::data('user');
+    $data = [
+      'user_id' => $user['id'],
+      'address_id' => Helper::input_value('addressId'),
+      'payment_methods' => Helper::input_value('paymentMethod'),
+      'note' =>  Helper::input_value('note'),
+      'total' =>  Helper::input_value('total')
+    ];
+    $model = $this->model('OrderModel');
+    $model->create($data);
+    header("Location: " . $_SERVER['HTTP_REFERER']);
+  }
+
+
+  public function add_address() { 
+    $user = Session::data('user');
+    $data = [
+      'user_id' => $user['id'],
+      'full_name' => Helper::input_value('name'),
+      'phone_number' => Helper::input_value('phone'),
+      'address' =>  Helper::input_value('ward') .', '.  Helper::input_value('district') .', '.  Helper::input_value('city'),
+      'street_address' => Helper::input_value('street_address')
+    ];
+
+    $model = $this->model('AddressModel');
+    $model->table('addresses')->insert($data);
+    header("Location: " . $_SERVER['HTTP_REFERER']);
+  }
+
+  public function update_address() { 
+    $data = [
+      'full_name' => Helper::input_value('name'),
+      'phone_number' => Helper::input_value('phone'),
+      'address' =>  Helper::input_value('ward') .', '.  Helper::input_value('district') .', '.  Helper::input_value('city'),
+      'street_address' => Helper::input_value('street_address')
+    ];
+
+    $model = $this->model('AddressModel');
+    $model->updateData('addresses', $data, "id = " . Helper::input_value('id'));
+    header("Location: " . $_SERVER['HTTP_REFERER']);
+  }
+
+  public function delete_address() { 
+    $id = Helper::input_value('id');
+    $model = $this->model('AddressModel');
+    $model->deleteData('addresses', "id = " . $id);
+    header("Location: " . $_SERVER['HTTP_REFERER']);
   }
 
 }

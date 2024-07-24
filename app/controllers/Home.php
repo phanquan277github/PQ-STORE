@@ -7,11 +7,11 @@ class Home extends Controller
     $productModel = $this->model('ProductModel');
 
     $data['content']['slideshows'] = $homeModel->table('slideshows')->where('display', '=', true)->get();
-    $data['content']['suggestProducts'] = $homeModel->table('products')->orderBy('rand() LIMIT 3', '')->get();
+    $data['content']['suggestProducts'] = $homeModel->getSuggestProducts();
     $data['content']['suggestCategories'] = $homeModel->getSuggestCategories();
 
     $data['content']['banners'] = $homeModel->table('banners')->where('display', '=', true)->get();
-    $data['content']['bestdeals'] = $homeModel->table('products')->orderBy('rand() LIMIT 6', '')->get();
+    $data['content']['bestdeals'] = $homeModel->getBestDiscountProducts();
 
     $data['content']['featured_categories'] = $homeModel->getFeaturedCategories();
     $data['content']['spotlights'] = $productModel->getSpotlightProducts();

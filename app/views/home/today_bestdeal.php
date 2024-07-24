@@ -31,7 +31,7 @@
                 </div>
               </div>
             </div>
-            <a class="goods-img" href="<?php echo _WEB_ROOT . '/san-pham?sku' . $product['sku']; ?>"><img
+            <a class="goods-img" href="<?php echo _WEB_ROOT . '/san-pham?id=' . $product['id']; ?>"><img
                 src="<?php echo $product['thumbnail_path'] ?>" alt=""></a>
           </div>
         </div>

@@ -21,6 +21,8 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
   <!-- css -->
   <link rel="stylesheet" href="<?php echo _WEB_ROOT; ?>/assets/css/base.css">
   <link rel="stylesheet" href="<?php echo _WEB_ROOT; ?>/assets/css/main.css">

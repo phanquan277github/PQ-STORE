@@ -8,8 +8,12 @@ class Admin extends Controller
       $data['component'] = 'admin/login';
       $this->render('layouts/admin', $data);
     } else {
-      $data['content'][] = '';
-      $data['component'] = 'admin/index';
+      $model = $this->model('AdminModel');
+      $data['content']['totalWeekRevenue'] = $model->totalWeekRevenue();
+      $data['content']['totalMonthRevenue'] = $model->totalMonthRevenue();
+      $data['content']['totalYearRevenue'] = $model->totalYearRevenue();
+     $data['content']['monthlyRevenue'] = $model->monthlyRevenue();
+      $data['component'] = 'admin/statistical';
       $this->render('layouts/admin', $data);
     }
   }
@@ -170,6 +174,7 @@ class Admin extends Controller
   {
     $productId = Helper::input_value('id');
     $model = $this->model('ProductModel');
+    $sharedModel = $this->model('SharedModel');
     $model->setId($productId);
 
     $product = $model->getProduct();
@@ -181,7 +186,8 @@ class Admin extends Controller
     Session::flashData('pictures', $pictures);
     Session::flashData('describes', $describes);
     Session::flashData('specifications', $specifications);
-
+    
+    $data['content']['categories'] = $sharedModel->getCategories();
     $data['content']['product'] = $product;
     $data['content']['pictures'] = $pictures;
     $data['content']['describes'] = $describes;
@@ -192,6 +198,10 @@ class Admin extends Controller
 
   public function add_product()
   {
+    $sharedModel = $this->model('SharedModel');
+
+    // in($sharedModel->getCategories());
+    $data['content']['categories'] = $sharedModel->getCategories();
     $data['content'][] = '';
     $data['component'] = 'admin/add.product';
     $this->render('layouts/admin', $data);
@@ -211,6 +221,10 @@ class Admin extends Controller
     $model = $this->model('ProductModel');
     $model->table('products')->insert($dataProduct);
     $productId = $model->lastInsertId();
+
+    if(!empty($cateId = Helper::input_value('cate_id'))) {
+      $model->table('product_categories')->insert(['category_id' => $cateId, 'product_id' => $productId]);
+    }
 
     // insert ảnh
     if (isset($_POST['images'])) {
@@ -244,6 +258,7 @@ class Admin extends Controller
       $model->query($sql);
     }
 
+    Session::flashData('success', 'Thêm thành công');
     header("Location: " . $_SERVER['HTTP_REFERER']);
   }
 
@@ -269,6 +284,11 @@ class Admin extends Controller
 
     $productModel = $this->model('ProductModel');
     $productModel->setId($dataProductOld['id']);
+
+    if(!empty($cateId = Helper::input_value('cate_id'))) {
+      $productModel->table('product_categories')->where('product_id', '=', $dataProductOld['id'])->update(['category_id' => $cateId]);
+    }
+
 
     $keysCheckInfo = array("name", "thumbnail_path", "discount", "price", "brand", "stock_quantity");
     $changedKeysInfo = array();
@@ -389,4 +409,94 @@ class Admin extends Controller
     header("Location: " . $_SERVER['HTTP_REFERER']);
     exit;
   }
+
+  public function statistical()
+  {
+    $model = $this->model('AdminModel');
+    $data['content']['totalWeekRevenue'] = $model->totalWeekRevenue();
+    $data['content']['totalMonthRevenue'] = $model->totalMonthRevenue();
+    $data['content']['totalYearRevenue'] = $model->totalYearRevenue();
+    $data['content']['monthlyRevenue'] = $model->monthlyRevenue();
+
+    $data['component'] = 'admin/statistical';
+    $this->render('layouts/admin', $data);
+  }
+  public function order()
+  {
+    $model = $this->model('OrderModel');
+     
+    $data['content']['orders'] = $model->table('orders')->get();
+    $data['component'] = 'admin/order';
+    $this->render('layouts/admin', $data);
+  }
+
+  public function order_detail()
+  {
+    $orderId = Helper::input_value('orderId');
+    $model = $this->model('OrderModel');
+    $response = $model->select('oi.id, p.name, p.price, oi.quantity')->table('products p')->join('order_items oi', 'p.id = oi.product_id')->where('order_id', '=', $orderId)->get();
+    echo json_encode($response);
+  }
+
+  public function orderApproval() {
+    if (!empty($id = Helper::input_value('id'))) {
+      $model = $this->model('AdminModel');
+      $model->orderApproval($id);
+    }
+
+    header("Location: " . $_SERVER['HTTP_REFERER']);
+    exit;
+  }
+
+  public function admin_manage()
+  {
+    $model = $this->model('AdminModel');
+
+    $data['content']['admin'] = $model->table('admin')->get();
+    $data['component'] = 'admin/manage.admin';
+    $this->render('layouts/admin', $data);
+  }
+
+  public function addAdmin() {
+    $data = [
+      'username' => Helper::input_value('username'),
+      'password' => Helper::input_value('password'),
+      'role' => Helper::input_value('role')
+    ];
+    $model = $this->model('AdminModel');
+    if(!empty($data)) {
+      $model->table('admin')->insert($data);
+      Session::flashData('success', 'Thêm thành công');
+      header("Location: " . $_SERVER['HTTP_REFERER']);
+    } else Session::flashData('success', 'Thêm không thành công');
+  }
+
+  public function updateAdmin() {
+    $data = [
+      'username' => Helper::input_value('username'),
+      'password' => Helper::input_value('password'),
+      'role' => Helper::input_value('role')
+    ];
+    $model = $this->model('AdminModel');
+    $id = Helper::input_value('id');
+    if(!empty($id)) {
+      $model->table('admin')->where('id', '=', $id)->update($data);
+      Session::flashData('success', 'Cập nhật thành công');
+      header("Location: " . $_SERVER['HTTP_REFERER']);
+    }
+  }
+
+  public function deleteAdmin() {
+    $model = $this->model('AdminModel');
+    $id = Helper::input_value('id');
+    if(!empty($id)) {
+      $model->table('admin')->where('id', '=', $id)->delete();
+      Session::flashData('success', 'Xóa thành công');
+      header("Location: " . $_SERVER['HTTP_REFERER']);
+    }
+  }
+
+
+
+  
 }

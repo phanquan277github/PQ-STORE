@@ -71,6 +71,10 @@ a:hover {
   border-radius: var(--border-radius);
 }
 
+.text-error {
+  color: red;
+}
+
 .text-light {
   color: #fff;
 }
@@ -83,6 +87,10 @@ a:hover {
   color: var(--primary-color) !important;
 }
 
+.hover-opacity-text:hover {
+  opacity: 0.8;
+}
+
 .box-shadow-4side {
   box-shadow: var(--box-shadow-4sides);
 }
@@ -90,6 +98,10 @@ a:hover {
 .input-sz-16 {
   width: 16px;
   height: 16px;
+}
+
+.bg-primary-gradient {
+  background-image: var(--background-gradient);
 }
 
 @keyframes fadeIn {
@@ -174,8 +186,4 @@ a:hover {
   top: 0;
   left: 0;
   min-height: 500px;
-}
-
-.bg-primary-gradient {
-  background-image: var(--background-gradient);
 }
