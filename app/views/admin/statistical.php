@@ -13,7 +13,7 @@
             <div class="col mr-2">
               <div class="text-xs font-weight-bold text-success text-uppercase mb-1 fs-4">Danh thu tuần này</div>
               <div class="h4 mb-0 font-weight-bold text-gray-800">
-                <?php echo !empty($totalWeekRevenue) ? Helper::formatCurrency($totalWeekRevenue['total']) : ''; ?>
+                <?php echo !empty($totalWeekRevenue) ? Helper::formatCurrency($totalWeekRevenue['total']) :  Helper::formatCurrency(0); ?>
               </div>
             </div>
             <div class="col-auto">
@@ -30,7 +30,7 @@
           <div class="row no-gutters align-items-center">
             <div class="col mr-2">
               <div class="text-xs font-weight-bold text-success text-uppercase mb-1 fs-4">Danh thu tháng này</div>
-              <div class="h4 mb-0 font-weight-bold text-gray-800"><?php echo !empty($totalMonthRevenue) ? Helper::formatCurrency($totalMonthRevenue['total']) : ''; ?></div>
+              <div class="h4 mb-0 font-weight-bold text-gray-800"><?php echo !empty($totalMonthRevenue) ? Helper::formatCurrency($totalMonthRevenue['total']) :  Helper::formatCurrency(0); ?></div>
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@
           <div class="row no-gutters align-items-center">
             <div class="col mr-2">
               <div class="text-xs font-weight-bold text-success text-uppercase mb-1 fs-4">Danh thu năm nay</div>
-              <div class="h4 mb-0 font-weight-bold text-gray-800"><?php echo !empty($totalYearRevenue) ? Helper::formatCurrency($totalYearRevenue['total']) : ''; ?></div>
+              <div class="h4 mb-0 font-weight-bold text-gray-800"><?php echo !empty($totalYearRevenue) ? Helper::formatCurrency($totalYearRevenue['total']) :  Helper::formatCurrency(0); ?></div>
             </div>
             <div class="col-auto">
               <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>

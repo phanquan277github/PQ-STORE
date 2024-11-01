@@ -8,7 +8,7 @@ class AdminModel extends Model
             FROM orders 
             WHERE order_status = 'delivered' AND YEAR(order_date) = YEAR(CURDATE()) AND WEEK(order_date) = WEEK(CURDATE())
             GROUP BY YEAR(order_date), WEEK(order_date);";
-    return $this->queryCustom($sql)[0];
+    return $this->queryCustom($sql);
   }
   public function totalMonthRevenue()
   {

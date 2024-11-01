@@ -11,7 +11,7 @@
         <?php require_once 'sort.php' ?>
 
         <!-- Danh sách sản phẩm -->
-        <div class="row mt-3 mb-5 g-3 row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 row-cols-xl-6">
+        <div class="row mt-3 mb-5 g-3 row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 row-cols-xl-5">
           <?php require_once 'goods_list.php'; ?>
         </div>
 
