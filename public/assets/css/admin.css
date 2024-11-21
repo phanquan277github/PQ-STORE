@@ -1,0 +1,9 @@
+.login-overlay {
+  width: 100vw;
+  height: 100vh;
+}
+
+.login-overlay form {
+  min-width: 400px;
+  background: var(--background-gradient);
+}

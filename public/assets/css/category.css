@@ -1,0 +1,17 @@
+.cate__name {
+  border-bottom: 3px solid var(--primary-color);
+}
+
+.filter-close-btn {
+  /* display: none; */
+}
+
+.filter .close-btn i::before {
+  -webkit-text-stroke: 0.8px;
+  font-size: 2rem;
+  padding: 4px;
+}
+
+.sort__container {
+  z-index: 1;
+}
