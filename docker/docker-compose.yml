@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    container_name: pqstore-web
+    ports:
+      - "8080:80"
+    volumes:
+      - ../public:/var/www/html
+      - ../app:/var/www/html/app
+      - ../data:/var/www/html/data
+    depends_on:
+      - db
+
+  db:
+    image: mysql:8.0
+    container_name: pqstore-db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: pqstore
+      MYSQL_USER: pquser
+      MYSQL_PASSWORD: pqpass
+    volumes:
+      - db_data:/var/lib/mysql
+      - ../data:/docker-entrypoint-initdb.d
+    command: >
+      bash -c "
+      docker-entrypoint.sh mysqld &
+      sleep 20 &&
+      bash /docker-entrypoint-initdb.d/init_database.sh &&
+      wait
+      "
+
+volumes:
+  db_data:
