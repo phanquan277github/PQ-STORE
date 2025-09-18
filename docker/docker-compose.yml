@@ -1,8 +1,9 @@
-version: '3.8'
 
 services:
   web:
-    build: .
+    build: 
+      context: ..
+      dockerfile: docker/Dockerfile
     container_name: pqstore-web
     ports:
       - "8080:80"
