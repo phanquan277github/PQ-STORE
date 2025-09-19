@@ -13,6 +13,72 @@ class Account extends Controller
     $this->render('layouts/main', $data);
   }
 
+    // Đăng ký user local
+  public function register_local()
+  {
+    $fullname = Helper::input_value('fullname');
+    $email = Helper::input_value('email');
+    $password = Helper::input_value('password');
+    $confirm_password = Helper::input_value('confirm_password');
+
+    if ($password !== $confirm_password) {
+      die("❌ Mật khẩu xác nhận không khớp!");
+    }
+
+    // tách họ tên thành first_name và last_name
+    $parts = explode(" ", trim($fullname));
+    $last_name = array_pop($parts);
+    $first_name = implode(" ", $parts);
+
+    // mã hoá mật khẩu
+    $hashedPassword = password_hash($password, PASSWORD_BCRYPT);
+
+    $data = [
+      'oauth_provider' => 'local',
+      'oauth_uid' => $email, // dùng email làm username (unique)
+      'first_name' => $first_name,
+      'last_name' => $last_name,
+      'email' => $email,
+      'password' => $hashedPassword,
+      'picture' => '' // có thể thêm default avatar
+    ];
+
+    $model = $this->model('UserModel');
+
+    // kiểm tra email đã tồn tại chưa
+    if ($model->findByEmail($email)) {
+      die("❌ Email đã tồn tại trong hệ thống!");
+    }
+
+    $user = $model->create($data);
+    Session::data('user', $user);
+
+    header("Location: " . _WEB_ROOT . "/tai-khoan/");
+  }
+
+  // Đăng nhập user local
+  public function login_local()
+  {
+    $username = Helper::input_value('username'); // email hoặc oauth_uid
+    $password = Helper::input_value('password');
+
+    $model = $this->model('UserModel');
+    $user = $model->findByEmailOrUid($username);
+
+    if (!$user) {
+      die("❌ Tài khoản không tồn tại!");
+    }
+
+    if (!isset($user['password']) || !password_verify($password, $user['password'])) {
+      die("❌ Sai mật khẩu!");
+    }
+
+    // login thành công
+    Session::data('user', $user);
+    header("Location: " . _WEB_ROOT . "/tai-khoan/");
+  }
+
+
   public function login_google()
   {
     require_once 'api/google-api-php-client--PHP8.2/vendor/autoload.php';
@@ -20,7 +86,7 @@ class Account extends Controller
     $client = new Google_Client();
     $client->setClientId(_GOOGLE_CLIENT_ID);
     $client->setClientSecret(_GOOGLE_CLIENT_SECRET);
-    $client->setRedirectUri(_GOOGLE_REDIRECT_URL);
+    $client->setRedirectUri("http://192.168.100.131:8080/tai-khoan/login_google/");
     $client->addScope("email");
     $client->addScope("profile");
 

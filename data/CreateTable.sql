@@ -120,13 +120,16 @@ CREATE TABLE `specifications` (
 -- start user data
 CREATE TABLE `users` (
  `id` int primary key AUTO_INCREMENT,
- `oauth_provider` enum('facebook','google',  '') NOT NULL DEFAULT '',
+ `oauth_provider` enum('facebook','google',  'local') NOT NULL DEFAULT 'local',
  `oauth_uid` varchar(255) NOT NULL,
- `first_name` varchar(50) NOT NULL,
- `last_name` varchar(50) NOT NULL,
+   `password` VARCHAR(255) NULL,      -- chỉ dùng cho local (bcrypt hash)
+ `first_name` varchar(50) DEFAULT NULL,
+ `last_name` varchar(50) DEFAULT NULL,
  `email` varchar(255) NOT NULL,
  `gender` varchar(10) DEFAULT NULL,
- `picture` text NOT NULL, -- avata 
+ `picture` text default NULL, -- avata 
+ UNIQUE KEY (`email`),   -- mỗi email duy nhất
+  UNIQUE KEY (`oauth_provider`, `oauth_uid`), -- tránh trùng fb/gg/local
   `inserted_at` timestamp default current_timestamp,
   `updated_at` timestamp default current_timestamp on update current_timestamp
 );

@@ -23,4 +23,4 @@ define('_FB_REDIRECT_URL', 'https://localhost/mvc_php/public/tai-khoan/login_fac
 // định nghĩa Google API
 define('_GOOGLE_CLIENT_ID', '351487032740-63u40d5648makcda1fbdkvphfm8ick94.apps.googleusercontent.com');
 define('_GOOGLE_CLIENT_SECRET', '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');
-define('_GOOGLE_REDIRECT_URL', 'https://localhost/mvc_php/public/tai-khoan/login_google/');
+define('_GOOGLE_REDIRECT_URL', 'http://192.168.100.131:8080/tai-khoan/login_google/');

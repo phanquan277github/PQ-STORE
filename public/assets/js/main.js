@@ -15,7 +15,7 @@ document
 function formatCurrency(amount) {
   return amount.toFixed(0).replace(/\d(?=(\d{3})+$)/g, "$&,") + " ₫";
 }
-const WEB_ROOT = window.location.origin + "/mvc_php/public/";
+const WEB_ROOT = window.location.origin + "/";
 
 function showResultSearch(input) {
   if (input.value.length == 0) {

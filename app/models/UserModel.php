@@ -23,4 +23,19 @@ class UserModel extends Model
     // Return user data 
     return !empty($userData) ? $userData : false;
   }
+	public function findByEmail($email) {
+    return $this->table('users')->where('email', '=', $email)->first();
+}
+
+public function findByEmailOrUid($emailOrUid) {
+	  $sql = "SELECT * FROM users WHERE email = ? OR oauth_uid = ? LIMIT 1";
+    return $this->getRow($sql, [$emailOrUid, $emailOrUid]);
+}
+
+public function create($data) {
+    $this->table('users')->insert($data);
+    return $this->findByEmail($data['email']);
+}
+
+
 }
